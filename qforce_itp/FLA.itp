@@ -1,0 +1,128 @@
+[ bondtypes ]
+    FLA_C1     FLA_C2     1        0.13930    297779    
+    FLA_C1     FLA_C6     1        0.13928    300288    
+    FLA_C1     FLA_H14    1        0.10842    304867    
+    FLA_C2     FLA_C3     1        0.13902    305512    
+    FLA_C2     FLA_H15    1        0.10843    303568    
+    FLA_C3     FLA_C4     1        0.13894    311542    
+    FLA_C3     FLA_H16    1        0.10848    301900    
+    FLA_C4     FLA_C5     1        0.14016    275137    
+    FLA_C4     FLA_C13    1        0.14681    225359    
+    FLA_C5     FLA_C6     1        0.13847    324499    
+    FLA_C5     FLA_C7     1        0.15097    190552    
+    FLA_C6     FLA_H17    1        0.10851    302048    
+    FLA_C7     FLA_C8     1        0.15097    190552    
+    FLA_C7     FLA_H19    1        0.10952    272616    
+    FLA_C8     FLA_C9     1        0.13847    324499    
+    FLA_C8     FLA_C13    1        0.14016    275137    
+    FLA_C9     FLA_C10    1        0.13928    300288    
+    FLA_C9     FLA_H20    1        0.10851    302048    
+    FLA_C10    FLA_C11    1        0.13930    297779    
+    FLA_C10    FLA_H21    1        0.10842    304867    
+    FLA_C11    FLA_C12    1        0.13902    305512    
+    FLA_C11    FLA_H22    1        0.10843    303568    
+    FLA_C12    FLA_C13    1        0.13894    311542    
+    FLA_C12    FLA_H23    1        0.10848    301900    
+
+[ angletypes ]
+    FLA_C1     FLA_C2     FLA_C3      1        120.625    366.242   
+    FLA_C1     FLA_C2     FLA_H15     1        119.630    322.884   
+    FLA_C1     FLA_C6     FLA_C5      1        118.942    386.361   
+    FLA_C1     FLA_C6     FLA_H17     1        120.302    300.217   
+    FLA_C2     FLA_C1     FLA_C6      1        120.610    382.449   
+    FLA_C2     FLA_C1     FLA_H14     1        119.651    322.230   
+    FLA_C2     FLA_C3     FLA_C4      1        118.786    432.049   
+    FLA_C2     FLA_C3     FLA_H16     1        120.414    313.899   
+    FLA_C3     FLA_C2     FLA_H15     1        119.745    311.562   
+    FLA_C3     FLA_C4     FLA_C5      1        120.593    277.370   
+    FLA_C3     FLA_C4     FLA_C13     1        130.890    406.271   
+    FLA_C4     FLA_C3     FLA_H16     1        120.800    297.408   
+    FLA_C4     FLA_C5     FLA_C6      1        120.445    340.436   
+    FLA_C4     FLA_C5     FLA_C7      1        110.123    654.269   
+    FLA_C4     FLA_C13    FLA_C8      1        108.517    568.804   
+    FLA_C4     FLA_C13    FLA_C12     1        130.890    406.271   
+    FLA_C5     FLA_C4     FLA_C13     1        108.517    568.804   
+    FLA_C5     FLA_C6     FLA_H17     1        120.756    280.195   
+    FLA_C5     FLA_C7     FLA_C8      1        102.719    348.489   
+    FLA_C5     FLA_C7     FLA_H19     1        111.757    257.879   
+    FLA_C6     FLA_C1     FLA_H14     1        119.740    318.176   
+    FLA_C6     FLA_C5     FLA_C7      1        129.432    509.768   
+    FLA_C7     FLA_C8     FLA_C9      1        129.432    509.768   
+    FLA_C7     FLA_C8     FLA_C13     1        110.123    654.269   
+    FLA_C8     FLA_C7     FLA_H19     1        111.757    257.879   
+    FLA_C8     FLA_C9     FLA_C10     1        118.942    386.361   
+    FLA_C8     FLA_C9     FLA_H20     1        120.756    280.195   
+    FLA_C8     FLA_C13    FLA_C12     1        120.593    277.370   
+    FLA_C9     FLA_C8     FLA_C13     1        120.445    340.436   
+    FLA_C9     FLA_C10    FLA_C11     1        120.610    382.449   
+    FLA_C9     FLA_C10    FLA_H21     1        119.740    318.176   
+    FLA_C10    FLA_C9     FLA_H20     1        120.302    300.217   
+    FLA_C10    FLA_C11    FLA_C12     1        120.625    366.242   
+    FLA_C10    FLA_C11    FLA_H22     1        119.630    322.884   
+    FLA_C11    FLA_C10    FLA_H21     1        119.651    322.230   
+    FLA_C11    FLA_C12    FLA_C13     1        118.786    432.049   
+    FLA_C11    FLA_C12    FLA_H23     1        120.414    313.899   
+    FLA_C12    FLA_C11    FLA_H22     1        119.745    311.562   
+    FLA_C13    FLA_C12    FLA_H23     1        120.800    297.408   
+
+[ dihedraltypes ]
+    FLA_C6     FLA_C1     FLA_C2     FLA_C3      2        0.000      123.071   
+    FLA_C6     FLA_C1     FLA_C2     FLA_H15     2        180.000    64.298    
+    FLA_H14    FLA_C1     FLA_C2     FLA_C3      2        180.000    74.870    
+    FLA_H14    FLA_C1     FLA_C2     FLA_H15     2        0.000      41.948    
+    FLA_C2     FLA_C1     FLA_C6     FLA_C5      2        0.000      25.516    
+    FLA_C2     FLA_C1     FLA_C6     FLA_H17     2        180.000    66.753    
+    FLA_H14    FLA_C1     FLA_C6     FLA_C5      2        180.000    66.624    
+    FLA_H14    FLA_C1     FLA_C6     FLA_H17     2        0.000      38.918    
+    FLA_C1     FLA_C2     FLA_C3     FLA_C4      2        0.000      38.047    
+    FLA_C1     FLA_C2     FLA_C3     FLA_H16     2        180.000    77.768    
+    FLA_H15    FLA_C2     FLA_C3     FLA_C4      2        180.000    73.592    
+    FLA_H15    FLA_C2     FLA_C3     FLA_H16     2        0.000      43.580    
+    FLA_C2     FLA_C3     FLA_C4     FLA_C5      2        0.000      118.683   
+    FLA_C2     FLA_C3     FLA_C4     FLA_C13     2        180.000    63.046    
+    FLA_H16    FLA_C3     FLA_C4     FLA_C5      2        180.000    62.710    
+    FLA_H16    FLA_C3     FLA_C4     FLA_C13     2        0.000      34.461    
+    FLA_C3     FLA_C4     FLA_C5     FLA_C6      2        0.000      0.000     
+    FLA_C3     FLA_C4     FLA_C5     FLA_C7      2        180.000    53.824    
+    FLA_C13    FLA_C4     FLA_C5     FLA_C6      2        180.000    64.816    
+    FLA_C13    FLA_C4     FLA_C5     FLA_C7      2        0.000      0.001     
+    FLA_C3     FLA_C4     FLA_C13    FLA_C8      2        180.000    36.462    
+    FLA_C3     FLA_C4     FLA_C13    FLA_C12     2        0.000      0.000     
+    FLA_C5     FLA_C4     FLA_C13    FLA_C8      2        0.000      198.708   
+    FLA_C5     FLA_C4     FLA_C13    FLA_C12     2        180.000    36.462    
+    FLA_C4     FLA_C5     FLA_C6     FLA_C1      2        0.000      137.254   
+    FLA_C4     FLA_C5     FLA_C6     FLA_H17     2        180.000    73.531    
+    FLA_C7     FLA_C5     FLA_C6     FLA_C1      2        180.000    101.901   
+    FLA_C7     FLA_C5     FLA_C6     FLA_H17     2        0.000      40.164    
+    FLA_C4     FLA_C5     FLA_C7     FLA_C8      2        0.000      97.697    
+    FLA_C4     FLA_C5     FLA_C7     FLA_H19     2        119.950    0.000     
+    FLA_C6     FLA_C5     FLA_C7     FLA_C8      2        180.000    28.432    
+    FLA_C6     FLA_C5     FLA_C7     FLA_H19     2        -60.050    0.000     
+    FLA_C5     FLA_C7     FLA_C8     FLA_C9      2        180.000    28.432    
+    FLA_C5     FLA_C7     FLA_C8     FLA_C13     2        0.000      97.697    
+    FLA_H19    FLA_C7     FLA_C8     FLA_C9      2        60.050     0.000     
+    FLA_H19    FLA_C7     FLA_C8     FLA_C13     2        -119.950   0.000     
+    FLA_C7     FLA_C8     FLA_C9     FLA_C10     2        180.000    101.901   
+    FLA_C7     FLA_C8     FLA_C9     FLA_H20     2        0.000      40.164    
+    FLA_C13    FLA_C8     FLA_C9     FLA_C10     2        0.000      137.254   
+    FLA_C13    FLA_C8     FLA_C9     FLA_H20     2        180.000    73.531    
+    FLA_C7     FLA_C8     FLA_C13    FLA_C4      2        0.000      0.001     
+    FLA_C7     FLA_C8     FLA_C13    FLA_C12     2        180.000    53.824    
+    FLA_C9     FLA_C8     FLA_C13    FLA_C4      2        180.000    64.816    
+    FLA_C9     FLA_C8     FLA_C13    FLA_C12     2        0.000      0.000     
+    FLA_C8     FLA_C9     FLA_C10    FLA_C11     2        0.000      25.516    
+    FLA_C8     FLA_C9     FLA_C10    FLA_H21     2        180.000    66.624    
+    FLA_H20    FLA_C9     FLA_C10    FLA_C11     2        180.000    66.753    
+    FLA_H20    FLA_C9     FLA_C10    FLA_H21     2        0.000      38.918    
+    FLA_C9     FLA_C10    FLA_C11    FLA_C12     2        0.000      123.071   
+    FLA_C9     FLA_C10    FLA_C11    FLA_H22     2        180.000    64.298    
+    FLA_H21    FLA_C10    FLA_C11    FLA_C12     2        180.000    74.870    
+    FLA_H21    FLA_C10    FLA_C11    FLA_H22     2        0.000      41.948    
+    FLA_C10    FLA_C11    FLA_C12    FLA_C13     2        0.000      38.047    
+    FLA_C10    FLA_C11    FLA_C12    FLA_H23     2        180.000    77.768    
+    FLA_H22    FLA_C11    FLA_C12    FLA_C13     2        180.000    73.592    
+    FLA_H22    FLA_C11    FLA_C12    FLA_H23     2        0.000      43.580    
+    FLA_C11    FLA_C12    FLA_C13    FLA_C4      2        180.000    63.046    
+    FLA_C11    FLA_C12    FLA_C13    FLA_C8      2        0.000      118.683   
+    FLA_H23    FLA_C12    FLA_C13    FLA_C4      2        0.000      34.461    
+    FLA_H23    FLA_C12    FLA_C13    FLA_C8      2        180.000    62.710    

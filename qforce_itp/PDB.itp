@@ -1,0 +1,45 @@
+[ bondtypes ]
+    PDB_C1     PDB_C2     1        0.13879    313207    
+    PDB_C1     PDB_C6     1        0.13879    313207    
+    PDB_C1     PDB_H7     1        0.10842    305153    
+    PDB_C2     PDB_C3     1        0.13899    288978    
+    PDB_C2     PDB_H8     1        0.10833    304622    
+    PDB_C3     PDB_N4     1        0.13321    339134    
+    PDB_C3     PDB_H9     1        0.10866    295396    
+    PDB_N4     PDB_C5     1        0.13321    339134    
+    PDB_C5     PDB_C6     1        0.13899    288978    
+    PDB_C5     PDB_H10    1        0.10866    295396    
+
+[ angletypes ]
+    PDB_C1     PDB_C2     PDB_C3      1        118.432    300.179   
+    PDB_C1     PDB_C2     PDB_H8      1        121.311    337.204   
+    PDB_C1     PDB_C6     PDB_C5      1        118.432    300.179   
+    PDB_C2     PDB_C1     PDB_C6      1        118.514    473.846   
+    PDB_C2     PDB_C1     PDB_H7      1        120.743    316.701   
+    PDB_C2     PDB_C3     PDB_N4      1        123.730    600.342   
+    PDB_C2     PDB_C3     PDB_H9      1        120.298    217.435   
+    PDB_C3     PDB_C2     PDB_H8      1        120.258    325.631   
+    PDB_C3     PDB_N4     PDB_C5      1        117.162    331.698   
+    PDB_N4     PDB_C3     PDB_H9      1        115.972    376.834   
+    PDB_N4     PDB_C5     PDB_C6      1        123.730    600.342   
+    PDB_N4     PDB_C5     PDB_H10     1        115.972    376.834   
+    PDB_C6     PDB_C1     PDB_H7      1        120.743    316.701   
+    PDB_C6     PDB_C5     PDB_H10     1        120.298    217.435   
+
+[ dihedraltypes ]
+    PDB_C6     PDB_C1     PDB_C2     PDB_C3      2        0.000      69.181    
+    PDB_C6     PDB_C1     PDB_C2     PDB_H8      2        180.000    43.757    
+    PDB_H7     PDB_C1     PDB_C2     PDB_C3      2        180.000    86.391    
+    PDB_H7     PDB_C1     PDB_C2     PDB_H8      2        0.000      37.363    
+    PDB_C2     PDB_C1     PDB_C6     PDB_C5      2        0.000      69.181    
+    PDB_H7     PDB_C1     PDB_C6     PDB_C5      2        180.000    86.391    
+    PDB_C1     PDB_C2     PDB_C3     PDB_N4      2        0.000      116.226   
+    PDB_C1     PDB_C2     PDB_C3     PDB_H9      2        180.000    116.425   
+    PDB_H8     PDB_C2     PDB_C3     PDB_N4      2        180.000    75.656    
+    PDB_H8     PDB_C2     PDB_C3     PDB_H9      2        0.000      55.941    
+    PDB_C2     PDB_C3     PDB_N4     PDB_C5      2        0.000      79.405    
+    PDB_H9     PDB_C3     PDB_N4     PDB_C5      2        180.000    105.226   
+    PDB_C3     PDB_N4     PDB_C5     PDB_C6      2        0.000      79.405    
+    PDB_C3     PDB_N4     PDB_C5     PDB_H10     2        180.000    105.226   
+    PDB_N4     PDB_C5     PDB_C6     PDB_C1      2        0.000      116.226   
+    PDB_H10    PDB_C5     PDB_C6     PDB_C1      2        180.000    116.425   

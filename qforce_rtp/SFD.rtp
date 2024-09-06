@@ -1,0 +1,213 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[ SFD ]
+  [ atoms ]
+    C1    SFD_C1  
+    C2    SFD_C2  
+    C3    SFD_C3  
+    C4    SFD_C4  
+    C5    SFD_C5  
+    C6    SFD_C6  
+    C7    SFD_C7  
+    C8    SFD_C8  
+    C9    SFD_C9  
+    C10   SFD_C10 
+    C11   SFD_C11 
+    C12   SFD_C12 
+    C13   SFD_C13 
+    C14   SFD_C14 
+    C15   SFD_C15 
+    C16   SFD_C16 
+    C17   SFD_C17 
+    C18   SFD_C18 
+    C19   SFD_C19 
+    C20   SFD_C20 
+    C21   SFD_C21 
+    C22   SFD_C22 
+    C23   SFD_C23 
+    C24   SFD_C24 
+    C25   SFD_C25 
+    H26   SFD_H26 
+    H28   SFD_H28 
+    H29   SFD_H29 
+    H30   SFD_H30 
+    H31   SFD_H31 
+    H32   SFD_H32 
+    H33   SFD_H33 
+    H34   SFD_H34 
+    H35   SFD_H35 
+    H36   SFD_H36 
+    H37   SFD_H37 
+    H38   SFD_H38 
+    H39   SFD_H39 
+    H41   SFD_H41 
+
+  [ bonds ]
+    C1    C2   
+    C1    C6   
+    C1    H26  
+    C2    C3   
+    C3    C4   
+    C3    H28  
+    C4    C5   
+    C4    C13  
+    C5    C6   
+    C5    C7   
+    C6    H29  
+    C7    C8   
+    C7    C12  
+    C8    C9   
+    C8    H30  
+    C9    C10  
+    C9    H31  
+    C10   C11  
+    C10   H32  
+    C11   C12  
+    C11   H33  
+    C12   C13  
+    C13   C14  
+    C13   C25  
+    C14   C15  
+    C14   C19  
+    C15   C16  
+    C15   H34  
+    C16   C17  
+    C16   H35  
+    C17   C18  
+    C17   H36  
+    C18   C19  
+    C18   H37  
+    C19   C20  
+    C20   C21  
+    C20   C25  
+    C21   C22  
+    C21   H38  
+    C22   C23  
+    C22   H39  
+    C23   C24  
+    C24   C25  
+    C24   H41  
+
+  [ impropers ]
+    C6    C1    C2    C3
+    H26   C1    C2    C3
+    C2    C1    C6    C5
+    C2    C1    C6    H29
+    H26   C1    C6    C5
+    H26   C1    C6    H29
+    C1    C2    C3    C4
+    C1    C2    C3    H28
+    C2    C3    C4    C5
+    C2    C3    C4    C13
+    H28   C3    C4    C5
+    H28   C3    C4    C13
+    C3    C4    C5    C6
+    C3    C4    C5    C7
+    C13   C4    C5    C6
+    C13   C4    C5    C7
+    C3    C4    C13   C12
+    C3    C4    C13   C14
+    C3    C4    C13   C25
+    C5    C4    C13   C12
+    C5    C4    C13   C14
+    C5    C4    C13   C25
+    C4    C5    C6    C1
+    C4    C5    C6    H29
+    C7    C5    C6    C1
+    C7    C5    C6    H29
+    C4    C5    C7    C8
+    C4    C5    C7    C12
+    C6    C5    C7    C8
+    C6    C5    C7    C12
+    C5    C7    C8    C9
+    C5    C7    C8    H30
+    C12   C7    C8    C9
+    C12   C7    C8    H30
+    C5    C7    C12   C11
+    C5    C7    C12   C13
+    C8    C7    C12   C11
+    C8    C7    C12   C13
+    C7    C8    C9    C10
+    C7    C8    C9    H31
+    H30   C8    C9    C10
+    H30   C8    C9    H31
+    C8    C9    C10   C11
+    C8    C9    C10   H32
+    H31   C9    C10   C11
+    H31   C9    C10   H32
+    C9    C10   C11   C12
+    C9    C10   C11   H33
+    H32   C10   C11   C12
+    H32   C10   C11   H33
+    C10   C11   C12   C7
+    C10   C11   C12   C13
+    H33   C11   C12   C7
+    H33   C11   C12   C13
+    C7    C12   C13   C4
+    C7    C12   C13   C14
+    C7    C12   C13   C25
+    C11   C12   C13   C4
+    C11   C12   C13   C14
+    C11   C12   C13   C25
+    C4    C13   C14   C15
+    C4    C13   C14   C19
+    C12   C13   C14   C15
+    C12   C13   C14   C19
+    C25   C13   C14   C15
+    C25   C13   C14   C19
+    C4    C13   C25   C20
+    C4    C13   C25   C24
+    C12   C13   C25   C20
+    C12   C13   C25   C24
+    C14   C13   C25   C20
+    C14   C13   C25   C24
+    C13   C14   C15   C16
+    C13   C14   C15   H34
+    C19   C14   C15   C16
+    C19   C14   C15   H34
+    C13   C14   C19   C18
+    C13   C14   C19   C20
+    C15   C14   C19   C18
+    C15   C14   C19   C20
+    C14   C15   C16   C17
+    C14   C15   C16   H35
+    H34   C15   C16   C17
+    H34   C15   C16   H35
+    C15   C16   C17   C18
+    C15   C16   C17   H36
+    H35   C16   C17   C18
+    H35   C16   C17   H36
+    C16   C17   C18   C19
+    C16   C17   C18   H37
+    H36   C17   C18   C19
+    H36   C17   C18   H37
+    C17   C18   C19   C14
+    C17   C18   C19   C20
+    H37   C18   C19   C14
+    H37   C18   C19   C20
+    C14   C19   C20   C21
+    C14   C19   C20   C25
+    C18   C19   C20   C21
+    C18   C19   C20   C25
+    C19   C20   C21   C22
+    C19   C20   C21   H38
+    C25   C20   C21   C22
+    C25   C20   C21   H38
+    C19   C20   C25   C13
+    C19   C20   C25   C24
+    C21   C20   C25   C13
+    C21   C20   C25   C24
+    C20   C21   C22   C23
+    C20   C21   C22   H39
+    H38   C21   C22   C23
+    H38   C21   C22   H39
+    C21   C22   C23   C24
+    H39   C22   C23   C24
+    C22   C23   C24   C25
+    C22   C23   C24   H41
+    C23   C24   C25   C13
+    C23   C24   C25   C20
+    H41   C24   C25   C13
+    H41   C24   C25   C20

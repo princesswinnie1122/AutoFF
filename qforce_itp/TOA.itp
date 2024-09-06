@@ -1,0 +1,20 @@
+[ bondtypes ]
+    TOA_C1     TOA_N2     1        0.13012    410364    
+    TOA_C1     TOA_N5     1        0.13622    304623    
+    TOA_N2     TOA_N3     1        0.13743    221496    
+    TOA_N3     TOA_C4     1        0.13012    410364    
+    TOA_C4     TOA_N5     1        0.13622    304623    
+
+[ angletypes ]
+    TOA_C1     TOA_N2     TOA_N3      1        107.406    863.582   
+    TOA_C1     TOA_N5     TOA_C4      1        104.408    600.601   
+    TOA_N2     TOA_C1     TOA_N5      1        110.390    682.109   
+    TOA_N2     TOA_N3     TOA_C4      1        107.406    863.582   
+    TOA_N3     TOA_C4     TOA_N5      1        110.390    682.109   
+
+[ dihedraltypes ]
+    TOA_N5     TOA_C1     TOA_N2     TOA_N3      2        0.000      0.000     
+    TOA_N2     TOA_C1     TOA_N5     TOA_C4      2        0.000      242.555   
+    TOA_C1     TOA_N2     TOA_N3     TOA_C4      2        0.000      425.479   
+    TOA_N2     TOA_N3     TOA_C4     TOA_N5      2        0.000      0.000     
+    TOA_N3     TOA_C4     TOA_N5     TOA_C1      2        0.000      242.555   

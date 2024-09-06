@@ -1,0 +1,31 @@
+[ bondtypes ]
+    THA_C1     THA_C2     1        0.14249    260607    
+    THA_C1     THA_C5     1        0.13608    380878    
+    THA_C1     THA_H6     1        0.10816    321527    
+    THA_C2     THA_C3     1        0.13608    380878    
+    THA_C2     THA_H7     1        0.10816    321527    
+    THA_C3     THA_S4     1        0.17212    184541    
+    THA_S4     THA_C5     1        0.17212    184541    
+
+[ angletypes ]
+    THA_C1     THA_C2     THA_C3      1        112.536    447.221   
+    THA_C1     THA_C2     THA_H7      1        124.091    284.965   
+    THA_C1     THA_C5     THA_S4      1        111.660    528.044   
+    THA_C2     THA_C1     THA_C5      1        112.536    447.221   
+    THA_C2     THA_C1     THA_H6      1        124.091    284.965   
+    THA_C2     THA_C3     THA_S4      1        111.660    528.044   
+    THA_C3     THA_C2     THA_H7      1        123.372    215.379   
+    THA_C3     THA_S4     THA_C5      1        91.607     715.966   
+    THA_C5     THA_C1     THA_H6      1        123.372    215.379   
+
+[ dihedraltypes ]
+    THA_C5     THA_C1     THA_C2     THA_C3      2        0.000      0.000     
+    THA_C5     THA_C1     THA_C2     THA_H7      2        180.000    33.831    
+    THA_H6     THA_C1     THA_C2     THA_C3      2        180.000    33.831    
+    THA_H6     THA_C1     THA_C2     THA_H7      2        0.000      15.435    
+    THA_C2     THA_C1     THA_C5     THA_S4      2        0.000      229.902   
+    THA_H6     THA_C1     THA_C5     THA_S4      2        180.000    89.853    
+    THA_C1     THA_C2     THA_C3     THA_S4      2        0.000      229.902   
+    THA_H7     THA_C2     THA_C3     THA_S4      2        180.000    89.853    
+    THA_C2     THA_C3     THA_S4     THA_C5      2        0.000      78.833    
+    THA_C3     THA_S4     THA_C5     THA_C1      2        0.000      78.833    

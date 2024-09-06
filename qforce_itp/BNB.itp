@@ -1,0 +1,48 @@
+[ bondtypes ]
+    BNB_N1     BNB_C2     1        0.11514    1098258   
+    BNB_C2     BNB_C3     1        0.14345    275584    
+    BNB_C3     BNB_C4     1        0.13964    289503    
+    BNB_C3     BNB_C8     1        0.13964    289503    
+    BNB_C4     BNB_C5     1        0.13867    314601    
+    BNB_C5     BNB_C6     1        0.13903    304738    
+    BNB_C6     BNB_C7     1        0.13903    304738    
+    BNB_C6     BNB_H11    1        0.10838    306207    
+    BNB_C7     BNB_C8     1        0.13867    314601    
+    BNB_C7     BNB_H12    1        0.10834    306200    
+    BNB_C8     BNB_H13    1        0.10831    308929    
+
+[ angletypes ]
+    BNB_N1     BNB_C2     BNB_C3      1        180.000    218.129   
+    BNB_C2     BNB_C3     BNB_C4      1        119.832    507.634   
+    BNB_C2     BNB_C3     BNB_C8      1        119.832    507.634   
+    BNB_C3     BNB_C4     BNB_C5      1        119.584    391.889   
+    BNB_C3     BNB_C8     BNB_C7      1        119.584    391.889   
+    BNB_C3     BNB_C8     BNB_H13     1        119.654    297.752   
+    BNB_C4     BNB_C3     BNB_C8      1        120.336    237.519   
+    BNB_C4     BNB_C5     BNB_C6      1        120.138    398.063   
+    BNB_C5     BNB_C6     BNB_C7      1        120.220    397.029   
+    BNB_C5     BNB_C6     BNB_H11     1        119.890    320.791   
+    BNB_C6     BNB_C7     BNB_C8      1        120.138    398.063   
+    BNB_C6     BNB_C7     BNB_H12     1        120.153    310.167   
+    BNB_C7     BNB_C6     BNB_H11     1        119.890    320.791   
+    BNB_C7     BNB_C8     BNB_H13     1        120.762    345.519   
+    BNB_C8     BNB_C7     BNB_H12     1        119.709    317.468   
+
+[ dihedraltypes ]
+    BNB_C2     BNB_C3     BNB_C4     BNB_C5      2        180.000    118.563   
+    BNB_C8     BNB_C3     BNB_C4     BNB_C5      2        0.000      82.465    
+    BNB_C2     BNB_C3     BNB_C8     BNB_C7      2        180.000    118.563   
+    BNB_C2     BNB_C3     BNB_C8     BNB_H13     2        0.000      58.449    
+    BNB_C4     BNB_C3     BNB_C8     BNB_C7      2        0.000      82.465    
+    BNB_C4     BNB_C3     BNB_C8     BNB_H13     2        180.000    65.735    
+    BNB_C3     BNB_C4     BNB_C5     BNB_C6      2        0.000      70.395    
+    BNB_C4     BNB_C5     BNB_C6     BNB_C7      2        0.000      79.812    
+    BNB_C4     BNB_C5     BNB_C6     BNB_H11     2        180.000    68.978    
+    BNB_C5     BNB_C6     BNB_C7     BNB_C8      2        0.000      79.812    
+    BNB_C5     BNB_C6     BNB_C7     BNB_H12     2        180.000    78.197    
+    BNB_H11    BNB_C6     BNB_C7     BNB_C8      2        180.000    68.978    
+    BNB_H11    BNB_C6     BNB_C7     BNB_H12     2        0.000      48.220    
+    BNB_C6     BNB_C7     BNB_C8     BNB_C3      2        0.000      70.395    
+    BNB_C6     BNB_C7     BNB_C8     BNB_H13     2        180.000    62.876    
+    BNB_H12    BNB_C7     BNB_C8     BNB_C3      2        180.000    62.622    
+    BNB_H12    BNB_C7     BNB_C8     BNB_H13     2        0.000      36.735    

@@ -1,0 +1,38 @@
+[ bondtypes ]
+    PDD_C1     PDD_C2     1        0.13879    313207    
+    PDD_C1     PDD_C6     1        0.13879    313207    
+    PDD_C1     PDD_H7     1        0.10842    305153    
+    PDD_C2     PDD_C3     1        0.13899    288978    
+    PDD_C3     PDD_N4     1        0.13321    339134    
+    PDD_C3     PDD_H9     1        0.10866    295396    
+    PDD_N4     PDD_C5     1        0.13321    339134    
+    PDD_C5     PDD_C6     1        0.13899    288978    
+    PDD_C5     PDD_H10    1        0.10866    295396    
+
+[ angletypes ]
+    PDD_C1     PDD_C2     PDD_C3      1        118.432    300.179   
+    PDD_C1     PDD_C6     PDD_C5      1        118.432    300.179   
+    PDD_C2     PDD_C1     PDD_C6      1        118.514    473.846   
+    PDD_C2     PDD_C1     PDD_H7      1        120.743    316.701   
+    PDD_C2     PDD_C3     PDD_N4      1        123.730    600.342   
+    PDD_C2     PDD_C3     PDD_H9      1        120.298    217.435   
+    PDD_C3     PDD_N4     PDD_C5      1        117.162    331.698   
+    PDD_N4     PDD_C3     PDD_H9      1        115.972    376.834   
+    PDD_N4     PDD_C5     PDD_C6      1        123.730    600.342   
+    PDD_N4     PDD_C5     PDD_H10     1        115.972    376.834   
+    PDD_C6     PDD_C1     PDD_H7      1        120.743    316.701   
+    PDD_C6     PDD_C5     PDD_H10     1        120.298    217.435   
+
+[ dihedraltypes ]
+    PDD_C6     PDD_C1     PDD_C2     PDD_C3      2        0.000      69.181    
+    PDD_H7     PDD_C1     PDD_C2     PDD_C3      2        180.000    86.391    
+    PDD_C2     PDD_C1     PDD_C6     PDD_C5      2        0.000      69.181    
+    PDD_H7     PDD_C1     PDD_C6     PDD_C5      2        180.000    86.391    
+    PDD_C1     PDD_C2     PDD_C3     PDD_N4      2        0.000      116.226   
+    PDD_C1     PDD_C2     PDD_C3     PDD_H9      2        180.000    116.425   
+    PDD_C2     PDD_C3     PDD_N4     PDD_C5      2        0.000      79.405    
+    PDD_H9     PDD_C3     PDD_N4     PDD_C5      2        180.000    105.226   
+    PDD_C3     PDD_N4     PDD_C5     PDD_C6      2        0.000      79.405    
+    PDD_C3     PDD_N4     PDD_C5     PDD_H10     2        180.000    105.226   
+    PDD_N4     PDD_C5     PDD_C6     PDD_C1      2        0.000      116.226   
+    PDD_H10    PDD_C5     PDD_C6     PDD_C1      2        180.000    116.425   

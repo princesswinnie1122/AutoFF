@@ -1,0 +1,130 @@
+[ bondtypes ]
+    ANA_C1     ANA_C2     1        0.14248    250666    
+    ANA_C1     ANA_C14    1        0.13595    386037    
+    ANA_C1     ANA_H15    1        0.10840    304110    
+    ANA_C2     ANA_C3     1        0.13595    386037    
+    ANA_C2     ANA_H16    1        0.10840    304110    
+    ANA_C3     ANA_C4     1        0.14294    247232    
+    ANA_C3     ANA_H17    1        0.10851    302569    
+    ANA_C4     ANA_C5     1        0.13940    297747    
+    ANA_C4     ANA_C13    1        0.14327    234930    
+    ANA_C5     ANA_C6     1        0.13940    297747    
+    ANA_C6     ANA_C7     1        0.14294    247232    
+    ANA_C6     ANA_C11    1        0.14327    234930    
+    ANA_C7     ANA_C8     1        0.13595    386037    
+    ANA_C7     ANA_H19    1        0.10851    302569    
+    ANA_C8     ANA_C9     1        0.14248    250666    
+    ANA_C8     ANA_H20    1        0.10840    304110    
+    ANA_C9     ANA_C10    1        0.13595    386037    
+    ANA_C9     ANA_H21    1        0.10840    304110    
+    ANA_C10    ANA_C11    1        0.14294    247232    
+    ANA_C10    ANA_H22    1        0.10851    302569    
+    ANA_C11    ANA_C12    1        0.13940    297747    
+    ANA_C12    ANA_C13    1        0.13940    297747    
+    ANA_C12    ANA_H23    1        0.10861    300508    
+    ANA_C13    ANA_C14    1        0.14294    247232    
+    ANA_C14    ANA_H24    1        0.10851    302569    
+
+[ angletypes ]
+    ANA_C1     ANA_C2     ANA_C3      1        120.461    389.789   
+    ANA_C1     ANA_C2     ANA_H16     1        119.361    297.459   
+    ANA_C1     ANA_C14    ANA_C13     1        120.892    266.155   
+    ANA_C1     ANA_C14    ANA_H24     1        120.600    387.549   
+    ANA_C2     ANA_C1     ANA_C14     1        120.461    389.789   
+    ANA_C2     ANA_C1     ANA_H15     1        119.361    297.459   
+    ANA_C2     ANA_C3     ANA_C4      1        120.892    266.155   
+    ANA_C2     ANA_C3     ANA_H17     1        120.600    387.549   
+    ANA_C3     ANA_C2     ANA_H16     1        120.178    309.776   
+    ANA_C3     ANA_C4     ANA_C5      1        122.142    700.717   
+    ANA_C3     ANA_C4     ANA_C13     1        118.647    435.531   
+    ANA_C4     ANA_C3     ANA_H17     1        118.508    165.499   
+    ANA_C4     ANA_C5     ANA_C6      1        121.577    202.838   
+    ANA_C4     ANA_C13    ANA_C12     1        119.211    415.787   
+    ANA_C4     ANA_C13    ANA_C14     1        118.647    435.531   
+    ANA_C5     ANA_C4     ANA_C13     1        119.211    415.787   
+    ANA_C5     ANA_C6     ANA_C7      1        122.142    700.717   
+    ANA_C5     ANA_C6     ANA_C11     1        119.211    415.787   
+    ANA_C6     ANA_C7     ANA_C8      1        120.892    266.155   
+    ANA_C6     ANA_C7     ANA_H19     1        118.508    165.499   
+    ANA_C6     ANA_C11    ANA_C10     1        118.647    435.531   
+    ANA_C6     ANA_C11    ANA_C12     1        119.211    415.787   
+    ANA_C7     ANA_C6     ANA_C11     1        118.647    435.531   
+    ANA_C7     ANA_C8     ANA_C9      1        120.461    389.789   
+    ANA_C7     ANA_C8     ANA_H20     1        120.178    309.776   
+    ANA_C8     ANA_C7     ANA_H19     1        120.600    387.549   
+    ANA_C8     ANA_C9     ANA_C10     1        120.461    389.789   
+    ANA_C8     ANA_C9     ANA_H21     1        119.361    297.459   
+    ANA_C9     ANA_C8     ANA_H20     1        119.361    297.459   
+    ANA_C9     ANA_C10    ANA_C11     1        120.892    266.155   
+    ANA_C9     ANA_C10    ANA_H22     1        120.600    387.549   
+    ANA_C10    ANA_C9     ANA_H21     1        120.178    309.776   
+    ANA_C10    ANA_C11    ANA_C12     1        122.142    700.717   
+    ANA_C11    ANA_C10    ANA_H22     1        118.508    165.499   
+    ANA_C11    ANA_C12    ANA_C13     1        121.577    202.838   
+    ANA_C11    ANA_C12    ANA_H23     1        119.211    276.427   
+    ANA_C12    ANA_C13    ANA_C14     1        122.142    700.717   
+    ANA_C13    ANA_C12    ANA_H23     1        119.211    276.427   
+    ANA_C13    ANA_C14    ANA_H24     1        118.508    165.499   
+    ANA_C14    ANA_C1     ANA_H15     1        120.178    309.776   
+
+[ dihedraltypes ]
+    ANA_C14    ANA_C1     ANA_C2     ANA_C3      2        0.000      11.091    
+    ANA_C14    ANA_C1     ANA_C2     ANA_H16     2        180.000    49.772    
+    ANA_H15    ANA_C1     ANA_C2     ANA_C3      2        180.000    49.772    
+    ANA_H15    ANA_C1     ANA_C2     ANA_H16     2        0.000      35.659    
+    ANA_C2     ANA_C1     ANA_C14    ANA_C13     2        0.000      138.106   
+    ANA_C2     ANA_C1     ANA_C14    ANA_H24     2        180.000    86.164    
+    ANA_H15    ANA_C1     ANA_C14    ANA_C13     2        180.000    85.280    
+    ANA_H15    ANA_C1     ANA_C14    ANA_H24     2        0.000      52.076    
+    ANA_C1     ANA_C2     ANA_C3     ANA_C4      2        0.000      138.106   
+    ANA_C1     ANA_C2     ANA_C3     ANA_H17     2        180.000    86.164    
+    ANA_H16    ANA_C2     ANA_C3     ANA_C4      2        180.000    85.280    
+    ANA_H16    ANA_C2     ANA_C3     ANA_H17     2        0.000      52.076    
+    ANA_C2     ANA_C3     ANA_C4     ANA_C5      2        180.000    62.578    
+    ANA_C2     ANA_C3     ANA_C4     ANA_C13     2        0.000      0.000     
+    ANA_H17    ANA_C3     ANA_C4     ANA_C5      2        0.000      32.570    
+    ANA_H17    ANA_C3     ANA_C4     ANA_C13     2        180.000    42.219    
+    ANA_C3     ANA_C4     ANA_C5     ANA_C6      2        180.000    78.609    
+    ANA_C13    ANA_C4     ANA_C5     ANA_C6      2        0.000      55.340    
+    ANA_C3     ANA_C4     ANA_C13    ANA_C12     2        180.000    77.332    
+    ANA_C3     ANA_C4     ANA_C13    ANA_C14     2        0.000      117.653   
+    ANA_C5     ANA_C4     ANA_C13    ANA_C12     2        0.000      65.026    
+    ANA_C5     ANA_C4     ANA_C13    ANA_C14     2        180.000    77.332    
+    ANA_C4     ANA_C5     ANA_C6     ANA_C7      2        180.000    78.609    
+    ANA_C4     ANA_C5     ANA_C6     ANA_C11     2        0.000      55.340    
+    ANA_C5     ANA_C6     ANA_C7     ANA_C8      2        180.000    62.578    
+    ANA_C5     ANA_C6     ANA_C7     ANA_H19     2        0.000      32.570    
+    ANA_C11    ANA_C6     ANA_C7     ANA_C8      2        0.000      0.000     
+    ANA_C11    ANA_C6     ANA_C7     ANA_H19     2        180.000    42.219    
+    ANA_C5     ANA_C6     ANA_C11    ANA_C10     2        180.000    77.332    
+    ANA_C5     ANA_C6     ANA_C11    ANA_C12     2        0.000      65.026    
+    ANA_C7     ANA_C6     ANA_C11    ANA_C10     2        0.000      117.653   
+    ANA_C7     ANA_C6     ANA_C11    ANA_C12     2        180.000    77.332    
+    ANA_C6     ANA_C7     ANA_C8     ANA_C9      2        0.000      138.106   
+    ANA_C6     ANA_C7     ANA_C8     ANA_H20     2        180.000    85.280    
+    ANA_H19    ANA_C7     ANA_C8     ANA_C9      2        180.000    86.164    
+    ANA_H19    ANA_C7     ANA_C8     ANA_H20     2        0.000      52.076    
+    ANA_C7     ANA_C8     ANA_C9     ANA_C10     2        0.000      11.091    
+    ANA_C7     ANA_C8     ANA_C9     ANA_H21     2        180.000    49.772    
+    ANA_H20    ANA_C8     ANA_C9     ANA_C10     2        180.000    49.772    
+    ANA_H20    ANA_C8     ANA_C9     ANA_H21     2        0.000      35.659    
+    ANA_C8     ANA_C9     ANA_C10    ANA_C11     2        0.000      138.106   
+    ANA_C8     ANA_C9     ANA_C10    ANA_H22     2        180.000    86.164    
+    ANA_H21    ANA_C9     ANA_C10    ANA_C11     2        180.000    85.280    
+    ANA_H21    ANA_C9     ANA_C10    ANA_H22     2        0.000      52.076    
+    ANA_C9     ANA_C10    ANA_C11    ANA_C6      2        0.000      0.000     
+    ANA_C9     ANA_C10    ANA_C11    ANA_C12     2        180.000    62.578    
+    ANA_H22    ANA_C10    ANA_C11    ANA_C6      2        180.000    42.219    
+    ANA_H22    ANA_C10    ANA_C11    ANA_C12     2        0.000      32.570    
+    ANA_C6     ANA_C11    ANA_C12    ANA_C13     2        0.000      55.340    
+    ANA_C6     ANA_C11    ANA_C12    ANA_H23     2        180.000    57.902    
+    ANA_C10    ANA_C11    ANA_C12    ANA_C13     2        180.000    78.609    
+    ANA_C10    ANA_C11    ANA_C12    ANA_H23     2        0.000      43.054    
+    ANA_C11    ANA_C12    ANA_C13    ANA_C4      2        0.000      55.340    
+    ANA_C11    ANA_C12    ANA_C13    ANA_C14     2        180.000    78.609    
+    ANA_H23    ANA_C12    ANA_C13    ANA_C4      2        180.000    57.902    
+    ANA_H23    ANA_C12    ANA_C13    ANA_C14     2        0.000      43.054    
+    ANA_C4     ANA_C13    ANA_C14    ANA_C1      2        0.000      0.000     
+    ANA_C4     ANA_C13    ANA_C14    ANA_H24     2        180.000    42.219    
+    ANA_C12    ANA_C13    ANA_C14    ANA_C1      2        180.000    62.578    
+    ANA_C12    ANA_C13    ANA_C14    ANA_H24     2        0.000      32.570    

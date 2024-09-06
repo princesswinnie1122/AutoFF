@@ -1,0 +1,121 @@
+[ bondtypes ]
+    FLC_C1     FLC_C2     1        0.13930    297779    
+    FLC_C1     FLC_C6     1        0.13928    300288    
+    FLC_C1     FLC_H14    1        0.10842    304867    
+    FLC_C2     FLC_C3     1        0.13902    305512    
+    FLC_C2     FLC_H15    1        0.10843    303568    
+    FLC_C3     FLC_C4     1        0.13894    311542    
+    FLC_C3     FLC_H16    1        0.10848    301900    
+    FLC_C4     FLC_C5     1        0.14016    275137    
+    FLC_C4     FLC_C13    1        0.14681    225359    
+    FLC_C5     FLC_C6     1        0.13847    324499    
+    FLC_C5     FLC_C7     1        0.15097    190552    
+    FLC_C6     FLC_H17    1        0.10851    302048    
+    FLC_C7     FLC_C8     1        0.15097    190552    
+    FLC_C8     FLC_C9     1        0.13847    324499    
+    FLC_C8     FLC_C13    1        0.14016    275137    
+    FLC_C9     FLC_C10    1        0.13928    300288    
+    FLC_C9     FLC_H20    1        0.10851    302048    
+    FLC_C10    FLC_C11    1        0.13930    297779    
+    FLC_C10    FLC_H21    1        0.10842    304867    
+    FLC_C11    FLC_C12    1        0.13902    305512    
+    FLC_C11    FLC_H22    1        0.10843    303568    
+    FLC_C12    FLC_C13    1        0.13894    311542    
+    FLC_C12    FLC_H23    1        0.10848    301900    
+
+[ angletypes ]
+    FLC_C1     FLC_C2     FLC_C3      1        120.625    366.242   
+    FLC_C1     FLC_C2     FLC_H15     1        119.630    322.884   
+    FLC_C1     FLC_C6     FLC_C5      1        118.942    386.361   
+    FLC_C1     FLC_C6     FLC_H17     1        120.302    300.217   
+    FLC_C2     FLC_C1     FLC_C6      1        120.610    382.449   
+    FLC_C2     FLC_C1     FLC_H14     1        119.651    322.230   
+    FLC_C2     FLC_C3     FLC_C4      1        118.786    432.049   
+    FLC_C2     FLC_C3     FLC_H16     1        120.414    313.899   
+    FLC_C3     FLC_C2     FLC_H15     1        119.745    311.562   
+    FLC_C3     FLC_C4     FLC_C5      1        120.593    277.370   
+    FLC_C3     FLC_C4     FLC_C13     1        130.890    406.271   
+    FLC_C4     FLC_C3     FLC_H16     1        120.800    297.408   
+    FLC_C4     FLC_C5     FLC_C6      1        120.445    340.436   
+    FLC_C4     FLC_C5     FLC_C7      1        110.123    654.269   
+    FLC_C4     FLC_C13    FLC_C8      1        108.517    568.804   
+    FLC_C4     FLC_C13    FLC_C12     1        130.890    406.271   
+    FLC_C5     FLC_C4     FLC_C13     1        108.517    568.804   
+    FLC_C5     FLC_C6     FLC_H17     1        120.756    280.195   
+    FLC_C5     FLC_C7     FLC_C8      1        102.719    348.489   
+    FLC_C6     FLC_C1     FLC_H14     1        119.740    318.176   
+    FLC_C6     FLC_C5     FLC_C7      1        129.432    509.768   
+    FLC_C7     FLC_C8     FLC_C9      1        129.432    509.768   
+    FLC_C7     FLC_C8     FLC_C13     1        110.123    654.269   
+    FLC_C8     FLC_C9     FLC_C10     1        118.942    386.361   
+    FLC_C8     FLC_C9     FLC_H20     1        120.756    280.195   
+    FLC_C8     FLC_C13    FLC_C12     1        120.593    277.370   
+    FLC_C9     FLC_C8     FLC_C13     1        120.445    340.436   
+    FLC_C9     FLC_C10    FLC_C11     1        120.610    382.449   
+    FLC_C9     FLC_C10    FLC_H21     1        119.740    318.176   
+    FLC_C10    FLC_C9     FLC_H20     1        120.302    300.217   
+    FLC_C10    FLC_C11    FLC_C12     1        120.625    366.242   
+    FLC_C10    FLC_C11    FLC_H22     1        119.630    322.884   
+    FLC_C11    FLC_C10    FLC_H21     1        119.651    322.230   
+    FLC_C11    FLC_C12    FLC_C13     1        118.786    432.049   
+    FLC_C11    FLC_C12    FLC_H23     1        120.414    313.899   
+    FLC_C12    FLC_C11    FLC_H22     1        119.745    311.562   
+    FLC_C13    FLC_C12    FLC_H23     1        120.800    297.408   
+
+[ dihedraltypes ]
+    FLC_C6     FLC_C1     FLC_C2     FLC_C3      2        0.000      123.071   
+    FLC_C6     FLC_C1     FLC_C2     FLC_H15     2        180.000    64.298    
+    FLC_H14    FLC_C1     FLC_C2     FLC_C3      2        180.000    74.870    
+    FLC_H14    FLC_C1     FLC_C2     FLC_H15     2        0.000      41.948    
+    FLC_C2     FLC_C1     FLC_C6     FLC_C5      2        0.000      25.516    
+    FLC_C2     FLC_C1     FLC_C6     FLC_H17     2        180.000    66.753    
+    FLC_H14    FLC_C1     FLC_C6     FLC_C5      2        180.000    66.624    
+    FLC_H14    FLC_C1     FLC_C6     FLC_H17     2        0.000      38.918    
+    FLC_C1     FLC_C2     FLC_C3     FLC_C4      2        0.000      38.047    
+    FLC_C1     FLC_C2     FLC_C3     FLC_H16     2        180.000    77.768    
+    FLC_H15    FLC_C2     FLC_C3     FLC_C4      2        180.000    73.592    
+    FLC_H15    FLC_C2     FLC_C3     FLC_H16     2        0.000      43.580    
+    FLC_C2     FLC_C3     FLC_C4     FLC_C5      2        0.000      118.683   
+    FLC_C2     FLC_C3     FLC_C4     FLC_C13     2        180.000    63.046    
+    FLC_H16    FLC_C3     FLC_C4     FLC_C5      2        180.000    62.710    
+    FLC_H16    FLC_C3     FLC_C4     FLC_C13     2        0.000      34.461    
+    FLC_C3     FLC_C4     FLC_C5     FLC_C6      2        0.000      0.000     
+    FLC_C3     FLC_C4     FLC_C5     FLC_C7      2        180.000    53.824    
+    FLC_C13    FLC_C4     FLC_C5     FLC_C6      2        180.000    64.816    
+    FLC_C13    FLC_C4     FLC_C5     FLC_C7      2        0.000      0.001     
+    FLC_C3     FLC_C4     FLC_C13    FLC_C8      2        180.000    36.462    
+    FLC_C3     FLC_C4     FLC_C13    FLC_C12     2        0.000      0.000     
+    FLC_C5     FLC_C4     FLC_C13    FLC_C8      2        0.000      198.708   
+    FLC_C5     FLC_C4     FLC_C13    FLC_C12     2        180.000    36.462    
+    FLC_C4     FLC_C5     FLC_C6     FLC_C1      2        0.000      137.254   
+    FLC_C4     FLC_C5     FLC_C6     FLC_H17     2        180.000    73.531    
+    FLC_C7     FLC_C5     FLC_C6     FLC_C1      2        180.000    101.901   
+    FLC_C7     FLC_C5     FLC_C6     FLC_H17     2        0.000      40.164    
+    FLC_C4     FLC_C5     FLC_C7     FLC_C8      2        0.000      97.697    
+    FLC_C6     FLC_C5     FLC_C7     FLC_C8      2        180.000    28.432    
+    FLC_C5     FLC_C7     FLC_C8     FLC_C9      2        180.000    28.432    
+    FLC_C5     FLC_C7     FLC_C8     FLC_C13     2        0.000      97.697    
+    FLC_C7     FLC_C8     FLC_C9     FLC_C10     2        180.000    101.901   
+    FLC_C7     FLC_C8     FLC_C9     FLC_H20     2        0.000      40.164    
+    FLC_C13    FLC_C8     FLC_C9     FLC_C10     2        0.000      137.254   
+    FLC_C13    FLC_C8     FLC_C9     FLC_H20     2        180.000    73.531    
+    FLC_C7     FLC_C8     FLC_C13    FLC_C4      2        0.000      0.001     
+    FLC_C7     FLC_C8     FLC_C13    FLC_C12     2        180.000    53.824    
+    FLC_C9     FLC_C8     FLC_C13    FLC_C4      2        180.000    64.816    
+    FLC_C9     FLC_C8     FLC_C13    FLC_C12     2        0.000      0.000     
+    FLC_C8     FLC_C9     FLC_C10    FLC_C11     2        0.000      25.516    
+    FLC_C8     FLC_C9     FLC_C10    FLC_H21     2        180.000    66.624    
+    FLC_H20    FLC_C9     FLC_C10    FLC_C11     2        180.000    66.753    
+    FLC_H20    FLC_C9     FLC_C10    FLC_H21     2        0.000      38.918    
+    FLC_C9     FLC_C10    FLC_C11    FLC_C12     2        0.000      123.071   
+    FLC_C9     FLC_C10    FLC_C11    FLC_H22     2        180.000    64.298    
+    FLC_H21    FLC_C10    FLC_C11    FLC_C12     2        180.000    74.870    
+    FLC_H21    FLC_C10    FLC_C11    FLC_H22     2        0.000      41.948    
+    FLC_C10    FLC_C11    FLC_C12    FLC_C13     2        0.000      38.047    
+    FLC_C10    FLC_C11    FLC_C12    FLC_H23     2        180.000    77.768    
+    FLC_H22    FLC_C11    FLC_C12    FLC_C13     2        180.000    73.592    
+    FLC_H22    FLC_C11    FLC_C12    FLC_H23     2        0.000      43.580    
+    FLC_C11    FLC_C12    FLC_C13    FLC_C4      2        180.000    63.046    
+    FLC_C11    FLC_C12    FLC_C13    FLC_C8      2        0.000      118.683   
+    FLC_H23    FLC_C12    FLC_C13    FLC_C4      2        0.000      34.461    
+    FLC_H23    FLC_C12    FLC_C13    FLC_C8      2        180.000    62.710    

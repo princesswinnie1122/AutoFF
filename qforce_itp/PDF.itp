@@ -1,0 +1,33 @@
+[ bondtypes ]
+    PDF_C1     PDF_C2     1        0.13879    313207    
+    PDF_C1     PDF_C6     1        0.13879    313207    
+    PDF_C2     PDF_C3     1        0.13899    288978    
+    PDF_C2     PDF_H8     1        0.10833    304622    
+    PDF_C3     PDF_N4     1        0.13321    339134    
+    PDF_N4     PDF_C5     1        0.13321    339134    
+    PDF_C5     PDF_C6     1        0.13899    288978    
+    PDF_C6     PDF_H11    1        0.10833    304622    
+
+[ angletypes ]
+    PDF_C1     PDF_C2     PDF_C3      1        118.432    300.179   
+    PDF_C1     PDF_C2     PDF_H8      1        121.311    337.204   
+    PDF_C1     PDF_C6     PDF_C5      1        118.432    300.179   
+    PDF_C1     PDF_C6     PDF_H11     1        121.311    337.204   
+    PDF_C2     PDF_C1     PDF_C6      1        118.514    473.846   
+    PDF_C2     PDF_C3     PDF_N4      1        123.730    600.342   
+    PDF_C3     PDF_C2     PDF_H8      1        120.258    325.631   
+    PDF_C3     PDF_N4     PDF_C5      1        117.162    331.698   
+    PDF_N4     PDF_C5     PDF_C6      1        123.730    600.342   
+    PDF_C5     PDF_C6     PDF_H11     1        120.258    325.631   
+
+[ dihedraltypes ]
+    PDF_C6     PDF_C1     PDF_C2     PDF_C3      2        0.000      69.181    
+    PDF_C6     PDF_C1     PDF_C2     PDF_H8      2        180.000    43.757    
+    PDF_C2     PDF_C1     PDF_C6     PDF_C5      2        0.000      69.181    
+    PDF_C2     PDF_C1     PDF_C6     PDF_H11     2        180.000    43.757    
+    PDF_C1     PDF_C2     PDF_C3     PDF_N4      2        0.000      116.226   
+    PDF_H8     PDF_C2     PDF_C3     PDF_N4      2        180.000    75.656    
+    PDF_C2     PDF_C3     PDF_N4     PDF_C5      2        0.000      79.405    
+    PDF_C3     PDF_N4     PDF_C5     PDF_C6      2        0.000      79.405    
+    PDF_N4     PDF_C5     PDF_C6     PDF_C1      2        0.000      116.226   
+    PDF_N4     PDF_C5     PDF_C6     PDF_H11     2        180.000    75.656    

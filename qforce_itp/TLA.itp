@@ -1,0 +1,61 @@
+[ bondtypes ]
+    TLA_C1     TLA_C2     1        0.15071    203960    
+    TLA_C1     TLA_H8     1        0.10930    277880    
+    TLA_C1     TLA_H9     1        0.10930    277880    
+    TLA_C1     TLA_H10    1        0.10930    277880    
+    TLA_C2     TLA_C3     1        0.13945    294007    
+    TLA_C2     TLA_C7     1        0.13945    294007    
+    TLA_C3     TLA_C4     1        0.13893    308320    
+    TLA_C3     TLA_H11    1        0.10858    299119    
+    TLA_C4     TLA_C5     1        0.13895    307194    
+    TLA_C4     TLA_H12    1        0.10845    302586    
+    TLA_C5     TLA_C6     1        0.13895    307194    
+    TLA_C6     TLA_C7     1        0.13893    308320    
+    TLA_C6     TLA_H14    1        0.10845    302586    
+    TLA_C7     TLA_H15    1        0.10858    299119    
+
+[ angletypes ]
+    TLA_C1     TLA_C2     TLA_C3      1        120.841    547.422   
+    TLA_C1     TLA_C2     TLA_C7      1        120.841    547.422   
+    TLA_C2     TLA_C1     TLA_H8      1        111.098    268.306   
+    TLA_C2     TLA_C1     TLA_H9      1        111.098    268.306   
+    TLA_C2     TLA_C1     TLA_H10     1        111.098    268.306   
+    TLA_C2     TLA_C3     TLA_C4      1        120.962    343.586   
+    TLA_C2     TLA_C3     TLA_H11     1        119.372    296.780   
+    TLA_C2     TLA_C7     TLA_C6      1        120.962    343.586   
+    TLA_C2     TLA_C7     TLA_H15     1        119.372    296.780   
+    TLA_C3     TLA_C2     TLA_C7      1        118.307    412.628   
+    TLA_C3     TLA_C4     TLA_C5      1        120.153    385.046   
+    TLA_C3     TLA_C4     TLA_H12     1        119.788    331.093   
+    TLA_C4     TLA_C3     TLA_H11     1        119.665    342.029   
+    TLA_C4     TLA_C5     TLA_C6      1        119.462    409.174   
+    TLA_C5     TLA_C4     TLA_H12     1        120.059    309.050   
+    TLA_C5     TLA_C6     TLA_C7      1        120.153    385.046   
+    TLA_C5     TLA_C6     TLA_H14     1        120.059    309.050   
+    TLA_C6     TLA_C7     TLA_H15     1        119.665    342.029   
+    TLA_C7     TLA_C6     TLA_H14     1        119.788    331.093   
+    TLA_H8     TLA_C1     TLA_H9      1        107.794    246.201   
+    TLA_H8     TLA_C1     TLA_H10     1        107.794    246.201   
+    TLA_H9     TLA_C1     TLA_H10     1        107.794    246.201   
+
+[ dihedraltypes ]
+    TLA_C1     TLA_C2     TLA_C3     TLA_C4      2        180.000    130.008   
+    TLA_C1     TLA_C2     TLA_C3     TLA_H11     2        0.000      67.517    
+    TLA_C7     TLA_C2     TLA_C3     TLA_C4      2        0.000      97.640    
+    TLA_C7     TLA_C2     TLA_C3     TLA_H11     2        180.000    81.156    
+    TLA_C1     TLA_C2     TLA_C7     TLA_C6      2        180.000    130.008   
+    TLA_C1     TLA_C2     TLA_C7     TLA_H15     2        0.000      67.517    
+    TLA_C3     TLA_C2     TLA_C7     TLA_C6      2        0.000      97.640    
+    TLA_C3     TLA_C2     TLA_C7     TLA_H15     2        180.000    81.156    
+    TLA_C2     TLA_C3     TLA_C4     TLA_C5      2        0.000      52.267    
+    TLA_C2     TLA_C3     TLA_C4     TLA_H12     2        180.000    66.678    
+    TLA_H11    TLA_C3     TLA_C4     TLA_C5      2        180.000    38.462    
+    TLA_H11    TLA_C3     TLA_C4     TLA_H12     2        0.000      29.039    
+    TLA_C3     TLA_C4     TLA_C5     TLA_C6      2        0.000      89.837    
+    TLA_H12    TLA_C4     TLA_C5     TLA_C6      2        180.000    90.381    
+    TLA_C4     TLA_C5     TLA_C6     TLA_C7      2        0.000      89.837    
+    TLA_C4     TLA_C5     TLA_C6     TLA_H14     2        180.000    90.381    
+    TLA_C5     TLA_C6     TLA_C7     TLA_C2      2        0.000      52.267    
+    TLA_C5     TLA_C6     TLA_C7     TLA_H15     2        180.000    38.462    
+    TLA_H14    TLA_C6     TLA_C7     TLA_C2      2        180.000    66.678    
+    TLA_H14    TLA_C6     TLA_C7     TLA_H15     2        0.000      29.039    

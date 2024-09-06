@@ -1,0 +1,23 @@
+[ bondtypes ]
+    TIA_C1     TIA_N2     1        0.13297    328199    
+    TIA_C1     TIA_N6     1        0.13297    328199    
+    TIA_N2     TIA_C3     1        0.13297    328199    
+    TIA_C3     TIA_N4     1        0.13297    328199    
+    TIA_N4     TIA_C5     1        0.13297    328199    
+    TIA_C5     TIA_N6     1        0.13297    328199    
+
+[ angletypes ]
+    TIA_C1     TIA_N2     TIA_C3      1        114.112    187.184   
+    TIA_C1     TIA_N6     TIA_C5      1        114.112    187.184   
+    TIA_N2     TIA_C1     TIA_N6      1        125.888    940.992   
+    TIA_N2     TIA_C3     TIA_N4      1        125.888    940.992   
+    TIA_C3     TIA_N4     TIA_C5      1        114.112    187.184   
+    TIA_N4     TIA_C5     TIA_N6      1        125.888    940.992   
+
+[ dihedraltypes ]
+    TIA_N6     TIA_C1     TIA_N2     TIA_C3      2        0.000      114.651   
+    TIA_N2     TIA_C1     TIA_N6     TIA_C5      2        0.000      114.651   
+    TIA_C1     TIA_N2     TIA_C3     TIA_N4      2        0.000      114.651   
+    TIA_N2     TIA_C3     TIA_N4     TIA_C5      2        0.000      114.651   
+    TIA_C3     TIA_N4     TIA_C5     TIA_N6      2        0.000      114.651   
+    TIA_N4     TIA_C5     TIA_N6     TIA_C1      2        0.000      114.651   

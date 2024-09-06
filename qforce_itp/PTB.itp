@@ -1,0 +1,97 @@
+[ bondtypes ]
+    PTB_C1     PTB_C2     1        0.14048    260473    
+    PTB_C1     PTB_C6     1        0.13714    352932    
+    PTB_C1     PTB_H15    1        0.10832    307090    
+    PTB_C2     PTB_N3     1        0.13149    375374    
+    PTB_N3     PTB_C4     1        0.13463    296204    
+    PTB_C4     PTB_C5     1        0.14121    253116    
+    PTB_C4     PTB_C14    1        0.14578    208356    
+    PTB_C5     PTB_C6     1        0.14068    274395    
+    PTB_C5     PTB_C7     1        0.14347    242878    
+    PTB_C7     PTB_C8     1        0.13500    421086    
+    PTB_C7     PTB_H18    1        0.10850    302762    
+    PTB_C8     PTB_C9     1        0.14347    242878    
+    PTB_C8     PTB_H19    1        0.10850    302762    
+    PTB_C9     PTB_C10    1        0.14068    274395    
+    PTB_C9     PTB_C14    1        0.14121    253116    
+    PTB_C10    PTB_C11    1        0.13714    352932    
+    PTB_C11    PTB_C12    1        0.14048    260473    
+    PTB_C11    PTB_H21    1        0.10832    307090    
+    PTB_C12    PTB_N13    1        0.13149    375374    
+    PTB_N13    PTB_C14    1        0.13463    296204    
+
+[ angletypes ]
+    PTB_C1     PTB_C2     PTB_N3      1        124.071    603.590   
+    PTB_C1     PTB_C6     PTB_C5      1        119.338    371.003   
+    PTB_C2     PTB_C1     PTB_C6      1        118.234    320.981   
+    PTB_C2     PTB_C1     PTB_H15     1        120.219    309.144   
+    PTB_C2     PTB_N3     PTB_C4      1        118.101    337.918   
+    PTB_N3     PTB_C4     PTB_C5      1        122.536    595.594   
+    PTB_N3     PTB_C4     PTB_C14     1        118.633    518.594   
+    PTB_C4     PTB_C5     PTB_C6      1        117.720    321.876   
+    PTB_C4     PTB_C5     PTB_C7      1        120.359    481.392   
+    PTB_C4     PTB_C14    PTB_C9      1        118.832    319.871   
+    PTB_C4     PTB_C14    PTB_N13     1        118.633    518.594   
+    PTB_C5     PTB_C4     PTB_C14     1        118.832    319.871   
+    PTB_C5     PTB_C7     PTB_C8      1        120.810    274.137   
+    PTB_C5     PTB_C7     PTB_H18     1        118.489    170.685   
+    PTB_C6     PTB_C1     PTB_H15     1        121.547    330.566   
+    PTB_C6     PTB_C5     PTB_C7      1        121.921    685.468   
+    PTB_C7     PTB_C8     PTB_C9      1        120.810    274.137   
+    PTB_C7     PTB_C8     PTB_H19     1        120.701    370.702   
+    PTB_C8     PTB_C7     PTB_H18     1        120.701    370.702   
+    PTB_C8     PTB_C9     PTB_C10     1        121.921    685.468   
+    PTB_C8     PTB_C9     PTB_C14     1        120.359    481.392   
+    PTB_C9     PTB_C8     PTB_H19     1        118.489    170.685   
+    PTB_C9     PTB_C10    PTB_C11     1        119.338    371.003   
+    PTB_C9     PTB_C14    PTB_N13     1        122.536    595.594   
+    PTB_C10    PTB_C9     PTB_C14     1        117.720    321.876   
+    PTB_C10    PTB_C11    PTB_C12     1        118.234    320.981   
+    PTB_C10    PTB_C11    PTB_H21     1        121.547    330.566   
+    PTB_C11    PTB_C12    PTB_N13     1        124.071    603.590   
+    PTB_C12    PTB_C11    PTB_H21     1        120.219    309.144   
+    PTB_C12    PTB_N13    PTB_C14     1        118.101    337.918   
+
+[ dihedraltypes ]
+    PTB_C6     PTB_C1     PTB_C2     PTB_N3      2        0.000      163.314   
+    PTB_H15    PTB_C1     PTB_C2     PTB_N3      2        180.000    76.306    
+    PTB_C2     PTB_C1     PTB_C6     PTB_C5      2        0.000      0.000     
+    PTB_H15    PTB_C1     PTB_C6     PTB_C5      2        180.000    35.951    
+    PTB_C1     PTB_C2     PTB_N3     PTB_C4      2        0.000      29.487    
+    PTB_C2     PTB_N3     PTB_C4     PTB_C5      2        0.000      102.473   
+    PTB_C2     PTB_N3     PTB_C4     PTB_C14     2        180.000    109.159   
+    PTB_N3     PTB_C4     PTB_C5     PTB_C6      2        0.000      41.202    
+    PTB_N3     PTB_C4     PTB_C5     PTB_C7      2        180.000    51.554    
+    PTB_C14    PTB_C4     PTB_C5     PTB_C6      2        180.000    118.156   
+    PTB_C14    PTB_C4     PTB_C5     PTB_C7      2        0.000      84.660    
+    PTB_N3     PTB_C4     PTB_C14    PTB_C9      2        180.000    69.319    
+    PTB_N3     PTB_C4     PTB_C14    PTB_N13     2        0.000      66.764    
+    PTB_C5     PTB_C4     PTB_C14    PTB_C9      2        0.000      44.818    
+    PTB_C5     PTB_C4     PTB_C14    PTB_N13     2        180.000    69.319    
+    PTB_C4     PTB_C5     PTB_C6     PTB_C1      2        0.000      118.513   
+    PTB_C7     PTB_C5     PTB_C6     PTB_C1      2        180.000    90.074    
+    PTB_C4     PTB_C5     PTB_C7     PTB_C8      2        0.000      0.000     
+    PTB_C4     PTB_C5     PTB_C7     PTB_H18     2        180.000    31.511    
+    PTB_C6     PTB_C5     PTB_C7     PTB_C8      2        180.000    55.772    
+    PTB_C6     PTB_C5     PTB_C7     PTB_H18     2        0.000      30.725    
+    PTB_C5     PTB_C7     PTB_C8     PTB_C9      2        0.000      133.845   
+    PTB_C5     PTB_C7     PTB_C8     PTB_H19     2        180.000    92.637    
+    PTB_H18    PTB_C7     PTB_C8     PTB_C9      2        180.000    92.637    
+    PTB_H18    PTB_C7     PTB_C8     PTB_H19     2        0.000      57.538    
+    PTB_C7     PTB_C8     PTB_C9     PTB_C10     2        180.000    55.772    
+    PTB_C7     PTB_C8     PTB_C9     PTB_C14     2        0.000      0.000     
+    PTB_H19    PTB_C8     PTB_C9     PTB_C10     2        0.000      30.725    
+    PTB_H19    PTB_C8     PTB_C9     PTB_C14     2        180.000    31.511    
+    PTB_C8     PTB_C9     PTB_C10    PTB_C11     2        180.000    90.074    
+    PTB_C14    PTB_C9     PTB_C10    PTB_C11     2        0.000      118.513   
+    PTB_C8     PTB_C9     PTB_C14    PTB_C4      2        0.000      84.660    
+    PTB_C8     PTB_C9     PTB_C14    PTB_N13     2        180.000    51.554    
+    PTB_C10    PTB_C9     PTB_C14    PTB_C4      2        180.000    118.156   
+    PTB_C10    PTB_C9     PTB_C14    PTB_N13     2        0.000      41.202    
+    PTB_C9     PTB_C10    PTB_C11    PTB_C12     2        0.000      0.000     
+    PTB_C9     PTB_C10    PTB_C11    PTB_H21     2        180.000    35.951    
+    PTB_C10    PTB_C11    PTB_C12    PTB_N13     2        0.000      163.314   
+    PTB_H21    PTB_C11    PTB_C12    PTB_N13     2        180.000    76.306    
+    PTB_C11    PTB_C12    PTB_N13    PTB_C14     2        0.000      29.487    
+    PTB_C12    PTB_N13    PTB_C14    PTB_C4      2        180.000    109.159   
+    PTB_C12    PTB_N13    PTB_C14    PTB_C9      2        0.000      102.473   

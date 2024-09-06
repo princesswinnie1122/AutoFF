@@ -1,0 +1,148 @@
+[ bondtypes ]
+    PIA_C1     PIA_C2     1        0.13993    287577    
+    PIA_C1     PIA_C6     1        0.13776    333851    
+    PIA_C1     PIA_H18    1        0.10839    304362    
+    PIA_C2     PIA_C3     1        0.13753    340610    
+    PIA_C2     PIA_H19    1        0.10839    306863    
+    PIA_C3     PIA_C4     1        0.14033    274626    
+    PIA_C3     PIA_H20    1        0.10836    305960    
+    PIA_C4     PIA_C5     1        0.14145    261665    
+    PIA_C4     PIA_C17    1        0.14352    277775    
+    PIA_C5     PIA_C6     1        0.14083    267945    
+    PIA_C5     PIA_C7     1        0.14698    203084    
+    PIA_C6     PIA_H21    1        0.10822    304315    
+    PIA_C7     PIA_C8     1        0.14073    269981    
+    PIA_C7     PIA_C12    1        0.14177    255986    
+    PIA_C8     PIA_C9     1        0.13776    333851    
+    PIA_C8     PIA_H22    1        0.10822    304315    
+    PIA_C9     PIA_C10    1        0.13993    287577    
+    PIA_C9     PIA_H23    1        0.10839    304362    
+    PIA_C10    PIA_C11    1        0.13756    339671    
+    PIA_C10    PIA_H24    1        0.10839    306863    
+    PIA_C11    PIA_C12    1        0.14048    271800    
+    PIA_C11    PIA_H25    1        0.10853    299539    
+    PIA_C12    PIA_C13    1        0.14294    280286    
+    PIA_C13    PIA_N14    1        0.13751    292355    
+    PIA_C13    PIA_C17    1        0.13752    335990    
+    PIA_N14    PIA_C15    1        0.13658    294102    
+    PIA_C15    PIA_N16    1        0.13051    412027    
+    PIA_N16    PIA_C17    1        0.13756    267593    
+
+[ angletypes ]
+    PIA_C1     PIA_C2     PIA_C3      1        119.686    412.515   
+    PIA_C1     PIA_C2     PIA_H19     1        120.182    307.778   
+    PIA_C1     PIA_C6     PIA_C5      1        121.490    348.861   
+    PIA_C1     PIA_C6     PIA_H21     1        118.260    341.489   
+    PIA_C2     PIA_C1     PIA_C6      1        120.355    377.956   
+    PIA_C2     PIA_C1     PIA_H18     1        119.984    298.790   
+    PIA_C2     PIA_C3     PIA_C4      1        120.375    360.399   
+    PIA_C2     PIA_C3     PIA_H20     1        121.486    349.885   
+    PIA_C3     PIA_C2     PIA_H19     1        120.222    305.791   
+    PIA_C3     PIA_C4     PIA_C5      1        120.729    326.031   
+    PIA_C3     PIA_C4     PIA_C17     1        121.429    534.759   
+    PIA_C4     PIA_C3     PIA_H20     1        118.139    260.461   
+    PIA_C4     PIA_C5     PIA_C6      1        117.319    425.573   
+    PIA_C4     PIA_C5     PIA_C7      1        120.404    398.783   
+    PIA_C4     PIA_C17    PIA_C13     1        120.908    186.786   
+    PIA_C4     PIA_C17    PIA_N16     1        128.100    384.167   
+    PIA_C5     PIA_C4     PIA_C17     1        117.842    522.711   
+    PIA_C5     PIA_C6     PIA_H21     1        120.230    230.570   
+    PIA_C5     PIA_C7     PIA_C8      1        122.280    517.163   
+    PIA_C5     PIA_C7     PIA_C12     1        120.605    416.038   
+    PIA_C6     PIA_C1     PIA_H18     1        119.661    331.740   
+    PIA_C6     PIA_C5     PIA_C7      1        122.277    512.347   
+    PIA_C7     PIA_C8     PIA_C9      1        121.885    356.450   
+    PIA_C7     PIA_C8     PIA_H22     1        119.875    227.139   
+    PIA_C7     PIA_C12    PIA_C11     1        120.425    316.545   
+    PIA_C7     PIA_C12    PIA_C13     1        116.465    497.868   
+    PIA_C8     PIA_C7     PIA_C12     1        117.116    437.427   
+    PIA_C8     PIA_C9     PIA_C10     1        120.355    377.956   
+    PIA_C8     PIA_C9     PIA_H23     1        119.661    331.740   
+    PIA_C9     PIA_C8     PIA_H22     1        118.260    341.489   
+    PIA_C9     PIA_C10    PIA_C11     1        119.483    412.596   
+    PIA_C9     PIA_C10    PIA_H24     1        120.182    307.778   
+    PIA_C10    PIA_C9     PIA_H23     1        119.984    298.790   
+    PIA_C10    PIA_C11    PIA_C12     1        120.783    340.410   
+    PIA_C10    PIA_C11    PIA_H25     1        119.553    353.210   
+    PIA_C11    PIA_C10    PIA_H24     1        120.244    308.525   
+    PIA_C11    PIA_C12    PIA_C13     1        123.110    543.164   
+    PIA_C12    PIA_C11    PIA_H25     1        119.664    266.496   
+    PIA_C12    PIA_C13    PIA_N14     1        131.228    354.181   
+    PIA_C12    PIA_C13    PIA_C17     1        123.776    209.130   
+    PIA_C13    PIA_N14    PIA_C15     1        106.628    619.939   
+    PIA_C13    PIA_C17    PIA_N16     1        110.992    699.688   
+    PIA_N14    PIA_C13    PIA_C17     1        104.996    606.632   
+    PIA_N14    PIA_C15    PIA_N16     1        112.752    742.564   
+    PIA_C15    PIA_N16    PIA_C17     1        104.631    709.734   
+
+[ dihedraltypes ]
+    PIA_C6     PIA_C1     PIA_C2     PIA_C3      2        0.000      17.617    
+    PIA_C6     PIA_C1     PIA_C2     PIA_H19     2        180.000    68.087    
+    PIA_H18    PIA_C1     PIA_C2     PIA_C3      2        180.000    63.046    
+    PIA_H18    PIA_C1     PIA_C2     PIA_H19     2        0.000      41.999    
+    PIA_C2     PIA_C1     PIA_C6     PIA_C5      2        0.000      131.658   
+    PIA_C2     PIA_C1     PIA_C6     PIA_H21     2        180.000    78.145    
+    PIA_H18    PIA_C1     PIA_C6     PIA_C5      2        180.000    67.715    
+    PIA_H18    PIA_C1     PIA_C6     PIA_H21     2        0.000      46.113    
+    PIA_C1     PIA_C2     PIA_C3     PIA_C4      2        0.000      139.981   
+    PIA_C1     PIA_C2     PIA_C3     PIA_H20     2        180.000    69.527    
+    PIA_H19    PIA_C2     PIA_C3     PIA_C4      2        180.000    72.077    
+    PIA_H19    PIA_C2     PIA_C3     PIA_H20     2        0.000      43.177    
+    PIA_C2     PIA_C3     PIA_C4     PIA_C5      2        0.000      0.102     
+    PIA_C2     PIA_C3     PIA_C4     PIA_C17     2        180.000    81.465    
+    PIA_H20    PIA_C3     PIA_C4     PIA_C5      2        180.000    58.369    
+    PIA_H20    PIA_C3     PIA_C4     PIA_C17     2        0.000      53.947    
+    PIA_C3     PIA_C4     PIA_C5     PIA_C6      2        0.000      142.205   
+    PIA_C3     PIA_C4     PIA_C5     PIA_C7      2        180.000    86.461    
+    PIA_C17    PIA_C4     PIA_C5     PIA_C6      2        180.000    104.063   
+    PIA_C17    PIA_C4     PIA_C5     PIA_C7      2        0.000      101.825   
+    PIA_C3     PIA_C4     PIA_C17    PIA_C13     2        180.000    49.484    
+    PIA_C3     PIA_C4     PIA_C17    PIA_N16     2        0.000      22.321    
+    PIA_C5     PIA_C4     PIA_C17    PIA_C13     2        0.000      10.081    
+    PIA_C5     PIA_C4     PIA_C17    PIA_N16     2        180.000    21.446    
+    PIA_C4     PIA_C5     PIA_C6     PIA_C1      2        0.000      0.000     
+    PIA_C4     PIA_C5     PIA_C6     PIA_H21     2        180.000    59.047    
+    PIA_C7     PIA_C5     PIA_C6     PIA_C1      2        180.000    78.308    
+    PIA_C7     PIA_C5     PIA_C6     PIA_H21     2        0.000      35.530    
+    PIA_C4     PIA_C5     PIA_C7     PIA_C8      2        180.000    55.380    
+    PIA_C4     PIA_C5     PIA_C7     PIA_C12     2        0.000      0.000     
+    PIA_C6     PIA_C5     PIA_C7     PIA_C8      2        0.000      21.434    
+    PIA_C6     PIA_C5     PIA_C7     PIA_C12     2        180.000    50.291    
+    PIA_C5     PIA_C7     PIA_C8     PIA_C9      2        180.000    81.437    
+    PIA_C5     PIA_C7     PIA_C8     PIA_H22     2        0.000      39.912    
+    PIA_C12    PIA_C7     PIA_C8     PIA_C9      2        0.000      3.155     
+    PIA_C12    PIA_C7     PIA_C8     PIA_H22     2        180.000    60.471    
+    PIA_C5     PIA_C7     PIA_C12    PIA_C11     2        180.000    86.712    
+    PIA_C5     PIA_C7     PIA_C12    PIA_C13     2        0.000      101.765   
+    PIA_C8     PIA_C7     PIA_C12    PIA_C11     2        0.000      133.177   
+    PIA_C8     PIA_C7     PIA_C12    PIA_C13     2        180.000    107.212   
+    PIA_C7     PIA_C8     PIA_C9     PIA_C10     2        0.000      123.977   
+    PIA_C7     PIA_C8     PIA_C9     PIA_H23     2        180.000    65.740    
+    PIA_H22    PIA_C8     PIA_C9     PIA_C10     2        180.000    78.145    
+    PIA_H22    PIA_C8     PIA_C9     PIA_H23     2        0.000      46.113    
+    PIA_C8     PIA_C9     PIA_C10    PIA_C11     2        0.000      24.543    
+    PIA_C8     PIA_C9     PIA_C10    PIA_H24     2        180.000    68.087    
+    PIA_H23    PIA_C9     PIA_C10    PIA_C11     2        180.000    64.973    
+    PIA_H23    PIA_C9     PIA_C10    PIA_H24     2        0.000      41.999    
+    PIA_C9     PIA_C10    PIA_C11    PIA_C12     2        0.000      131.417   
+    PIA_C9     PIA_C10    PIA_C11    PIA_H25     2        180.000    65.813    
+    PIA_H24    PIA_C10    PIA_C11    PIA_C12     2        180.000    70.372    
+    PIA_H24    PIA_C10    PIA_C11    PIA_H25     2        0.000      40.252    
+    PIA_C10    PIA_C11    PIA_C12    PIA_C7      2        0.000      0.000     
+    PIA_C10    PIA_C11    PIA_C12    PIA_C13     2        180.000    79.287    
+    PIA_H25    PIA_C11    PIA_C12    PIA_C7      2        180.000    56.224    
+    PIA_H25    PIA_C11    PIA_C12    PIA_C13     2        0.000      41.332    
+    PIA_C7     PIA_C12    PIA_C13    PIA_N14     2        180.000    30.867    
+    PIA_C7     PIA_C12    PIA_C13    PIA_C17     2        0.000      13.614    
+    PIA_C11    PIA_C12    PIA_C13    PIA_N14     2        0.000      7.239     
+    PIA_C11    PIA_C12    PIA_C13    PIA_C17     2        180.000    54.496    
+    PIA_C12    PIA_C13    PIA_N14    PIA_C15     2        180.000    21.439    
+    PIA_C17    PIA_C13    PIA_N14    PIA_C15     2        0.000      103.805   
+    PIA_C12    PIA_C13    PIA_C17    PIA_C4      2        0.000      52.171    
+    PIA_C12    PIA_C13    PIA_C17    PIA_N16     2        180.000    53.839    
+    PIA_N14    PIA_C13    PIA_C17    PIA_C4      2        180.000    0.000     
+    PIA_N14    PIA_C13    PIA_C17    PIA_N16     2        0.000      0.000     
+    PIA_C13    PIA_N14    PIA_C15    PIA_N16     2        0.000      271.299   
+    PIA_N14    PIA_C15    PIA_N16    PIA_C17     2        0.000      0.001     
+    PIA_C15    PIA_N16    PIA_C17    PIA_C4      2        180.000    96.943    
+    PIA_C15    PIA_N16    PIA_C17    PIA_C13     2        0.000      366.365   

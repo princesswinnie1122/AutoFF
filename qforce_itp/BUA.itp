@@ -1,0 +1,88 @@
+[ bondtypes ]
+    BUA_C1     BUA_C2     1        0.15373    164010    
+    BUA_C1     BUA_H11    1        0.10936    278038    
+    BUA_C1     BUA_H12    1        0.10936    278038    
+    BUA_C1     BUA_H13    1        0.10936    278038    
+    BUA_C2     BUA_C3     1        0.15373    164010    
+    BUA_C2     BUA_C4     1        0.15373    164010    
+    BUA_C2     BUA_C5     1        0.15333    177083    
+    BUA_C3     BUA_H14    1        0.10936    278038    
+    BUA_C3     BUA_H15    1        0.10936    278038    
+    BUA_C3     BUA_H16    1        0.10936    278038    
+    BUA_C4     BUA_H17    1        0.10936    278038    
+    BUA_C4     BUA_H18    1        0.10936    278038    
+    BUA_C4     BUA_H19    1        0.10936    278038    
+    BUA_C5     BUA_C6     1        0.13968    287550    
+    BUA_C5     BUA_C10    1        0.13968    287550    
+    BUA_C6     BUA_C7     1        0.13893    306989    
+    BUA_C6     BUA_H20    1        0.10837    301937    
+    BUA_C7     BUA_C8     1        0.13882    310501    
+    BUA_C7     BUA_H21    1        0.10845    302235    
+    BUA_C8     BUA_C9     1        0.13882    310501    
+    BUA_C9     BUA_C10    1        0.13893    306989    
+    BUA_C9     BUA_H23    1        0.10845    302235    
+    BUA_C10    BUA_H24    1        0.10837    301937    
+
+[ angletypes ]
+    BUA_C1     BUA_C2     BUA_C3      1        108.602    592.713   
+    BUA_C1     BUA_C2     BUA_C4      1        108.602    592.713   
+    BUA_C1     BUA_C2     BUA_C5      1        110.330    496.524   
+    BUA_C2     BUA_C1     BUA_H11     1        110.946    304.892   
+    BUA_C2     BUA_C1     BUA_H12     1        110.946    304.892   
+    BUA_C2     BUA_C1     BUA_H13     1        110.946    304.892   
+    BUA_C2     BUA_C3     BUA_H14     1        110.946    304.892   
+    BUA_C2     BUA_C3     BUA_H15     1        110.946    304.892   
+    BUA_C2     BUA_C3     BUA_H16     1        110.946    304.892   
+    BUA_C2     BUA_C4     BUA_H17     1        110.946    304.892   
+    BUA_C2     BUA_C4     BUA_H18     1        110.946    304.892   
+    BUA_C2     BUA_C4     BUA_H19     1        110.946    304.892   
+    BUA_C2     BUA_C5     BUA_C6      1        121.288    536.122   
+    BUA_C2     BUA_C5     BUA_C10     1        121.288    536.122   
+    BUA_C3     BUA_C2     BUA_C4      1        108.602    592.713   
+    BUA_C3     BUA_C2     BUA_C5      1        110.330    496.524   
+    BUA_C4     BUA_C2     BUA_C5      1        110.330    496.524   
+    BUA_C5     BUA_C6     BUA_C7      1        121.420    344.258   
+    BUA_C5     BUA_C6     BUA_H20     1        120.048    266.959   
+    BUA_C5     BUA_C10    BUA_C9      1        121.420    344.258   
+    BUA_C5     BUA_C10    BUA_H24     1        120.048    266.959   
+    BUA_C6     BUA_C5     BUA_C10     1        117.423    416.689   
+    BUA_C6     BUA_C7     BUA_C8      1        120.316    374.382   
+    BUA_C6     BUA_C7     BUA_H21     1        119.582    334.153   
+    BUA_C7     BUA_C6     BUA_H20     1        118.532    338.834   
+    BUA_C7     BUA_C8     BUA_C9      1        119.105    419.667   
+    BUA_C8     BUA_C7     BUA_H21     1        120.102    309.029   
+    BUA_C8     BUA_C9     BUA_C10     1        120.316    374.382   
+    BUA_C8     BUA_C9     BUA_H23     1        120.102    309.029   
+    BUA_C9     BUA_C10    BUA_H24     1        118.532    338.834   
+    BUA_C10    BUA_C9     BUA_H23     1        119.582    334.153   
+    BUA_H11    BUA_C1     BUA_H12     1        107.954    254.056   
+    BUA_H11    BUA_C1     BUA_H13     1        107.954    254.056   
+    BUA_H12    BUA_C1     BUA_H13     1        107.954    254.056   
+    BUA_H14    BUA_C3     BUA_H15     1        107.954    254.056   
+    BUA_H14    BUA_C3     BUA_H16     1        107.954    254.056   
+    BUA_H15    BUA_C3     BUA_H16     1        107.954    254.056   
+    BUA_H17    BUA_C4     BUA_H18     1        107.954    254.056   
+    BUA_H17    BUA_C4     BUA_H19     1        107.954    254.056   
+    BUA_H18    BUA_C4     BUA_H19     1        107.954    254.056   
+
+[ dihedraltypes ]
+    BUA_C2     BUA_C5     BUA_C6     BUA_C7      2        180.000    137.220   
+    BUA_C2     BUA_C5     BUA_C6     BUA_H20     2        0.000      57.299    
+    BUA_C10    BUA_C5     BUA_C6     BUA_C7      2        0.000      100.062   
+    BUA_C10    BUA_C5     BUA_C6     BUA_H20     2        180.000    76.945    
+    BUA_C2     BUA_C5     BUA_C10    BUA_C9      2        180.000    137.220   
+    BUA_C2     BUA_C5     BUA_C10    BUA_H24     2        0.000      57.299    
+    BUA_C6     BUA_C5     BUA_C10    BUA_C9      2        0.000      100.062   
+    BUA_C6     BUA_C5     BUA_C10    BUA_H24     2        180.000    76.945    
+    BUA_C5     BUA_C6     BUA_C7     BUA_C8      2        0.000      51.364    
+    BUA_C5     BUA_C6     BUA_C7     BUA_H21     2        180.000    67.542    
+    BUA_H20    BUA_C6     BUA_C7     BUA_C8      2        180.000    46.626    
+    BUA_H20    BUA_C6     BUA_C7     BUA_H21     2        0.000      31.510    
+    BUA_C6     BUA_C7     BUA_C8     BUA_C9      2        0.000      88.107    
+    BUA_H21    BUA_C7     BUA_C8     BUA_C9      2        180.000    85.586    
+    BUA_C7     BUA_C8     BUA_C9     BUA_C10     2        0.000      88.107    
+    BUA_C7     BUA_C8     BUA_C9     BUA_H23     2        180.000    85.586    
+    BUA_C8     BUA_C9     BUA_C10    BUA_C5      2        0.000      51.364    
+    BUA_C8     BUA_C9     BUA_C10    BUA_H24     2        180.000    46.626    
+    BUA_H23    BUA_C9     BUA_C10    BUA_C5      2        180.000    67.542    
+    BUA_H23    BUA_C9     BUA_C10    BUA_H24     2        0.000      31.510    

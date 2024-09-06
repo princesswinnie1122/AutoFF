@@ -1,0 +1,90 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[ PTB ]
+  [ atoms ]
+    C1    PTB_C1  
+    C2    PTB_C2  
+    N3    PTB_N3  
+    C4    PTB_C4  
+    C5    PTB_C5  
+    C6    PTB_C6  
+    C7    PTB_C7  
+    C8    PTB_C8  
+    C9    PTB_C9  
+    C10   PTB_C10 
+    C11   PTB_C11 
+    C12   PTB_C12 
+    N13   PTB_N13 
+    C14   PTB_C14 
+    H15   PTB_H15 
+    H18   PTB_H18 
+    H19   PTB_H19 
+    H21   PTB_H21 
+
+  [ bonds ]
+    C1    C2   
+    C1    C6   
+    C1    H15  
+    C2    N3   
+    N3    C4   
+    C4    C5   
+    C4    C14  
+    C5    C6   
+    C5    C7   
+    C7    C8   
+    C7    H18  
+    C8    C9   
+    C8    H19  
+    C9    C10  
+    C9    C14  
+    C10   C11  
+    C11   C12  
+    C11   H21  
+    C12   N13  
+    N13   C14  
+
+  [ impropers ]
+    C6    C1    C2    N3
+    H15   C1    C2    N3
+    C2    C1    C6    C5
+    H15   C1    C6    C5
+    C1    C2    N3    C4
+    C2    N3    C4    C5
+    C2    N3    C4    C14
+    N3    C4    C5    C6
+    N3    C4    C5    C7
+    C14   C4    C5    C6
+    C14   C4    C5    C7
+    N3    C4    C14   C9
+    N3    C4    C14   N13
+    C5    C4    C14   C9
+    C5    C4    C14   N13
+    C4    C5    C6    C1
+    C7    C5    C6    C1
+    C4    C5    C7    C8
+    C4    C5    C7    H18
+    C6    C5    C7    C8
+    C6    C5    C7    H18
+    C5    C7    C8    C9
+    C5    C7    C8    H19
+    H18   C7    C8    C9
+    H18   C7    C8    H19
+    C7    C8    C9    C10
+    C7    C8    C9    C14
+    H19   C8    C9    C10
+    H19   C8    C9    C14
+    C8    C9    C10   C11
+    C14   C9    C10   C11
+    C8    C9    C14   C4
+    C8    C9    C14   N13
+    C10   C9    C14   C4
+    C10   C9    C14   N13
+    C9    C10   C11   C12
+    C9    C10   C11   H21
+    C10   C11   C12   N13
+    H21   C11   C12   N13
+    C11   C12   N13   C14
+    C12   N13   C14   C4
+    C12   N13   C14   C9

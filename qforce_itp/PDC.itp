@@ -1,0 +1,45 @@
+[ bondtypes ]
+    PDC_C1     PDC_C2     1        0.13879    313207    
+    PDC_C1     PDC_C6     1        0.13879    313207    
+    PDC_C2     PDC_C3     1        0.13899    288978    
+    PDC_C2     PDC_H8     1        0.10833    304622    
+    PDC_C3     PDC_N4     1        0.13321    339134    
+    PDC_C3     PDC_H9     1        0.10866    295396    
+    PDC_N4     PDC_C5     1        0.13321    339134    
+    PDC_C5     PDC_C6     1        0.13899    288978    
+    PDC_C5     PDC_H10    1        0.10866    295396    
+    PDC_C6     PDC_H11    1        0.10833    304622    
+
+[ angletypes ]
+    PDC_C1     PDC_C2     PDC_C3      1        118.432    300.179   
+    PDC_C1     PDC_C2     PDC_H8      1        121.311    337.204   
+    PDC_C1     PDC_C6     PDC_C5      1        118.432    300.179   
+    PDC_C1     PDC_C6     PDC_H11     1        121.311    337.204   
+    PDC_C2     PDC_C1     PDC_C6      1        118.514    473.846   
+    PDC_C2     PDC_C3     PDC_N4      1        123.730    600.342   
+    PDC_C2     PDC_C3     PDC_H9      1        120.298    217.435   
+    PDC_C3     PDC_C2     PDC_H8      1        120.258    325.631   
+    PDC_C3     PDC_N4     PDC_C5      1        117.162    331.698   
+    PDC_N4     PDC_C3     PDC_H9      1        115.972    376.834   
+    PDC_N4     PDC_C5     PDC_C6      1        123.730    600.342   
+    PDC_N4     PDC_C5     PDC_H10     1        115.972    376.834   
+    PDC_C5     PDC_C6     PDC_H11     1        120.258    325.631   
+    PDC_C6     PDC_C5     PDC_H10     1        120.298    217.435   
+
+[ dihedraltypes ]
+    PDC_C6     PDC_C1     PDC_C2     PDC_C3      2        0.000      69.181    
+    PDC_C6     PDC_C1     PDC_C2     PDC_H8      2        180.000    43.757    
+    PDC_C2     PDC_C1     PDC_C6     PDC_C5      2        0.000      69.181    
+    PDC_C2     PDC_C1     PDC_C6     PDC_H11     2        180.000    43.757    
+    PDC_C1     PDC_C2     PDC_C3     PDC_N4      2        0.000      116.226   
+    PDC_C1     PDC_C2     PDC_C3     PDC_H9      2        180.000    116.425   
+    PDC_H8     PDC_C2     PDC_C3     PDC_N4      2        180.000    75.656    
+    PDC_H8     PDC_C2     PDC_C3     PDC_H9      2        0.000      55.941    
+    PDC_C2     PDC_C3     PDC_N4     PDC_C5      2        0.000      79.405    
+    PDC_H9     PDC_C3     PDC_N4     PDC_C5      2        180.000    105.226   
+    PDC_C3     PDC_N4     PDC_C5     PDC_C6      2        0.000      79.405    
+    PDC_C3     PDC_N4     PDC_C5     PDC_H10     2        180.000    105.226   
+    PDC_N4     PDC_C5     PDC_C6     PDC_C1      2        0.000      116.226   
+    PDC_N4     PDC_C5     PDC_C6     PDC_H11     2        180.000    75.656    
+    PDC_H10    PDC_C5     PDC_C6     PDC_C1      2        180.000    116.425   
+    PDC_H10    PDC_C5     PDC_C6     PDC_H11     2        0.000      55.941    

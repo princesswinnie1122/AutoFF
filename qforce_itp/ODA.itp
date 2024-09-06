@@ -1,0 +1,20 @@
+[ bondtypes ]
+    ODA_C1     ODA_N2     1        0.12821    462062    
+    ODA_C1     ODA_O5     1        0.13487    257708    
+    ODA_N2     ODA_N3     1        0.13934    204735    
+    ODA_N3     ODA_C4     1        0.12821    462062    
+    ODA_C4     ODA_O5     1        0.13487    257708    
+
+[ angletypes ]
+    ODA_C1     ODA_N2     ODA_N3      1        105.818    802.720   
+    ODA_C1     ODA_O5     ODA_C4      1        101.735    874.268   
+    ODA_N2     ODA_C1     ODA_O5      1        113.315    701.478   
+    ODA_N2     ODA_N3     ODA_C4      1        105.818    802.720   
+    ODA_N3     ODA_C4     ODA_O5      1        113.315    701.478   
+
+[ dihedraltypes ]
+    ODA_O5     ODA_C1     ODA_N2     ODA_N3      2        0.000      0.000     
+    ODA_N2     ODA_C1     ODA_O5     ODA_C4      2        0.000      273.077   
+    ODA_C1     ODA_N2     ODA_N3     ODA_C4      2        0.000      418.558   
+    ODA_N2     ODA_N3     ODA_C4     ODA_O5      2        0.000      0.000     
+    ODA_N3     ODA_C4     ODA_O5     ODA_C1      2        0.000      273.077   

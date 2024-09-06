@@ -1,0 +1,54 @@
+[ bondtypes ]
+    BNA_N1     BNA_C2     1        0.11514    1098258   
+    BNA_C2     BNA_C3     1        0.14345    275584    
+    BNA_C3     BNA_C4     1        0.13964    289503    
+    BNA_C3     BNA_C8     1        0.13964    289503    
+    BNA_C4     BNA_C5     1        0.13867    314601    
+    BNA_C4     BNA_H9     1        0.10831    308929    
+    BNA_C5     BNA_C6     1        0.13903    304738    
+    BNA_C5     BNA_H10    1        0.10834    306200    
+    BNA_C6     BNA_C7     1        0.13903    304738    
+    BNA_C7     BNA_C8     1        0.13867    314601    
+    BNA_C7     BNA_H12    1        0.10834    306200    
+    BNA_C8     BNA_H13    1        0.10831    308929    
+
+[ angletypes ]
+    BNA_N1     BNA_C2     BNA_C3      1        180.000    218.129   
+    BNA_C2     BNA_C3     BNA_C4      1        119.832    507.634   
+    BNA_C2     BNA_C3     BNA_C8      1        119.832    507.634   
+    BNA_C3     BNA_C4     BNA_C5      1        119.584    391.889   
+    BNA_C3     BNA_C4     BNA_H9      1        119.654    297.752   
+    BNA_C3     BNA_C8     BNA_C7      1        119.584    391.889   
+    BNA_C3     BNA_C8     BNA_H13     1        119.654    297.752   
+    BNA_C4     BNA_C3     BNA_C8      1        120.336    237.519   
+    BNA_C4     BNA_C5     BNA_C6      1        120.138    398.063   
+    BNA_C4     BNA_C5     BNA_H10     1        119.709    317.468   
+    BNA_C5     BNA_C4     BNA_H9      1        120.762    345.519   
+    BNA_C5     BNA_C6     BNA_C7      1        120.220    397.029   
+    BNA_C6     BNA_C5     BNA_H10     1        120.153    310.167   
+    BNA_C6     BNA_C7     BNA_C8      1        120.138    398.063   
+    BNA_C6     BNA_C7     BNA_H12     1        120.153    310.167   
+    BNA_C7     BNA_C8     BNA_H13     1        120.762    345.519   
+    BNA_C8     BNA_C7     BNA_H12     1        119.709    317.468   
+
+[ dihedraltypes ]
+    BNA_C2     BNA_C3     BNA_C4     BNA_C5      2        180.000    118.563   
+    BNA_C2     BNA_C3     BNA_C4     BNA_H9      2        0.000      58.449    
+    BNA_C8     BNA_C3     BNA_C4     BNA_C5      2        0.000      82.465    
+    BNA_C8     BNA_C3     BNA_C4     BNA_H9      2        180.000    65.735    
+    BNA_C2     BNA_C3     BNA_C8     BNA_C7      2        180.000    118.563   
+    BNA_C2     BNA_C3     BNA_C8     BNA_H13     2        0.000      58.449    
+    BNA_C4     BNA_C3     BNA_C8     BNA_C7      2        0.000      82.465    
+    BNA_C4     BNA_C3     BNA_C8     BNA_H13     2        180.000    65.735    
+    BNA_C3     BNA_C4     BNA_C5     BNA_C6      2        0.000      70.395    
+    BNA_C3     BNA_C4     BNA_C5     BNA_H10     2        180.000    62.622    
+    BNA_H9     BNA_C4     BNA_C5     BNA_C6      2        180.000    62.876    
+    BNA_H9     BNA_C4     BNA_C5     BNA_H10     2        0.000      36.735    
+    BNA_C4     BNA_C5     BNA_C6     BNA_C7      2        0.000      79.812    
+    BNA_H10    BNA_C5     BNA_C6     BNA_C7      2        180.000    78.197    
+    BNA_C5     BNA_C6     BNA_C7     BNA_C8      2        0.000      79.812    
+    BNA_C5     BNA_C6     BNA_C7     BNA_H12     2        180.000    78.197    
+    BNA_C6     BNA_C7     BNA_C8     BNA_C3      2        0.000      70.395    
+    BNA_C6     BNA_C7     BNA_C8     BNA_H13     2        180.000    62.876    
+    BNA_H12    BNA_C7     BNA_C8     BNA_C3      2        180.000    62.622    
+    BNA_H12    BNA_C7     BNA_C8     BNA_H13     2        0.000      36.735    

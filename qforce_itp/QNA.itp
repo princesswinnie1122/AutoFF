@@ -1,0 +1,84 @@
+[ bondtypes ]
+    QNA_C1     QNA_C2     1        0.14143    263084    
+    QNA_C1     QNA_C10    1        0.13676    362358    
+    QNA_C1     QNA_H11    1        0.10839    304731    
+    QNA_C2     QNA_C3     1        0.13675    366925    
+    QNA_C2     QNA_H12    1        0.10841    303589    
+    QNA_C3     QNA_C4     1        0.14170    257014    
+    QNA_C4     QNA_N5     1        0.13620    285133    
+    QNA_C4     QNA_C9     1        0.14189    238452    
+    QNA_N5     QNA_C6     1        0.13084    404593    
+    QNA_C6     QNA_C7     1        0.14147    244858    
+    QNA_C6     QNA_H14    1        0.10876    293114    
+    QNA_C7     QNA_C8     1        0.13656    368936    
+    QNA_C7     QNA_H15    1        0.10832    305946    
+    QNA_C8     QNA_C9     1        0.14149    265809    
+    QNA_C8     QNA_H16    1        0.10854    303533    
+    QNA_C9     QNA_C10    1        0.14169    259660    
+    QNA_C10    QNA_H17    1        0.10852    303182    
+
+[ angletypes ]
+    QNA_C1     QNA_C2     QNA_C3      1        120.551    383.367   
+    QNA_C1     QNA_C2     QNA_H12     1        119.446    297.396   
+    QNA_C1     QNA_C10    QNA_C9      1        120.395    259.023   
+    QNA_C1     QNA_C10    QNA_H17     1        120.652    395.840   
+    QNA_C2     QNA_C1     QNA_C10     1        120.313    405.815   
+    QNA_C2     QNA_C1     QNA_H11     1        119.571    306.067   
+    QNA_C2     QNA_C3     QNA_C4      1        120.423    336.905   
+    QNA_C3     QNA_C2     QNA_H12     1        120.003    309.563   
+    QNA_C3     QNA_C4     QNA_N5      1        118.354    725.430   
+    QNA_C3     QNA_C4     QNA_C9      1        119.013    272.389   
+    QNA_C4     QNA_N5     QNA_C6      1        117.694    257.060   
+    QNA_C4     QNA_C9     QNA_C8      1        117.513    390.759   
+    QNA_C4     QNA_C9     QNA_C10     1        119.305    487.071   
+    QNA_N5     QNA_C4     QNA_C9      1        122.633    533.490   
+    QNA_N5     QNA_C6     QNA_C7      1        124.255    637.488   
+    QNA_N5     QNA_C6     QNA_H14     1        116.264    376.723   
+    QNA_C6     QNA_C7     QNA_C8      1        118.682    303.548   
+    QNA_C6     QNA_C7     QNA_H15     1        119.791    296.969   
+    QNA_C7     QNA_C6     QNA_H14     1        119.481    199.891   
+    QNA_C7     QNA_C8     QNA_C9      1        119.224    344.137   
+    QNA_C7     QNA_C8     QNA_H16     1        121.220    396.110   
+    QNA_C8     QNA_C7     QNA_H15     1        121.528    343.434   
+    QNA_C8     QNA_C9     QNA_C10     1        123.182    717.448   
+    QNA_C9     QNA_C8     QNA_H16     1        119.556    176.125   
+    QNA_C9     QNA_C10    QNA_H17     1        118.953    174.596   
+    QNA_C10    QNA_C1     QNA_H11     1        120.116    317.706   
+
+[ dihedraltypes ]
+    QNA_C10    QNA_C1     QNA_C2     QNA_C3      2        0.000      28.829    
+    QNA_C10    QNA_C1     QNA_C2     QNA_H12     2        180.000    61.705    
+    QNA_H11    QNA_C1     QNA_C2     QNA_C3      2        180.000    58.619    
+    QNA_H11    QNA_C1     QNA_C2     QNA_H12     2        0.000      40.912    
+    QNA_C2     QNA_C1     QNA_C10    QNA_C9      2        0.000      134.454   
+    QNA_C2     QNA_C1     QNA_C10    QNA_H17     2        180.000    95.121    
+    QNA_H11    QNA_C1     QNA_C10    QNA_C9      2        180.000    71.017    
+    QNA_H11    QNA_C1     QNA_C10    QNA_H17     2        0.000      50.453    
+    QNA_C1     QNA_C2     QNA_C3     QNA_C4      2        0.000      113.712   
+    QNA_H12    QNA_C2     QNA_C3     QNA_C4      2        180.000    86.131    
+    QNA_C2     QNA_C3     QNA_C4     QNA_N5      2        180.000    67.864    
+    QNA_C2     QNA_C3     QNA_C4     QNA_C9      2        0.000      24.459    
+    QNA_C3     QNA_C4     QNA_N5     QNA_C6      2        180.000    92.945    
+    QNA_C9     QNA_C4     QNA_N5     QNA_C6      2        0.000      0.000     
+    QNA_C3     QNA_C4     QNA_C9     QNA_C8      2        180.000    116.828   
+    QNA_C3     QNA_C4     QNA_C9     QNA_C10     2        0.000      120.220   
+    QNA_N5     QNA_C4     QNA_C9     QNA_C8      2        0.000      146.004   
+    QNA_N5     QNA_C4     QNA_C9     QNA_C10     2        180.000    79.205    
+    QNA_C4     QNA_N5     QNA_C6     QNA_C7      2        0.000      137.773   
+    QNA_C4     QNA_N5     QNA_C6     QNA_H14     2        180.000    114.316   
+    QNA_N5     QNA_C6     QNA_C7     QNA_C8      2        0.000      59.996    
+    QNA_N5     QNA_C6     QNA_C7     QNA_H15     2        180.000    72.955    
+    QNA_H14    QNA_C6     QNA_C7     QNA_C8      2        180.000    102.298   
+    QNA_H14    QNA_C6     QNA_C7     QNA_H15     2        0.000      61.051    
+    QNA_C6     QNA_C7     QNA_C8     QNA_C9      2        0.000      113.939   
+    QNA_C6     QNA_C7     QNA_C8     QNA_H16     2        180.000    80.932    
+    QNA_H15    QNA_C7     QNA_C8     QNA_C9      2        180.000    36.318    
+    QNA_H15    QNA_C7     QNA_C8     QNA_H16     2        0.000      34.134    
+    QNA_C7     QNA_C8     QNA_C9     QNA_C4      2        0.000      2.157     
+    QNA_C7     QNA_C8     QNA_C9     QNA_C10     2        180.000    71.511    
+    QNA_H16    QNA_C8     QNA_C9     QNA_C4      2        180.000    74.130    
+    QNA_H16    QNA_C8     QNA_C9     QNA_C10     2        0.000      48.121    
+    QNA_C4     QNA_C9     QNA_C10    QNA_C1      2        0.000      0.000     
+    QNA_C4     QNA_C9     QNA_C10    QNA_H17     2        180.000    41.794    
+    QNA_C8     QNA_C9     QNA_C10    QNA_C1      2        180.000    68.247    
+    QNA_C8     QNA_C9     QNA_C10    QNA_H17     2        0.000      29.038    

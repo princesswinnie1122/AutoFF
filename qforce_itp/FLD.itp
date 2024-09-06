@@ -1,0 +1,107 @@
+[ bondtypes ]
+    FLD_C1     FLD_C2     1        0.13930    297779    
+    FLD_C1     FLD_C6     1        0.13928    300288    
+    FLD_C2     FLD_C3     1        0.13902    305512    
+    FLD_C2     FLD_H15    1        0.10843    303568    
+    FLD_C3     FLD_C4     1        0.13894    311542    
+    FLD_C3     FLD_H16    1        0.10848    301900    
+    FLD_C4     FLD_C5     1        0.14016    275137    
+    FLD_C4     FLD_C13    1        0.14681    225359    
+    FLD_C5     FLD_C6     1        0.13847    324499    
+    FLD_C5     FLD_C7     1        0.15097    190552    
+    FLD_C6     FLD_H17    1        0.10851    302048    
+    FLD_C7     FLD_C8     1        0.15097    190552    
+    FLD_C8     FLD_C9     1        0.13847    324499    
+    FLD_C8     FLD_C13    1        0.14016    275137    
+    FLD_C9     FLD_C10    1        0.13928    300288    
+    FLD_C9     FLD_H20    1        0.10851    302048    
+    FLD_C10    FLD_C11    1        0.13930    297779    
+    FLD_C11    FLD_C12    1        0.13902    305512    
+    FLD_C11    FLD_H22    1        0.10843    303568    
+    FLD_C12    FLD_C13    1        0.13894    311542    
+    FLD_C12    FLD_H23    1        0.10848    301900    
+
+[ angletypes ]
+    FLD_C1     FLD_C2     FLD_C3      1        120.625    366.242   
+    FLD_C1     FLD_C2     FLD_H15     1        119.630    322.884   
+    FLD_C1     FLD_C6     FLD_C5      1        118.942    386.361   
+    FLD_C1     FLD_C6     FLD_H17     1        120.302    300.217   
+    FLD_C2     FLD_C1     FLD_C6      1        120.610    382.449   
+    FLD_C2     FLD_C3     FLD_C4      1        118.786    432.049   
+    FLD_C2     FLD_C3     FLD_H16     1        120.414    313.899   
+    FLD_C3     FLD_C2     FLD_H15     1        119.745    311.562   
+    FLD_C3     FLD_C4     FLD_C5      1        120.593    277.370   
+    FLD_C3     FLD_C4     FLD_C13     1        130.890    406.271   
+    FLD_C4     FLD_C3     FLD_H16     1        120.800    297.408   
+    FLD_C4     FLD_C5     FLD_C6      1        120.445    340.436   
+    FLD_C4     FLD_C5     FLD_C7      1        110.123    654.269   
+    FLD_C4     FLD_C13    FLD_C8      1        108.517    568.804   
+    FLD_C4     FLD_C13    FLD_C12     1        130.890    406.271   
+    FLD_C5     FLD_C4     FLD_C13     1        108.517    568.804   
+    FLD_C5     FLD_C6     FLD_H17     1        120.756    280.195   
+    FLD_C5     FLD_C7     FLD_C8      1        102.719    348.489   
+    FLD_C6     FLD_C5     FLD_C7      1        129.432    509.768   
+    FLD_C7     FLD_C8     FLD_C9      1        129.432    509.768   
+    FLD_C7     FLD_C8     FLD_C13     1        110.123    654.269   
+    FLD_C8     FLD_C9     FLD_C10     1        118.942    386.361   
+    FLD_C8     FLD_C9     FLD_H20     1        120.756    280.195   
+    FLD_C8     FLD_C13    FLD_C12     1        120.593    277.370   
+    FLD_C9     FLD_C8     FLD_C13     1        120.445    340.436   
+    FLD_C9     FLD_C10    FLD_C11     1        120.610    382.449   
+    FLD_C10    FLD_C9     FLD_H20     1        120.302    300.217   
+    FLD_C10    FLD_C11    FLD_C12     1        120.625    366.242   
+    FLD_C10    FLD_C11    FLD_H22     1        119.630    322.884   
+    FLD_C11    FLD_C12    FLD_C13     1        118.786    432.049   
+    FLD_C11    FLD_C12    FLD_H23     1        120.414    313.899   
+    FLD_C12    FLD_C11    FLD_H22     1        119.745    311.562   
+    FLD_C13    FLD_C12    FLD_H23     1        120.800    297.408   
+
+[ dihedraltypes ]
+    FLD_C6     FLD_C1     FLD_C2     FLD_C3      2        0.000      123.071   
+    FLD_C6     FLD_C1     FLD_C2     FLD_H15     2        180.000    64.298    
+    FLD_C2     FLD_C1     FLD_C6     FLD_C5      2        0.000      25.516    
+    FLD_C2     FLD_C1     FLD_C6     FLD_H17     2        180.000    66.753    
+    FLD_C1     FLD_C2     FLD_C3     FLD_C4      2        0.000      38.047    
+    FLD_C1     FLD_C2     FLD_C3     FLD_H16     2        180.000    77.768    
+    FLD_H15    FLD_C2     FLD_C3     FLD_C4      2        180.000    73.592    
+    FLD_H15    FLD_C2     FLD_C3     FLD_H16     2        0.000      43.580    
+    FLD_C2     FLD_C3     FLD_C4     FLD_C5      2        0.000      118.683   
+    FLD_C2     FLD_C3     FLD_C4     FLD_C13     2        180.000    63.046    
+    FLD_H16    FLD_C3     FLD_C4     FLD_C5      2        180.000    62.710    
+    FLD_H16    FLD_C3     FLD_C4     FLD_C13     2        0.000      34.461    
+    FLD_C3     FLD_C4     FLD_C5     FLD_C6      2        0.000      0.000     
+    FLD_C3     FLD_C4     FLD_C5     FLD_C7      2        180.000    53.824    
+    FLD_C13    FLD_C4     FLD_C5     FLD_C6      2        180.000    64.816    
+    FLD_C13    FLD_C4     FLD_C5     FLD_C7      2        0.000      0.001     
+    FLD_C3     FLD_C4     FLD_C13    FLD_C8      2        180.000    36.462    
+    FLD_C3     FLD_C4     FLD_C13    FLD_C12     2        0.000      0.000     
+    FLD_C5     FLD_C4     FLD_C13    FLD_C8      2        0.000      198.708   
+    FLD_C5     FLD_C4     FLD_C13    FLD_C12     2        180.000    36.462    
+    FLD_C4     FLD_C5     FLD_C6     FLD_C1      2        0.000      137.254   
+    FLD_C4     FLD_C5     FLD_C6     FLD_H17     2        180.000    73.531    
+    FLD_C7     FLD_C5     FLD_C6     FLD_C1      2        180.000    101.901   
+    FLD_C7     FLD_C5     FLD_C6     FLD_H17     2        0.000      40.164    
+    FLD_C4     FLD_C5     FLD_C7     FLD_C8      2        0.000      97.697    
+    FLD_C6     FLD_C5     FLD_C7     FLD_C8      2        180.000    28.432    
+    FLD_C5     FLD_C7     FLD_C8     FLD_C9      2        180.000    28.432    
+    FLD_C5     FLD_C7     FLD_C8     FLD_C13     2        0.000      97.697    
+    FLD_C7     FLD_C8     FLD_C9     FLD_C10     2        180.000    101.901   
+    FLD_C7     FLD_C8     FLD_C9     FLD_H20     2        0.000      40.164    
+    FLD_C13    FLD_C8     FLD_C9     FLD_C10     2        0.000      137.254   
+    FLD_C13    FLD_C8     FLD_C9     FLD_H20     2        180.000    73.531    
+    FLD_C7     FLD_C8     FLD_C13    FLD_C4      2        0.000      0.001     
+    FLD_C7     FLD_C8     FLD_C13    FLD_C12     2        180.000    53.824    
+    FLD_C9     FLD_C8     FLD_C13    FLD_C4      2        180.000    64.816    
+    FLD_C9     FLD_C8     FLD_C13    FLD_C12     2        0.000      0.000     
+    FLD_C8     FLD_C9     FLD_C10    FLD_C11     2        0.000      25.516    
+    FLD_H20    FLD_C9     FLD_C10    FLD_C11     2        180.000    66.753    
+    FLD_C9     FLD_C10    FLD_C11    FLD_C12     2        0.000      123.071   
+    FLD_C9     FLD_C10    FLD_C11    FLD_H22     2        180.000    64.298    
+    FLD_C10    FLD_C11    FLD_C12    FLD_C13     2        0.000      38.047    
+    FLD_C10    FLD_C11    FLD_C12    FLD_H23     2        180.000    77.768    
+    FLD_H22    FLD_C11    FLD_C12    FLD_C13     2        180.000    73.592    
+    FLD_H22    FLD_C11    FLD_C12    FLD_H23     2        0.000      43.580    
+    FLD_C11    FLD_C12    FLD_C13    FLD_C4      2        180.000    63.046    
+    FLD_C11    FLD_C12    FLD_C13    FLD_C8      2        0.000      118.683   
+    FLD_H23    FLD_C12    FLD_C13    FLD_C4      2        0.000      34.461    
+    FLD_H23    FLD_C12    FLD_C13    FLD_C8      2        180.000    62.710    

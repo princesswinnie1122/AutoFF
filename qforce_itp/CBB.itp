@@ -1,0 +1,114 @@
+[ bondtypes ]
+    CBB_C1     CBB_C2     1        0.14005    282721    
+    CBB_C1     CBB_C6     1        0.13855    320960    
+    CBB_C1     CBB_H14    1        0.10842    305521    
+    CBB_C2     CBB_C3     1        0.13852    315923    
+    CBB_C3     CBB_C4     1        0.13937    312880    
+    CBB_C3     CBB_H16    1        0.10845    303417    
+    CBB_C4     CBB_C5     1        0.14100    261379    
+    CBB_C4     CBB_C13    1        0.14483    230046    
+    CBB_C5     CBB_C6     1        0.13925    310810    
+    CBB_C5     CBB_N7     1        0.13808    289200    
+    CBB_C6     CBB_H17    1        0.10841    303886    
+    CBB_N7     CBB_C8     1        0.13808    289200    
+    CBB_C8     CBB_C9     1        0.13925    310810    
+    CBB_C8     CBB_C13    1        0.14100    261379    
+    CBB_C9     CBB_C10    1        0.13855    320960    
+    CBB_C9     CBB_H19    1        0.10841    303886    
+    CBB_C10    CBB_C11    1        0.14005    282721    
+    CBB_C10    CBB_H20    1        0.10842    305521    
+    CBB_C11    CBB_C12    1        0.13852    315923    
+    CBB_C11    CBB_H21    1        0.10836    304986    
+    CBB_C12    CBB_C13    1        0.13937    312880    
+    CBB_C12    CBB_H22    1        0.10845    303417    
+
+[ angletypes ]
+    CBB_C1     CBB_C2     CBB_C3      1        120.656    359.687   
+    CBB_C1     CBB_C6     CBB_C5      1        117.607    429.743   
+    CBB_C1     CBB_C6     CBB_H17     1        121.055    310.456   
+    CBB_C2     CBB_C1     CBB_C6      1        121.420    359.847   
+    CBB_C2     CBB_C1     CBB_H14     1        119.378    324.383   
+    CBB_C2     CBB_C3     CBB_C4      1        119.072    419.090   
+    CBB_C2     CBB_C3     CBB_H16     1        120.536    314.347   
+    CBB_C3     CBB_C4     CBB_C5      1        119.500    351.061   
+    CBB_C3     CBB_C4     CBB_C13     1        133.883    395.487   
+    CBB_C4     CBB_C3     CBB_H16     1        120.392    261.921   
+    CBB_C4     CBB_C5     CBB_C6      1        121.745    180.740   
+    CBB_C4     CBB_C5     CBB_N7      1        108.648    664.642   
+    CBB_C4     CBB_C13    CBB_C8      1        106.617    655.650   
+    CBB_C4     CBB_C13    CBB_C12     1        133.883    395.487   
+    CBB_C5     CBB_C4     CBB_C13     1        106.617    655.650   
+    CBB_C5     CBB_C6     CBB_H17     1        121.339    264.977   
+    CBB_C5     CBB_N7     CBB_C8      1        109.470    504.871   
+    CBB_C6     CBB_C1     CBB_H14     1        119.202    297.745   
+    CBB_C6     CBB_C5     CBB_N7      1        129.607    547.514   
+    CBB_N7     CBB_C8     CBB_C9      1        129.607    547.514   
+    CBB_N7     CBB_C8     CBB_C13     1        108.648    664.642   
+    CBB_C8     CBB_C9     CBB_C10     1        117.607    429.743   
+    CBB_C8     CBB_C9     CBB_H19     1        121.339    264.977   
+    CBB_C8     CBB_C13    CBB_C12     1        119.500    351.061   
+    CBB_C9     CBB_C8     CBB_C13     1        121.745    180.740   
+    CBB_C9     CBB_C10    CBB_C11     1        121.420    359.847   
+    CBB_C9     CBB_C10    CBB_H20     1        119.202    297.745   
+    CBB_C10    CBB_C9     CBB_H19     1        121.055    310.456   
+    CBB_C10    CBB_C11    CBB_C12     1        120.656    359.687   
+    CBB_C10    CBB_C11    CBB_H21     1        119.470    322.267   
+    CBB_C11    CBB_C10    CBB_H20     1        119.378    324.383   
+    CBB_C11    CBB_C12    CBB_C13     1        119.072    419.090   
+    CBB_C11    CBB_C12    CBB_H22     1        120.536    314.347   
+    CBB_C12    CBB_C11    CBB_H21     1        119.874    309.053   
+    CBB_C13    CBB_C12    CBB_H22     1        120.392    261.921   
+
+[ dihedraltypes ]
+    CBB_C6     CBB_C1     CBB_C2     CBB_C3      2        0.000      10.161    
+    CBB_H14    CBB_C1     CBB_C2     CBB_C3      2        180.000    75.142    
+    CBB_C2     CBB_C1     CBB_C6     CBB_C5      2        0.000      140.607   
+    CBB_C2     CBB_C1     CBB_C6     CBB_H17     2        180.000    65.124    
+    CBB_H14    CBB_C1     CBB_C6     CBB_C5      2        180.000    80.624    
+    CBB_H14    CBB_C1     CBB_C6     CBB_H17     2        0.000      38.543    
+    CBB_C1     CBB_C2     CBB_C3     CBB_C4      2        0.000      155.559   
+    CBB_C1     CBB_C2     CBB_C3     CBB_H16     2        180.000    80.810    
+    CBB_C2     CBB_C3     CBB_C4     CBB_C5      2        0.000      0.000     
+    CBB_C2     CBB_C3     CBB_C4     CBB_C13     2        180.000    43.913    
+    CBB_H16    CBB_C3     CBB_C4     CBB_C5      2        180.000    80.008    
+    CBB_H16    CBB_C3     CBB_C4     CBB_C13     2        0.000      29.590    
+    CBB_C3     CBB_C4     CBB_C5     CBB_C6      2        0.000      100.842   
+    CBB_C3     CBB_C4     CBB_C5     CBB_N7      2        180.000    1.095     
+    CBB_C13    CBB_C4     CBB_C5     CBB_C6      2        180.000    54.603    
+    CBB_C13    CBB_C4     CBB_C5     CBB_N7      2        0.000      0.000     
+    CBB_C3     CBB_C4     CBB_C13    CBB_C8      2        180.000    53.377    
+    CBB_C3     CBB_C4     CBB_C13    CBB_C12     2        0.000      0.000     
+    CBB_C5     CBB_C4     CBB_C13    CBB_C8      2        0.000      246.541   
+    CBB_C5     CBB_C4     CBB_C13    CBB_C12     2        180.000    53.377    
+    CBB_C4     CBB_C5     CBB_C6     CBB_C1      2        0.000      15.125    
+    CBB_C4     CBB_C5     CBB_C6     CBB_H17     2        180.000    58.090    
+    CBB_N7     CBB_C5     CBB_C6     CBB_C1      2        180.000    91.481    
+    CBB_N7     CBB_C5     CBB_C6     CBB_H17     2        0.000      32.808    
+    CBB_C4     CBB_C5     CBB_N7     CBB_C8      2        0.000      104.036   
+    CBB_C6     CBB_C5     CBB_N7     CBB_C8      2        180.000    30.592    
+    CBB_C5     CBB_N7     CBB_C8     CBB_C9      2        180.000    30.592    
+    CBB_C5     CBB_N7     CBB_C8     CBB_C13     2        0.000      104.036   
+    CBB_N7     CBB_C8     CBB_C9     CBB_C10     2        180.000    91.481    
+    CBB_N7     CBB_C8     CBB_C9     CBB_H19     2        0.000      32.808    
+    CBB_C13    CBB_C8     CBB_C9     CBB_C10     2        0.000      15.125    
+    CBB_C13    CBB_C8     CBB_C9     CBB_H19     2        180.000    58.090    
+    CBB_N7     CBB_C8     CBB_C13    CBB_C4      2        0.000      0.000     
+    CBB_N7     CBB_C8     CBB_C13    CBB_C12     2        180.000    1.095     
+    CBB_C9     CBB_C8     CBB_C13    CBB_C4      2        180.000    54.603    
+    CBB_C9     CBB_C8     CBB_C13    CBB_C12     2        0.000      100.842   
+    CBB_C8     CBB_C9     CBB_C10    CBB_C11     2        0.000      140.607   
+    CBB_C8     CBB_C9     CBB_C10    CBB_H20     2        180.000    80.624    
+    CBB_H19    CBB_C9     CBB_C10    CBB_C11     2        180.000    65.124    
+    CBB_H19    CBB_C9     CBB_C10    CBB_H20     2        0.000      38.543    
+    CBB_C9     CBB_C10    CBB_C11    CBB_C12     2        0.000      10.161    
+    CBB_C9     CBB_C10    CBB_C11    CBB_H21     2        180.000    54.207    
+    CBB_H20    CBB_C10    CBB_C11    CBB_C12     2        180.000    75.142    
+    CBB_H20    CBB_C10    CBB_C11    CBB_H21     2        0.000      36.757    
+    CBB_C10    CBB_C11    CBB_C12    CBB_C13     2        0.000      155.559   
+    CBB_C10    CBB_C11    CBB_C12    CBB_H22     2        180.000    80.810    
+    CBB_H21    CBB_C11    CBB_C12    CBB_C13     2        180.000    75.311    
+    CBB_H21    CBB_C11    CBB_C12    CBB_H22     2        0.000      43.293    
+    CBB_C11    CBB_C12    CBB_C13    CBB_C4      2        180.000    43.913    
+    CBB_C11    CBB_C12    CBB_C13    CBB_C8      2        0.000      0.000     
+    CBB_H22    CBB_C12    CBB_C13    CBB_C4      2        0.000      29.590    
+    CBB_H22    CBB_C12    CBB_C13    CBB_C8      2        180.000    80.008    

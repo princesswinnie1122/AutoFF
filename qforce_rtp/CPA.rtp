@@ -1,0 +1,38 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[ CPA ]
+  [ atoms ]
+    N1    CPA_N1  
+    C2    CPA_C2  
+    C3    CPA_C3  
+    C4    CPA_C4  
+    C5    CPA_C5  
+    C6    CPA_C6  
+    N7    CPA_N7  
+    C8    CPA_C8  
+    H10   CPA_H10 
+
+  [ bonds ]
+    N1    C2   
+    C2    C3   
+    C3    C4   
+    C3    C8   
+    C4    C5   
+    C5    C6   
+    C5    H10  
+    C6    N7   
+    N7    C8   
+
+  [ impropers ]
+    C2    C3    C4    C5
+    C8    C3    C4    C5
+    C2    C3    C8    N7
+    C4    C3    C8    N7
+    C3    C4    C5    C6
+    C3    C4    C5    H10
+    C4    C5    C6    N7
+    H10   C5    C6    N7
+    C5    C6    N7    C8
+    C6    N7    C8    C3

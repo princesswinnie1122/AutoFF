@@ -1,0 +1,76 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[ BUA ]
+  [ atoms ]
+    C1    BUA_C1  
+    C2    BUA_C2  
+    C3    BUA_C3  
+    C4    BUA_C4  
+    C5    BUA_C5  
+    C6    BUA_C6  
+    C7    BUA_C7  
+    C8    BUA_C8  
+    C9    BUA_C9  
+    C10   BUA_C10 
+    H11   BUA_H11 
+    H12   BUA_H12 
+    H13   BUA_H13 
+    H14   BUA_H14 
+    H15   BUA_H15 
+    H16   BUA_H16 
+    H17   BUA_H17 
+    H18   BUA_H18 
+    H19   BUA_H19 
+    H20   BUA_H20 
+    H21   BUA_H21 
+    H23   BUA_H23 
+    H24   BUA_H24 
+
+  [ bonds ]
+    C1    C2   
+    C1    H11  
+    C1    H12  
+    C1    H13  
+    C2    C3   
+    C2    C4   
+    C2    C5   
+    C3    H14  
+    C3    H15  
+    C3    H16  
+    C4    H17  
+    C4    H18  
+    C4    H19  
+    C5    C6   
+    C5    C10  
+    C6    C7   
+    C6    H20  
+    C7    C8   
+    C7    H21  
+    C8    C9   
+    C9    C10  
+    C9    H23  
+    C10   H24  
+
+  [ impropers ]
+    C2    C5    C6    C7
+    C2    C5    C6    H20
+    C10   C5    C6    C7
+    C10   C5    C6    H20
+    C2    C5    C10   C9
+    C2    C5    C10   H24
+    C6    C5    C10   C9
+    C6    C5    C10   H24
+    C5    C6    C7    C8
+    C5    C6    C7    H21
+    H20   C6    C7    C8
+    H20   C6    C7    H21
+    C6    C7    C8    C9
+    H21   C7    C8    C9
+    C7    C8    C9    C10
+    C7    C8    C9    H23
+    C8    C9    C10   C5
+    C8    C9    C10   H24
+    H23   C9    C10   C5
+    H23   C9    C10   H24

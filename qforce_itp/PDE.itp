@@ -1,0 +1,40 @@
+[ bondtypes ]
+    PDE_C1     PDE_C2     1        0.13879    313207    
+    PDE_C1     PDE_C6     1        0.13879    313207    
+    PDE_C1     PDE_H7     1        0.10842    305153    
+    PDE_C2     PDE_C3     1        0.13899    288978    
+    PDE_C2     PDE_H8     1        0.10833    304622    
+    PDE_C3     PDE_N4     1        0.13321    339134    
+    PDE_N4     PDE_C5     1        0.13321    339134    
+    PDE_C5     PDE_C6     1        0.13899    288978    
+    PDE_C6     PDE_H11    1        0.10833    304622    
+
+[ angletypes ]
+    PDE_C1     PDE_C2     PDE_C3      1        118.432    300.179   
+    PDE_C1     PDE_C2     PDE_H8      1        121.311    337.204   
+    PDE_C1     PDE_C6     PDE_C5      1        118.432    300.179   
+    PDE_C1     PDE_C6     PDE_H11     1        121.311    337.204   
+    PDE_C2     PDE_C1     PDE_C6      1        118.514    473.846   
+    PDE_C2     PDE_C1     PDE_H7      1        120.743    316.701   
+    PDE_C2     PDE_C3     PDE_N4      1        123.730    600.342   
+    PDE_C3     PDE_C2     PDE_H8      1        120.258    325.631   
+    PDE_C3     PDE_N4     PDE_C5      1        117.162    331.698   
+    PDE_N4     PDE_C5     PDE_C6      1        123.730    600.342   
+    PDE_C5     PDE_C6     PDE_H11     1        120.258    325.631   
+    PDE_C6     PDE_C1     PDE_H7      1        120.743    316.701   
+
+[ dihedraltypes ]
+    PDE_C6     PDE_C1     PDE_C2     PDE_C3      2        0.000      69.181    
+    PDE_C6     PDE_C1     PDE_C2     PDE_H8      2        180.000    43.757    
+    PDE_H7     PDE_C1     PDE_C2     PDE_C3      2        180.000    86.391    
+    PDE_H7     PDE_C1     PDE_C2     PDE_H8      2        0.000      37.363    
+    PDE_C2     PDE_C1     PDE_C6     PDE_C5      2        0.000      69.181    
+    PDE_C2     PDE_C1     PDE_C6     PDE_H11     2        180.000    43.757    
+    PDE_H7     PDE_C1     PDE_C6     PDE_C5      2        180.000    86.391    
+    PDE_H7     PDE_C1     PDE_C6     PDE_H11     2        0.000      37.363    
+    PDE_C1     PDE_C2     PDE_C3     PDE_N4      2        0.000      116.226   
+    PDE_H8     PDE_C2     PDE_C3     PDE_N4      2        180.000    75.656    
+    PDE_C2     PDE_C3     PDE_N4     PDE_C5      2        0.000      79.405    
+    PDE_C3     PDE_N4     PDE_C5     PDE_C6      2        0.000      79.405    
+    PDE_N4     PDE_C5     PDE_C6     PDE_C1      2        0.000      116.226   
+    PDE_N4     PDE_C5     PDE_C6     PDE_H11     2        180.000    75.656    

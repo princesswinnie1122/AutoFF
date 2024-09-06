@@ -1,0 +1,70 @@
+[ bondtypes ]
+    BMA_C1     BMA_C2     1        0.14052    274488    
+    BMA_C1     BMA_C9     1        0.13828    325114    
+    BMA_C1     BMA_H10    1        0.10838    303794    
+    BMA_C2     BMA_C3     1        0.13840    323985    
+    BMA_C2     BMA_H11    1        0.10840    305309    
+    BMA_C3     BMA_C4     1        0.13926    317160    
+    BMA_C3     BMA_H12    1        0.10838    305488    
+    BMA_C4     BMA_N5     1        0.13788    285473    
+    BMA_C4     BMA_C8     1        0.14057    258731    
+    BMA_N5     BMA_C6     1        0.13699    288184    
+    BMA_C6     BMA_N7     1        0.12990    430512    
+    BMA_N7     BMA_C8     1        0.13861    257265    
+    BMA_C8     BMA_C9     1        0.13959    317706    
+    BMA_C9     BMA_H15    1        0.10832    308594    
+
+[ angletypes ]
+    BMA_C1     BMA_C2     BMA_C3      1        121.548    366.701   
+    BMA_C1     BMA_C2     BMA_H11     1        119.223    327.648   
+    BMA_C1     BMA_C9     BMA_C8      1        118.069    438.411   
+    BMA_C1     BMA_C9     BMA_H15     1        121.847    318.160   
+    BMA_C2     BMA_C1     BMA_C9      1        121.365    347.862   
+    BMA_C2     BMA_C1     BMA_H10     1        119.048    320.936   
+    BMA_C2     BMA_C3     BMA_C4      1        116.664    402.249   
+    BMA_C2     BMA_C3     BMA_H12     1        121.327    311.644   
+    BMA_C3     BMA_C2     BMA_H11     1        119.229    302.954   
+    BMA_C3     BMA_C4     BMA_N5      1        132.890    557.475   
+    BMA_C3     BMA_C4     BMA_C8      1        122.585    235.667   
+    BMA_C4     BMA_C3     BMA_H12     1        122.008    229.053   
+    BMA_C4     BMA_N5     BMA_C6      1        106.672    576.664   
+    BMA_C4     BMA_C8     BMA_N7      1        110.440    688.385   
+    BMA_C4     BMA_C8     BMA_C9      1        119.770    215.842   
+    BMA_N5     BMA_C4     BMA_C8      1        104.525    649.874   
+    BMA_N5     BMA_C6     BMA_N7      1        113.778    795.714   
+    BMA_C6     BMA_N7     BMA_C8      1        104.584    632.648   
+    BMA_N7     BMA_C8     BMA_C9      1        129.791    564.307   
+    BMA_C8     BMA_C9     BMA_H15     1        120.084    224.963   
+    BMA_C9     BMA_C1     BMA_H10     1        119.587    301.311   
+
+[ dihedraltypes ]
+    BMA_C9     BMA_C1     BMA_C2     BMA_C3      2        0.000      8.257     
+    BMA_C9     BMA_C1     BMA_C2     BMA_H11     2        180.000    61.928    
+    BMA_H10    BMA_C1     BMA_C2     BMA_C3      2        180.000    55.318    
+    BMA_H10    BMA_C1     BMA_C2     BMA_H11     2        0.000      31.128    
+    BMA_C2     BMA_C1     BMA_C9     BMA_C8      2        0.000      156.019   
+    BMA_C2     BMA_C1     BMA_C9     BMA_H15     2        180.000    86.792    
+    BMA_H10    BMA_C1     BMA_C9     BMA_C8      2        180.000    84.269    
+    BMA_H10    BMA_C1     BMA_C9     BMA_H15     2        0.000      49.635    
+    BMA_C1     BMA_C2     BMA_C3     BMA_C4      2        0.000      151.075   
+    BMA_C1     BMA_C2     BMA_C3     BMA_H12     2        180.000    78.672    
+    BMA_H11    BMA_C2     BMA_C3     BMA_C4      2        180.000    85.978    
+    BMA_H11    BMA_C2     BMA_C3     BMA_H12     2        0.000      46.377    
+    BMA_C2     BMA_C3     BMA_C4     BMA_N5      2        180.000    62.104    
+    BMA_C2     BMA_C3     BMA_C4     BMA_C8      2        0.000      14.948    
+    BMA_H12    BMA_C3     BMA_C4     BMA_N5      2        0.000      19.416    
+    BMA_H12    BMA_C3     BMA_C4     BMA_C8      2        180.000    57.922    
+    BMA_C3     BMA_C4     BMA_N5     BMA_C6      2        180.000    36.187    
+    BMA_C8     BMA_C4     BMA_N5     BMA_C6      2        0.000      178.467   
+    BMA_C3     BMA_C4     BMA_C8     BMA_N7      2        180.000    35.085    
+    BMA_C3     BMA_C4     BMA_C8     BMA_C9      2        0.000      91.687    
+    BMA_N5     BMA_C4     BMA_C8     BMA_N7      2        0.000      0.004     
+    BMA_N5     BMA_C4     BMA_C8     BMA_C9      2        180.000    0.000     
+    BMA_C4     BMA_N5     BMA_C6     BMA_N7      2        0.000      114.014   
+    BMA_N5     BMA_C6     BMA_N7     BMA_C8      2        0.000      166.214   
+    BMA_C6     BMA_N7     BMA_C8     BMA_C4      2        0.000      248.423   
+    BMA_C6     BMA_N7     BMA_C8     BMA_C9      2        180.000    101.349   
+    BMA_C4     BMA_C8     BMA_C9     BMA_C1      2        0.000      0.074     
+    BMA_C4     BMA_C8     BMA_C9     BMA_H15     2        180.000    61.034    
+    BMA_N7     BMA_C8     BMA_C9     BMA_C1      2        180.000    49.634    
+    BMA_N7     BMA_C8     BMA_C9     BMA_H15     2        0.000      29.175    

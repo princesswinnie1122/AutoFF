@@ -1,0 +1,78 @@
+[ bondtypes ]
+    NYA_C1     NYA_C2     1        0.14154    242741    
+    NYA_C1     NYA_C10    1        0.13646    371848    
+    NYA_C1     NYA_H11    1        0.10830    306979    
+    NYA_C2     NYA_N3     1        0.13080    412014    
+    NYA_N3     NYA_C4     1        0.13581    281860    
+    NYA_C4     NYA_N5     1        0.13581    281860    
+    NYA_C4     NYA_C9     1        0.14198    223750    
+    NYA_N5     NYA_C6     1        0.13080    412014    
+    NYA_C6     NYA_C7     1        0.14154    242741    
+    NYA_C6     NYA_H13    1        0.10878    291850    
+    NYA_C7     NYA_C8     1        0.13646    371848    
+    NYA_C7     NYA_H14    1        0.10830    306979    
+    NYA_C8     NYA_C9     1        0.14139    266147    
+    NYA_C8     NYA_H15    1        0.10854    303608    
+    NYA_C9     NYA_C10    1        0.14139    266147    
+    NYA_C10    NYA_H16    1        0.10854    303608    
+
+[ angletypes ]
+    NYA_C1     NYA_C2     NYA_N3      1        124.653    628.908   
+    NYA_C1     NYA_C10    NYA_C9      1        118.885    329.017   
+    NYA_C1     NYA_C10    NYA_H16     1        121.489    397.100   
+    NYA_C2     NYA_C1     NYA_C10     1        118.408    319.225   
+    NYA_C2     NYA_C1     NYA_H11     1        119.899    299.941   
+    NYA_C2     NYA_N3     NYA_C4      1        117.762    279.934   
+    NYA_N3     NYA_C4     NYA_N5      1        115.916    742.714   
+    NYA_N3     NYA_C4     NYA_C9      1        122.042    356.784   
+    NYA_C4     NYA_N5     NYA_C6      1        117.762    279.934   
+    NYA_C4     NYA_C9     NYA_C8      1        118.250    424.430   
+    NYA_C4     NYA_C9     NYA_C10     1        118.250    424.430   
+    NYA_N5     NYA_C4     NYA_C9      1        122.042    356.784   
+    NYA_N5     NYA_C6     NYA_C7      1        124.653    628.908   
+    NYA_N5     NYA_C6     NYA_H13     1        116.086    367.599   
+    NYA_C6     NYA_C7     NYA_C8      1        118.408    319.225   
+    NYA_C6     NYA_C7     NYA_H14     1        119.899    299.941   
+    NYA_C7     NYA_C6     NYA_H13     1        119.261    191.387   
+    NYA_C7     NYA_C8     NYA_C9      1        118.885    329.017   
+    NYA_C7     NYA_C8     NYA_H15     1        121.489    397.100   
+    NYA_C8     NYA_C7     NYA_H14     1        121.693    342.418   
+    NYA_C8     NYA_C9     NYA_C10     1        123.501    722.650   
+    NYA_C9     NYA_C8     NYA_H15     1        119.626    170.922   
+    NYA_C9     NYA_C10    NYA_H16     1        119.626    170.922   
+    NYA_C10    NYA_C1     NYA_H11     1        121.693    342.418   
+
+[ dihedraltypes ]
+    NYA_C10    NYA_C1     NYA_C2     NYA_N3      2        0.000      77.150    
+    NYA_H11    NYA_C1     NYA_C2     NYA_N3      2        180.000    74.490    
+    NYA_C2     NYA_C1     NYA_C10    NYA_C9      2        0.000      105.602   
+    NYA_C2     NYA_C1     NYA_C10    NYA_H16     2        180.000    95.932    
+    NYA_H11    NYA_C1     NYA_C10    NYA_C9      2        180.000    27.598    
+    NYA_H11    NYA_C1     NYA_C10    NYA_H16     2        0.000      37.885    
+    NYA_C1     NYA_C2     NYA_N3     NYA_C4      2        0.000      113.875   
+    NYA_C2     NYA_N3     NYA_C4     NYA_N5      2        180.000    80.424    
+    NYA_C2     NYA_N3     NYA_C4     NYA_C9      2        0.000      17.284    
+    NYA_N3     NYA_C4     NYA_N5     NYA_C6      2        180.000    80.424    
+    NYA_C9     NYA_C4     NYA_N5     NYA_C6      2        0.000      17.284    
+    NYA_N3     NYA_C4     NYA_C9     NYA_C8      2        180.000    127.426   
+    NYA_N3     NYA_C4     NYA_C9     NYA_C10     2        0.000      144.383   
+    NYA_N5     NYA_C4     NYA_C9     NYA_C8      2        0.000      144.383   
+    NYA_N5     NYA_C4     NYA_C9     NYA_C10     2        180.000    127.426   
+    NYA_C4     NYA_N5     NYA_C6     NYA_C7      2        0.000      113.875   
+    NYA_C4     NYA_N5     NYA_C6     NYA_H13     2        180.000    125.023   
+    NYA_N5     NYA_C6     NYA_C7     NYA_C8      2        0.000      77.150    
+    NYA_N5     NYA_C6     NYA_C7     NYA_H14     2        180.000    74.490    
+    NYA_H13    NYA_C6     NYA_C7     NYA_C8      2        180.000    105.822   
+    NYA_H13    NYA_C6     NYA_C7     NYA_H14     2        0.000      60.173    
+    NYA_C6     NYA_C7     NYA_C8     NYA_C9      2        0.000      105.602   
+    NYA_C6     NYA_C7     NYA_C8     NYA_H15     2        180.000    95.932    
+    NYA_H14    NYA_C7     NYA_C8     NYA_C9      2        180.000    27.598    
+    NYA_H14    NYA_C7     NYA_C8     NYA_H15     2        0.000      37.885    
+    NYA_C7     NYA_C8     NYA_C9     NYA_C4      2        0.000      0.000     
+    NYA_C7     NYA_C8     NYA_C9     NYA_C10     2        180.000    59.553    
+    NYA_H15    NYA_C8     NYA_C9     NYA_C4      2        180.000    67.670    
+    NYA_H15    NYA_C8     NYA_C9     NYA_C10     2        0.000      39.115    
+    NYA_C4     NYA_C9     NYA_C10    NYA_C1      2        0.000      0.000     
+    NYA_C4     NYA_C9     NYA_C10    NYA_H16     2        180.000    67.670    
+    NYA_C8     NYA_C9     NYA_C10    NYA_C1      2        180.000    59.553    
+    NYA_C8     NYA_C9     NYA_C10    NYA_H16     2        0.000      39.115    

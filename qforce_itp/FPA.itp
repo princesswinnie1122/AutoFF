@@ -1,0 +1,100 @@
+[ bondtypes ]
+    FPA_C1     FPA_C2     1        0.13951    274067    
+    FPA_C1     FPA_C13    1        0.13894    307622    
+    FPA_C2     FPA_N3     1        0.13357    341499    
+    FPA_C2     FPA_H15    1        0.10854    301383    
+    FPA_N3     FPA_C4     1        0.13095    377528    
+    FPA_C4     FPA_O5     1        0.13625    250159    
+    FPA_C4     FPA_C12    1        0.14046    244091    
+    FPA_O5     FPA_C6     1        0.13625    250159    
+    FPA_C6     FPA_N7     1        0.13095    377528    
+    FPA_C6     FPA_C11    1        0.14046    244091    
+    FPA_N7     FPA_C8     1        0.13357    341499    
+    FPA_C8     FPA_C9     1        0.13951    274067    
+    FPA_C8     FPA_H16    1        0.10854    301383    
+    FPA_C9     FPA_C10    1        0.13894    307622    
+    FPA_C9     FPA_H17    1        0.10825    304743    
+    FPA_C10    FPA_C11    1        0.13870    328600    
+    FPA_C10    FPA_H18    1        0.10839    306247    
+    FPA_C11    FPA_C12    1        0.14447    244650    
+    FPA_C12    FPA_C13    1        0.13870    328600    
+    FPA_C13    FPA_H19    1        0.10839    306247    
+
+[ angletypes ]
+    FPA_C1     FPA_C2     FPA_N3      1        124.342    570.008   
+    FPA_C1     FPA_C2     FPA_H15     1        119.996    236.083   
+    FPA_C1     FPA_C13    FPA_C12     1        117.115    506.466   
+    FPA_C1     FPA_C13    FPA_H19     1        121.297    313.036   
+    FPA_C2     FPA_C1     FPA_C13     1        119.662    258.106   
+    FPA_C2     FPA_N3     FPA_C4      1        114.413    392.179   
+    FPA_N3     FPA_C2     FPA_H15     1        115.661    338.606   
+    FPA_N3     FPA_C4     FPA_O5      1        121.021    640.282   
+    FPA_N3     FPA_C4     FPA_C12     1        127.177    229.350   
+    FPA_C4     FPA_O5     FPA_C6      1        106.128    784.904   
+    FPA_C4     FPA_C12    FPA_C11     1        105.135    661.966   
+    FPA_C4     FPA_C12    FPA_C13     1        117.290    287.516   
+    FPA_O5     FPA_C4     FPA_C12     1        111.802    463.008   
+    FPA_O5     FPA_C6     FPA_N7      1        121.021    640.282   
+    FPA_O5     FPA_C6     FPA_C11     1        111.802    463.008   
+    FPA_C6     FPA_N7     FPA_C8      1        114.413    392.179   
+    FPA_C6     FPA_C11    FPA_C10     1        117.290    287.516   
+    FPA_C6     FPA_C11    FPA_C12     1        105.135    661.966   
+    FPA_N7     FPA_C6     FPA_C11     1        127.177    229.350   
+    FPA_N7     FPA_C8     FPA_C9      1        124.342    570.008   
+    FPA_N7     FPA_C8     FPA_H16     1        115.661    338.606   
+    FPA_C8     FPA_C9     FPA_C10     1        119.662    258.106   
+    FPA_C8     FPA_C9     FPA_H17     1        119.490    334.767   
+    FPA_C9     FPA_C8     FPA_H16     1        119.996    236.083   
+    FPA_C9     FPA_C10    FPA_C11     1        117.115    506.466   
+    FPA_C9     FPA_C10    FPA_H18     1        121.297    313.036   
+    FPA_C10    FPA_C9     FPA_H17     1        120.848    321.880   
+    FPA_C10    FPA_C11    FPA_C12     1        137.575    391.066   
+    FPA_C11    FPA_C10    FPA_H18     1        121.587    261.769   
+    FPA_C11    FPA_C12    FPA_C13     1        137.575    391.066   
+    FPA_C12    FPA_C13    FPA_H19     1        121.587    261.769   
+
+[ dihedraltypes ]
+    FPA_C13    FPA_C1     FPA_C2     FPA_N3      2        0.000      172.767   
+    FPA_C13    FPA_C1     FPA_C2     FPA_H15     2        180.000    117.543   
+    FPA_C2     FPA_C1     FPA_C13    FPA_C12     2        0.000      0.000     
+    FPA_C2     FPA_C1     FPA_C13    FPA_H19     2        180.000    81.937    
+    FPA_C1     FPA_C2     FPA_N3     FPA_C4      2        0.000      11.873    
+    FPA_H15    FPA_C2     FPA_N3     FPA_C4      2        180.000    106.615   
+    FPA_C2     FPA_N3     FPA_C4     FPA_O5      2        180.000    135.428   
+    FPA_C2     FPA_N3     FPA_C4     FPA_C12     2        0.000      127.079   
+    FPA_N3     FPA_C4     FPA_O5     FPA_C6      2        180.000    57.320    
+    FPA_C12    FPA_C4     FPA_O5     FPA_C6      2        0.000      140.477   
+    FPA_N3     FPA_C4     FPA_C12    FPA_C11     2        180.000    68.333    
+    FPA_N3     FPA_C4     FPA_C12    FPA_C13     2        0.000      6.336     
+    FPA_O5     FPA_C4     FPA_C12    FPA_C11     2        0.000      0.000     
+    FPA_O5     FPA_C4     FPA_C12    FPA_C13     2        180.000    61.055    
+    FPA_C4     FPA_O5     FPA_C6     FPA_N7      2        180.000    57.320    
+    FPA_C4     FPA_O5     FPA_C6     FPA_C11     2        0.000      140.477   
+    FPA_O5     FPA_C6     FPA_N7     FPA_C8      2        180.000    135.428   
+    FPA_C11    FPA_C6     FPA_N7     FPA_C8      2        0.000      127.079   
+    FPA_O5     FPA_C6     FPA_C11    FPA_C10     2        180.000    61.055    
+    FPA_O5     FPA_C6     FPA_C11    FPA_C12     2        0.000      0.000     
+    FPA_N7     FPA_C6     FPA_C11    FPA_C10     2        0.000      6.336     
+    FPA_N7     FPA_C6     FPA_C11    FPA_C12     2        180.000    68.333    
+    FPA_C6     FPA_N7     FPA_C8     FPA_C9      2        0.000      11.873    
+    FPA_C6     FPA_N7     FPA_C8     FPA_H16     2        180.000    106.615   
+    FPA_N7     FPA_C8     FPA_C9     FPA_C10     2        0.000      172.767   
+    FPA_N7     FPA_C8     FPA_C9     FPA_H17     2        180.000    73.418    
+    FPA_H16    FPA_C8     FPA_C9     FPA_C10     2        180.000    117.543   
+    FPA_H16    FPA_C8     FPA_C9     FPA_H17     2        0.000      53.350    
+    FPA_C8     FPA_C9     FPA_C10    FPA_C11     2        0.000      0.000     
+    FPA_C8     FPA_C9     FPA_C10    FPA_H18     2        180.000    81.937    
+    FPA_H17    FPA_C9     FPA_C10    FPA_C11     2        180.000    49.449    
+    FPA_H17    FPA_C9     FPA_C10    FPA_H18     2        0.000      36.650    
+    FPA_C9     FPA_C10    FPA_C11    FPA_C6      2        0.000      139.116   
+    FPA_C9     FPA_C10    FPA_C11    FPA_C12     2        180.000    11.413    
+    FPA_H18    FPA_C10    FPA_C11    FPA_C6      2        180.000    105.983   
+    FPA_H18    FPA_C10    FPA_C11    FPA_C12     2        0.000      26.269    
+    FPA_C6     FPA_C11    FPA_C12    FPA_C4      2        0.000      230.198   
+    FPA_C6     FPA_C11    FPA_C12    FPA_C13     2        180.000    24.617    
+    FPA_C10    FPA_C11    FPA_C12    FPA_C4      2        180.000    24.617    
+    FPA_C10    FPA_C11    FPA_C12    FPA_C13     2        0.000      0.000     
+    FPA_C4     FPA_C12    FPA_C13    FPA_C1      2        0.000      139.116   
+    FPA_C4     FPA_C12    FPA_C13    FPA_H19     2        180.000    105.983   
+    FPA_C11    FPA_C12    FPA_C13    FPA_C1      2        180.000    11.413    
+    FPA_C11    FPA_C12    FPA_C13    FPA_H19     2        0.000      26.269    

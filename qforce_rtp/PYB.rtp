@@ -1,0 +1,129 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[ PYB ]
+  [ atoms ]
+    C1    PYB_C1  
+    C2    PYB_C2  
+    C3    PYB_C3  
+    C4    PYB_C4  
+    C5    PYB_C5  
+    C6    PYB_C6  
+    C7    PYB_C7  
+    C8    PYB_C8  
+    C9    PYB_C9  
+    C10   PYB_C10 
+    C11   PYB_C11 
+    C12   PYB_C12 
+    C13   PYB_C13 
+    C14   PYB_C14 
+    C15   PYB_C15 
+    C16   PYB_C16 
+    H17   PYB_H17 
+    H19   PYB_H19 
+    H20   PYB_H20 
+    H21   PYB_H21 
+    H22   PYB_H22 
+    H24   PYB_H24 
+    H25   PYB_H25 
+    H26   PYB_H26 
+
+  [ bonds ]
+    C1    C2   
+    C1    C14  
+    C1    H17  
+    C2    C3   
+    C3    C4   
+    C3    C15  
+    C4    C5   
+    C4    H19  
+    C5    C6   
+    C5    H20  
+    C6    C7   
+    C6    C16  
+    C7    C8   
+    C7    H21  
+    C8    C9   
+    C8    H22  
+    C9    C10  
+    C10   C11  
+    C10   C16  
+    C11   C12  
+    C11   H24  
+    C12   C13  
+    C12   H25  
+    C13   C14  
+    C13   C15  
+    C14   H26  
+    C15   C16  
+
+  [ impropers ]
+    C14   C1    C2    C3
+    H17   C1    C2    C3
+    C2    C1    C14   C13
+    C2    C1    C14   H26
+    H17   C1    C14   C13
+    H17   C1    C14   H26
+    C1    C2    C3    C4
+    C1    C2    C3    C15
+    C2    C3    C4    C5
+    C2    C3    C4    H19
+    C15   C3    C4    C5
+    C15   C3    C4    H19
+    C2    C3    C15   C13
+    C2    C3    C15   C16
+    C4    C3    C15   C13
+    C4    C3    C15   C16
+    C3    C4    C5    C6
+    C3    C4    C5    H20
+    H19   C4    C5    C6
+    H19   C4    C5    H20
+    C4    C5    C6    C7
+    C4    C5    C6    C16
+    H20   C5    C6    C7
+    H20   C5    C6    C16
+    C5    C6    C7    C8
+    C5    C6    C7    H21
+    C16   C6    C7    C8
+    C16   C6    C7    H21
+    C5    C6    C16   C10
+    C5    C6    C16   C15
+    C7    C6    C16   C10
+    C7    C6    C16   C15
+    C6    C7    C8    C9
+    C6    C7    C8    H22
+    H21   C7    C8    C9
+    H21   C7    C8    H22
+    C7    C8    C9    C10
+    H22   C8    C9    C10
+    C8    C9    C10   C11
+    C8    C9    C10   C16
+    C9    C10   C11   C12
+    C9    C10   C11   H24
+    C16   C10   C11   C12
+    C16   C10   C11   H24
+    C9    C10   C16   C6
+    C9    C10   C16   C15
+    C11   C10   C16   C6
+    C11   C10   C16   C15
+    C10   C11   C12   C13
+    C10   C11   C12   H25
+    H24   C11   C12   C13
+    H24   C11   C12   H25
+    C11   C12   C13   C14
+    C11   C12   C13   C15
+    H25   C12   C13   C14
+    H25   C12   C13   C15
+    C12   C13   C14   C1
+    C12   C13   C14   H26
+    C15   C13   C14   C1
+    C15   C13   C14   H26
+    C12   C13   C15   C3
+    C12   C13   C15   C16
+    C14   C13   C15   C3
+    C14   C13   C15   C16
+    C3    C15   C16   C6
+    C3    C15   C16   C10
+    C13   C15   C16   C6
+    C13   C15   C16   C10

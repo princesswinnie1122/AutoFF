@@ -1,0 +1,229 @@
+[ bondtypes ]
+    SFE_C1     SFE_C2     1        0.13932    297133    
+    SFE_C1     SFE_C6     1        0.13908    303453    
+    SFE_C1     SFE_H26    1        0.10842    303096    
+    SFE_C2     SFE_C3     1        0.13924    300849    
+    SFE_C3     SFE_C4     1        0.13827    322830    
+    SFE_C3     SFE_H28    1        0.10849    303616    
+    SFE_C4     SFE_C5     1        0.13985    280826    
+    SFE_C4     SFE_C13    1        0.15215    174340    
+    SFE_C5     SFE_C6     1        0.13890    311857    
+    SFE_C5     SFE_C7     1        0.14694    226559    
+    SFE_C6     SFE_H29    1        0.10848    302220    
+    SFE_C7     SFE_C8     1        0.13890    311857    
+    SFE_C7     SFE_C12    1        0.13985    280826    
+    SFE_C8     SFE_C9     1        0.13908    303453    
+    SFE_C8     SFE_H30    1        0.10848    302220    
+    SFE_C9     SFE_C10    1        0.13932    297133    
+    SFE_C9     SFE_H31    1        0.10842    303096    
+    SFE_C10    SFE_C11    1        0.13924    300849    
+    SFE_C11    SFE_C12    1        0.13827    322830    
+    SFE_C11    SFE_H33    1        0.10849    303616    
+    SFE_C12    SFE_C13    1        0.15215    174340    
+    SFE_C13    SFE_C14    1        0.15215    174340    
+    SFE_C13    SFE_C25    1        0.15215    174340    
+    SFE_C14    SFE_C15    1        0.13827    322830    
+    SFE_C14    SFE_C19    1        0.13985    280826    
+    SFE_C15    SFE_C16    1        0.13924    300849    
+    SFE_C15    SFE_H34    1        0.10849    303616    
+    SFE_C16    SFE_C17    1        0.13932    297133    
+    SFE_C17    SFE_C18    1        0.13908    303453    
+    SFE_C17    SFE_H36    1        0.10842    303096    
+    SFE_C18    SFE_C19    1        0.13890    311857    
+    SFE_C18    SFE_H37    1        0.10848    302220    
+    SFE_C19    SFE_C20    1        0.14694    226559    
+    SFE_C20    SFE_C21    1        0.13890    311857    
+    SFE_C20    SFE_C25    1        0.13985    280826    
+    SFE_C21    SFE_C22    1        0.13908    303453    
+    SFE_C21    SFE_H38    1        0.10848    302220    
+    SFE_C22    SFE_C23    1        0.13932    297133    
+    SFE_C22    SFE_H39    1        0.10842    303096    
+    SFE_C23    SFE_C24    1        0.13924    300849    
+    SFE_C24    SFE_C25    1        0.13827    322830    
+    SFE_C24    SFE_H41    1        0.10849    303616    
+
+[ angletypes ]
+    SFE_C1     SFE_C2     SFE_C3      1        120.601    381.804   
+    SFE_C1     SFE_C6     SFE_C5      1        118.713    437.814   
+    SFE_C1     SFE_C6     SFE_H29     1        120.453    312.934   
+    SFE_C2     SFE_C1     SFE_C6      1        120.716    363.787   
+    SFE_C2     SFE_C1     SFE_H26     1        119.607    323.946   
+    SFE_C2     SFE_C3     SFE_C4      1        118.626    391.936   
+    SFE_C2     SFE_C3     SFE_H28     1        120.860    310.524   
+    SFE_C3     SFE_C4     SFE_C5      1        120.983    300.937   
+    SFE_C3     SFE_C4     SFE_C13     1        128.317    546.956   
+    SFE_C4     SFE_C3     SFE_H28     1        120.514    268.284   
+    SFE_C4     SFE_C5     SFE_C6      1        120.361    254.676   
+    SFE_C4     SFE_C5     SFE_C7      1        108.516    543.184   
+    SFE_C4     SFE_C13    SFE_C12     1        109.564    261.215   
+    SFE_C4     SFE_C13    SFE_C14     1        109.564    261.215   
+    SFE_C4     SFE_C13    SFE_C25     1        109.564    261.215   
+    SFE_C5     SFE_C4     SFE_C13     1        110.699    687.009   
+    SFE_C5     SFE_C6     SFE_H29     1        120.835    297.930   
+    SFE_C5     SFE_C7     SFE_C8      1        131.123    413.421   
+    SFE_C5     SFE_C7     SFE_C12     1        108.516    543.184   
+    SFE_C6     SFE_C1     SFE_H26     1        119.677    312.364   
+    SFE_C6     SFE_C5     SFE_C7      1        131.123    413.421   
+    SFE_C7     SFE_C8     SFE_C9      1        118.713    437.814   
+    SFE_C7     SFE_C8     SFE_H30     1        120.835    297.930   
+    SFE_C7     SFE_C12    SFE_C11     1        120.983    300.937   
+    SFE_C7     SFE_C12    SFE_C13     1        110.699    687.009   
+    SFE_C8     SFE_C7     SFE_C12     1        120.361    254.676   
+    SFE_C8     SFE_C9     SFE_C10     1        120.716    363.787   
+    SFE_C8     SFE_C9     SFE_H31     1        119.677    312.364   
+    SFE_C9     SFE_C8     SFE_H30     1        120.453    312.934   
+    SFE_C9     SFE_C10    SFE_C11     1        120.601    381.804   
+    SFE_C10    SFE_C9     SFE_H31     1        119.607    323.946   
+    SFE_C10    SFE_C11    SFE_C12     1        118.626    391.936   
+    SFE_C10    SFE_C11    SFE_H33     1        120.860    310.524   
+    SFE_C11    SFE_C12    SFE_C13     1        128.317    546.956   
+    SFE_C12    SFE_C11    SFE_H33     1        120.514    268.284   
+    SFE_C12    SFE_C13    SFE_C14     1        109.564    261.215   
+    SFE_C12    SFE_C13    SFE_C25     1        109.564    261.215   
+    SFE_C13    SFE_C14    SFE_C15     1        128.317    546.956   
+    SFE_C13    SFE_C14    SFE_C19     1        110.699    687.009   
+    SFE_C13    SFE_C25    SFE_C20     1        110.699    687.009   
+    SFE_C13    SFE_C25    SFE_C24     1        128.317    546.956   
+    SFE_C14    SFE_C13    SFE_C25     1        109.564    261.215   
+    SFE_C14    SFE_C15    SFE_C16     1        118.626    391.936   
+    SFE_C14    SFE_C15    SFE_H34     1        120.514    268.284   
+    SFE_C14    SFE_C19    SFE_C18     1        120.361    254.676   
+    SFE_C14    SFE_C19    SFE_C20     1        108.516    543.184   
+    SFE_C15    SFE_C14    SFE_C19     1        120.983    300.937   
+    SFE_C15    SFE_C16    SFE_C17     1        120.601    381.804   
+    SFE_C16    SFE_C15    SFE_H34     1        120.860    310.524   
+    SFE_C16    SFE_C17    SFE_C18     1        120.716    363.787   
+    SFE_C16    SFE_C17    SFE_H36     1        119.607    323.946   
+    SFE_C17    SFE_C18    SFE_C19     1        118.713    437.814   
+    SFE_C17    SFE_C18    SFE_H37     1        120.453    312.934   
+    SFE_C18    SFE_C17    SFE_H36     1        119.677    312.364   
+    SFE_C18    SFE_C19    SFE_C20     1        131.123    413.421   
+    SFE_C19    SFE_C18    SFE_H37     1        120.835    297.930   
+    SFE_C19    SFE_C20    SFE_C21     1        131.123    413.421   
+    SFE_C19    SFE_C20    SFE_C25     1        108.516    543.184   
+    SFE_C20    SFE_C21    SFE_C22     1        118.713    437.814   
+    SFE_C20    SFE_C21    SFE_H38     1        120.835    297.930   
+    SFE_C20    SFE_C25    SFE_C24     1        120.983    300.937   
+    SFE_C21    SFE_C20    SFE_C25     1        120.361    254.676   
+    SFE_C21    SFE_C22    SFE_C23     1        120.716    363.787   
+    SFE_C21    SFE_C22    SFE_H39     1        119.677    312.364   
+    SFE_C22    SFE_C21    SFE_H38     1        120.453    312.934   
+    SFE_C22    SFE_C23    SFE_C24     1        120.601    381.804   
+    SFE_C23    SFE_C22    SFE_H39     1        119.607    323.946   
+    SFE_C23    SFE_C24    SFE_C25     1        118.626    391.936   
+    SFE_C23    SFE_C24    SFE_H41     1        120.860    310.524   
+    SFE_C25    SFE_C24    SFE_H41     1        120.514    268.284   
+
+[ dihedraltypes ]
+    SFE_C6     SFE_C1     SFE_C2     SFE_C3      2        0.000      129.159   
+    SFE_H26    SFE_C1     SFE_C2     SFE_C3      2        180.000    68.587    
+    SFE_C2     SFE_C1     SFE_C6     SFE_C5      2        0.000      32.194    
+    SFE_C2     SFE_C1     SFE_C6     SFE_H29     2        180.000    78.814    
+    SFE_H26    SFE_C1     SFE_C6     SFE_C5      2        180.000    72.497    
+    SFE_H26    SFE_C1     SFE_C6     SFE_H29     2        0.000      43.186    
+    SFE_C1     SFE_C2     SFE_C3     SFE_C4      2        0.000      20.331    
+    SFE_C1     SFE_C2     SFE_C3     SFE_H28     2        180.000    69.025    
+    SFE_C2     SFE_C3     SFE_C4     SFE_C5      2        0.000      136.556   
+    SFE_C2     SFE_C3     SFE_C4     SFE_C13     2        180.000    108.669   
+    SFE_H28    SFE_C3     SFE_C4     SFE_C5      2        180.000    74.120    
+    SFE_H28    SFE_C3     SFE_C4     SFE_C13     2        0.000      39.806    
+    SFE_C3     SFE_C4     SFE_C5     SFE_C6      2        0.000      0.000     
+    SFE_C3     SFE_C4     SFE_C5     SFE_C7      2        180.000    70.071    
+    SFE_C13    SFE_C4     SFE_C5     SFE_C6      2        180.000    79.859    
+    SFE_C13    SFE_C4     SFE_C5     SFE_C7      2        0.000      171.124   
+    SFE_C3     SFE_C4     SFE_C13    SFE_C12     2        180.000    44.034    
+    SFE_C3     SFE_C4     SFE_C13    SFE_C14     2        57.698     0.000     
+    SFE_C3     SFE_C4     SFE_C13    SFE_C25     2        -57.696    0.000     
+    SFE_C5     SFE_C4     SFE_C13    SFE_C12     2        0.000      36.509    
+    SFE_C5     SFE_C4     SFE_C13    SFE_C14     2        -122.302   1.433     
+    SFE_C5     SFE_C4     SFE_C13    SFE_C25     2        122.303    1.433     
+    SFE_C4     SFE_C5     SFE_C6     SFE_C1      2        0.000      122.539   
+    SFE_C4     SFE_C5     SFE_C6     SFE_H29     2        180.000    63.140    
+    SFE_C7     SFE_C5     SFE_C6     SFE_C1      2        180.000    66.162    
+    SFE_C7     SFE_C5     SFE_C6     SFE_H29     2        0.000      32.044    
+    SFE_C4     SFE_C5     SFE_C7     SFE_C8      2        180.000    37.025    
+    SFE_C4     SFE_C5     SFE_C7     SFE_C12     2        0.000      0.000     
+    SFE_C6     SFE_C5     SFE_C7     SFE_C8      2        0.000      0.000     
+    SFE_C6     SFE_C5     SFE_C7     SFE_C12     2        180.000    37.025    
+    SFE_C5     SFE_C7     SFE_C8     SFE_C9      2        180.000    66.162    
+    SFE_C5     SFE_C7     SFE_C8     SFE_H30     2        0.000      32.044    
+    SFE_C12    SFE_C7     SFE_C8     SFE_C9      2        0.000      122.539   
+    SFE_C12    SFE_C7     SFE_C8     SFE_H30     2        180.000    63.140    
+    SFE_C5     SFE_C7     SFE_C12    SFE_C11     2        180.000    70.071    
+    SFE_C5     SFE_C7     SFE_C12    SFE_C13     2        0.000      171.124   
+    SFE_C8     SFE_C7     SFE_C12    SFE_C11     2        0.000      0.000     
+    SFE_C8     SFE_C7     SFE_C12    SFE_C13     2        180.000    79.859    
+    SFE_C7     SFE_C8     SFE_C9     SFE_C10     2        0.000      32.194    
+    SFE_C7     SFE_C8     SFE_C9     SFE_H31     2        180.000    72.497    
+    SFE_H30    SFE_C8     SFE_C9     SFE_C10     2        180.000    78.814    
+    SFE_H30    SFE_C8     SFE_C9     SFE_H31     2        0.000      43.186    
+    SFE_C8     SFE_C9     SFE_C10    SFE_C11     2        0.000      129.159   
+    SFE_H31    SFE_C9     SFE_C10    SFE_C11     2        180.000    68.587    
+    SFE_C9     SFE_C10    SFE_C11    SFE_C12     2        0.000      20.331    
+    SFE_C9     SFE_C10    SFE_C11    SFE_H33     2        180.000    69.025    
+    SFE_C10    SFE_C11    SFE_C12    SFE_C7      2        0.000      136.556   
+    SFE_C10    SFE_C11    SFE_C12    SFE_C13     2        180.000    108.669   
+    SFE_H33    SFE_C11    SFE_C12    SFE_C7      2        180.000    74.120    
+    SFE_H33    SFE_C11    SFE_C12    SFE_C13     2        0.000      39.806    
+    SFE_C7     SFE_C12    SFE_C13    SFE_C4      2        0.000      36.509    
+    SFE_C7     SFE_C12    SFE_C13    SFE_C14     2        122.302    1.433     
+    SFE_C7     SFE_C12    SFE_C13    SFE_C25     2        -122.303   1.433     
+    SFE_C11    SFE_C12    SFE_C13    SFE_C4      2        180.000    44.034    
+    SFE_C11    SFE_C12    SFE_C13    SFE_C14     2        -57.697    0.000     
+    SFE_C11    SFE_C12    SFE_C13    SFE_C25     2        57.698     0.000     
+    SFE_C4     SFE_C13    SFE_C14    SFE_C15     2        57.699     0.000     
+    SFE_C4     SFE_C13    SFE_C14    SFE_C19     2        -122.302   1.433     
+    SFE_C12    SFE_C13    SFE_C14    SFE_C15     2        -57.696    0.000     
+    SFE_C12    SFE_C13    SFE_C14    SFE_C19     2        122.303    1.433     
+    SFE_C25    SFE_C13    SFE_C14    SFE_C15     2        180.000    44.034    
+    SFE_C25    SFE_C13    SFE_C14    SFE_C19     2        0.000      36.509    
+    SFE_C4     SFE_C13    SFE_C25    SFE_C20     2        122.302    1.433     
+    SFE_C4     SFE_C13    SFE_C25    SFE_C24     2        -57.697    0.000     
+    SFE_C12    SFE_C13    SFE_C25    SFE_C20     2        -122.303   1.433     
+    SFE_C12    SFE_C13    SFE_C25    SFE_C24     2        57.697     0.000     
+    SFE_C14    SFE_C13    SFE_C25    SFE_C20     2        0.000      36.509    
+    SFE_C14    SFE_C13    SFE_C25    SFE_C24     2        180.000    44.034    
+    SFE_C13    SFE_C14    SFE_C15    SFE_C16     2        180.000    108.669   
+    SFE_C13    SFE_C14    SFE_C15    SFE_H34     2        0.000      39.806    
+    SFE_C19    SFE_C14    SFE_C15    SFE_C16     2        0.000      136.556   
+    SFE_C19    SFE_C14    SFE_C15    SFE_H34     2        180.000    74.120    
+    SFE_C13    SFE_C14    SFE_C19    SFE_C18     2        180.000    79.859    
+    SFE_C13    SFE_C14    SFE_C19    SFE_C20     2        0.000      171.124   
+    SFE_C15    SFE_C14    SFE_C19    SFE_C18     2        0.000      0.000     
+    SFE_C15    SFE_C14    SFE_C19    SFE_C20     2        180.000    70.071    
+    SFE_C14    SFE_C15    SFE_C16    SFE_C17     2        0.000      20.331    
+    SFE_H34    SFE_C15    SFE_C16    SFE_C17     2        180.000    69.025    
+    SFE_C15    SFE_C16    SFE_C17    SFE_C18     2        0.000      129.159   
+    SFE_C15    SFE_C16    SFE_C17    SFE_H36     2        180.000    68.587    
+    SFE_C16    SFE_C17    SFE_C18    SFE_C19     2        0.000      32.194    
+    SFE_C16    SFE_C17    SFE_C18    SFE_H37     2        180.000    78.814    
+    SFE_H36    SFE_C17    SFE_C18    SFE_C19     2        180.000    72.497    
+    SFE_H36    SFE_C17    SFE_C18    SFE_H37     2        0.000      43.186    
+    SFE_C17    SFE_C18    SFE_C19    SFE_C14     2        0.000      122.539   
+    SFE_C17    SFE_C18    SFE_C19    SFE_C20     2        180.000    66.162    
+    SFE_H37    SFE_C18    SFE_C19    SFE_C14     2        180.000    63.140    
+    SFE_H37    SFE_C18    SFE_C19    SFE_C20     2        0.000      32.044    
+    SFE_C14    SFE_C19    SFE_C20    SFE_C21     2        180.000    37.025    
+    SFE_C14    SFE_C19    SFE_C20    SFE_C25     2        0.000      0.000     
+    SFE_C18    SFE_C19    SFE_C20    SFE_C21     2        0.000      0.000     
+    SFE_C18    SFE_C19    SFE_C20    SFE_C25     2        180.000    37.025    
+    SFE_C19    SFE_C20    SFE_C21    SFE_C22     2        180.000    66.162    
+    SFE_C19    SFE_C20    SFE_C21    SFE_H38     2        0.000      32.044    
+    SFE_C25    SFE_C20    SFE_C21    SFE_C22     2        0.000      122.539   
+    SFE_C25    SFE_C20    SFE_C21    SFE_H38     2        180.000    63.140    
+    SFE_C19    SFE_C20    SFE_C25    SFE_C13     2        0.000      171.124   
+    SFE_C19    SFE_C20    SFE_C25    SFE_C24     2        180.000    70.071    
+    SFE_C21    SFE_C20    SFE_C25    SFE_C13     2        180.000    79.859    
+    SFE_C21    SFE_C20    SFE_C25    SFE_C24     2        0.000      0.000     
+    SFE_C20    SFE_C21    SFE_C22    SFE_C23     2        0.000      32.194    
+    SFE_C20    SFE_C21    SFE_C22    SFE_H39     2        180.000    72.497    
+    SFE_H38    SFE_C21    SFE_C22    SFE_C23     2        180.000    78.814    
+    SFE_H38    SFE_C21    SFE_C22    SFE_H39     2        0.000      43.186    
+    SFE_C21    SFE_C22    SFE_C23    SFE_C24     2        0.000      129.159   
+    SFE_H39    SFE_C22    SFE_C23    SFE_C24     2        180.000    68.587    
+    SFE_C22    SFE_C23    SFE_C24    SFE_C25     2        0.000      20.331    
+    SFE_C22    SFE_C23    SFE_C24    SFE_H41     2        180.000    69.025    
+    SFE_C23    SFE_C24    SFE_C25    SFE_C13     2        180.000    108.669   
+    SFE_C23    SFE_C24    SFE_C25    SFE_C20     2        0.000      136.556   
+    SFE_H41    SFE_C24    SFE_C25    SFE_C13     2        0.000      39.806    
+    SFE_H41    SFE_C24    SFE_C25    SFE_C20     2        180.000    74.120    

@@ -1,0 +1,147 @@
+[ bondtypes ]
+    MFA_C1     MFA_C2     1        0.15366    159208    
+    MFA_C1     MFA_H16    1        0.10934    278870    
+    MFA_C1     MFA_H17    1        0.10934    278870    
+    MFA_C1     MFA_H18    1        0.10934    278870    
+    MFA_C2     MFA_C3     1        0.15366    159208    
+    MFA_C2     MFA_C4     1        0.15204    182013    
+    MFA_C2     MFA_C15    1        0.15204    182013    
+    MFA_C3     MFA_H19    1        0.10934    278870    
+    MFA_C3     MFA_H20    1        0.10934    278870    
+    MFA_C3     MFA_H21    1        0.10934    278870    
+    MFA_C4     MFA_C5     1        0.13842    321252    
+    MFA_C4     MFA_C9     1        0.13997    277967    
+    MFA_C5     MFA_C6     1        0.13933    298820    
+    MFA_C5     MFA_H22    1        0.10856    300375    
+    MFA_C6     MFA_C7     1        0.13924    298931    
+    MFA_C7     MFA_C8     1        0.13909    303959    
+    MFA_C7     MFA_H24    1        0.10843    303602    
+    MFA_C8     MFA_C9     1        0.13889    312328    
+    MFA_C8     MFA_H25    1        0.10849    301736    
+    MFA_C9     MFA_C10    1        0.14681    227297    
+    MFA_C10    MFA_C11    1        0.13889    312328    
+    MFA_C10    MFA_C15    1        0.13997    277967    
+    MFA_C11    MFA_C12    1        0.13909    303959    
+    MFA_C11    MFA_H26    1        0.10849    301736    
+    MFA_C12    MFA_C13    1        0.13924    298931    
+    MFA_C12    MFA_H27    1        0.10843    303602    
+    MFA_C13    MFA_C14    1        0.13933    298820    
+    MFA_C13    MFA_H28    1        0.10843    304778    
+    MFA_C14    MFA_C15    1        0.13842    321252    
+    MFA_C14    MFA_H29    1        0.10856    300375    
+
+[ angletypes ]
+    MFA_C1     MFA_C2     MFA_C3      1        110.400    534.168   
+    MFA_C1     MFA_C2     MFA_C4      1        111.230    456.301   
+    MFA_C1     MFA_C2     MFA_C15     1        111.230    456.301   
+    MFA_C2     MFA_C1     MFA_H16     1        110.613    316.726   
+    MFA_C2     MFA_C1     MFA_H17     1        110.613    316.726   
+    MFA_C2     MFA_C1     MFA_H18     1        110.613    316.726   
+    MFA_C2     MFA_C3     MFA_H19     1        110.613    316.726   
+    MFA_C2     MFA_C3     MFA_H20     1        110.613    316.726   
+    MFA_C2     MFA_C3     MFA_H21     1        110.613    316.726   
+    MFA_C2     MFA_C4     MFA_C5      1        128.613    507.643   
+    MFA_C2     MFA_C4     MFA_C9      1        111.016    666.186   
+    MFA_C2     MFA_C15    MFA_C10     1        111.016    666.186   
+    MFA_C2     MFA_C15    MFA_C14     1        128.613    507.643   
+    MFA_C3     MFA_C2     MFA_C4      1        111.230    456.301   
+    MFA_C3     MFA_C2     MFA_C15     1        111.230    456.301   
+    MFA_C4     MFA_C2     MFA_C15     1        101.233    434.003   
+    MFA_C4     MFA_C5     MFA_C6      1        119.027    388.887   
+    MFA_C4     MFA_C5     MFA_H22     1        120.809    276.342   
+    MFA_C4     MFA_C9     MFA_C8      1        120.690    270.382   
+    MFA_C4     MFA_C9     MFA_C10     1        108.368    550.581   
+    MFA_C5     MFA_C4     MFA_C9      1        120.371    329.528   
+    MFA_C5     MFA_C6     MFA_C7      1        120.555    376.595   
+    MFA_C6     MFA_C5     MFA_H22     1        120.164    305.512   
+    MFA_C6     MFA_C7     MFA_C8      1        120.582    368.448   
+    MFA_C6     MFA_C7     MFA_H24     1        119.658    323.508   
+    MFA_C7     MFA_C8     MFA_C9      1        118.774    431.262   
+    MFA_C7     MFA_C8     MFA_H25     1        120.403    313.001   
+    MFA_C8     MFA_C7     MFA_H24     1        119.760    311.197   
+    MFA_C8     MFA_C9     MFA_C10     1        130.942    407.743   
+    MFA_C9     MFA_C8     MFA_H25     1        120.823    299.636   
+    MFA_C9     MFA_C10    MFA_C11     1        130.942    407.743   
+    MFA_C9     MFA_C10    MFA_C15     1        108.368    550.581   
+    MFA_C10    MFA_C11    MFA_C12     1        118.774    431.262   
+    MFA_C10    MFA_C11    MFA_H26     1        120.823    299.636   
+    MFA_C10    MFA_C15    MFA_C14     1        120.371    329.528   
+    MFA_C11    MFA_C10    MFA_C15     1        120.690    270.382   
+    MFA_C11    MFA_C12    MFA_C13     1        120.582    368.448   
+    MFA_C11    MFA_C12    MFA_H27     1        119.760    311.197   
+    MFA_C12    MFA_C11    MFA_H26     1        120.403    313.001   
+    MFA_C12    MFA_C13    MFA_C14     1        120.555    376.595   
+    MFA_C12    MFA_C13    MFA_H28     1        119.682    323.187   
+    MFA_C13    MFA_C12    MFA_H27     1        119.658    323.508   
+    MFA_C13    MFA_C14    MFA_C15     1        119.027    388.887   
+    MFA_C13    MFA_C14    MFA_H29     1        120.164    305.512   
+    MFA_C14    MFA_C13    MFA_H28     1        119.762    316.025   
+    MFA_C15    MFA_C14    MFA_H29     1        120.809    276.342   
+    MFA_H16    MFA_C1     MFA_H17     1        108.306    256.930   
+    MFA_H16    MFA_C1     MFA_H18     1        108.306    256.930   
+    MFA_H17    MFA_C1     MFA_H18     1        108.306    256.930   
+    MFA_H19    MFA_C3     MFA_H20     1        108.306    256.930   
+    MFA_H19    MFA_C3     MFA_H21     1        108.306    256.930   
+    MFA_H20    MFA_C3     MFA_H21     1        108.306    256.930   
+
+[ dihedraltypes ]
+    MFA_C1     MFA_C2     MFA_C4     MFA_C5      2        -61.756    0.000     
+    MFA_C1     MFA_C2     MFA_C4     MFA_C9      2        118.244    10.358    
+    MFA_C3     MFA_C2     MFA_C4     MFA_C5      2        61.756     0.000     
+    MFA_C3     MFA_C2     MFA_C4     MFA_C9      2        -118.244   10.358    
+    MFA_C15    MFA_C2     MFA_C4     MFA_C5      2        180.000    27.722    
+    MFA_C15    MFA_C2     MFA_C4     MFA_C9      2        0.000      70.026    
+    MFA_C1     MFA_C2     MFA_C15    MFA_C10     2        -118.244   10.358    
+    MFA_C1     MFA_C2     MFA_C15    MFA_C14     2        61.756     0.000     
+    MFA_C3     MFA_C2     MFA_C15    MFA_C10     2        118.244    10.358    
+    MFA_C3     MFA_C2     MFA_C15    MFA_C14     2        -61.756    0.000     
+    MFA_C4     MFA_C2     MFA_C15    MFA_C10     2        0.000      70.026    
+    MFA_C4     MFA_C2     MFA_C15    MFA_C14     2        180.000    27.722    
+    MFA_C2     MFA_C4     MFA_C5     MFA_C6      2        180.000    102.482   
+    MFA_C2     MFA_C4     MFA_C5     MFA_H22     2        0.000      35.171    
+    MFA_C9     MFA_C4     MFA_C5     MFA_C6      2        0.000      143.449   
+    MFA_C9     MFA_C4     MFA_C5     MFA_H22     2        180.000    71.807    
+    MFA_C2     MFA_C4     MFA_C9     MFA_C8      2        180.000    65.513    
+    MFA_C2     MFA_C4     MFA_C9     MFA_C10     2        0.000      0.000     
+    MFA_C5     MFA_C4     MFA_C9     MFA_C8      2        0.000      0.000     
+    MFA_C5     MFA_C4     MFA_C9     MFA_C10     2        180.000    66.060    
+    MFA_C4     MFA_C5     MFA_C6     MFA_C7      2        0.000      20.662    
+    MFA_H22    MFA_C5     MFA_C6     MFA_C7      2        180.000    71.091    
+    MFA_C5     MFA_C6     MFA_C7     MFA_C8      2        0.000      126.520   
+    MFA_C5     MFA_C6     MFA_C7     MFA_H24     2        180.000    64.101    
+    MFA_C6     MFA_C7     MFA_C8     MFA_C9      2        0.000      32.761    
+    MFA_C6     MFA_C7     MFA_C8     MFA_H25     2        180.000    76.433    
+    MFA_H24    MFA_C7     MFA_C8     MFA_C9      2        180.000    73.170    
+    MFA_H24    MFA_C7     MFA_C8     MFA_H25     2        0.000      43.462    
+    MFA_C7     MFA_C8     MFA_C9     MFA_C4      2        0.000      124.696   
+    MFA_C7     MFA_C8     MFA_C9     MFA_C10     2        180.000    68.786    
+    MFA_H25    MFA_C8     MFA_C9     MFA_C4      2        180.000    65.026    
+    MFA_H25    MFA_C8     MFA_C9     MFA_C10     2        0.000      34.310    
+    MFA_C4     MFA_C9     MFA_C10    MFA_C11     2        180.000    27.338    
+    MFA_C4     MFA_C9     MFA_C10    MFA_C15     2        0.000      180.557   
+    MFA_C8     MFA_C9     MFA_C10    MFA_C11     2        0.000      0.000     
+    MFA_C8     MFA_C9     MFA_C10    MFA_C15     2        180.000    27.338    
+    MFA_C9     MFA_C10    MFA_C11    MFA_C12     2        180.000    68.786    
+    MFA_C9     MFA_C10    MFA_C11    MFA_H26     2        0.000      34.310    
+    MFA_C15    MFA_C10    MFA_C11    MFA_C12     2        0.000      124.696   
+    MFA_C15    MFA_C10    MFA_C11    MFA_H26     2        180.000    65.026    
+    MFA_C9     MFA_C10    MFA_C15    MFA_C2      2        0.000      0.000     
+    MFA_C9     MFA_C10    MFA_C15    MFA_C14     2        180.000    66.060    
+    MFA_C11    MFA_C10    MFA_C15    MFA_C2      2        180.000    65.513    
+    MFA_C11    MFA_C10    MFA_C15    MFA_C14     2        0.000      0.000     
+    MFA_C10    MFA_C11    MFA_C12    MFA_C13     2        0.000      32.761    
+    MFA_C10    MFA_C11    MFA_C12    MFA_H27     2        180.000    73.170    
+    MFA_H26    MFA_C11    MFA_C12    MFA_C13     2        180.000    76.433    
+    MFA_H26    MFA_C11    MFA_C12    MFA_H27     2        0.000      43.462    
+    MFA_C11    MFA_C12    MFA_C13    MFA_C14     2        0.000      126.520   
+    MFA_C11    MFA_C12    MFA_C13    MFA_H28     2        180.000    72.215    
+    MFA_H27    MFA_C12    MFA_C13    MFA_C14     2        180.000    64.101    
+    MFA_H27    MFA_C12    MFA_C13    MFA_H28     2        0.000      41.460    
+    MFA_C12    MFA_C13    MFA_C14    MFA_C15     2        0.000      20.662    
+    MFA_C12    MFA_C13    MFA_C14    MFA_H29     2        180.000    71.091    
+    MFA_H28    MFA_C13    MFA_C14    MFA_C15     2        180.000    69.077    
+    MFA_H28    MFA_C13    MFA_C14    MFA_H29     2        0.000      40.113    
+    MFA_C13    MFA_C14    MFA_C15    MFA_C2      2        180.000    102.482   
+    MFA_C13    MFA_C14    MFA_C15    MFA_C10     2        0.000      143.449   
+    MFA_H29    MFA_C14    MFA_C15    MFA_C2      2        0.000      35.171    
+    MFA_H29    MFA_C14    MFA_C15    MFA_C10     2        180.000    71.807    

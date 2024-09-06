@@ -1,0 +1,132 @@
+[ bondtypes ]
+    MAA_C1     MAA_C2     1        0.15039    204548    
+    MAA_C1     MAA_H16    1        0.10933    277680    
+    MAA_C1     MAA_H17    1        0.10933    277680    
+    MAA_C1     MAA_H18    1        0.10933    277680    
+    MAA_C2     MAA_C3     1        0.14322    235543    
+    MAA_C2     MAA_C15    1        0.13614    382322    
+    MAA_C3     MAA_C4     1        0.13572    394476    
+    MAA_C3     MAA_H19    1        0.10856    299145    
+    MAA_C4     MAA_C5     1        0.14298    247603    
+    MAA_C4     MAA_H20    1        0.10852    302011    
+    MAA_C5     MAA_C6     1        0.13926    301886    
+    MAA_C5     MAA_C14    1        0.14313    236344    
+    MAA_C6     MAA_C7     1        0.13950    295262    
+    MAA_C7     MAA_C8     1        0.14289    247482    
+    MAA_C7     MAA_C12    1        0.14320    235292    
+    MAA_C8     MAA_C9     1        0.13600    384894    
+    MAA_C8     MAA_H22    1        0.10851    302497    
+    MAA_C9     MAA_C10    1        0.14242    251080    
+    MAA_C9     MAA_H23    1        0.10841    303923    
+    MAA_C10    MAA_C11    1        0.13600    384894    
+    MAA_C10    MAA_H24    1        0.10841    303923    
+    MAA_C11    MAA_C12    1        0.14289    247482    
+    MAA_C11    MAA_H25    1        0.10851    302497    
+    MAA_C12    MAA_C13    1        0.13951    295618    
+    MAA_C13    MAA_C14    1        0.13932    297942    
+    MAA_C14    MAA_C15    1        0.14300    247700    
+    MAA_C15    MAA_H27    1        0.10862    299811    
+
+[ angletypes ]
+    MAA_C1     MAA_C2     MAA_C3      1        119.027    532.596   
+    MAA_C1     MAA_C2     MAA_C15     1        122.172    509.487   
+    MAA_C2     MAA_C1     MAA_H16     1        111.055    276.027   
+    MAA_C2     MAA_C1     MAA_H17     1        111.055    276.027   
+    MAA_C2     MAA_C1     MAA_H18     1        111.055    276.027   
+    MAA_C2     MAA_C3     MAA_C4      1        121.439    341.213   
+    MAA_C2     MAA_C3     MAA_H19     1        118.622    270.722   
+    MAA_C2     MAA_C15    MAA_C14     1        121.829    211.685   
+    MAA_C2     MAA_C15    MAA_H27     1        120.046    360.001   
+    MAA_C3     MAA_C2     MAA_C15     1        118.801    413.207   
+    MAA_C3     MAA_C4     MAA_C5      1        120.915    261.819   
+    MAA_C3     MAA_C4     MAA_H20     1        120.498    390.377   
+    MAA_C4     MAA_C3     MAA_H19     1        119.940    336.184   
+    MAA_C4     MAA_C5     MAA_C6      1        122.336    697.744   
+    MAA_C4     MAA_C5     MAA_C14     1        118.234    446.814   
+    MAA_C5     MAA_C4     MAA_H20     1        118.588    158.872   
+    MAA_C5     MAA_C6     MAA_C7      1        121.503    203.084   
+    MAA_C5     MAA_C14    MAA_C13     1        119.097    400.048   
+    MAA_C5     MAA_C14    MAA_C15     1        118.782    434.124   
+    MAA_C6     MAA_C5     MAA_C14     1        119.429    410.908   
+    MAA_C6     MAA_C7     MAA_C8      1        122.170    697.776   
+    MAA_C6     MAA_C7     MAA_C12     1        119.127    419.413   
+    MAA_C7     MAA_C8     MAA_C9      1        120.898    266.134   
+    MAA_C7     MAA_C8     MAA_H22     1        118.515    167.178   
+    MAA_C7     MAA_C12    MAA_C11     1        118.657    432.696   
+    MAA_C7     MAA_C12    MAA_C13     1        119.264    411.360   
+    MAA_C8     MAA_C7     MAA_C12     1        118.657    432.696   
+    MAA_C8     MAA_C9     MAA_C10     1        120.445    388.588   
+    MAA_C8     MAA_C9     MAA_H23     1        120.195    310.419   
+    MAA_C9     MAA_C8     MAA_H22     1        120.588    387.340   
+    MAA_C9     MAA_C10    MAA_C11     1        120.445    388.588   
+    MAA_C9     MAA_C10    MAA_H24     1        119.360    296.704   
+    MAA_C10    MAA_C9     MAA_H23     1        119.360    296.704   
+    MAA_C10    MAA_C11    MAA_C12     1        120.898    266.134   
+    MAA_C10    MAA_C11    MAA_H25     1        120.588    387.340   
+    MAA_C11    MAA_C10    MAA_H24     1        120.195    310.419   
+    MAA_C11    MAA_C12    MAA_C13     1        122.124    704.073   
+    MAA_C12    MAA_C11    MAA_H25     1        118.515    167.178   
+    MAA_C12    MAA_C13    MAA_C14     1        121.578    204.247   
+    MAA_C13    MAA_C14    MAA_C15     1        122.121    708.071   
+    MAA_C14    MAA_C15    MAA_H27     1        118.125    179.598   
+    MAA_H16    MAA_C1     MAA_H17     1        107.839    245.349   
+    MAA_H16    MAA_C1     MAA_H18     1        107.839    245.349   
+    MAA_H17    MAA_C1     MAA_H18     1        107.839    245.349   
+
+[ dihedraltypes ]
+    MAA_C1     MAA_C2     MAA_C3     MAA_C4      2        180.000    84.404    
+    MAA_C1     MAA_C2     MAA_C3     MAA_H19     2        0.000      56.525    
+    MAA_C15    MAA_C2     MAA_C3     MAA_C4      2        0.000      53.515    
+    MAA_C15    MAA_C2     MAA_C3     MAA_H19     2        180.000    59.461    
+    MAA_C1     MAA_C2     MAA_C15    MAA_C14     2        180.000    160.933   
+    MAA_C1     MAA_C2     MAA_C15    MAA_H27     2        0.000      82.176    
+    MAA_C3     MAA_C2     MAA_C15    MAA_C14     2        0.000      126.951   
+    MAA_C3     MAA_C2     MAA_C15    MAA_H27     2        180.000    106.893   
+    MAA_C2     MAA_C3     MAA_C4     MAA_C5      2        0.000      85.427    
+    MAA_C2     MAA_C3     MAA_C4     MAA_H20     2        180.000    84.489    
+    MAA_H19    MAA_C3     MAA_C4     MAA_C5      2        180.000    56.074    
+    MAA_H19    MAA_C3     MAA_C4     MAA_H20     2        0.000      41.940    
+    MAA_C3     MAA_C4     MAA_C5     MAA_C6      2        180.000    55.087    
+    MAA_C3     MAA_C4     MAA_C5     MAA_C14     2        0.000      32.361    
+    MAA_H20    MAA_C4     MAA_C5     MAA_C6      2        0.000      39.215    
+    MAA_H20    MAA_C4     MAA_C5     MAA_C14     2        180.000    55.766    
+    MAA_C4     MAA_C5     MAA_C6     MAA_C7      2        180.000    85.789    
+    MAA_C14    MAA_C5     MAA_C6     MAA_C7      2        0.000      102.212   
+    MAA_C4     MAA_C5     MAA_C14    MAA_C13     2        180.000    92.394    
+    MAA_C4     MAA_C5     MAA_C14    MAA_C15     2        0.000      95.679    
+    MAA_C6     MAA_C5     MAA_C14    MAA_C13     2        0.000      20.717    
+    MAA_C6     MAA_C5     MAA_C14    MAA_C15     2        180.000    74.348    
+    MAA_C5     MAA_C6     MAA_C7     MAA_C8      2        180.000    70.911    
+    MAA_C5     MAA_C6     MAA_C7     MAA_C12     2        0.000      5.576     
+    MAA_C6     MAA_C7     MAA_C8     MAA_C9      2        180.000    64.272    
+    MAA_C6     MAA_C7     MAA_C8     MAA_H22     2        0.000      32.853    
+    MAA_C12    MAA_C7     MAA_C8     MAA_C9      2        0.000      0.000     
+    MAA_C12    MAA_C7     MAA_C8     MAA_H22     2        180.000    44.327    
+    MAA_C6     MAA_C7     MAA_C12    MAA_C11     2        180.000    76.731    
+    MAA_C6     MAA_C7     MAA_C12    MAA_C13     2        0.000      118.261   
+    MAA_C8     MAA_C7     MAA_C12    MAA_C11     2        0.000      120.515   
+    MAA_C8     MAA_C7     MAA_C12    MAA_C13     2        180.000    82.712    
+    MAA_C7     MAA_C8     MAA_C9     MAA_C10     2        0.000      137.437   
+    MAA_C7     MAA_C8     MAA_C9     MAA_H23     2        180.000    83.776    
+    MAA_H22    MAA_C8     MAA_C9     MAA_C10     2        180.000    84.552    
+    MAA_H22    MAA_C8     MAA_C9     MAA_H23     2        0.000      51.144    
+    MAA_C8     MAA_C9     MAA_C10    MAA_C11     2        0.000      12.204    
+    MAA_C8     MAA_C9     MAA_C10    MAA_H24     2        180.000    51.223    
+    MAA_H23    MAA_C9     MAA_C10    MAA_C11     2        180.000    51.223    
+    MAA_H23    MAA_C9     MAA_C10    MAA_H24     2        0.000      36.366    
+    MAA_C9     MAA_C10    MAA_C11    MAA_C12     2        0.000      137.437   
+    MAA_C9     MAA_C10    MAA_C11    MAA_H25     2        180.000    84.552    
+    MAA_H24    MAA_C10    MAA_C11    MAA_C12     2        180.000    83.776    
+    MAA_H24    MAA_C10    MAA_C11    MAA_H25     2        0.000      51.144    
+    MAA_C10    MAA_C11    MAA_C12    MAA_C7      2        0.000      0.000     
+    MAA_C10    MAA_C11    MAA_C12    MAA_C13     2        180.000    62.358    
+    MAA_H25    MAA_C11    MAA_C12    MAA_C7      2        180.000    44.327    
+    MAA_H25    MAA_C11    MAA_C12    MAA_C13     2        0.000      34.322    
+    MAA_C7     MAA_C12    MAA_C13    MAA_C14     2        0.000      0.000     
+    MAA_C11    MAA_C12    MAA_C13    MAA_C14     2        180.000    85.180    
+    MAA_C12    MAA_C13    MAA_C14    MAA_C5      2        0.000      114.772   
+    MAA_C12    MAA_C13    MAA_C14    MAA_C15     2        180.000    71.173    
+    MAA_C5     MAA_C14    MAA_C15    MAA_C2      2        0.000      0.000     
+    MAA_C5     MAA_C14    MAA_C15    MAA_H27     2        180.000    0.120     
+    MAA_C13    MAA_C14    MAA_C15    MAA_C2      2        180.000    41.105    
+    MAA_C13    MAA_C14    MAA_C15    MAA_H27     2        0.000      5.869     

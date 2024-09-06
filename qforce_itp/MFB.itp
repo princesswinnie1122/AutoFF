@@ -1,0 +1,140 @@
+[ bondtypes ]
+    MFB_C1     MFB_C2     1        0.15366    159208    
+    MFB_C1     MFB_H16    1        0.10934    278870    
+    MFB_C1     MFB_H17    1        0.10934    278870    
+    MFB_C1     MFB_H18    1        0.10934    278870    
+    MFB_C2     MFB_C3     1        0.15366    159208    
+    MFB_C2     MFB_C4     1        0.15204    182013    
+    MFB_C2     MFB_C15    1        0.15204    182013    
+    MFB_C3     MFB_H19    1        0.10934    278870    
+    MFB_C3     MFB_H20    1        0.10934    278870    
+    MFB_C3     MFB_H21    1        0.10934    278870    
+    MFB_C4     MFB_C5     1        0.13842    321252    
+    MFB_C4     MFB_C9     1        0.13997    277967    
+    MFB_C5     MFB_C6     1        0.13933    298820    
+    MFB_C5     MFB_H22    1        0.10856    300375    
+    MFB_C6     MFB_C7     1        0.13924    298931    
+    MFB_C7     MFB_C8     1        0.13909    303959    
+    MFB_C7     MFB_H24    1        0.10843    303602    
+    MFB_C8     MFB_C9     1        0.13889    312328    
+    MFB_C8     MFB_H25    1        0.10849    301736    
+    MFB_C9     MFB_C10    1        0.14681    227297    
+    MFB_C10    MFB_C11    1        0.13889    312328    
+    MFB_C10    MFB_C15    1        0.13997    277967    
+    MFB_C11    MFB_C12    1        0.13909    303959    
+    MFB_C11    MFB_H26    1        0.10849    301736    
+    MFB_C12    MFB_C13    1        0.13924    298931    
+    MFB_C12    MFB_H27    1        0.10843    303602    
+    MFB_C13    MFB_C14    1        0.13933    298820    
+    MFB_C14    MFB_C15    1        0.13842    321252    
+    MFB_C14    MFB_H29    1        0.10856    300375    
+
+[ angletypes ]
+    MFB_C1     MFB_C2     MFB_C3      1        110.400    534.168   
+    MFB_C1     MFB_C2     MFB_C4      1        111.230    456.301   
+    MFB_C1     MFB_C2     MFB_C15     1        111.230    456.301   
+    MFB_C2     MFB_C1     MFB_H16     1        110.613    316.726   
+    MFB_C2     MFB_C1     MFB_H17     1        110.613    316.726   
+    MFB_C2     MFB_C1     MFB_H18     1        110.613    316.726   
+    MFB_C2     MFB_C3     MFB_H19     1        110.613    316.726   
+    MFB_C2     MFB_C3     MFB_H20     1        110.613    316.726   
+    MFB_C2     MFB_C3     MFB_H21     1        110.613    316.726   
+    MFB_C2     MFB_C4     MFB_C5      1        128.613    507.643   
+    MFB_C2     MFB_C4     MFB_C9      1        111.016    666.186   
+    MFB_C2     MFB_C15    MFB_C10     1        111.016    666.186   
+    MFB_C2     MFB_C15    MFB_C14     1        128.613    507.643   
+    MFB_C3     MFB_C2     MFB_C4      1        111.230    456.301   
+    MFB_C3     MFB_C2     MFB_C15     1        111.230    456.301   
+    MFB_C4     MFB_C2     MFB_C15     1        101.233    434.003   
+    MFB_C4     MFB_C5     MFB_C6      1        119.027    388.887   
+    MFB_C4     MFB_C5     MFB_H22     1        120.809    276.342   
+    MFB_C4     MFB_C9     MFB_C8      1        120.690    270.382   
+    MFB_C4     MFB_C9     MFB_C10     1        108.368    550.581   
+    MFB_C5     MFB_C4     MFB_C9      1        120.371    329.528   
+    MFB_C5     MFB_C6     MFB_C7      1        120.555    376.595   
+    MFB_C6     MFB_C5     MFB_H22     1        120.164    305.512   
+    MFB_C6     MFB_C7     MFB_C8      1        120.582    368.448   
+    MFB_C6     MFB_C7     MFB_H24     1        119.658    323.508   
+    MFB_C7     MFB_C8     MFB_C9      1        118.774    431.262   
+    MFB_C7     MFB_C8     MFB_H25     1        120.403    313.001   
+    MFB_C8     MFB_C7     MFB_H24     1        119.760    311.197   
+    MFB_C8     MFB_C9     MFB_C10     1        130.942    407.743   
+    MFB_C9     MFB_C8     MFB_H25     1        120.823    299.636   
+    MFB_C9     MFB_C10    MFB_C11     1        130.942    407.743   
+    MFB_C9     MFB_C10    MFB_C15     1        108.368    550.581   
+    MFB_C10    MFB_C11    MFB_C12     1        118.774    431.262   
+    MFB_C10    MFB_C11    MFB_H26     1        120.823    299.636   
+    MFB_C10    MFB_C15    MFB_C14     1        120.371    329.528   
+    MFB_C11    MFB_C10    MFB_C15     1        120.690    270.382   
+    MFB_C11    MFB_C12    MFB_C13     1        120.582    368.448   
+    MFB_C11    MFB_C12    MFB_H27     1        119.760    311.197   
+    MFB_C12    MFB_C11    MFB_H26     1        120.403    313.001   
+    MFB_C12    MFB_C13    MFB_C14     1        120.555    376.595   
+    MFB_C13    MFB_C12    MFB_H27     1        119.658    323.508   
+    MFB_C13    MFB_C14    MFB_C15     1        119.027    388.887   
+    MFB_C13    MFB_C14    MFB_H29     1        120.164    305.512   
+    MFB_C15    MFB_C14    MFB_H29     1        120.809    276.342   
+    MFB_H16    MFB_C1     MFB_H17     1        108.306    256.930   
+    MFB_H16    MFB_C1     MFB_H18     1        108.306    256.930   
+    MFB_H17    MFB_C1     MFB_H18     1        108.306    256.930   
+    MFB_H19    MFB_C3     MFB_H20     1        108.306    256.930   
+    MFB_H19    MFB_C3     MFB_H21     1        108.306    256.930   
+    MFB_H20    MFB_C3     MFB_H21     1        108.306    256.930   
+
+[ dihedraltypes ]
+    MFB_C1     MFB_C2     MFB_C4     MFB_C5      2        -61.756    0.000     
+    MFB_C1     MFB_C2     MFB_C4     MFB_C9      2        118.244    10.358    
+    MFB_C3     MFB_C2     MFB_C4     MFB_C5      2        61.756     0.000     
+    MFB_C3     MFB_C2     MFB_C4     MFB_C9      2        -118.244   10.358    
+    MFB_C15    MFB_C2     MFB_C4     MFB_C5      2        180.000    27.722    
+    MFB_C15    MFB_C2     MFB_C4     MFB_C9      2        0.000      70.026    
+    MFB_C1     MFB_C2     MFB_C15    MFB_C10     2        -118.244   10.358    
+    MFB_C1     MFB_C2     MFB_C15    MFB_C14     2        61.756     0.000     
+    MFB_C3     MFB_C2     MFB_C15    MFB_C10     2        118.244    10.358    
+    MFB_C3     MFB_C2     MFB_C15    MFB_C14     2        -61.756    0.000     
+    MFB_C4     MFB_C2     MFB_C15    MFB_C10     2        0.000      70.026    
+    MFB_C4     MFB_C2     MFB_C15    MFB_C14     2        180.000    27.722    
+    MFB_C2     MFB_C4     MFB_C5     MFB_C6      2        180.000    102.482   
+    MFB_C2     MFB_C4     MFB_C5     MFB_H22     2        0.000      35.171    
+    MFB_C9     MFB_C4     MFB_C5     MFB_C6      2        0.000      143.449   
+    MFB_C9     MFB_C4     MFB_C5     MFB_H22     2        180.000    71.807    
+    MFB_C2     MFB_C4     MFB_C9     MFB_C8      2        180.000    65.513    
+    MFB_C2     MFB_C4     MFB_C9     MFB_C10     2        0.000      0.000     
+    MFB_C5     MFB_C4     MFB_C9     MFB_C8      2        0.000      0.000     
+    MFB_C5     MFB_C4     MFB_C9     MFB_C10     2        180.000    66.060    
+    MFB_C4     MFB_C5     MFB_C6     MFB_C7      2        0.000      20.662    
+    MFB_H22    MFB_C5     MFB_C6     MFB_C7      2        180.000    71.091    
+    MFB_C5     MFB_C6     MFB_C7     MFB_C8      2        0.000      126.520   
+    MFB_C5     MFB_C6     MFB_C7     MFB_H24     2        180.000    64.101    
+    MFB_C6     MFB_C7     MFB_C8     MFB_C9      2        0.000      32.761    
+    MFB_C6     MFB_C7     MFB_C8     MFB_H25     2        180.000    76.433    
+    MFB_H24    MFB_C7     MFB_C8     MFB_C9      2        180.000    73.170    
+    MFB_H24    MFB_C7     MFB_C8     MFB_H25     2        0.000      43.462    
+    MFB_C7     MFB_C8     MFB_C9     MFB_C4      2        0.000      124.696   
+    MFB_C7     MFB_C8     MFB_C9     MFB_C10     2        180.000    68.786    
+    MFB_H25    MFB_C8     MFB_C9     MFB_C4      2        180.000    65.026    
+    MFB_H25    MFB_C8     MFB_C9     MFB_C10     2        0.000      34.310    
+    MFB_C4     MFB_C9     MFB_C10    MFB_C11     2        180.000    27.338    
+    MFB_C4     MFB_C9     MFB_C10    MFB_C15     2        0.000      180.557   
+    MFB_C8     MFB_C9     MFB_C10    MFB_C11     2        0.000      0.000     
+    MFB_C8     MFB_C9     MFB_C10    MFB_C15     2        180.000    27.338    
+    MFB_C9     MFB_C10    MFB_C11    MFB_C12     2        180.000    68.786    
+    MFB_C9     MFB_C10    MFB_C11    MFB_H26     2        0.000      34.310    
+    MFB_C15    MFB_C10    MFB_C11    MFB_C12     2        0.000      124.696   
+    MFB_C15    MFB_C10    MFB_C11    MFB_H26     2        180.000    65.026    
+    MFB_C9     MFB_C10    MFB_C15    MFB_C2      2        0.000      0.000     
+    MFB_C9     MFB_C10    MFB_C15    MFB_C14     2        180.000    66.060    
+    MFB_C11    MFB_C10    MFB_C15    MFB_C2      2        180.000    65.513    
+    MFB_C11    MFB_C10    MFB_C15    MFB_C14     2        0.000      0.000     
+    MFB_C10    MFB_C11    MFB_C12    MFB_C13     2        0.000      32.761    
+    MFB_C10    MFB_C11    MFB_C12    MFB_H27     2        180.000    73.170    
+    MFB_H26    MFB_C11    MFB_C12    MFB_C13     2        180.000    76.433    
+    MFB_H26    MFB_C11    MFB_C12    MFB_H27     2        0.000      43.462    
+    MFB_C11    MFB_C12    MFB_C13    MFB_C14     2        0.000      126.520   
+    MFB_H27    MFB_C12    MFB_C13    MFB_C14     2        180.000    64.101    
+    MFB_C12    MFB_C13    MFB_C14    MFB_C15     2        0.000      20.662    
+    MFB_C12    MFB_C13    MFB_C14    MFB_H29     2        180.000    71.091    
+    MFB_C13    MFB_C14    MFB_C15    MFB_C2      2        180.000    102.482   
+    MFB_C13    MFB_C14    MFB_C15    MFB_C10     2        0.000      143.449   
+    MFB_H29    MFB_C14    MFB_C15    MFB_C2      2        0.000      35.171    
+    MFB_H29    MFB_C14    MFB_C15    MFB_C10     2        180.000    71.807    

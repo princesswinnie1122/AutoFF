@@ -1,0 +1,52 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[ TLC ]
+  [ atoms ]
+    C1    TLC_C1  
+    C2    TLC_C2  
+    C3    TLC_C3  
+    C4    TLC_C4  
+    C5    TLC_C5  
+    C6    TLC_C6  
+    C7    TLC_C7  
+    H8    TLC_H8  
+    H9    TLC_H9  
+    H10   TLC_H10 
+    H12   TLC_H12 
+    H14   TLC_H14 
+    H15   TLC_H15 
+
+  [ bonds ]
+    C1    C2   
+    C1    H8   
+    C1    H9   
+    C1    H10  
+    C2    C3   
+    C2    C7   
+    C3    C4   
+    C4    C5   
+    C4    H12  
+    C5    C6   
+    C6    C7   
+    C6    H14  
+    C7    H15  
+
+  [ impropers ]
+    C1    C2    C3    C4
+    C7    C2    C3    C4
+    C1    C2    C7    C6
+    C1    C2    C7    H15
+    C3    C2    C7    C6
+    C3    C2    C7    H15
+    C2    C3    C4    C5
+    C2    C3    C4    H12
+    C3    C4    C5    C6
+    H12   C4    C5    C6
+    C4    C5    C6    C7
+    C4    C5    C6    H14
+    C5    C6    C7    C2
+    C5    C6    C7    H15
+    H14   C6    C7    C2
+    H14   C6    C7    H15

@@ -1,0 +1,54 @@
+[ bondtypes ]
+    TLC_C1     TLC_C2     1        0.15071    203960    
+    TLC_C1     TLC_H8     1        0.10930    277880    
+    TLC_C1     TLC_H9     1        0.10930    277880    
+    TLC_C1     TLC_H10    1        0.10930    277880    
+    TLC_C2     TLC_C3     1        0.13945    294007    
+    TLC_C2     TLC_C7     1        0.13945    294007    
+    TLC_C3     TLC_C4     1        0.13893    308320    
+    TLC_C4     TLC_C5     1        0.13895    307194    
+    TLC_C4     TLC_H12    1        0.10845    302586    
+    TLC_C5     TLC_C6     1        0.13895    307194    
+    TLC_C6     TLC_C7     1        0.13893    308320    
+    TLC_C6     TLC_H14    1        0.10845    302586    
+    TLC_C7     TLC_H15    1        0.10858    299119    
+
+[ angletypes ]
+    TLC_C1     TLC_C2     TLC_C3      1        120.841    547.422   
+    TLC_C1     TLC_C2     TLC_C7      1        120.841    547.422   
+    TLC_C2     TLC_C1     TLC_H8      1        111.098    268.306   
+    TLC_C2     TLC_C1     TLC_H9      1        111.098    268.306   
+    TLC_C2     TLC_C1     TLC_H10     1        111.098    268.306   
+    TLC_C2     TLC_C3     TLC_C4      1        120.962    343.586   
+    TLC_C2     TLC_C7     TLC_C6      1        120.962    343.586   
+    TLC_C2     TLC_C7     TLC_H15     1        119.372    296.780   
+    TLC_C3     TLC_C2     TLC_C7      1        118.307    412.628   
+    TLC_C3     TLC_C4     TLC_C5      1        120.153    385.046   
+    TLC_C3     TLC_C4     TLC_H12     1        119.788    331.093   
+    TLC_C4     TLC_C5     TLC_C6      1        119.462    409.174   
+    TLC_C5     TLC_C4     TLC_H12     1        120.059    309.050   
+    TLC_C5     TLC_C6     TLC_C7      1        120.153    385.046   
+    TLC_C5     TLC_C6     TLC_H14     1        120.059    309.050   
+    TLC_C6     TLC_C7     TLC_H15     1        119.665    342.029   
+    TLC_C7     TLC_C6     TLC_H14     1        119.788    331.093   
+    TLC_H8     TLC_C1     TLC_H9      1        107.794    246.201   
+    TLC_H8     TLC_C1     TLC_H10     1        107.794    246.201   
+    TLC_H9     TLC_C1     TLC_H10     1        107.794    246.201   
+
+[ dihedraltypes ]
+    TLC_C1     TLC_C2     TLC_C3     TLC_C4      2        180.000    130.008   
+    TLC_C7     TLC_C2     TLC_C3     TLC_C4      2        0.000      97.640    
+    TLC_C1     TLC_C2     TLC_C7     TLC_C6      2        180.000    130.008   
+    TLC_C1     TLC_C2     TLC_C7     TLC_H15     2        0.000      67.517    
+    TLC_C3     TLC_C2     TLC_C7     TLC_C6      2        0.000      97.640    
+    TLC_C3     TLC_C2     TLC_C7     TLC_H15     2        180.000    81.156    
+    TLC_C2     TLC_C3     TLC_C4     TLC_C5      2        0.000      52.267    
+    TLC_C2     TLC_C3     TLC_C4     TLC_H12     2        180.000    66.678    
+    TLC_C3     TLC_C4     TLC_C5     TLC_C6      2        0.000      89.837    
+    TLC_H12    TLC_C4     TLC_C5     TLC_C6      2        180.000    90.381    
+    TLC_C4     TLC_C5     TLC_C6     TLC_C7      2        0.000      89.837    
+    TLC_C4     TLC_C5     TLC_C6     TLC_H14     2        180.000    90.381    
+    TLC_C5     TLC_C6     TLC_C7     TLC_C2      2        0.000      52.267    
+    TLC_C5     TLC_C6     TLC_C7     TLC_H15     2        180.000    38.462    
+    TLC_H14    TLC_C6     TLC_C7     TLC_C2      2        180.000    66.678    
+    TLC_H14    TLC_C6     TLC_C7     TLC_H15     2        0.000      29.039    

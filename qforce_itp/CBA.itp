@@ -1,0 +1,121 @@
+[ bondtypes ]
+    CBA_C1     CBA_C2     1        0.14005    282721    
+    CBA_C1     CBA_C6     1        0.13855    320960    
+    CBA_C1     CBA_H14    1        0.10842    305521    
+    CBA_C2     CBA_C3     1        0.13852    315923    
+    CBA_C2     CBA_H15    1        0.10836    304986    
+    CBA_C3     CBA_C4     1        0.13937    312880    
+    CBA_C3     CBA_H16    1        0.10845    303417    
+    CBA_C4     CBA_C5     1        0.14100    261379    
+    CBA_C4     CBA_C13    1        0.14483    230046    
+    CBA_C5     CBA_C6     1        0.13925    310810    
+    CBA_C5     CBA_N7     1        0.13808    289200    
+    CBA_C6     CBA_H17    1        0.10841    303886    
+    CBA_N7     CBA_C8     1        0.13808    289200    
+    CBA_C8     CBA_C9     1        0.13925    310810    
+    CBA_C8     CBA_C13    1        0.14100    261379    
+    CBA_C9     CBA_C10    1        0.13855    320960    
+    CBA_C9     CBA_H19    1        0.10841    303886    
+    CBA_C10    CBA_C11    1        0.14005    282721    
+    CBA_C10    CBA_H20    1        0.10842    305521    
+    CBA_C11    CBA_C12    1        0.13852    315923    
+    CBA_C11    CBA_H21    1        0.10836    304986    
+    CBA_C12    CBA_C13    1        0.13937    312880    
+    CBA_C12    CBA_H22    1        0.10845    303417    
+
+[ angletypes ]
+    CBA_C1     CBA_C2     CBA_C3      1        120.656    359.687   
+    CBA_C1     CBA_C2     CBA_H15     1        119.470    322.267   
+    CBA_C1     CBA_C6     CBA_C5      1        117.607    429.743   
+    CBA_C1     CBA_C6     CBA_H17     1        121.055    310.456   
+    CBA_C2     CBA_C1     CBA_C6      1        121.420    359.847   
+    CBA_C2     CBA_C1     CBA_H14     1        119.378    324.383   
+    CBA_C2     CBA_C3     CBA_C4      1        119.072    419.090   
+    CBA_C2     CBA_C3     CBA_H16     1        120.536    314.347   
+    CBA_C3     CBA_C2     CBA_H15     1        119.874    309.053   
+    CBA_C3     CBA_C4     CBA_C5      1        119.500    351.061   
+    CBA_C3     CBA_C4     CBA_C13     1        133.883    395.487   
+    CBA_C4     CBA_C3     CBA_H16     1        120.392    261.921   
+    CBA_C4     CBA_C5     CBA_C6      1        121.745    180.740   
+    CBA_C4     CBA_C5     CBA_N7      1        108.648    664.642   
+    CBA_C4     CBA_C13    CBA_C8      1        106.617    655.650   
+    CBA_C4     CBA_C13    CBA_C12     1        133.883    395.487   
+    CBA_C5     CBA_C4     CBA_C13     1        106.617    655.650   
+    CBA_C5     CBA_C6     CBA_H17     1        121.339    264.977   
+    CBA_C5     CBA_N7     CBA_C8      1        109.470    504.871   
+    CBA_C6     CBA_C1     CBA_H14     1        119.202    297.745   
+    CBA_C6     CBA_C5     CBA_N7      1        129.607    547.514   
+    CBA_N7     CBA_C8     CBA_C9      1        129.607    547.514   
+    CBA_N7     CBA_C8     CBA_C13     1        108.648    664.642   
+    CBA_C8     CBA_C9     CBA_C10     1        117.607    429.743   
+    CBA_C8     CBA_C9     CBA_H19     1        121.339    264.977   
+    CBA_C8     CBA_C13    CBA_C12     1        119.500    351.061   
+    CBA_C9     CBA_C8     CBA_C13     1        121.745    180.740   
+    CBA_C9     CBA_C10    CBA_C11     1        121.420    359.847   
+    CBA_C9     CBA_C10    CBA_H20     1        119.202    297.745   
+    CBA_C10    CBA_C9     CBA_H19     1        121.055    310.456   
+    CBA_C10    CBA_C11    CBA_C12     1        120.656    359.687   
+    CBA_C10    CBA_C11    CBA_H21     1        119.470    322.267   
+    CBA_C11    CBA_C10    CBA_H20     1        119.378    324.383   
+    CBA_C11    CBA_C12    CBA_C13     1        119.072    419.090   
+    CBA_C11    CBA_C12    CBA_H22     1        120.536    314.347   
+    CBA_C12    CBA_C11    CBA_H21     1        119.874    309.053   
+    CBA_C13    CBA_C12    CBA_H22     1        120.392    261.921   
+
+[ dihedraltypes ]
+    CBA_C6     CBA_C1     CBA_C2     CBA_C3      2        0.000      10.161    
+    CBA_C6     CBA_C1     CBA_C2     CBA_H15     2        180.000    54.207    
+    CBA_H14    CBA_C1     CBA_C2     CBA_C3      2        180.000    75.142    
+    CBA_H14    CBA_C1     CBA_C2     CBA_H15     2        0.000      36.757    
+    CBA_C2     CBA_C1     CBA_C6     CBA_C5      2        0.000      140.607   
+    CBA_C2     CBA_C1     CBA_C6     CBA_H17     2        180.000    65.124    
+    CBA_H14    CBA_C1     CBA_C6     CBA_C5      2        180.000    80.624    
+    CBA_H14    CBA_C1     CBA_C6     CBA_H17     2        0.000      38.543    
+    CBA_C1     CBA_C2     CBA_C3     CBA_C4      2        0.000      155.559   
+    CBA_C1     CBA_C2     CBA_C3     CBA_H16     2        180.000    80.810    
+    CBA_H15    CBA_C2     CBA_C3     CBA_C4      2        180.000    75.311    
+    CBA_H15    CBA_C2     CBA_C3     CBA_H16     2        0.000      43.293    
+    CBA_C2     CBA_C3     CBA_C4     CBA_C5      2        0.000      0.000     
+    CBA_C2     CBA_C3     CBA_C4     CBA_C13     2        180.000    43.913    
+    CBA_H16    CBA_C3     CBA_C4     CBA_C5      2        180.000    80.008    
+    CBA_H16    CBA_C3     CBA_C4     CBA_C13     2        0.000      29.590    
+    CBA_C3     CBA_C4     CBA_C5     CBA_C6      2        0.000      100.842   
+    CBA_C3     CBA_C4     CBA_C5     CBA_N7      2        180.000    1.095     
+    CBA_C13    CBA_C4     CBA_C5     CBA_C6      2        180.000    54.603    
+    CBA_C13    CBA_C4     CBA_C5     CBA_N7      2        0.000      0.000     
+    CBA_C3     CBA_C4     CBA_C13    CBA_C8      2        180.000    53.377    
+    CBA_C3     CBA_C4     CBA_C13    CBA_C12     2        0.000      0.000     
+    CBA_C5     CBA_C4     CBA_C13    CBA_C8      2        0.000      246.541   
+    CBA_C5     CBA_C4     CBA_C13    CBA_C12     2        180.000    53.377    
+    CBA_C4     CBA_C5     CBA_C6     CBA_C1      2        0.000      15.125    
+    CBA_C4     CBA_C5     CBA_C6     CBA_H17     2        180.000    58.090    
+    CBA_N7     CBA_C5     CBA_C6     CBA_C1      2        180.000    91.481    
+    CBA_N7     CBA_C5     CBA_C6     CBA_H17     2        0.000      32.808    
+    CBA_C4     CBA_C5     CBA_N7     CBA_C8      2        0.000      104.036   
+    CBA_C6     CBA_C5     CBA_N7     CBA_C8      2        180.000    30.592    
+    CBA_C5     CBA_N7     CBA_C8     CBA_C9      2        180.000    30.592    
+    CBA_C5     CBA_N7     CBA_C8     CBA_C13     2        0.000      104.036   
+    CBA_N7     CBA_C8     CBA_C9     CBA_C10     2        180.000    91.481    
+    CBA_N7     CBA_C8     CBA_C9     CBA_H19     2        0.000      32.808    
+    CBA_C13    CBA_C8     CBA_C9     CBA_C10     2        0.000      15.125    
+    CBA_C13    CBA_C8     CBA_C9     CBA_H19     2        180.000    58.090    
+    CBA_N7     CBA_C8     CBA_C13    CBA_C4      2        0.000      0.000     
+    CBA_N7     CBA_C8     CBA_C13    CBA_C12     2        180.000    1.095     
+    CBA_C9     CBA_C8     CBA_C13    CBA_C4      2        180.000    54.603    
+    CBA_C9     CBA_C8     CBA_C13    CBA_C12     2        0.000      100.842   
+    CBA_C8     CBA_C9     CBA_C10    CBA_C11     2        0.000      140.607   
+    CBA_C8     CBA_C9     CBA_C10    CBA_H20     2        180.000    80.624    
+    CBA_H19    CBA_C9     CBA_C10    CBA_C11     2        180.000    65.124    
+    CBA_H19    CBA_C9     CBA_C10    CBA_H20     2        0.000      38.543    
+    CBA_C9     CBA_C10    CBA_C11    CBA_C12     2        0.000      10.161    
+    CBA_C9     CBA_C10    CBA_C11    CBA_H21     2        180.000    54.207    
+    CBA_H20    CBA_C10    CBA_C11    CBA_C12     2        180.000    75.142    
+    CBA_H20    CBA_C10    CBA_C11    CBA_H21     2        0.000      36.757    
+    CBA_C10    CBA_C11    CBA_C12    CBA_C13     2        0.000      155.559   
+    CBA_C10    CBA_C11    CBA_C12    CBA_H22     2        180.000    80.810    
+    CBA_H21    CBA_C11    CBA_C12    CBA_C13     2        180.000    75.311    
+    CBA_H21    CBA_C11    CBA_C12    CBA_H22     2        0.000      43.293    
+    CBA_C11    CBA_C12    CBA_C13    CBA_C4      2        180.000    43.913    
+    CBA_C11    CBA_C12    CBA_C13    CBA_C8      2        0.000      0.000     
+    CBA_H22    CBA_C12    CBA_C13    CBA_C4      2        0.000      29.590    
+    CBA_H22    CBA_C12    CBA_C13    CBA_C8      2        180.000    80.008    

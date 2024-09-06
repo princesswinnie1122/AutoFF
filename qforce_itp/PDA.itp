@@ -1,0 +1,46 @@
+[ bondtypes ]
+    PDA_C1     PDA_C2     1        0.13879    313207    
+    PDA_C1     PDA_C6     1        0.13879    313207    
+    PDA_C1     PDA_H7     1        0.10842    305153    
+    PDA_C2     PDA_C3     1        0.13899    288978    
+    PDA_C2     PDA_H8     1        0.10833    304622    
+    PDA_C3     PDA_N4     1        0.13321    339134    
+    PDA_C3     PDA_H9     1        0.10866    295396    
+    PDA_N4     PDA_C5     1        0.13321    339134    
+    PDA_C5     PDA_C6     1        0.13899    288978    
+    PDA_C6     PDA_H11    1        0.10833    304622    
+
+[ angletypes ]
+    PDA_C1     PDA_C2     PDA_C3      1        118.432    300.179   
+    PDA_C1     PDA_C2     PDA_H8      1        121.311    337.204   
+    PDA_C1     PDA_C6     PDA_C5      1        118.432    300.179   
+    PDA_C1     PDA_C6     PDA_H11     1        121.311    337.204   
+    PDA_C2     PDA_C1     PDA_C6      1        118.514    473.846   
+    PDA_C2     PDA_C1     PDA_H7      1        120.743    316.701   
+    PDA_C2     PDA_C3     PDA_N4      1        123.730    600.342   
+    PDA_C2     PDA_C3     PDA_H9      1        120.298    217.435   
+    PDA_C3     PDA_C2     PDA_H8      1        120.258    325.631   
+    PDA_C3     PDA_N4     PDA_C5      1        117.162    331.698   
+    PDA_N4     PDA_C3     PDA_H9      1        115.972    376.834   
+    PDA_N4     PDA_C5     PDA_C6      1        123.730    600.342   
+    PDA_C5     PDA_C6     PDA_H11     1        120.258    325.631   
+    PDA_C6     PDA_C1     PDA_H7      1        120.743    316.701   
+
+[ dihedraltypes ]
+    PDA_C6     PDA_C1     PDA_C2     PDA_C3      2        0.000      69.181    
+    PDA_C6     PDA_C1     PDA_C2     PDA_H8      2        180.000    43.757    
+    PDA_H7     PDA_C1     PDA_C2     PDA_C3      2        180.000    86.391    
+    PDA_H7     PDA_C1     PDA_C2     PDA_H8      2        0.000      37.363    
+    PDA_C2     PDA_C1     PDA_C6     PDA_C5      2        0.000      69.181    
+    PDA_C2     PDA_C1     PDA_C6     PDA_H11     2        180.000    43.757    
+    PDA_H7     PDA_C1     PDA_C6     PDA_C5      2        180.000    86.391    
+    PDA_H7     PDA_C1     PDA_C6     PDA_H11     2        0.000      37.363    
+    PDA_C1     PDA_C2     PDA_C3     PDA_N4      2        0.000      116.226   
+    PDA_C1     PDA_C2     PDA_C3     PDA_H9      2        180.000    116.425   
+    PDA_H8     PDA_C2     PDA_C3     PDA_N4      2        180.000    75.656    
+    PDA_H8     PDA_C2     PDA_C3     PDA_H9      2        0.000      55.941    
+    PDA_C2     PDA_C3     PDA_N4     PDA_C5      2        0.000      79.405    
+    PDA_H9     PDA_C3     PDA_N4     PDA_C5      2        180.000    105.226   
+    PDA_C3     PDA_N4     PDA_C5     PDA_C6      2        0.000      79.405    
+    PDA_N4     PDA_C5     PDA_C6     PDA_C1      2        0.000      116.226   
+    PDA_N4     PDA_C5     PDA_C6     PDA_H11     2        180.000    75.656    

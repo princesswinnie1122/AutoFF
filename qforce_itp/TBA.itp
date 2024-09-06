@@ -1,0 +1,159 @@
+[ bondtypes ]
+    TBA_C1     TBA_C2     1        0.15376    163382    
+    TBA_C1     TBA_H19    1        0.10935    277942    
+    TBA_C1     TBA_H20    1        0.10935    277942    
+    TBA_C1     TBA_H21    1        0.10935    277942    
+    TBA_C2     TBA_C3     1        0.15376    163382    
+    TBA_C2     TBA_C4     1        0.15376    163382    
+    TBA_C2     TBA_C5     1        0.15356    174277    
+    TBA_C3     TBA_H22    1        0.10935    277942    
+    TBA_C3     TBA_H23    1        0.10935    277942    
+    TBA_C3     TBA_H24    1        0.10935    277942    
+    TBA_C4     TBA_H25    1        0.10935    277942    
+    TBA_C4     TBA_H26    1        0.10935    277942    
+    TBA_C4     TBA_H27    1        0.10935    277942    
+    TBA_C5     TBA_C6     1        0.14304    236642    
+    TBA_C5     TBA_C18    1        0.13667    361247    
+    TBA_C6     TBA_C7     1        0.13607    381255    
+    TBA_C6     TBA_H28    1        0.10822    305002    
+    TBA_C7     TBA_C8     1        0.14249    253464    
+    TBA_C7     TBA_H29    1        0.10853    301376    
+    TBA_C8     TBA_C9     1        0.13946    297964    
+    TBA_C8     TBA_C17    1        0.14300    239218    
+    TBA_C9     TBA_C10    1        0.13931    298783    
+    TBA_C10    TBA_C11    1        0.14300    246468    
+    TBA_C10    TBA_C15    1        0.14336    232645    
+    TBA_C11    TBA_C12    1        0.13592    387126    
+    TBA_C11    TBA_H31    1        0.10851    302525    
+    TBA_C12    TBA_C13    1        0.14253    249603    
+    TBA_C12    TBA_H32    1        0.10841    304016    
+    TBA_C13    TBA_C14    1        0.13592    387126    
+    TBA_C13    TBA_H33    1        0.10841    304016    
+    TBA_C14    TBA_C15    1        0.14300    246468    
+    TBA_C14    TBA_H34    1        0.10851    302525    
+    TBA_C15    TBA_C16    1        0.13931    298738    
+    TBA_C16    TBA_C17    1        0.13956    293321    
+    TBA_C17    TBA_C18    1        0.14256    251771    
+    TBA_C18    TBA_H36    1        0.10858    299287    
+
+[ angletypes ]
+    TBA_C1     TBA_C2     TBA_C3      1        108.564    593.526   
+    TBA_C1     TBA_C2     TBA_C4      1        108.564    593.526   
+    TBA_C1     TBA_C2     TBA_C5      1        110.368    507.659   
+    TBA_C2     TBA_C1     TBA_H19     1        110.949    305.198   
+    TBA_C2     TBA_C1     TBA_H20     1        110.949    305.198   
+    TBA_C2     TBA_C1     TBA_H21     1        110.949    305.198   
+    TBA_C2     TBA_C3     TBA_H22     1        110.949    305.198   
+    TBA_C2     TBA_C3     TBA_H23     1        110.949    305.198   
+    TBA_C2     TBA_C3     TBA_H24     1        110.949    305.198   
+    TBA_C2     TBA_C4     TBA_H25     1        110.949    305.198   
+    TBA_C2     TBA_C4     TBA_H26     1        110.949    305.198   
+    TBA_C2     TBA_C4     TBA_H27     1        110.949    305.198   
+    TBA_C2     TBA_C5     TBA_C6      1        122.064    511.509   
+    TBA_C2     TBA_C5     TBA_C18     1        120.181    496.234   
+    TBA_C3     TBA_C2     TBA_C4      1        108.564    593.526   
+    TBA_C3     TBA_C2     TBA_C5      1        110.368    507.659   
+    TBA_C4     TBA_C2     TBA_C5      1        110.368    507.659   
+    TBA_C5     TBA_C6     TBA_C7      1        121.759    348.482   
+    TBA_C5     TBA_C6     TBA_H28     1        119.680    227.959   
+    TBA_C5     TBA_C18    TBA_C17     1        122.558    222.847   
+    TBA_C5     TBA_C18    TBA_H36     1        120.297    351.212   
+    TBA_C6     TBA_C5     TBA_C18     1        117.756    412.374   
+    TBA_C6     TBA_C7     TBA_C8      1        121.228    252.253   
+    TBA_C6     TBA_C7     TBA_H29     1        120.120    400.985   
+    TBA_C7     TBA_C6     TBA_H28     1        118.561    326.452   
+    TBA_C7     TBA_C8     TBA_C9      1        122.663    697.340   
+    TBA_C7     TBA_C8     TBA_C17     1        117.872    450.780   
+    TBA_C8     TBA_C7     TBA_H29     1        118.651    166.464   
+    TBA_C8     TBA_C9     TBA_C10     1        121.443    206.061   
+    TBA_C8     TBA_C17    TBA_C16     1        119.082    398.803   
+    TBA_C8     TBA_C17    TBA_C18     1        118.827    418.400   
+    TBA_C9     TBA_C8     TBA_C17     1        119.465    418.310   
+    TBA_C9     TBA_C10    TBA_C11     1        122.173    688.442   
+    TBA_C9     TBA_C10    TBA_C15     1        119.175    418.578   
+    TBA_C10    TBA_C11    TBA_C12     1        120.922    267.642   
+    TBA_C10    TBA_C11    TBA_H31     1        118.493    169.758   
+    TBA_C10    TBA_C15    TBA_C14     1        118.618    430.450   
+    TBA_C10    TBA_C15    TBA_C16     1        119.294    409.540   
+    TBA_C11    TBA_C10    TBA_C15     1        118.618    430.450   
+    TBA_C11    TBA_C12    TBA_C13     1        120.460    389.050   
+    TBA_C11    TBA_C12    TBA_H32     1        120.190    309.030   
+    TBA_C12    TBA_C11    TBA_H31     1        120.585    384.105   
+    TBA_C12    TBA_C13    TBA_C14     1        120.460    389.050   
+    TBA_C12    TBA_C13    TBA_H33     1        119.350    294.309   
+    TBA_C13    TBA_C12    TBA_H32     1        119.350    294.309   
+    TBA_C13    TBA_C14    TBA_C15     1        120.922    267.642   
+    TBA_C13    TBA_C14    TBA_H34     1        120.585    384.105   
+    TBA_C14    TBA_C13    TBA_H33     1        120.190    309.030   
+    TBA_C14    TBA_C15    TBA_C16     1        122.122    699.622   
+    TBA_C15    TBA_C14    TBA_H34     1        118.493    169.758   
+    TBA_C15    TBA_C16    TBA_C17     1        121.541    210.578   
+    TBA_C16    TBA_C17    TBA_C18     1        122.091    702.292   
+    TBA_C17    TBA_C18    TBA_H36     1        117.146    184.672   
+    TBA_H19    TBA_C1     TBA_H20     1        107.949    254.228   
+    TBA_H19    TBA_C1     TBA_H21     1        107.949    254.228   
+    TBA_H20    TBA_C1     TBA_H21     1        107.949    254.228   
+    TBA_H22    TBA_C3     TBA_H23     1        107.949    254.228   
+    TBA_H22    TBA_C3     TBA_H24     1        107.949    254.228   
+    TBA_H23    TBA_C3     TBA_H24     1        107.949    254.228   
+    TBA_H25    TBA_C4     TBA_H26     1        107.949    254.228   
+    TBA_H25    TBA_C4     TBA_H27     1        107.949    254.228   
+    TBA_H26    TBA_C4     TBA_H27     1        107.949    254.228   
+
+[ dihedraltypes ]
+    TBA_C2     TBA_C5     TBA_C6     TBA_C7      2        180.000    110.306   
+    TBA_C2     TBA_C5     TBA_C6     TBA_H28     2        0.000      51.817    
+    TBA_C18    TBA_C5     TBA_C6     TBA_C7      2        0.000      52.163    
+    TBA_C18    TBA_C5     TBA_C6     TBA_H28     2        180.000    63.630    
+    TBA_C2     TBA_C5     TBA_C18    TBA_C17     2        180.000    143.360   
+    TBA_C2     TBA_C5     TBA_C18    TBA_H36     2        0.000      65.738    
+    TBA_C6     TBA_C5     TBA_C18    TBA_C17     2        0.000      131.814   
+    TBA_C6     TBA_C5     TBA_C18    TBA_H36     2        180.000    87.028    
+    TBA_C5     TBA_C6     TBA_C7     TBA_C8      2        0.000      87.177    
+    TBA_C5     TBA_C6     TBA_C7     TBA_H29     2        180.000    76.024    
+    TBA_H28    TBA_C6     TBA_C7     TBA_C8      2        180.000    57.250    
+    TBA_H28    TBA_C6     TBA_C7     TBA_H29     2        0.000      41.473    
+    TBA_C6     TBA_C7     TBA_C8     TBA_C9      2        180.000    55.566    
+    TBA_C6     TBA_C7     TBA_C8     TBA_C17     2        0.000      27.517    
+    TBA_H29    TBA_C7     TBA_C8     TBA_C9      2        0.000      41.233    
+    TBA_H29    TBA_C7     TBA_C8     TBA_C17     2        180.000    57.554    
+    TBA_C7     TBA_C8     TBA_C9     TBA_C10     2        180.000    86.079    
+    TBA_C17    TBA_C8     TBA_C9     TBA_C10     2        0.000      0.000     
+    TBA_C7     TBA_C8     TBA_C17    TBA_C16     2        180.000    83.024    
+    TBA_C7     TBA_C8     TBA_C17    TBA_C18     2        0.000      97.622    
+    TBA_C9     TBA_C8     TBA_C17    TBA_C16     2        0.000      121.427   
+    TBA_C9     TBA_C8     TBA_C17    TBA_C18     2        180.000    66.119    
+    TBA_C8     TBA_C9     TBA_C10    TBA_C11     2        180.000    75.732    
+    TBA_C8     TBA_C9     TBA_C10    TBA_C15     2        0.000      110.833   
+    TBA_C9     TBA_C10    TBA_C11    TBA_C12     2        180.000    62.096    
+    TBA_C9     TBA_C10    TBA_C11    TBA_H31     2        0.000      32.674    
+    TBA_C15    TBA_C10    TBA_C11    TBA_C12     2        0.000      0.000     
+    TBA_C15    TBA_C10    TBA_C11    TBA_H31     2        180.000    43.155    
+    TBA_C9     TBA_C10    TBA_C15    TBA_C14     2        180.000    74.884    
+    TBA_C9     TBA_C10    TBA_C15    TBA_C16     2        0.000      10.497    
+    TBA_C11    TBA_C10    TBA_C15    TBA_C14     2        0.000      118.027   
+    TBA_C11    TBA_C10    TBA_C15    TBA_C16     2        180.000    81.415    
+    TBA_C10    TBA_C11    TBA_C12    TBA_C13     2        0.000      137.178   
+    TBA_C10    TBA_C11    TBA_C12    TBA_H32     2        180.000    84.442    
+    TBA_H31    TBA_C11    TBA_C12    TBA_C13     2        180.000    85.485    
+    TBA_H31    TBA_C11    TBA_C12    TBA_H32     2        0.000      51.756    
+    TBA_C11    TBA_C12    TBA_C13    TBA_C14     2        0.000      12.005    
+    TBA_C11    TBA_C12    TBA_C13    TBA_H33     2        180.000    50.128    
+    TBA_H32    TBA_C12    TBA_C13    TBA_C14     2        180.000    50.128    
+    TBA_H32    TBA_C12    TBA_C13    TBA_H33     2        0.000      35.808    
+    TBA_C12    TBA_C13    TBA_C14    TBA_C15     2        0.000      137.178   
+    TBA_C12    TBA_C13    TBA_C14    TBA_H34     2        180.000    85.485    
+    TBA_H33    TBA_C13    TBA_C14    TBA_C15     2        180.000    84.442    
+    TBA_H33    TBA_C13    TBA_C14    TBA_H34     2        0.000      51.756    
+    TBA_C13    TBA_C14    TBA_C15    TBA_C10     2        0.000      0.000     
+    TBA_C13    TBA_C14    TBA_C15    TBA_C16     2        180.000    62.722    
+    TBA_H34    TBA_C14    TBA_C15    TBA_C10     2        180.000    43.155    
+    TBA_H34    TBA_C14    TBA_C15    TBA_C16     2        0.000      33.416    
+    TBA_C10    TBA_C15    TBA_C16    TBA_C17     2        0.000      106.909   
+    TBA_C14    TBA_C15    TBA_C16    TBA_C17     2        180.000    86.558    
+    TBA_C15    TBA_C16    TBA_C17    TBA_C8      2        0.000      4.027     
+    TBA_C15    TBA_C16    TBA_C17    TBA_C18     2        180.000    63.527    
+    TBA_C8     TBA_C17    TBA_C18    TBA_C5      2        0.000      0.000     
+    TBA_C8     TBA_C17    TBA_C18    TBA_H36     2        180.000    19.233    
+    TBA_C16    TBA_C17    TBA_C18    TBA_C5      2        180.000    64.363    
+    TBA_C16    TBA_C17    TBA_C18    TBA_H36     2        0.000      17.978    

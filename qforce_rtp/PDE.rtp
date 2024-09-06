@@ -1,0 +1,42 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[ PDE ]
+  [ atoms ]
+    C1    PDE_C1  
+    C2    PDE_C2  
+    C3    PDE_C3  
+    N4    PDE_N4  
+    C5    PDE_C5  
+    C6    PDE_C6  
+    H7    PDE_H7  
+    H8    PDE_H8  
+    H11   PDE_H11 
+
+  [ bonds ]
+    C1    C2   
+    C1    C6   
+    C1    H7   
+    C2    C3   
+    C2    H8   
+    C3    N4   
+    N4    C5   
+    C5    C6   
+    C6    H11  
+
+  [ impropers ]
+    C6    C1    C2    C3
+    C6    C1    C2    H8
+    H7    C1    C2    C3
+    H7    C1    C2    H8
+    C2    C1    C6    C5
+    C2    C1    C6    H11
+    H7    C1    C6    C5
+    H7    C1    C6    H11
+    C1    C2    C3    N4
+    H8    C2    C3    N4
+    C2    C3    N4    C5
+    C3    N4    C5    C6
+    N4    C5    C6    C1
+    N4    C5    C6    H11

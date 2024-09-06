@@ -1,0 +1,84 @@
+[ bondtypes ]
+    IQA_C1     IQA_C2     1        0.14147    262771    
+    IQA_C1     IQA_C10    1        0.13681    361251    
+    IQA_C1     IQA_H11    1        0.10842    303959    
+    IQA_C2     IQA_C3     1        0.13676    361411    
+    IQA_C2     IQA_H12    1        0.10838    305296    
+    IQA_C3     IQA_C4     1        0.14158    262345    
+    IQA_C3     IQA_H13    1        0.10851    303751    
+    IQA_C4     IQA_C5     1        0.14193    236742    
+    IQA_C4     IQA_C9     1        0.14150    260697    
+    IQA_C5     IQA_N6     1        0.13072    403442    
+    IQA_C5     IQA_H14    1        0.10891    291291    
+    IQA_N6     IQA_C7     1        0.13586    285275    
+    IQA_C7     IQA_C8     1        0.13667    348300    
+    IQA_C7     IQA_H15    1        0.10853    300279    
+    IQA_C8     IQA_C9     1        0.14156    266469    
+    IQA_C9     IQA_C10    1        0.14173    259487    
+    IQA_C10    IQA_H17    1        0.10847    304562    
+
+[ angletypes ]
+    IQA_C1     IQA_C2     IQA_C3      1        120.209    405.080   
+    IQA_C1     IQA_C2     IQA_H12     1        119.529    305.794   
+    IQA_C1     IQA_C10    IQA_C9      1        120.195    288.306   
+    IQA_C1     IQA_C10    IQA_H17     1        120.673    392.977   
+    IQA_C2     IQA_C1     IQA_C10     1        120.767    392.293   
+    IQA_C2     IQA_C1     IQA_H11     1        119.328    306.026   
+    IQA_C2     IQA_C3     IQA_C4      1        120.174    267.718   
+    IQA_C2     IQA_C3     IQA_H13     1        120.735    395.501   
+    IQA_C3     IQA_C2     IQA_H12     1        120.262    314.997   
+    IQA_C3     IQA_C4     IQA_C5      1        122.612    725.517   
+    IQA_C3     IQA_C4     IQA_C9      1        119.698    477.716   
+    IQA_C4     IQA_C3     IQA_H13     1        119.091    168.476   
+    IQA_C4     IQA_C5     IQA_N6      1        124.423    509.335   
+    IQA_C4     IQA_C5     IQA_H14     1        118.795    84.737    
+    IQA_C4     IQA_C9     IQA_C8      1        117.244    503.014   
+    IQA_C4     IQA_C9     IQA_C10     1        118.958    435.313   
+    IQA_C5     IQA_C4     IQA_C9      1        117.690    348.932   
+    IQA_C5     IQA_N6     IQA_C7      1        117.350    382.424   
+    IQA_N6     IQA_C5     IQA_H14     1        116.782    431.762   
+    IQA_N6     IQA_C7     IQA_C8      1        123.952    572.122   
+    IQA_N6     IQA_C7     IQA_H15     1        115.381    349.585   
+    IQA_C7     IQA_C8     IQA_C9      1        119.342    188.839   
+    IQA_C8     IQA_C7     IQA_H15     1        120.667    207.410   
+    IQA_C8     IQA_C9     IQA_C10     1        123.798    713.149   
+    IQA_C9     IQA_C10    IQA_H17     1        119.132    179.182   
+    IQA_C10    IQA_C1     IQA_H11     1        119.906    317.629   
+
+[ dihedraltypes ]
+    IQA_C10    IQA_C1     IQA_C2     IQA_C3      2        0.000      20.374    
+    IQA_C10    IQA_C1     IQA_C2     IQA_H12     2        180.000    54.619    
+    IQA_H11    IQA_C1     IQA_C2     IQA_C3      2        180.000    58.724    
+    IQA_H11    IQA_C1     IQA_C2     IQA_H12     2        0.000      38.842    
+    IQA_C2     IQA_C1     IQA_C10    IQA_C9      2        0.000      123.525   
+    IQA_C2     IQA_C1     IQA_C10    IQA_H17     2        180.000    72.654    
+    IQA_H11    IQA_C1     IQA_C10    IQA_C9      2        180.000    87.586    
+    IQA_H11    IQA_C1     IQA_C10    IQA_H17     2        0.000      50.436    
+    IQA_C1     IQA_C2     IQA_C3     IQA_C4      2        0.000      139.821   
+    IQA_C1     IQA_C2     IQA_C3     IQA_H13     2        180.000    101.703   
+    IQA_H12    IQA_C2     IQA_C3     IQA_C4      2        180.000    71.038    
+    IQA_H12    IQA_C2     IQA_C3     IQA_H13     2        0.000      52.889    
+    IQA_C2     IQA_C3     IQA_C4     IQA_C5      2        180.000    71.928    
+    IQA_C2     IQA_C3     IQA_C4     IQA_C9      2        0.000      0.000     
+    IQA_H13    IQA_C3     IQA_C4     IQA_C5      2        0.000      24.462    
+    IQA_H13    IQA_C3     IQA_C4     IQA_C9      2        180.000    39.780    
+    IQA_C3     IQA_C4     IQA_C5     IQA_N6      2        180.000    90.977    
+    IQA_C3     IQA_C4     IQA_C5     IQA_H14     2        0.000      65.981    
+    IQA_C9     IQA_C4     IQA_C5     IQA_N6      2        0.000      47.343    
+    IQA_C9     IQA_C4     IQA_C5     IQA_H14     2        180.000    93.398    
+    IQA_C3     IQA_C4     IQA_C9     IQA_C8      2        180.000    60.368    
+    IQA_C3     IQA_C4     IQA_C9     IQA_C10     2        0.000      105.064   
+    IQA_C5     IQA_C4     IQA_C9     IQA_C8      2        0.000      97.145    
+    IQA_C5     IQA_C4     IQA_C9     IQA_C10     2        180.000    81.520    
+    IQA_C4     IQA_C5     IQA_N6     IQA_C7      2        0.000      142.116   
+    IQA_H14    IQA_C5     IQA_N6     IQA_C7      2        180.000    113.897   
+    IQA_C5     IQA_N6     IQA_C7     IQA_C8      2        0.000      4.231     
+    IQA_C5     IQA_N6     IQA_C7     IQA_H15     2        180.000    67.873    
+    IQA_N6     IQA_C7     IQA_C8     IQA_C9      2        0.000      162.849   
+    IQA_H15    IQA_C7     IQA_C8     IQA_C9      2        180.000    127.424   
+    IQA_C7     IQA_C8     IQA_C9     IQA_C4      2        0.000      0.000     
+    IQA_C7     IQA_C8     IQA_C9     IQA_C10     2        180.000    78.350    
+    IQA_C4     IQA_C9     IQA_C10    IQA_C1      2        0.000      20.517    
+    IQA_C4     IQA_C9     IQA_C10    IQA_H17     2        180.000    44.544    
+    IQA_C8     IQA_C9     IQA_C10    IQA_C1      2        180.000    71.589    
+    IQA_C8     IQA_C9     IQA_C10    IQA_H17     2        0.000      39.276    

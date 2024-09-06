@@ -1,0 +1,109 @@
+[ bondtypes ]
+    PTA_C1     PTA_C2     1        0.14048    260473    
+    PTA_C1     PTA_C6     1        0.13714    352932    
+    PTA_C1     PTA_H15    1        0.10832    307090    
+    PTA_C2     PTA_N3     1        0.13149    375374    
+    PTA_C2     PTA_H16    1        0.10873    295669    
+    PTA_N3     PTA_C4     1        0.13463    296204    
+    PTA_C4     PTA_C5     1        0.14121    253116    
+    PTA_C4     PTA_C14    1        0.14578    208356    
+    PTA_C5     PTA_C6     1        0.14068    274395    
+    PTA_C5     PTA_C7     1        0.14347    242878    
+    PTA_C7     PTA_C8     1        0.13500    421086    
+    PTA_C7     PTA_H18    1        0.10850    302762    
+    PTA_C8     PTA_C9     1        0.14347    242878    
+    PTA_C8     PTA_H19    1        0.10850    302762    
+    PTA_C9     PTA_C10    1        0.14068    274395    
+    PTA_C9     PTA_C14    1        0.14121    253116    
+    PTA_C10    PTA_C11    1        0.13714    352932    
+    PTA_C11    PTA_C12    1        0.14048    260473    
+    PTA_C11    PTA_H21    1        0.10832    307090    
+    PTA_C12    PTA_N13    1        0.13149    375374    
+    PTA_C12    PTA_H22    1        0.10873    295669    
+    PTA_N13    PTA_C14    1        0.13463    296204    
+
+[ angletypes ]
+    PTA_C1     PTA_C2     PTA_N3      1        124.071    603.590   
+    PTA_C1     PTA_C2     PTA_H16     1        119.857    205.515   
+    PTA_C1     PTA_C6     PTA_C5      1        119.338    371.003   
+    PTA_C2     PTA_C1     PTA_C6      1        118.234    320.981   
+    PTA_C2     PTA_C1     PTA_H15     1        120.219    309.144   
+    PTA_C2     PTA_N3     PTA_C4      1        118.101    337.918   
+    PTA_N3     PTA_C2     PTA_H16     1        116.071    364.960   
+    PTA_N3     PTA_C4     PTA_C5      1        122.536    595.594   
+    PTA_N3     PTA_C4     PTA_C14     1        118.633    518.594   
+    PTA_C4     PTA_C5     PTA_C6      1        117.720    321.876   
+    PTA_C4     PTA_C5     PTA_C7      1        120.359    481.392   
+    PTA_C4     PTA_C14    PTA_C9      1        118.832    319.871   
+    PTA_C4     PTA_C14    PTA_N13     1        118.633    518.594   
+    PTA_C5     PTA_C4     PTA_C14     1        118.832    319.871   
+    PTA_C5     PTA_C7     PTA_C8      1        120.810    274.137   
+    PTA_C5     PTA_C7     PTA_H18     1        118.489    170.685   
+    PTA_C6     PTA_C1     PTA_H15     1        121.547    330.566   
+    PTA_C6     PTA_C5     PTA_C7      1        121.921    685.468   
+    PTA_C7     PTA_C8     PTA_C9      1        120.810    274.137   
+    PTA_C7     PTA_C8     PTA_H19     1        120.701    370.702   
+    PTA_C8     PTA_C7     PTA_H18     1        120.701    370.702   
+    PTA_C8     PTA_C9     PTA_C10     1        121.921    685.468   
+    PTA_C8     PTA_C9     PTA_C14     1        120.359    481.392   
+    PTA_C9     PTA_C8     PTA_H19     1        118.489    170.685   
+    PTA_C9     PTA_C10    PTA_C11     1        119.338    371.003   
+    PTA_C9     PTA_C14    PTA_N13     1        122.536    595.594   
+    PTA_C10    PTA_C9     PTA_C14     1        117.720    321.876   
+    PTA_C10    PTA_C11    PTA_C12     1        118.234    320.981   
+    PTA_C10    PTA_C11    PTA_H21     1        121.547    330.566   
+    PTA_C11    PTA_C12    PTA_N13     1        124.071    603.590   
+    PTA_C11    PTA_C12    PTA_H22     1        119.857    205.515   
+    PTA_C12    PTA_C11    PTA_H21     1        120.219    309.144   
+    PTA_C12    PTA_N13    PTA_C14     1        118.101    337.918   
+    PTA_N13    PTA_C12    PTA_H22     1        116.071    364.960   
+
+[ dihedraltypes ]
+    PTA_C6     PTA_C1     PTA_C2     PTA_N3      2        0.000      163.314   
+    PTA_C6     PTA_C1     PTA_C2     PTA_H16     2        180.000    105.904   
+    PTA_H15    PTA_C1     PTA_C2     PTA_N3      2        180.000    76.306    
+    PTA_H15    PTA_C1     PTA_C2     PTA_H16     2        0.000      63.243    
+    PTA_C2     PTA_C1     PTA_C6     PTA_C5      2        0.000      0.000     
+    PTA_H15    PTA_C1     PTA_C6     PTA_C5      2        180.000    35.951    
+    PTA_C1     PTA_C2     PTA_N3     PTA_C4      2        0.000      29.487    
+    PTA_H16    PTA_C2     PTA_N3     PTA_C4      2        180.000    103.509   
+    PTA_C2     PTA_N3     PTA_C4     PTA_C5      2        0.000      102.473   
+    PTA_C2     PTA_N3     PTA_C4     PTA_C14     2        180.000    109.159   
+    PTA_N3     PTA_C4     PTA_C5     PTA_C6      2        0.000      41.202    
+    PTA_N3     PTA_C4     PTA_C5     PTA_C7      2        180.000    51.554    
+    PTA_C14    PTA_C4     PTA_C5     PTA_C6      2        180.000    118.156   
+    PTA_C14    PTA_C4     PTA_C5     PTA_C7      2        0.000      84.660    
+    PTA_N3     PTA_C4     PTA_C14    PTA_C9      2        180.000    69.319    
+    PTA_N3     PTA_C4     PTA_C14    PTA_N13     2        0.000      66.764    
+    PTA_C5     PTA_C4     PTA_C14    PTA_C9      2        0.000      44.818    
+    PTA_C5     PTA_C4     PTA_C14    PTA_N13     2        180.000    69.319    
+    PTA_C4     PTA_C5     PTA_C6     PTA_C1      2        0.000      118.513   
+    PTA_C7     PTA_C5     PTA_C6     PTA_C1      2        180.000    90.074    
+    PTA_C4     PTA_C5     PTA_C7     PTA_C8      2        0.000      0.000     
+    PTA_C4     PTA_C5     PTA_C7     PTA_H18     2        180.000    31.511    
+    PTA_C6     PTA_C5     PTA_C7     PTA_C8      2        180.000    55.772    
+    PTA_C6     PTA_C5     PTA_C7     PTA_H18     2        0.000      30.725    
+    PTA_C5     PTA_C7     PTA_C8     PTA_C9      2        0.000      133.845   
+    PTA_C5     PTA_C7     PTA_C8     PTA_H19     2        180.000    92.637    
+    PTA_H18    PTA_C7     PTA_C8     PTA_C9      2        180.000    92.637    
+    PTA_H18    PTA_C7     PTA_C8     PTA_H19     2        0.000      57.538    
+    PTA_C7     PTA_C8     PTA_C9     PTA_C10     2        180.000    55.772    
+    PTA_C7     PTA_C8     PTA_C9     PTA_C14     2        0.000      0.000     
+    PTA_H19    PTA_C8     PTA_C9     PTA_C10     2        0.000      30.725    
+    PTA_H19    PTA_C8     PTA_C9     PTA_C14     2        180.000    31.511    
+    PTA_C8     PTA_C9     PTA_C10    PTA_C11     2        180.000    90.074    
+    PTA_C14    PTA_C9     PTA_C10    PTA_C11     2        0.000      118.513   
+    PTA_C8     PTA_C9     PTA_C14    PTA_C4      2        0.000      84.660    
+    PTA_C8     PTA_C9     PTA_C14    PTA_N13     2        180.000    51.554    
+    PTA_C10    PTA_C9     PTA_C14    PTA_C4      2        180.000    118.156   
+    PTA_C10    PTA_C9     PTA_C14    PTA_N13     2        0.000      41.202    
+    PTA_C9     PTA_C10    PTA_C11    PTA_C12     2        0.000      0.000     
+    PTA_C9     PTA_C10    PTA_C11    PTA_H21     2        180.000    35.951    
+    PTA_C10    PTA_C11    PTA_C12    PTA_N13     2        0.000      163.314   
+    PTA_C10    PTA_C11    PTA_C12    PTA_H22     2        180.000    105.904   
+    PTA_H21    PTA_C11    PTA_C12    PTA_N13     2        180.000    76.306    
+    PTA_H21    PTA_C11    PTA_C12    PTA_H22     2        0.000      63.243    
+    PTA_C11    PTA_C12    PTA_N13    PTA_C14     2        0.000      29.487    
+    PTA_H22    PTA_C12    PTA_N13    PTA_C14     2        180.000    103.509   
+    PTA_C12    PTA_N13    PTA_C14    PTA_C4      2        180.000    109.159   
+    PTA_C12    PTA_N13    PTA_C14    PTA_C9      2        0.000      102.473   

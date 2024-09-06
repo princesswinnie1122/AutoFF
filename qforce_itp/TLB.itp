@@ -1,0 +1,54 @@
+[ bondtypes ]
+    TLB_C1     TLB_C2     1        0.15071    203960    
+    TLB_C1     TLB_H8     1        0.10930    277880    
+    TLB_C1     TLB_H9     1        0.10930    277880    
+    TLB_C1     TLB_H10    1        0.10930    277880    
+    TLB_C2     TLB_C3     1        0.13945    294007    
+    TLB_C2     TLB_C7     1        0.13945    294007    
+    TLB_C3     TLB_C4     1        0.13893    308320    
+    TLB_C4     TLB_C5     1        0.13895    307194    
+    TLB_C4     TLB_H12    1        0.10845    302586    
+    TLB_C5     TLB_C6     1        0.13895    307194    
+    TLB_C5     TLB_H13    1        0.10841    305890    
+    TLB_C6     TLB_C7     1        0.13893    308320    
+    TLB_C7     TLB_H15    1        0.10858    299119    
+
+[ angletypes ]
+    TLB_C1     TLB_C2     TLB_C3      1        120.841    547.422   
+    TLB_C1     TLB_C2     TLB_C7      1        120.841    547.422   
+    TLB_C2     TLB_C1     TLB_H8      1        111.098    268.306   
+    TLB_C2     TLB_C1     TLB_H9      1        111.098    268.306   
+    TLB_C2     TLB_C1     TLB_H10     1        111.098    268.306   
+    TLB_C2     TLB_C3     TLB_C4      1        120.962    343.586   
+    TLB_C2     TLB_C7     TLB_C6      1        120.962    343.586   
+    TLB_C2     TLB_C7     TLB_H15     1        119.372    296.780   
+    TLB_C3     TLB_C2     TLB_C7      1        118.307    412.628   
+    TLB_C3     TLB_C4     TLB_C5      1        120.153    385.046   
+    TLB_C3     TLB_C4     TLB_H12     1        119.788    331.093   
+    TLB_C4     TLB_C5     TLB_C6      1        119.462    409.174   
+    TLB_C4     TLB_C5     TLB_H13     1        120.269    314.419   
+    TLB_C5     TLB_C4     TLB_H12     1        120.059    309.050   
+    TLB_C5     TLB_C6     TLB_C7      1        120.153    385.046   
+    TLB_C6     TLB_C5     TLB_H13     1        120.269    314.419   
+    TLB_C6     TLB_C7     TLB_H15     1        119.665    342.029   
+    TLB_H8     TLB_C1     TLB_H9      1        107.794    246.201   
+    TLB_H8     TLB_C1     TLB_H10     1        107.794    246.201   
+    TLB_H9     TLB_C1     TLB_H10     1        107.794    246.201   
+
+[ dihedraltypes ]
+    TLB_C1     TLB_C2     TLB_C3     TLB_C4      2        180.000    130.008   
+    TLB_C7     TLB_C2     TLB_C3     TLB_C4      2        0.000      97.640    
+    TLB_C1     TLB_C2     TLB_C7     TLB_C6      2        180.000    130.008   
+    TLB_C1     TLB_C2     TLB_C7     TLB_H15     2        0.000      67.517    
+    TLB_C3     TLB_C2     TLB_C7     TLB_C6      2        0.000      97.640    
+    TLB_C3     TLB_C2     TLB_C7     TLB_H15     2        180.000    81.156    
+    TLB_C2     TLB_C3     TLB_C4     TLB_C5      2        0.000      52.267    
+    TLB_C2     TLB_C3     TLB_C4     TLB_H12     2        180.000    66.678    
+    TLB_C3     TLB_C4     TLB_C5     TLB_C6      2        0.000      89.837    
+    TLB_C3     TLB_C4     TLB_C5     TLB_H13     2        180.000    61.321    
+    TLB_H12    TLB_C4     TLB_C5     TLB_C6      2        180.000    90.381    
+    TLB_H12    TLB_C4     TLB_C5     TLB_H13     2        0.000      46.175    
+    TLB_C4     TLB_C5     TLB_C6     TLB_C7      2        0.000      89.837    
+    TLB_H13    TLB_C5     TLB_C6     TLB_C7      2        180.000    61.321    
+    TLB_C5     TLB_C6     TLB_C7     TLB_C2      2        0.000      52.267    
+    TLB_C5     TLB_C6     TLB_C7     TLB_H15     2        180.000    38.462    

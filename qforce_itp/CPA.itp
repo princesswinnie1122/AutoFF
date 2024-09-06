@@ -1,0 +1,35 @@
+[ bondtypes ]
+    CPA_N1     CPA_C2     1        0.11511    1100456   
+    CPA_C2     CPA_C3     1        0.14318    278588    
+    CPA_C3     CPA_C4     1        0.13944    295750    
+    CPA_C3     CPA_C8     1        0.13978    267111    
+    CPA_C4     CPA_C5     1        0.13841    322581    
+    CPA_C5     CPA_C6     1        0.13904    286234    
+    CPA_C5     CPA_H10    1        0.10825    307253    
+    CPA_C6     CPA_N7     1        0.13325    332413    
+    CPA_N7     CPA_C8     1        0.13264    351787    
+
+[ angletypes ]
+    CPA_N1     CPA_C2     CPA_C3      1        180.000    206.320   
+    CPA_C2     CPA_C3     CPA_C4      1        121.044    537.343   
+    CPA_C2     CPA_C3     CPA_C8      1        120.237    529.444   
+    CPA_C3     CPA_C4     CPA_C5      1        118.181    466.005   
+    CPA_C3     CPA_C8     CPA_N7      1        123.139    600.188   
+    CPA_C4     CPA_C3     CPA_C8      1        118.719    136.428   
+    CPA_C4     CPA_C5     CPA_C6      1        118.598    312.908   
+    CPA_C4     CPA_C5     CPA_H10     1        121.022    332.001   
+    CPA_C5     CPA_C6     CPA_N7      1        123.754    619.489   
+    CPA_C6     CPA_C5     CPA_H10     1        120.380    314.785   
+    CPA_C6     CPA_N7     CPA_C8      1        117.609    350.445   
+
+[ dihedraltypes ]
+    CPA_C2     CPA_C3     CPA_C4     CPA_C5      2        180.000    94.478    
+    CPA_C8     CPA_C3     CPA_C4     CPA_C5      2        0.000      128.812   
+    CPA_C2     CPA_C3     CPA_C8     CPA_N7      2        180.000    116.978   
+    CPA_C4     CPA_C3     CPA_C8     CPA_N7      2        0.000      58.839    
+    CPA_C3     CPA_C4     CPA_C5     CPA_C6      2        0.000      0.000     
+    CPA_C3     CPA_C4     CPA_C5     CPA_H10     2        180.000    27.565    
+    CPA_C4     CPA_C5     CPA_C6     CPA_N7      2        0.000      170.125   
+    CPA_H10    CPA_C5     CPA_C6     CPA_N7      2        180.000    88.281    
+    CPA_C5     CPA_C6     CPA_N7     CPA_C8      2        0.000      22.622    
+    CPA_C6     CPA_N7     CPA_C8     CPA_C3      2        0.000      124.741   

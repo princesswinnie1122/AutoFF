@@ -1,0 +1,28 @@
+[ bondtypes ]
+    PDG_C1     PDG_C2     1        0.13879    313207    
+    PDG_C1     PDG_C6     1        0.13879    313207    
+    PDG_C2     PDG_C3     1        0.13899    288978    
+    PDG_C3     PDG_N4     1        0.13321    339134    
+    PDG_N4     PDG_C5     1        0.13321    339134    
+    PDG_C5     PDG_C6     1        0.13899    288978    
+    PDG_C6     PDG_H11    1        0.10833    304622    
+
+[ angletypes ]
+    PDG_C1     PDG_C2     PDG_C3      1        118.432    300.179   
+    PDG_C1     PDG_C6     PDG_C5      1        118.432    300.179   
+    PDG_C1     PDG_C6     PDG_H11     1        121.311    337.204   
+    PDG_C2     PDG_C1     PDG_C6      1        118.514    473.846   
+    PDG_C2     PDG_C3     PDG_N4      1        123.730    600.342   
+    PDG_C3     PDG_N4     PDG_C5      1        117.162    331.698   
+    PDG_N4     PDG_C5     PDG_C6      1        123.730    600.342   
+    PDG_C5     PDG_C6     PDG_H11     1        120.258    325.631   
+
+[ dihedraltypes ]
+    PDG_C6     PDG_C1     PDG_C2     PDG_C3      2        0.000      69.181    
+    PDG_C2     PDG_C1     PDG_C6     PDG_C5      2        0.000      69.181    
+    PDG_C2     PDG_C1     PDG_C6     PDG_H11     2        180.000    43.757    
+    PDG_C1     PDG_C2     PDG_C3     PDG_N4      2        0.000      116.226   
+    PDG_C2     PDG_C3     PDG_N4     PDG_C5      2        0.000      79.405    
+    PDG_C3     PDG_N4     PDG_C5     PDG_C6      2        0.000      79.405    
+    PDG_N4     PDG_C5     PDG_C6     PDG_C1      2        0.000      116.226   
+    PDG_N4     PDG_C5     PDG_C6     PDG_H11     2        180.000    75.656    

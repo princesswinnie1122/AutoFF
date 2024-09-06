@@ -1,0 +1,107 @@
+[ bondtypes ]
+    CBC_C1     CBC_C2     1        0.14005    282721    
+    CBC_C1     CBC_C6     1        0.13855    320960    
+    CBC_C1     CBC_H14    1        0.10842    305521    
+    CBC_C2     CBC_C3     1        0.13852    315923    
+    CBC_C3     CBC_C4     1        0.13937    312880    
+    CBC_C3     CBC_H16    1        0.10845    303417    
+    CBC_C4     CBC_C5     1        0.14100    261379    
+    CBC_C4     CBC_C13    1        0.14483    230046    
+    CBC_C5     CBC_C6     1        0.13925    310810    
+    CBC_C5     CBC_N7     1        0.13808    289200    
+    CBC_C6     CBC_H17    1        0.10841    303886    
+    CBC_N7     CBC_C8     1        0.13808    289200    
+    CBC_C8     CBC_C9     1        0.13925    310810    
+    CBC_C8     CBC_C13    1        0.14100    261379    
+    CBC_C9     CBC_C10    1        0.13855    320960    
+    CBC_C9     CBC_H19    1        0.10841    303886    
+    CBC_C10    CBC_C11    1        0.14005    282721    
+    CBC_C10    CBC_H20    1        0.10842    305521    
+    CBC_C11    CBC_C12    1        0.13852    315923    
+    CBC_C12    CBC_C13    1        0.13937    312880    
+    CBC_C12    CBC_H22    1        0.10845    303417    
+
+[ angletypes ]
+    CBC_C1     CBC_C2     CBC_C3      1        120.656    359.687   
+    CBC_C1     CBC_C6     CBC_C5      1        117.607    429.743   
+    CBC_C1     CBC_C6     CBC_H17     1        121.055    310.456   
+    CBC_C2     CBC_C1     CBC_C6      1        121.420    359.847   
+    CBC_C2     CBC_C1     CBC_H14     1        119.378    324.383   
+    CBC_C2     CBC_C3     CBC_C4      1        119.072    419.090   
+    CBC_C2     CBC_C3     CBC_H16     1        120.536    314.347   
+    CBC_C3     CBC_C4     CBC_C5      1        119.500    351.061   
+    CBC_C3     CBC_C4     CBC_C13     1        133.883    395.487   
+    CBC_C4     CBC_C3     CBC_H16     1        120.392    261.921   
+    CBC_C4     CBC_C5     CBC_C6      1        121.745    180.740   
+    CBC_C4     CBC_C5     CBC_N7      1        108.648    664.642   
+    CBC_C4     CBC_C13    CBC_C8      1        106.617    655.650   
+    CBC_C4     CBC_C13    CBC_C12     1        133.883    395.487   
+    CBC_C5     CBC_C4     CBC_C13     1        106.617    655.650   
+    CBC_C5     CBC_C6     CBC_H17     1        121.339    264.977   
+    CBC_C5     CBC_N7     CBC_C8      1        109.470    504.871   
+    CBC_C6     CBC_C1     CBC_H14     1        119.202    297.745   
+    CBC_C6     CBC_C5     CBC_N7      1        129.607    547.514   
+    CBC_N7     CBC_C8     CBC_C9      1        129.607    547.514   
+    CBC_N7     CBC_C8     CBC_C13     1        108.648    664.642   
+    CBC_C8     CBC_C9     CBC_C10     1        117.607    429.743   
+    CBC_C8     CBC_C9     CBC_H19     1        121.339    264.977   
+    CBC_C8     CBC_C13    CBC_C12     1        119.500    351.061   
+    CBC_C9     CBC_C8     CBC_C13     1        121.745    180.740   
+    CBC_C9     CBC_C10    CBC_C11     1        121.420    359.847   
+    CBC_C9     CBC_C10    CBC_H20     1        119.202    297.745   
+    CBC_C10    CBC_C9     CBC_H19     1        121.055    310.456   
+    CBC_C10    CBC_C11    CBC_C12     1        120.656    359.687   
+    CBC_C11    CBC_C10    CBC_H20     1        119.378    324.383   
+    CBC_C11    CBC_C12    CBC_C13     1        119.072    419.090   
+    CBC_C11    CBC_C12    CBC_H22     1        120.536    314.347   
+    CBC_C13    CBC_C12    CBC_H22     1        120.392    261.921   
+
+[ dihedraltypes ]
+    CBC_C6     CBC_C1     CBC_C2     CBC_C3      2        0.000      10.161    
+    CBC_H14    CBC_C1     CBC_C2     CBC_C3      2        180.000    75.142    
+    CBC_C2     CBC_C1     CBC_C6     CBC_C5      2        0.000      140.607   
+    CBC_C2     CBC_C1     CBC_C6     CBC_H17     2        180.000    65.124    
+    CBC_H14    CBC_C1     CBC_C6     CBC_C5      2        180.000    80.624    
+    CBC_H14    CBC_C1     CBC_C6     CBC_H17     2        0.000      38.543    
+    CBC_C1     CBC_C2     CBC_C3     CBC_C4      2        0.000      155.559   
+    CBC_C1     CBC_C2     CBC_C3     CBC_H16     2        180.000    80.810    
+    CBC_C2     CBC_C3     CBC_C4     CBC_C5      2        0.000      0.000     
+    CBC_C2     CBC_C3     CBC_C4     CBC_C13     2        180.000    43.913    
+    CBC_H16    CBC_C3     CBC_C4     CBC_C5      2        180.000    80.008    
+    CBC_H16    CBC_C3     CBC_C4     CBC_C13     2        0.000      29.590    
+    CBC_C3     CBC_C4     CBC_C5     CBC_C6      2        0.000      100.842   
+    CBC_C3     CBC_C4     CBC_C5     CBC_N7      2        180.000    1.095     
+    CBC_C13    CBC_C4     CBC_C5     CBC_C6      2        180.000    54.603    
+    CBC_C13    CBC_C4     CBC_C5     CBC_N7      2        0.000      0.000     
+    CBC_C3     CBC_C4     CBC_C13    CBC_C8      2        180.000    53.377    
+    CBC_C3     CBC_C4     CBC_C13    CBC_C12     2        0.000      0.000     
+    CBC_C5     CBC_C4     CBC_C13    CBC_C8      2        0.000      246.541   
+    CBC_C5     CBC_C4     CBC_C13    CBC_C12     2        180.000    53.377    
+    CBC_C4     CBC_C5     CBC_C6     CBC_C1      2        0.000      15.125    
+    CBC_C4     CBC_C5     CBC_C6     CBC_H17     2        180.000    58.090    
+    CBC_N7     CBC_C5     CBC_C6     CBC_C1      2        180.000    91.481    
+    CBC_N7     CBC_C5     CBC_C6     CBC_H17     2        0.000      32.808    
+    CBC_C4     CBC_C5     CBC_N7     CBC_C8      2        0.000      104.036   
+    CBC_C6     CBC_C5     CBC_N7     CBC_C8      2        180.000    30.592    
+    CBC_C5     CBC_N7     CBC_C8     CBC_C9      2        180.000    30.592    
+    CBC_C5     CBC_N7     CBC_C8     CBC_C13     2        0.000      104.036   
+    CBC_N7     CBC_C8     CBC_C9     CBC_C10     2        180.000    91.481    
+    CBC_N7     CBC_C8     CBC_C9     CBC_H19     2        0.000      32.808    
+    CBC_C13    CBC_C8     CBC_C9     CBC_C10     2        0.000      15.125    
+    CBC_C13    CBC_C8     CBC_C9     CBC_H19     2        180.000    58.090    
+    CBC_N7     CBC_C8     CBC_C13    CBC_C4      2        0.000      0.000     
+    CBC_N7     CBC_C8     CBC_C13    CBC_C12     2        180.000    1.095     
+    CBC_C9     CBC_C8     CBC_C13    CBC_C4      2        180.000    54.603    
+    CBC_C9     CBC_C8     CBC_C13    CBC_C12     2        0.000      100.842   
+    CBC_C8     CBC_C9     CBC_C10    CBC_C11     2        0.000      140.607   
+    CBC_C8     CBC_C9     CBC_C10    CBC_H20     2        180.000    80.624    
+    CBC_H19    CBC_C9     CBC_C10    CBC_C11     2        180.000    65.124    
+    CBC_H19    CBC_C9     CBC_C10    CBC_H20     2        0.000      38.543    
+    CBC_C9     CBC_C10    CBC_C11    CBC_C12     2        0.000      10.161    
+    CBC_H20    CBC_C10    CBC_C11    CBC_C12     2        180.000    75.142    
+    CBC_C10    CBC_C11    CBC_C12    CBC_C13     2        0.000      155.559   
+    CBC_C10    CBC_C11    CBC_C12    CBC_H22     2        180.000    80.810    
+    CBC_C11    CBC_C12    CBC_C13    CBC_C4      2        180.000    43.913    
+    CBC_C11    CBC_C12    CBC_C13    CBC_C8      2        0.000      0.000     
+    CBC_H22    CBC_C12    CBC_C13    CBC_C4      2        0.000      29.590    
+    CBC_H22    CBC_C12    CBC_C13    CBC_C8      2        180.000    80.008    

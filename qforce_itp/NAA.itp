@@ -1,0 +1,91 @@
+[ bondtypes ]
+    NAA_C1     NAA_C2     1        0.14131    265777    
+    NAA_C1     NAA_C10    1        0.13679    361380    
+    NAA_C1     NAA_H11    1        0.10842    304165    
+    NAA_C2     NAA_C3     1        0.13679    361380    
+    NAA_C2     NAA_H12    1        0.10842    304165    
+    NAA_C3     NAA_C4     1        0.14179    259276    
+    NAA_C4     NAA_C5     1        0.14179    259276    
+    NAA_C4     NAA_C9     1        0.14212    249166    
+    NAA_C5     NAA_C6     1        0.13679    361380    
+    NAA_C5     NAA_H14    1        0.10853    302703    
+    NAA_C6     NAA_C7     1        0.14131    265777    
+    NAA_C6     NAA_H15    1        0.10842    304165    
+    NAA_C7     NAA_C8     1        0.13679    361380    
+    NAA_C7     NAA_H16    1        0.10842    304165    
+    NAA_C8     NAA_C9     1        0.14179    259276    
+    NAA_C8     NAA_H17    1        0.10853    302703    
+    NAA_C9     NAA_C10    1        0.14179    259276    
+    NAA_C10    NAA_H18    1        0.10853    302703    
+
+[ angletypes ]
+    NAA_C1     NAA_C2     NAA_C3      1        120.286    397.623   
+    NAA_C1     NAA_C2     NAA_H12     1        119.605    302.511   
+    NAA_C1     NAA_C10    NAA_C9      1        120.789    273.548   
+    NAA_C1     NAA_C10    NAA_H18     1        120.425    390.654   
+    NAA_C2     NAA_C1     NAA_C10     1        120.286    397.623   
+    NAA_C2     NAA_C1     NAA_H11     1        119.605    302.511   
+    NAA_C2     NAA_C3     NAA_C4      1        120.789    273.548   
+    NAA_C3     NAA_C2     NAA_H12     1        120.109    318.381   
+    NAA_C3     NAA_C4     NAA_C5      1        122.149    714.674   
+    NAA_C3     NAA_C4     NAA_C9      1        118.925    442.341   
+    NAA_C4     NAA_C5     NAA_C6      1        120.789    273.548   
+    NAA_C4     NAA_C5     NAA_H14     1        118.786    183.693   
+    NAA_C4     NAA_C9     NAA_C8      1        118.925    442.341   
+    NAA_C4     NAA_C9     NAA_C10     1        118.925    442.341   
+    NAA_C5     NAA_C4     NAA_C9      1        118.925    442.341   
+    NAA_C5     NAA_C6     NAA_C7      1        120.286    397.623   
+    NAA_C5     NAA_C6     NAA_H15     1        120.109    318.381   
+    NAA_C6     NAA_C5     NAA_H14     1        120.425    390.654   
+    NAA_C6     NAA_C7     NAA_C8      1        120.286    397.623   
+    NAA_C6     NAA_C7     NAA_H16     1        119.605    302.511   
+    NAA_C7     NAA_C6     NAA_H15     1        119.605    302.511   
+    NAA_C7     NAA_C8     NAA_C9      1        120.789    273.548   
+    NAA_C7     NAA_C8     NAA_H17     1        120.425    390.654   
+    NAA_C8     NAA_C7     NAA_H16     1        120.109    318.381   
+    NAA_C8     NAA_C9     NAA_C10     1        122.149    714.674   
+    NAA_C9     NAA_C8     NAA_H17     1        118.786    183.693   
+    NAA_C9     NAA_C10    NAA_H18     1        118.786    183.693   
+    NAA_C10    NAA_C1     NAA_H11     1        120.109    318.381   
+
+[ dihedraltypes ]
+    NAA_C10    NAA_C1     NAA_C2     NAA_C3      2        0.000      16.102    
+    NAA_C10    NAA_C1     NAA_C2     NAA_H12     2        180.000    59.111    
+    NAA_H11    NAA_C1     NAA_C2     NAA_C3      2        180.000    59.111    
+    NAA_H11    NAA_C1     NAA_C2     NAA_H12     2        0.000      39.519    
+    NAA_C2     NAA_C1     NAA_C10    NAA_C9      2        0.000      135.915   
+    NAA_C2     NAA_C1     NAA_C10    NAA_H18     2        180.000    80.901    
+    NAA_H11    NAA_C1     NAA_C10    NAA_C9      2        180.000    75.760    
+    NAA_H11    NAA_C1     NAA_C10    NAA_H18     2        0.000      48.145    
+    NAA_C1     NAA_C2     NAA_C3     NAA_C4      2        0.000      135.915   
+    NAA_H12    NAA_C2     NAA_C3     NAA_C4      2        180.000    75.760    
+    NAA_C2     NAA_C3     NAA_C4     NAA_C5      2        180.000    74.397    
+    NAA_C2     NAA_C3     NAA_C4     NAA_C9      2        0.000      0.000     
+    NAA_C3     NAA_C4     NAA_C5     NAA_C6      2        180.000    74.397    
+    NAA_C3     NAA_C4     NAA_C5     NAA_H14     2        0.000      37.049    
+    NAA_C9     NAA_C4     NAA_C5     NAA_C6      2        0.000      0.000     
+    NAA_C9     NAA_C4     NAA_C5     NAA_H14     2        180.000    48.178    
+    NAA_C3     NAA_C4     NAA_C9     NAA_C8      2        180.000    83.957    
+    NAA_C3     NAA_C4     NAA_C9     NAA_C10     2        0.000      124.553   
+    NAA_C5     NAA_C4     NAA_C9     NAA_C8      2        0.000      124.553   
+    NAA_C5     NAA_C4     NAA_C9     NAA_C10     2        180.000    83.957    
+    NAA_C4     NAA_C5     NAA_C6     NAA_C7      2        0.000      135.915   
+    NAA_C4     NAA_C5     NAA_C6     NAA_H15     2        180.000    75.760    
+    NAA_H14    NAA_C5     NAA_C6     NAA_C7      2        180.000    80.901    
+    NAA_H14    NAA_C5     NAA_C6     NAA_H15     2        0.000      48.145    
+    NAA_C5     NAA_C6     NAA_C7     NAA_C8      2        0.000      16.102    
+    NAA_C5     NAA_C6     NAA_C7     NAA_H16     2        180.000    59.111    
+    NAA_H15    NAA_C6     NAA_C7     NAA_C8      2        180.000    59.111    
+    NAA_H15    NAA_C6     NAA_C7     NAA_H16     2        0.000      39.519    
+    NAA_C6     NAA_C7     NAA_C8     NAA_C9      2        0.000      135.915   
+    NAA_C6     NAA_C7     NAA_C8     NAA_H17     2        180.000    80.901    
+    NAA_H16    NAA_C7     NAA_C8     NAA_C9      2        180.000    75.760    
+    NAA_H16    NAA_C7     NAA_C8     NAA_H17     2        0.000      48.145    
+    NAA_C7     NAA_C8     NAA_C9     NAA_C4      2        0.000      0.000     
+    NAA_C7     NAA_C8     NAA_C9     NAA_C10     2        180.000    74.397    
+    NAA_H17    NAA_C8     NAA_C9     NAA_C4      2        180.000    48.178    
+    NAA_H17    NAA_C8     NAA_C9     NAA_C10     2        0.000      37.049    
+    NAA_C4     NAA_C9     NAA_C10    NAA_C1      2        0.000      0.000     
+    NAA_C4     NAA_C9     NAA_C10    NAA_H18     2        180.000    48.178    
+    NAA_C8     NAA_C9     NAA_C10    NAA_C1      2        180.000    74.397    
+    NAA_C8     NAA_C9     NAA_C10    NAA_H18     2        0.000      37.049    

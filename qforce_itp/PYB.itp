@@ -1,0 +1,144 @@
+[ bondtypes ]
+    PYB_C1     PYB_C2     1        0.13876    310725    
+    PYB_C1     PYB_C14    1        0.13876    310725    
+    PYB_C1     PYB_H17    1        0.10842    305845    
+    PYB_C2     PYB_C3     1        0.13965    290837    
+    PYB_C3     PYB_C4     1        0.14386    241902    
+    PYB_C3     PYB_C15    1        0.14184    254208    
+    PYB_C4     PYB_C5     1        0.13505    421115    
+    PYB_C4     PYB_H19    1        0.10852    302162    
+    PYB_C5     PYB_C6     1        0.14386    241902    
+    PYB_C5     PYB_H20    1        0.10852    302162    
+    PYB_C6     PYB_C7     1        0.13965    290837    
+    PYB_C6     PYB_C16    1        0.14184    254208    
+    PYB_C7     PYB_C8     1        0.13876    310725    
+    PYB_C7     PYB_H21    1        0.10851    303628    
+    PYB_C8     PYB_C9     1        0.13876    310725    
+    PYB_C8     PYB_H22    1        0.10842    305845    
+    PYB_C9     PYB_C10    1        0.13965    290837    
+    PYB_C10    PYB_C11    1        0.14386    241902    
+    PYB_C10    PYB_C16    1        0.14184    254208    
+    PYB_C11    PYB_C12    1        0.13505    421115    
+    PYB_C11    PYB_H24    1        0.10852    302162    
+    PYB_C12    PYB_C13    1        0.14386    241902    
+    PYB_C12    PYB_H25    1        0.10852    302162    
+    PYB_C13    PYB_C14    1        0.13965    290837    
+    PYB_C13    PYB_C15    1        0.14184    254208    
+    PYB_C14    PYB_H26    1        0.10851    303628    
+    PYB_C15    PYB_C16    1        0.14258    247120    
+
+[ angletypes ]
+    PYB_C1     PYB_C2     PYB_C3      1        120.680    323.958   
+    PYB_C1     PYB_C14    PYB_C13     1        120.680    323.958   
+    PYB_C1     PYB_C14    PYB_H26     1        120.117    368.237   
+    PYB_C2     PYB_C1     PYB_C14     1        120.528    415.823   
+    PYB_C2     PYB_C1     PYB_H17     1        119.736    302.695   
+    PYB_C2     PYB_C3     PYB_C4      1        122.255    694.347   
+    PYB_C2     PYB_C3     PYB_C15     1        119.091    349.814   
+    PYB_C3     PYB_C4     PYB_C5      1        121.311    302.318   
+    PYB_C3     PYB_C4     PYB_H19     1        118.301    181.532   
+    PYB_C3     PYB_C15    PYB_C13     1        119.929    526.424   
+    PYB_C3     PYB_C15    PYB_C16     1        120.035    447.497   
+    PYB_C4     PYB_C3     PYB_C15     1        118.654    380.549   
+    PYB_C4     PYB_C5     PYB_C6      1        121.311    302.318   
+    PYB_C4     PYB_C5     PYB_H20     1        120.388    354.707   
+    PYB_C5     PYB_C4     PYB_H19     1        120.388    354.707   
+    PYB_C5     PYB_C6     PYB_C7      1        122.255    694.347   
+    PYB_C5     PYB_C6     PYB_C16     1        118.654    380.549   
+    PYB_C6     PYB_C5     PYB_H20     1        118.301    181.532   
+    PYB_C6     PYB_C7     PYB_C8      1        120.680    323.958   
+    PYB_C6     PYB_C7     PYB_H21     1        119.203    231.827   
+    PYB_C6     PYB_C16    PYB_C10     1        119.929    526.424   
+    PYB_C6     PYB_C16    PYB_C15     1        120.035    447.497   
+    PYB_C7     PYB_C6     PYB_C16     1        119.091    349.814   
+    PYB_C7     PYB_C8     PYB_C9      1        120.528    415.823   
+    PYB_C7     PYB_C8     PYB_H22     1        119.736    302.695   
+    PYB_C8     PYB_C7     PYB_H21     1        120.117    368.237   
+    PYB_C8     PYB_C9     PYB_C10     1        120.680    323.958   
+    PYB_C9     PYB_C8     PYB_H22     1        119.736    302.695   
+    PYB_C9     PYB_C10    PYB_C11     1        122.255    694.347   
+    PYB_C9     PYB_C10    PYB_C16     1        119.091    349.814   
+    PYB_C10    PYB_C11    PYB_C12     1        121.311    302.318   
+    PYB_C10    PYB_C11    PYB_H24     1        118.301    181.532   
+    PYB_C10    PYB_C16    PYB_C15     1        120.035    447.497   
+    PYB_C11    PYB_C10    PYB_C16     1        118.654    380.549   
+    PYB_C11    PYB_C12    PYB_C13     1        121.311    302.318   
+    PYB_C11    PYB_C12    PYB_H25     1        120.388    354.707   
+    PYB_C12    PYB_C11    PYB_H24     1        120.388    354.707   
+    PYB_C12    PYB_C13    PYB_C14     1        122.255    694.347   
+    PYB_C12    PYB_C13    PYB_C15     1        118.654    380.549   
+    PYB_C13    PYB_C12    PYB_H25     1        118.301    181.532   
+    PYB_C13    PYB_C14    PYB_H26     1        119.203    231.827   
+    PYB_C13    PYB_C15    PYB_C16     1        120.035    447.497   
+    PYB_C14    PYB_C1     PYB_H17     1        119.736    302.695   
+    PYB_C14    PYB_C13    PYB_C15     1        119.091    349.814   
+
+[ dihedraltypes ]
+    PYB_C14    PYB_C1     PYB_C2     PYB_C3      2        0.000      72.544    
+    PYB_H17    PYB_C1     PYB_C2     PYB_C3      2        180.000    69.222    
+    PYB_C2     PYB_C1     PYB_C14    PYB_C13     2        0.000      72.544    
+    PYB_C2     PYB_C1     PYB_C14    PYB_H26     2        180.000    65.327    
+    PYB_H17    PYB_C1     PYB_C14    PYB_C13     2        180.000    69.222    
+    PYB_H17    PYB_C1     PYB_C14    PYB_H26     2        0.000      42.834    
+    PYB_C1     PYB_C2     PYB_C3     PYB_C4      2        180.000    94.985    
+    PYB_C1     PYB_C2     PYB_C3     PYB_C15     2        0.000      65.513    
+    PYB_C2     PYB_C3     PYB_C4     PYB_C5      2        180.000    56.310    
+    PYB_C2     PYB_C3     PYB_C4     PYB_H19     2        0.000      35.038    
+    PYB_C15    PYB_C3     PYB_C4     PYB_C5      2        0.000      11.006    
+    PYB_C15    PYB_C3     PYB_C4     PYB_H19     2        180.000    36.013    
+    PYB_C2     PYB_C3     PYB_C15    PYB_C13     2        0.000      54.800    
+    PYB_C2     PYB_C3     PYB_C15    PYB_C16     2        180.000    69.796    
+    PYB_C4     PYB_C3     PYB_C15    PYB_C13     2        180.000    80.629    
+    PYB_C4     PYB_C3     PYB_C15    PYB_C16     2        0.000      83.419    
+    PYB_C3     PYB_C4     PYB_C5     PYB_C6      2        0.000      111.776   
+    PYB_C3     PYB_C4     PYB_C5     PYB_H20     2        180.000    85.973    
+    PYB_H19    PYB_C4     PYB_C5     PYB_C6      2        180.000    85.973    
+    PYB_H19    PYB_C4     PYB_C5     PYB_H20     2        0.000      55.615    
+    PYB_C4     PYB_C5     PYB_C6     PYB_C7      2        180.000    56.310    
+    PYB_C4     PYB_C5     PYB_C6     PYB_C16     2        0.000      11.006    
+    PYB_H20    PYB_C5     PYB_C6     PYB_C7      2        0.000      35.038    
+    PYB_H20    PYB_C5     PYB_C6     PYB_C16     2        180.000    36.013    
+    PYB_C5     PYB_C6     PYB_C7     PYB_C8      2        180.000    94.985    
+    PYB_C5     PYB_C6     PYB_C7     PYB_H21     2        0.000      45.019    
+    PYB_C16    PYB_C6     PYB_C7     PYB_C8      2        0.000      65.513    
+    PYB_C16    PYB_C6     PYB_C7     PYB_H21     2        180.000    55.882    
+    PYB_C5     PYB_C6     PYB_C16    PYB_C10     2        180.000    80.629    
+    PYB_C5     PYB_C6     PYB_C16    PYB_C15     2        0.000      83.419    
+    PYB_C7     PYB_C6     PYB_C16    PYB_C10     2        0.000      54.800    
+    PYB_C7     PYB_C6     PYB_C16    PYB_C15     2        180.000    69.796    
+    PYB_C6     PYB_C7     PYB_C8     PYB_C9      2        0.000      72.544    
+    PYB_C6     PYB_C7     PYB_C8     PYB_H22     2        180.000    69.222    
+    PYB_H21    PYB_C7     PYB_C8     PYB_C9      2        180.000    65.327    
+    PYB_H21    PYB_C7     PYB_C8     PYB_H22     2        0.000      42.834    
+    PYB_C7     PYB_C8     PYB_C9     PYB_C10     2        0.000      72.544    
+    PYB_H22    PYB_C8     PYB_C9     PYB_C10     2        180.000    69.222    
+    PYB_C8     PYB_C9     PYB_C10    PYB_C11     2        180.000    94.985    
+    PYB_C8     PYB_C9     PYB_C10    PYB_C16     2        0.000      65.513    
+    PYB_C9     PYB_C10    PYB_C11    PYB_C12     2        180.000    56.310    
+    PYB_C9     PYB_C10    PYB_C11    PYB_H24     2        0.000      35.038    
+    PYB_C16    PYB_C10    PYB_C11    PYB_C12     2        0.000      11.006    
+    PYB_C16    PYB_C10    PYB_C11    PYB_H24     2        180.000    36.013    
+    PYB_C9     PYB_C10    PYB_C16    PYB_C6      2        0.000      54.800    
+    PYB_C9     PYB_C10    PYB_C16    PYB_C15     2        180.000    69.796    
+    PYB_C11    PYB_C10    PYB_C16    PYB_C6      2        180.000    80.629    
+    PYB_C11    PYB_C10    PYB_C16    PYB_C15     2        0.000      83.419    
+    PYB_C10    PYB_C11    PYB_C12    PYB_C13     2        0.000      111.776   
+    PYB_C10    PYB_C11    PYB_C12    PYB_H25     2        180.000    85.973    
+    PYB_H24    PYB_C11    PYB_C12    PYB_C13     2        180.000    85.973    
+    PYB_H24    PYB_C11    PYB_C12    PYB_H25     2        0.000      55.615    
+    PYB_C11    PYB_C12    PYB_C13    PYB_C14     2        180.000    56.310    
+    PYB_C11    PYB_C12    PYB_C13    PYB_C15     2        0.000      11.006    
+    PYB_H25    PYB_C12    PYB_C13    PYB_C14     2        0.000      35.038    
+    PYB_H25    PYB_C12    PYB_C13    PYB_C15     2        180.000    36.013    
+    PYB_C12    PYB_C13    PYB_C14    PYB_C1      2        180.000    94.985    
+    PYB_C12    PYB_C13    PYB_C14    PYB_H26     2        0.000      45.019    
+    PYB_C15    PYB_C13    PYB_C14    PYB_C1      2        0.000      65.513    
+    PYB_C15    PYB_C13    PYB_C14    PYB_H26     2        180.000    55.882    
+    PYB_C12    PYB_C13    PYB_C15    PYB_C3      2        180.000    80.629    
+    PYB_C12    PYB_C13    PYB_C15    PYB_C16     2        0.000      83.419    
+    PYB_C14    PYB_C13    PYB_C15    PYB_C3      2        0.000      54.800    
+    PYB_C14    PYB_C13    PYB_C15    PYB_C16     2        180.000    69.796    
+    PYB_C3     PYB_C15    PYB_C16    PYB_C6      2        0.000      0.000     
+    PYB_C3     PYB_C15    PYB_C16    PYB_C10     2        180.000    69.859    
+    PYB_C13    PYB_C15    PYB_C16    PYB_C6      2        180.000    69.859    
+    PYB_C13    PYB_C15    PYB_C16    PYB_C10     2        0.000      0.000     

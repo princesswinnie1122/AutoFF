@@ -1,0 +1,28 @@
+[ bondtypes ]
+    PMA_C1     PMA_C2     1        0.13869    299718    
+    PMA_C1     PMA_C6     1        0.13869    299718    
+    PMA_C1     PMA_H7     1        0.10824    305936    
+    PMA_C2     PMA_N3     1        0.13315    346306    
+    PMA_N3     PMA_C4     1        0.13306    313976    
+    PMA_C4     PMA_N5     1        0.13306    313976    
+    PMA_N5     PMA_C6     1        0.13315    346306    
+
+[ angletypes ]
+    PMA_C1     PMA_C2     PMA_N3      1        122.325    686.170   
+    PMA_C1     PMA_C6     PMA_N5      1        122.325    686.170   
+    PMA_C2     PMA_C1     PMA_C6      1        116.463    197.205   
+    PMA_C2     PMA_C1     PMA_H7      1        121.769    336.979   
+    PMA_C2     PMA_N3     PMA_C4      1        115.822    309.708   
+    PMA_N3     PMA_C4     PMA_N5      1        127.244    832.421   
+    PMA_C4     PMA_N5     PMA_C6      1        115.822    309.708   
+    PMA_C6     PMA_C1     PMA_H7      1        121.769    336.979   
+
+[ dihedraltypes ]
+    PMA_C6     PMA_C1     PMA_C2     PMA_N3      2        0.000      104.852   
+    PMA_H7     PMA_C1     PMA_C2     PMA_N3      2        180.000    42.242    
+    PMA_C2     PMA_C1     PMA_C6     PMA_N5      2        0.000      104.852   
+    PMA_H7     PMA_C1     PMA_C6     PMA_N5      2        180.000    42.242    
+    PMA_C1     PMA_C2     PMA_N3     PMA_C4      2        0.000      69.602    
+    PMA_C2     PMA_N3     PMA_C4     PMA_N5      2        0.000      126.635   
+    PMA_N3     PMA_C4     PMA_N5     PMA_C6      2        0.000      126.635   
+    PMA_C4     PMA_N5     PMA_C6     PMA_C1      2        0.000      69.602    

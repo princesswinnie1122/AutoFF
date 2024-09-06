@@ -1,0 +1,127 @@
+[ bondtypes ]
+    NCA_C1     NCA_C2     1        0.15040    203614    
+    NCA_C1     NCA_H17    1        0.10923    278740    
+    NCA_C1     NCA_H18    1        0.10923    278740    
+    NCA_C1     NCA_H19    1        0.10923    278740    
+    NCA_C2     NCA_C3     1        0.14136    243977    
+    NCA_C2     NCA_N16    1        0.13161    372416    
+    NCA_C3     NCA_C4     1        0.13676    364412    
+    NCA_C3     NCA_H20    1        0.10843    303490    
+    NCA_C4     NCA_C5     1        0.14089    271758    
+    NCA_C5     NCA_C6     1        0.14325    246401    
+    NCA_C5     NCA_C15    1        0.14097    257750    
+    NCA_C6     NCA_C7     1        0.13515    415759    
+    NCA_C6     NCA_H22    1        0.10850    302568    
+    NCA_C7     NCA_C8     1        0.14325    246401    
+    NCA_C7     NCA_H23    1        0.10850    302568    
+    NCA_C8     NCA_C9     1        0.14089    271758    
+    NCA_C8     NCA_C14    1        0.14097    257750    
+    NCA_C9     NCA_C10    1        0.13676    364412    
+    NCA_C10    NCA_C11    1        0.14136    243977    
+    NCA_C10    NCA_H25    1        0.10843    303490    
+    NCA_C11    NCA_C12    1        0.15040    203614    
+    NCA_C11    NCA_N13    1        0.13161    372416    
+    NCA_C12    NCA_H26    1        0.10923    278740    
+    NCA_C12    NCA_H27    1        0.10923    278740    
+    NCA_C12    NCA_H28    1        0.10923    278740    
+    NCA_N13    NCA_C14    1        0.13481    294412    
+    NCA_C14    NCA_C15    1        0.14558    206796    
+    NCA_C15    NCA_N16    1        0.13481    294412    
+
+[ angletypes ]
+    NCA_C1     NCA_C2     NCA_C3      1        120.167    350.782   
+    NCA_C1     NCA_C2     NCA_N16     1        117.406    596.168   
+    NCA_C2     NCA_C1     NCA_H17     1        110.358    299.750   
+    NCA_C2     NCA_C1     NCA_H18     1        110.358    299.750   
+    NCA_C2     NCA_C1     NCA_H19     1        110.358    299.750   
+    NCA_C2     NCA_C3     NCA_C4      1        119.044    291.344   
+    NCA_C2     NCA_C3     NCA_H20     1        119.843    296.299   
+    NCA_C2     NCA_N16    NCA_C15     1        119.112    289.257   
+    NCA_C3     NCA_C2     NCA_N16     1        122.427    588.782   
+    NCA_C3     NCA_C4     NCA_C5      1        119.519    353.877   
+    NCA_C4     NCA_C3     NCA_H20     1        121.113    346.949   
+    NCA_C4     NCA_C5     NCA_C6      1        122.155    686.526   
+    NCA_C4     NCA_C5     NCA_C15     1        117.301    343.420   
+    NCA_C5     NCA_C6     NCA_C7      1        120.677    273.647   
+    NCA_C5     NCA_C6     NCA_H22     1        118.579    173.584   
+    NCA_C5     NCA_C15    NCA_C14     1        118.779    310.189   
+    NCA_C5     NCA_C15    NCA_N16     1        122.598    602.778   
+    NCA_C6     NCA_C5     NCA_C15     1        120.544    469.456   
+    NCA_C6     NCA_C7     NCA_C8      1        120.677    273.647   
+    NCA_C6     NCA_C7     NCA_H23     1        120.745    368.230   
+    NCA_C7     NCA_C6     NCA_H22     1        120.745    368.230   
+    NCA_C7     NCA_C8     NCA_C9      1        122.155    686.526   
+    NCA_C7     NCA_C8     NCA_C14     1        120.544    469.456   
+    NCA_C8     NCA_C7     NCA_H23     1        118.579    173.584   
+    NCA_C8     NCA_C9     NCA_C10     1        119.519    353.877   
+    NCA_C8     NCA_C14    NCA_N13     1        122.598    602.778   
+    NCA_C8     NCA_C14    NCA_C15     1        118.779    310.189   
+    NCA_C9     NCA_C8     NCA_C14     1        117.301    343.420   
+    NCA_C9     NCA_C10    NCA_C11     1        119.044    291.344   
+    NCA_C9     NCA_C10    NCA_H25     1        121.113    346.949   
+    NCA_C10    NCA_C11    NCA_C12     1        120.167    350.782   
+    NCA_C10    NCA_C11    NCA_N13     1        122.427    588.782   
+    NCA_C11    NCA_C10    NCA_H25     1        119.843    296.299   
+    NCA_C11    NCA_C12    NCA_H26     1        110.358    299.750   
+    NCA_C11    NCA_C12    NCA_H27     1        110.358    299.750   
+    NCA_C11    NCA_C12    NCA_H28     1        110.358    299.750   
+    NCA_C11    NCA_N13    NCA_C14     1        119.112    289.257   
+    NCA_C12    NCA_C11    NCA_N13     1        117.406    596.168   
+    NCA_N13    NCA_C14    NCA_C15     1        118.623    532.344   
+    NCA_C14    NCA_C15    NCA_N16     1        118.623    532.344   
+    NCA_H17    NCA_C1     NCA_H18     1        108.573    244.525   
+    NCA_H17    NCA_C1     NCA_H19     1        108.573    244.525   
+    NCA_H18    NCA_C1     NCA_H19     1        108.573    244.525   
+    NCA_H26    NCA_C12    NCA_H27     1        108.573    244.525   
+    NCA_H26    NCA_C12    NCA_H28     1        108.573    244.525   
+    NCA_H27    NCA_C12    NCA_H28     1        108.573    244.525   
+
+[ dihedraltypes ]
+    NCA_C1     NCA_C2     NCA_C3     NCA_C4      2        180.000    153.463   
+    NCA_C1     NCA_C2     NCA_C3     NCA_H20     2        0.000      87.689    
+    NCA_N16    NCA_C2     NCA_C3     NCA_C4      2        0.000      110.459   
+    NCA_N16    NCA_C2     NCA_C3     NCA_H20     2        180.000    98.780    
+    NCA_C1     NCA_C2     NCA_N16    NCA_C15     2        180.000    145.893   
+    NCA_C3     NCA_C2     NCA_N16    NCA_C15     2        0.000      122.331   
+    NCA_C2     NCA_C3     NCA_C4     NCA_C5      2        0.000      58.771    
+    NCA_H20    NCA_C3     NCA_C4     NCA_C5      2        180.000    0.000     
+    NCA_C3     NCA_C4     NCA_C5     NCA_C6      2        180.000    80.408    
+    NCA_C3     NCA_C4     NCA_C5     NCA_C15     2        0.000      35.541    
+    NCA_C4     NCA_C5     NCA_C6     NCA_C7      2        180.000    65.393    
+    NCA_C4     NCA_C5     NCA_C6     NCA_H22     2        0.000      29.991    
+    NCA_C15    NCA_C5     NCA_C6     NCA_C7      2        0.000      0.000     
+    NCA_C15    NCA_C5     NCA_C6     NCA_H22     2        180.000    32.290    
+    NCA_C4     NCA_C5     NCA_C15    NCA_C14     2        180.000    130.149   
+    NCA_C4     NCA_C5     NCA_C15    NCA_N16     2        0.000      133.049   
+    NCA_C6     NCA_C5     NCA_C15    NCA_C14     2        0.000      77.052    
+    NCA_C6     NCA_C5     NCA_C15    NCA_N16     2        180.000    34.332    
+    NCA_C5     NCA_C6     NCA_C7     NCA_C8      2        0.000      137.371   
+    NCA_C5     NCA_C6     NCA_C7     NCA_H23     2        180.000    93.608    
+    NCA_H22    NCA_C6     NCA_C7     NCA_C8      2        180.000    93.608    
+    NCA_H22    NCA_C6     NCA_C7     NCA_H23     2        0.000      54.313    
+    NCA_C6     NCA_C7     NCA_C8     NCA_C9      2        180.000    65.393    
+    NCA_C6     NCA_C7     NCA_C8     NCA_C14     2        0.000      0.000     
+    NCA_H23    NCA_C7     NCA_C8     NCA_C9      2        0.000      29.991    
+    NCA_H23    NCA_C7     NCA_C8     NCA_C14     2        180.000    32.290    
+    NCA_C7     NCA_C8     NCA_C9     NCA_C10     2        180.000    80.408    
+    NCA_C14    NCA_C8     NCA_C9     NCA_C10     2        0.000      35.541    
+    NCA_C7     NCA_C8     NCA_C14    NCA_N13     2        180.000    34.332    
+    NCA_C7     NCA_C8     NCA_C14    NCA_C15     2        0.000      77.052    
+    NCA_C9     NCA_C8     NCA_C14    NCA_N13     2        0.000      133.049   
+    NCA_C9     NCA_C8     NCA_C14    NCA_C15     2        180.000    130.149   
+    NCA_C8     NCA_C9     NCA_C10    NCA_C11     2        0.000      58.771    
+    NCA_C8     NCA_C9     NCA_C10    NCA_H25     2        180.000    0.000     
+    NCA_C9     NCA_C10    NCA_C11    NCA_C12     2        180.000    153.463   
+    NCA_C9     NCA_C10    NCA_C11    NCA_N13     2        0.000      110.459   
+    NCA_H25    NCA_C10    NCA_C11    NCA_C12     2        0.000      87.689    
+    NCA_H25    NCA_C10    NCA_C11    NCA_N13     2        180.000    98.780    
+    NCA_C10    NCA_C11    NCA_N13    NCA_C14     2        0.000      122.331   
+    NCA_C12    NCA_C11    NCA_N13    NCA_C14     2        180.000    145.893   
+    NCA_C11    NCA_N13    NCA_C14    NCA_C8      2        0.000      0.000     
+    NCA_C11    NCA_N13    NCA_C14    NCA_C15     2        180.000    110.429   
+    NCA_C8     NCA_C14    NCA_C15    NCA_C5      2        0.000      46.278    
+    NCA_C8     NCA_C14    NCA_C15    NCA_N16     2        180.000    59.097    
+    NCA_N13    NCA_C14    NCA_C15    NCA_C5      2        180.000    59.097    
+    NCA_N13    NCA_C14    NCA_C15    NCA_N16     2        0.000      63.764    
+    NCA_C5     NCA_C15    NCA_N16    NCA_C2      2        0.000      0.000     
+    NCA_C14    NCA_C15    NCA_N16    NCA_C2      2        180.000    110.429   

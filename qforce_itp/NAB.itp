@@ -1,0 +1,91 @@
+[ bondtypes ]
+    NAB_C1     NAB_C2     1        0.14131    265777    
+    NAB_C1     NAB_C10    1        0.13679    361380    
+    NAB_C1     NAB_H11    1        0.10842    304165    
+    NAB_C2     NAB_C3     1        0.13679    361380    
+    NAB_C3     NAB_C4     1        0.14179    259276    
+    NAB_C3     NAB_H13    1        0.10853    302703    
+    NAB_C4     NAB_C5     1        0.14179    259276    
+    NAB_C4     NAB_C9     1        0.14212    249166    
+    NAB_C5     NAB_C6     1        0.13679    361380    
+    NAB_C5     NAB_H14    1        0.10853    302703    
+    NAB_C6     NAB_C7     1        0.14131    265777    
+    NAB_C6     NAB_H15    1        0.10842    304165    
+    NAB_C7     NAB_C8     1        0.13679    361380    
+    NAB_C7     NAB_H16    1        0.10842    304165    
+    NAB_C8     NAB_C9     1        0.14179    259276    
+    NAB_C8     NAB_H17    1        0.10853    302703    
+    NAB_C9     NAB_C10    1        0.14179    259276    
+    NAB_C10    NAB_H18    1        0.10853    302703    
+
+[ angletypes ]
+    NAB_C1     NAB_C2     NAB_C3      1        120.286    397.623   
+    NAB_C1     NAB_C10    NAB_C9      1        120.789    273.548   
+    NAB_C1     NAB_C10    NAB_H18     1        120.425    390.654   
+    NAB_C2     NAB_C1     NAB_C10     1        120.286    397.623   
+    NAB_C2     NAB_C1     NAB_H11     1        119.605    302.511   
+    NAB_C2     NAB_C3     NAB_C4      1        120.789    273.548   
+    NAB_C2     NAB_C3     NAB_H13     1        120.425    390.654   
+    NAB_C3     NAB_C4     NAB_C5      1        122.149    714.674   
+    NAB_C3     NAB_C4     NAB_C9      1        118.925    442.341   
+    NAB_C4     NAB_C3     NAB_H13     1        118.786    183.693   
+    NAB_C4     NAB_C5     NAB_C6      1        120.789    273.548   
+    NAB_C4     NAB_C5     NAB_H14     1        118.786    183.693   
+    NAB_C4     NAB_C9     NAB_C8      1        118.925    442.341   
+    NAB_C4     NAB_C9     NAB_C10     1        118.925    442.341   
+    NAB_C5     NAB_C4     NAB_C9      1        118.925    442.341   
+    NAB_C5     NAB_C6     NAB_C7      1        120.286    397.623   
+    NAB_C5     NAB_C6     NAB_H15     1        120.109    318.381   
+    NAB_C6     NAB_C5     NAB_H14     1        120.425    390.654   
+    NAB_C6     NAB_C7     NAB_C8      1        120.286    397.623   
+    NAB_C6     NAB_C7     NAB_H16     1        119.605    302.511   
+    NAB_C7     NAB_C6     NAB_H15     1        119.605    302.511   
+    NAB_C7     NAB_C8     NAB_C9      1        120.789    273.548   
+    NAB_C7     NAB_C8     NAB_H17     1        120.425    390.654   
+    NAB_C8     NAB_C7     NAB_H16     1        120.109    318.381   
+    NAB_C8     NAB_C9     NAB_C10     1        122.149    714.674   
+    NAB_C9     NAB_C8     NAB_H17     1        118.786    183.693   
+    NAB_C9     NAB_C10    NAB_H18     1        118.786    183.693   
+    NAB_C10    NAB_C1     NAB_H11     1        120.109    318.381   
+
+[ dihedraltypes ]
+    NAB_C10    NAB_C1     NAB_C2     NAB_C3      2        0.000      16.102    
+    NAB_H11    NAB_C1     NAB_C2     NAB_C3      2        180.000    59.111    
+    NAB_C2     NAB_C1     NAB_C10    NAB_C9      2        0.000      135.915   
+    NAB_C2     NAB_C1     NAB_C10    NAB_H18     2        180.000    80.901    
+    NAB_H11    NAB_C1     NAB_C10    NAB_C9      2        180.000    75.760    
+    NAB_H11    NAB_C1     NAB_C10    NAB_H18     2        0.000      48.145    
+    NAB_C1     NAB_C2     NAB_C3     NAB_C4      2        0.000      135.915   
+    NAB_C1     NAB_C2     NAB_C3     NAB_H13     2        180.000    80.901    
+    NAB_C2     NAB_C3     NAB_C4     NAB_C5      2        180.000    74.397    
+    NAB_C2     NAB_C3     NAB_C4     NAB_C9      2        0.000      0.000     
+    NAB_H13    NAB_C3     NAB_C4     NAB_C5      2        0.000      37.049    
+    NAB_H13    NAB_C3     NAB_C4     NAB_C9      2        180.000    48.178    
+    NAB_C3     NAB_C4     NAB_C5     NAB_C6      2        180.000    74.397    
+    NAB_C3     NAB_C4     NAB_C5     NAB_H14     2        0.000      37.049    
+    NAB_C9     NAB_C4     NAB_C5     NAB_C6      2        0.000      0.000     
+    NAB_C9     NAB_C4     NAB_C5     NAB_H14     2        180.000    48.178    
+    NAB_C3     NAB_C4     NAB_C9     NAB_C8      2        180.000    83.957    
+    NAB_C3     NAB_C4     NAB_C9     NAB_C10     2        0.000      124.553   
+    NAB_C5     NAB_C4     NAB_C9     NAB_C8      2        0.000      124.553   
+    NAB_C5     NAB_C4     NAB_C9     NAB_C10     2        180.000    83.957    
+    NAB_C4     NAB_C5     NAB_C6     NAB_C7      2        0.000      135.915   
+    NAB_C4     NAB_C5     NAB_C6     NAB_H15     2        180.000    75.760    
+    NAB_H14    NAB_C5     NAB_C6     NAB_C7      2        180.000    80.901    
+    NAB_H14    NAB_C5     NAB_C6     NAB_H15     2        0.000      48.145    
+    NAB_C5     NAB_C6     NAB_C7     NAB_C8      2        0.000      16.102    
+    NAB_C5     NAB_C6     NAB_C7     NAB_H16     2        180.000    59.111    
+    NAB_H15    NAB_C6     NAB_C7     NAB_C8      2        180.000    59.111    
+    NAB_H15    NAB_C6     NAB_C7     NAB_H16     2        0.000      39.519    
+    NAB_C6     NAB_C7     NAB_C8     NAB_C9      2        0.000      135.915   
+    NAB_C6     NAB_C7     NAB_C8     NAB_H17     2        180.000    80.901    
+    NAB_H16    NAB_C7     NAB_C8     NAB_C9      2        180.000    75.760    
+    NAB_H16    NAB_C7     NAB_C8     NAB_H17     2        0.000      48.145    
+    NAB_C7     NAB_C8     NAB_C9     NAB_C4      2        0.000      0.000     
+    NAB_C7     NAB_C8     NAB_C9     NAB_C10     2        180.000    74.397    
+    NAB_H17    NAB_C8     NAB_C9     NAB_C4      2        180.000    48.178    
+    NAB_H17    NAB_C8     NAB_C9     NAB_C10     2        0.000      37.049    
+    NAB_C4     NAB_C9     NAB_C10    NAB_C1      2        0.000      0.000     
+    NAB_C4     NAB_C9     NAB_C10    NAB_H18     2        180.000    48.178    
+    NAB_C8     NAB_C9     NAB_C10    NAB_C1      2        180.000    74.397    
+    NAB_C8     NAB_C9     NAB_C10    NAB_H18     2        0.000      37.049    

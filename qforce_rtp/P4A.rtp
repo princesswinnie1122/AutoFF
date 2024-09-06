@@ -1,0 +1,104 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[ P4A ]
+  [ atoms ]
+    C1    P4A_C1  
+    C2    P4A_C2  
+    C3    P4A_C3  
+    C4    P4A_C4  
+    C5    P4A_C5  
+    C6    P4A_C6  
+    N7    P4A_N7  
+    C8    P4A_C8  
+    C9    P4A_C9  
+    C10   P4A_C10 
+    N11   P4A_N11 
+    C12   P4A_C12 
+    C13   P4A_C13 
+    H14   P4A_H14 
+    H15   P4A_H15 
+    H16   P4A_H16 
+    H17   P4A_H17 
+    H19   P4A_H19 
+    H20   P4A_H20 
+    H21   P4A_H21 
+
+  [ bonds ]
+    C1    C2   
+    C1    C6   
+    C1    H14  
+    C2    C3   
+    C2    H15  
+    C3    C4   
+    C3    H16  
+    C4    C5   
+    C4    C13  
+    C5    C6   
+    C5    N7   
+    C6    H17  
+    N7    C8   
+    C8    C9   
+    C8    C13  
+    C9    C10  
+    C9    H19  
+    C10   N11  
+    C10   H20  
+    N11   C12  
+    C12   C13  
+    C12   H21  
+
+  [ impropers ]
+    C6    C1    C2    C3
+    C6    C1    C2    H15
+    H14   C1    C2    C3
+    H14   C1    C2    H15
+    C2    C1    C6    C5
+    C2    C1    C6    H17
+    H14   C1    C6    C5
+    H14   C1    C6    H17
+    C1    C2    C3    C4
+    C1    C2    C3    H16
+    H15   C2    C3    C4
+    H15   C2    C3    H16
+    C2    C3    C4    C5
+    C2    C3    C4    C13
+    H16   C3    C4    C5
+    H16   C3    C4    C13
+    C3    C4    C5    C6
+    C3    C4    C5    N7
+    C13   C4    C5    C6
+    C13   C4    C5    N7
+    C3    C4    C13   C8
+    C3    C4    C13   C12
+    C5    C4    C13   C8
+    C5    C4    C13   C12
+    C4    C5    C6    C1
+    C4    C5    C6    H17
+    N7    C5    C6    C1
+    N7    C5    C6    H17
+    C4    C5    N7    C8
+    C6    C5    N7    C8
+    C5    N7    C8    C9
+    C5    N7    C8    C13
+    N7    C8    C9    C10
+    N7    C8    C9    H19
+    C13   C8    C9    C10
+    C13   C8    C9    H19
+    N7    C8    C13   C4
+    N7    C8    C13   C12
+    C9    C8    C13   C4
+    C9    C8    C13   C12
+    C8    C9    C10   N11
+    C8    C9    C10   H20
+    H19   C9    C10   N11
+    H19   C9    C10   H20
+    C9    C10   N11   C12
+    H20   C10   N11   C12
+    C10   N11   C12   C13
+    C10   N11   C12   H21
+    N11   C12   C13   C4
+    N11   C12   C13   C8
+    H21   C12   C13   C4
+    H21   C12   C13   C8

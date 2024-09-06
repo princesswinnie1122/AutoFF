@@ -1,0 +1,123 @@
+[ bondtypes ]
+    CNA_N1     CNA_C2     1        0.11521    1089553   
+    CNA_C2     CNA_C3     1        0.14320    276682    
+    CNA_C3     CNA_C4     1        0.14077    267278    
+    CNA_C3     CNA_C15    1        0.13932    297057    
+    CNA_C4     CNA_C5     1        0.13805    334140    
+    CNA_C4     CNA_H16    1        0.10829    310291    
+    CNA_C5     CNA_C6     1        0.13941    307714    
+    CNA_C5     CNA_H17    1        0.10834    305897    
+    CNA_C6     CNA_N7     1        0.13737    298403    
+    CNA_C6     CNA_C14    1        0.14129    256297    
+    CNA_N7     CNA_C8     1        0.13844    281727    
+    CNA_C8     CNA_C9     1        0.13918    311246    
+    CNA_C8     CNA_C13    1        0.14080    264633    
+    CNA_C9     CNA_C10    1        0.13852    321380    
+    CNA_C9     CNA_H19    1        0.10839    304785    
+    CNA_C10    CNA_C11    1        0.14008    282031    
+    CNA_C10    CNA_H20    1        0.10839    306506    
+    CNA_C11    CNA_C12    1        0.13844    317744    
+    CNA_C11    CNA_H21    1        0.10833    306147    
+    CNA_C12    CNA_C13    1        0.13938    312868    
+    CNA_C12    CNA_H22    1        0.10842    304095    
+    CNA_C13    CNA_C14    1        0.14481    230949    
+    CNA_C14    CNA_C15    1        0.13878    326667    
+    CNA_C15    CNA_H23    1        0.10833    308329    
+
+[ angletypes ]
+    CNA_N1     CNA_C2     CNA_C3      1        180.000    229.556   
+    CNA_C2     CNA_C3     CNA_C4      1        119.371    510.408   
+    CNA_C2     CNA_C3     CNA_C15     1        119.729    482.614   
+    CNA_C3     CNA_C4     CNA_C5      1        121.032    354.379   
+    CNA_C3     CNA_C4     CNA_H16     1        118.987    297.516   
+    CNA_C3     CNA_C15    CNA_C14     1        118.757    431.367   
+    CNA_C3     CNA_C15    CNA_H23     1        120.100    282.080   
+    CNA_C4     CNA_C3     CNA_C15     1        120.900    211.082   
+    CNA_C4     CNA_C5     CNA_C6      1        117.830    425.935   
+    CNA_C4     CNA_C5     CNA_H17     1        120.733    312.799   
+    CNA_C5     CNA_C4     CNA_H16     1        119.982    321.594   
+    CNA_C5     CNA_C6     CNA_N7      1        129.557    570.671   
+    CNA_C5     CNA_C6     CNA_C14     1        121.825    184.270   
+    CNA_C6     CNA_C5     CNA_H17     1        121.437    248.529   
+    CNA_C6     CNA_N7     CNA_C8      1        109.562    502.360   
+    CNA_C6     CNA_C14    CNA_C13     1        106.668    621.930   
+    CNA_C6     CNA_C14    CNA_C15     1        119.656    371.490   
+    CNA_N7     CNA_C6     CNA_C14     1        108.618    643.696   
+    CNA_N7     CNA_C8     CNA_C9      1        129.514    557.125   
+    CNA_N7     CNA_C8     CNA_C13     1        108.654    687.047   
+    CNA_C8     CNA_C9     CNA_C10     1        117.453    431.809   
+    CNA_C8     CNA_C9     CNA_H19     1        121.423    273.487   
+    CNA_C8     CNA_C13    CNA_C12     1        119.637    331.650   
+    CNA_C8     CNA_C13    CNA_C14     1        106.497    687.229   
+    CNA_C9     CNA_C8     CNA_C13     1        121.832    148.311   
+    CNA_C9     CNA_C10    CNA_C11     1        121.480    367.710   
+    CNA_C9     CNA_C10    CNA_H20     1        119.188    300.557   
+    CNA_C10    CNA_C9     CNA_H19     1        121.124    305.008   
+    CNA_C10    CNA_C11    CNA_C12     1        120.723    366.458   
+    CNA_C10    CNA_C11    CNA_H21     1        119.436    318.121   
+    CNA_C11    CNA_C10    CNA_H20     1        119.331    318.465   
+    CNA_C11    CNA_C12    CNA_C13     1        118.874    417.172   
+    CNA_C11    CNA_C12    CNA_H22     1        120.597    309.992   
+    CNA_C12    CNA_C11    CNA_H21     1        119.841    310.199   
+    CNA_C12    CNA_C13    CNA_C14     1        133.866    401.078   
+    CNA_C13    CNA_C12    CNA_H22     1        120.529    269.719   
+    CNA_C13    CNA_C14    CNA_C15     1        133.675    361.728   
+    CNA_C14    CNA_C15    CNA_H23     1        121.143    288.951   
+
+[ dihedraltypes ]
+    CNA_C2     CNA_C3     CNA_C4     CNA_C5      2        180.000    91.138    
+    CNA_C2     CNA_C3     CNA_C4     CNA_H16     2        0.000      50.739    
+    CNA_C15    CNA_C3     CNA_C4     CNA_C5      2        0.000      15.810    
+    CNA_C15    CNA_C3     CNA_C4     CNA_H16     2        180.000    67.697    
+    CNA_C2     CNA_C3     CNA_C15    CNA_C14     2        180.000    124.501   
+    CNA_C2     CNA_C3     CNA_C15    CNA_H23     2        0.000      58.617    
+    CNA_C4     CNA_C3     CNA_C15    CNA_C14     2        0.000      150.203   
+    CNA_C4     CNA_C3     CNA_C15    CNA_H23     2        180.000    72.425    
+    CNA_C3     CNA_C4     CNA_C5     CNA_C6      2        0.000      129.806   
+    CNA_C3     CNA_C4     CNA_C5     CNA_H17     2        180.000    58.403    
+    CNA_H16    CNA_C4     CNA_C5     CNA_C6      2        180.000    73.465    
+    CNA_H16    CNA_C4     CNA_C5     CNA_H17     2        0.000      34.451    
+    CNA_C4     CNA_C5     CNA_C6     CNA_N7      2        180.000    84.938    
+    CNA_C4     CNA_C5     CNA_C6     CNA_C14     2        0.000      13.887    
+    CNA_H17    CNA_C5     CNA_C6     CNA_N7      2        0.000      37.528    
+    CNA_H17    CNA_C5     CNA_C6     CNA_C14     2        180.000    63.373    
+    CNA_C5     CNA_C6     CNA_N7     CNA_C8      2        180.000    39.504    
+    CNA_C14    CNA_C6     CNA_N7     CNA_C8      2        0.000      119.772   
+    CNA_C5     CNA_C6     CNA_C14    CNA_C13     2        180.000    55.754    
+    CNA_C5     CNA_C6     CNA_C14    CNA_C15     2        0.000      94.290    
+    CNA_N7     CNA_C6     CNA_C14    CNA_C13     2        0.000      0.000     
+    CNA_N7     CNA_C6     CNA_C14    CNA_C15     2        180.000    8.895     
+    CNA_C6     CNA_N7     CNA_C8     CNA_C9      2        180.000    29.355    
+    CNA_C6     CNA_N7     CNA_C8     CNA_C13     2        0.000      100.771   
+    CNA_N7     CNA_C8     CNA_C9     CNA_C10     2        180.000    90.384    
+    CNA_N7     CNA_C8     CNA_C9     CNA_H19     2        0.000      31.270    
+    CNA_C13    CNA_C8     CNA_C9     CNA_C10     2        0.000      14.543    
+    CNA_C13    CNA_C8     CNA_C9     CNA_H19     2        180.000    56.021    
+    CNA_N7     CNA_C8     CNA_C13    CNA_C12     2        180.000    0.677     
+    CNA_N7     CNA_C8     CNA_C13    CNA_C14     2        0.000      0.000     
+    CNA_C9     CNA_C8     CNA_C13    CNA_C12     2        0.000      102.489   
+    CNA_C9     CNA_C8     CNA_C13    CNA_C14     2        180.000    62.144    
+    CNA_C8     CNA_C9     CNA_C10    CNA_C11     2        0.000      142.516   
+    CNA_C8     CNA_C9     CNA_C10    CNA_H20     2        180.000    80.931    
+    CNA_H19    CNA_C9     CNA_C10    CNA_C11     2        180.000    67.504    
+    CNA_H19    CNA_C9     CNA_C10    CNA_H20     2        0.000      40.485    
+    CNA_C9     CNA_C10    CNA_C11    CNA_C12     2        0.000      8.646     
+    CNA_C9     CNA_C10    CNA_C11    CNA_H21     2        180.000    55.256    
+    CNA_H20    CNA_C10    CNA_C11    CNA_C12     2        180.000    74.413    
+    CNA_H20    CNA_C10    CNA_C11    CNA_H21     2        0.000      38.203    
+    CNA_C10    CNA_C11    CNA_C12    CNA_C13     2        0.000      157.391   
+    CNA_C10    CNA_C11    CNA_C12    CNA_H22     2        180.000    81.230    
+    CNA_H21    CNA_C11    CNA_C12    CNA_C13     2        180.000    75.341    
+    CNA_H21    CNA_C11    CNA_C12    CNA_H22     2        0.000      44.541    
+    CNA_C11    CNA_C12    CNA_C13    CNA_C8      2        0.000      0.000     
+    CNA_C11    CNA_C12    CNA_C13    CNA_C14     2        180.000    46.929    
+    CNA_H22    CNA_C12    CNA_C13    CNA_C8      2        180.000    78.659    
+    CNA_H22    CNA_C12    CNA_C13    CNA_C14     2        0.000      29.642    
+    CNA_C8     CNA_C13    CNA_C14    CNA_C6      2        0.000      250.417   
+    CNA_C8     CNA_C13    CNA_C14    CNA_C15     2        180.000    41.194    
+    CNA_C12    CNA_C13    CNA_C14    CNA_C6      2        180.000    53.246    
+    CNA_C12    CNA_C13    CNA_C14    CNA_C15     2        0.000      0.000     
+    CNA_C6     CNA_C14    CNA_C15    CNA_C3      2        0.000      0.000     
+    CNA_C6     CNA_C14    CNA_C15    CNA_H23     2        180.000    74.374    
+    CNA_C13    CNA_C14    CNA_C15    CNA_C3      2        180.000    34.937    
+    CNA_C13    CNA_C14    CNA_C15    CNA_H23     2        0.000      25.123    

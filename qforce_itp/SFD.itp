@@ -1,0 +1,243 @@
+[ bondtypes ]
+    SFD_C1     SFD_C2     1        0.13932    297133    
+    SFD_C1     SFD_C6     1        0.13908    303453    
+    SFD_C1     SFD_H26    1        0.10842    303096    
+    SFD_C2     SFD_C3     1        0.13924    300849    
+    SFD_C3     SFD_C4     1        0.13827    322830    
+    SFD_C3     SFD_H28    1        0.10849    303616    
+    SFD_C4     SFD_C5     1        0.13985    280826    
+    SFD_C4     SFD_C13    1        0.15215    174340    
+    SFD_C5     SFD_C6     1        0.13890    311857    
+    SFD_C5     SFD_C7     1        0.14694    226559    
+    SFD_C6     SFD_H29    1        0.10848    302220    
+    SFD_C7     SFD_C8     1        0.13890    311857    
+    SFD_C7     SFD_C12    1        0.13985    280826    
+    SFD_C8     SFD_C9     1        0.13908    303453    
+    SFD_C8     SFD_H30    1        0.10848    302220    
+    SFD_C9     SFD_C10    1        0.13932    297133    
+    SFD_C9     SFD_H31    1        0.10842    303096    
+    SFD_C10    SFD_C11    1        0.13924    300849    
+    SFD_C10    SFD_H32    1        0.10841    303826    
+    SFD_C11    SFD_C12    1        0.13827    322830    
+    SFD_C11    SFD_H33    1        0.10849    303616    
+    SFD_C12    SFD_C13    1        0.15215    174340    
+    SFD_C13    SFD_C14    1        0.15215    174340    
+    SFD_C13    SFD_C25    1        0.15215    174340    
+    SFD_C14    SFD_C15    1        0.13827    322830    
+    SFD_C14    SFD_C19    1        0.13985    280826    
+    SFD_C15    SFD_C16    1        0.13924    300849    
+    SFD_C15    SFD_H34    1        0.10849    303616    
+    SFD_C16    SFD_C17    1        0.13932    297133    
+    SFD_C16    SFD_H35    1        0.10841    303826    
+    SFD_C17    SFD_C18    1        0.13908    303453    
+    SFD_C17    SFD_H36    1        0.10842    303096    
+    SFD_C18    SFD_C19    1        0.13890    311857    
+    SFD_C18    SFD_H37    1        0.10848    302220    
+    SFD_C19    SFD_C20    1        0.14694    226559    
+    SFD_C20    SFD_C21    1        0.13890    311857    
+    SFD_C20    SFD_C25    1        0.13985    280826    
+    SFD_C21    SFD_C22    1        0.13908    303453    
+    SFD_C21    SFD_H38    1        0.10848    302220    
+    SFD_C22    SFD_C23    1        0.13932    297133    
+    SFD_C22    SFD_H39    1        0.10842    303096    
+    SFD_C23    SFD_C24    1        0.13924    300849    
+    SFD_C24    SFD_C25    1        0.13827    322830    
+    SFD_C24    SFD_H41    1        0.10849    303616    
+
+[ angletypes ]
+    SFD_C1     SFD_C2     SFD_C3      1        120.601    381.804   
+    SFD_C1     SFD_C6     SFD_C5      1        118.713    437.814   
+    SFD_C1     SFD_C6     SFD_H29     1        120.453    312.934   
+    SFD_C2     SFD_C1     SFD_C6      1        120.716    363.787   
+    SFD_C2     SFD_C1     SFD_H26     1        119.607    323.946   
+    SFD_C2     SFD_C3     SFD_C4      1        118.626    391.936   
+    SFD_C2     SFD_C3     SFD_H28     1        120.860    310.524   
+    SFD_C3     SFD_C4     SFD_C5      1        120.983    300.937   
+    SFD_C3     SFD_C4     SFD_C13     1        128.317    546.956   
+    SFD_C4     SFD_C3     SFD_H28     1        120.514    268.284   
+    SFD_C4     SFD_C5     SFD_C6      1        120.361    254.676   
+    SFD_C4     SFD_C5     SFD_C7      1        108.516    543.184   
+    SFD_C4     SFD_C13    SFD_C12     1        109.564    261.215   
+    SFD_C4     SFD_C13    SFD_C14     1        109.564    261.215   
+    SFD_C4     SFD_C13    SFD_C25     1        109.564    261.215   
+    SFD_C5     SFD_C4     SFD_C13     1        110.699    687.009   
+    SFD_C5     SFD_C6     SFD_H29     1        120.835    297.930   
+    SFD_C5     SFD_C7     SFD_C8      1        131.123    413.421   
+    SFD_C5     SFD_C7     SFD_C12     1        108.516    543.184   
+    SFD_C6     SFD_C1     SFD_H26     1        119.677    312.364   
+    SFD_C6     SFD_C5     SFD_C7      1        131.123    413.421   
+    SFD_C7     SFD_C8     SFD_C9      1        118.713    437.814   
+    SFD_C7     SFD_C8     SFD_H30     1        120.835    297.930   
+    SFD_C7     SFD_C12    SFD_C11     1        120.983    300.937   
+    SFD_C7     SFD_C12    SFD_C13     1        110.699    687.009   
+    SFD_C8     SFD_C7     SFD_C12     1        120.361    254.676   
+    SFD_C8     SFD_C9     SFD_C10     1        120.716    363.787   
+    SFD_C8     SFD_C9     SFD_H31     1        119.677    312.364   
+    SFD_C9     SFD_C8     SFD_H30     1        120.453    312.934   
+    SFD_C9     SFD_C10    SFD_C11     1        120.601    381.804   
+    SFD_C9     SFD_C10    SFD_H32     1        119.674    319.999   
+    SFD_C10    SFD_C9     SFD_H31     1        119.607    323.946   
+    SFD_C10    SFD_C11    SFD_C12     1        118.626    391.936   
+    SFD_C10    SFD_C11    SFD_H33     1        120.860    310.524   
+    SFD_C11    SFD_C10    SFD_H32     1        119.724    316.958   
+    SFD_C11    SFD_C12    SFD_C13     1        128.317    546.956   
+    SFD_C12    SFD_C11    SFD_H33     1        120.514    268.284   
+    SFD_C12    SFD_C13    SFD_C14     1        109.564    261.215   
+    SFD_C12    SFD_C13    SFD_C25     1        109.564    261.215   
+    SFD_C13    SFD_C14    SFD_C15     1        128.317    546.956   
+    SFD_C13    SFD_C14    SFD_C19     1        110.699    687.009   
+    SFD_C13    SFD_C25    SFD_C20     1        110.699    687.009   
+    SFD_C13    SFD_C25    SFD_C24     1        128.317    546.956   
+    SFD_C14    SFD_C13    SFD_C25     1        109.564    261.215   
+    SFD_C14    SFD_C15    SFD_C16     1        118.626    391.936   
+    SFD_C14    SFD_C15    SFD_H34     1        120.514    268.284   
+    SFD_C14    SFD_C19    SFD_C18     1        120.361    254.676   
+    SFD_C14    SFD_C19    SFD_C20     1        108.516    543.184   
+    SFD_C15    SFD_C14    SFD_C19     1        120.983    300.937   
+    SFD_C15    SFD_C16    SFD_C17     1        120.601    381.804   
+    SFD_C15    SFD_C16    SFD_H35     1        119.724    316.958   
+    SFD_C16    SFD_C15    SFD_H34     1        120.860    310.524   
+    SFD_C16    SFD_C17    SFD_C18     1        120.716    363.787   
+    SFD_C16    SFD_C17    SFD_H36     1        119.607    323.946   
+    SFD_C17    SFD_C16    SFD_H35     1        119.674    319.999   
+    SFD_C17    SFD_C18    SFD_C19     1        118.713    437.814   
+    SFD_C17    SFD_C18    SFD_H37     1        120.453    312.934   
+    SFD_C18    SFD_C17    SFD_H36     1        119.677    312.364   
+    SFD_C18    SFD_C19    SFD_C20     1        131.123    413.421   
+    SFD_C19    SFD_C18    SFD_H37     1        120.835    297.930   
+    SFD_C19    SFD_C20    SFD_C21     1        131.123    413.421   
+    SFD_C19    SFD_C20    SFD_C25     1        108.516    543.184   
+    SFD_C20    SFD_C21    SFD_C22     1        118.713    437.814   
+    SFD_C20    SFD_C21    SFD_H38     1        120.835    297.930   
+    SFD_C20    SFD_C25    SFD_C24     1        120.983    300.937   
+    SFD_C21    SFD_C20    SFD_C25     1        120.361    254.676   
+    SFD_C21    SFD_C22    SFD_C23     1        120.716    363.787   
+    SFD_C21    SFD_C22    SFD_H39     1        119.677    312.364   
+    SFD_C22    SFD_C21    SFD_H38     1        120.453    312.934   
+    SFD_C22    SFD_C23    SFD_C24     1        120.601    381.804   
+    SFD_C23    SFD_C22    SFD_H39     1        119.607    323.946   
+    SFD_C23    SFD_C24    SFD_C25     1        118.626    391.936   
+    SFD_C23    SFD_C24    SFD_H41     1        120.860    310.524   
+    SFD_C25    SFD_C24    SFD_H41     1        120.514    268.284   
+
+[ dihedraltypes ]
+    SFD_C6     SFD_C1     SFD_C2     SFD_C3      2        0.000      129.159   
+    SFD_H26    SFD_C1     SFD_C2     SFD_C3      2        180.000    68.587    
+    SFD_C2     SFD_C1     SFD_C6     SFD_C5      2        0.000      32.194    
+    SFD_C2     SFD_C1     SFD_C6     SFD_H29     2        180.000    78.814    
+    SFD_H26    SFD_C1     SFD_C6     SFD_C5      2        180.000    72.497    
+    SFD_H26    SFD_C1     SFD_C6     SFD_H29     2        0.000      43.186    
+    SFD_C1     SFD_C2     SFD_C3     SFD_C4      2        0.000      20.331    
+    SFD_C1     SFD_C2     SFD_C3     SFD_H28     2        180.000    69.025    
+    SFD_C2     SFD_C3     SFD_C4     SFD_C5      2        0.000      136.556   
+    SFD_C2     SFD_C3     SFD_C4     SFD_C13     2        180.000    108.669   
+    SFD_H28    SFD_C3     SFD_C4     SFD_C5      2        180.000    74.120    
+    SFD_H28    SFD_C3     SFD_C4     SFD_C13     2        0.000      39.806    
+    SFD_C3     SFD_C4     SFD_C5     SFD_C6      2        0.000      0.000     
+    SFD_C3     SFD_C4     SFD_C5     SFD_C7      2        180.000    70.071    
+    SFD_C13    SFD_C4     SFD_C5     SFD_C6      2        180.000    79.859    
+    SFD_C13    SFD_C4     SFD_C5     SFD_C7      2        0.000      171.124   
+    SFD_C3     SFD_C4     SFD_C13    SFD_C12     2        180.000    44.034    
+    SFD_C3     SFD_C4     SFD_C13    SFD_C14     2        57.698     0.000     
+    SFD_C3     SFD_C4     SFD_C13    SFD_C25     2        -57.696    0.000     
+    SFD_C5     SFD_C4     SFD_C13    SFD_C12     2        0.000      36.509    
+    SFD_C5     SFD_C4     SFD_C13    SFD_C14     2        -122.302   1.433     
+    SFD_C5     SFD_C4     SFD_C13    SFD_C25     2        122.303    1.433     
+    SFD_C4     SFD_C5     SFD_C6     SFD_C1      2        0.000      122.539   
+    SFD_C4     SFD_C5     SFD_C6     SFD_H29     2        180.000    63.140    
+    SFD_C7     SFD_C5     SFD_C6     SFD_C1      2        180.000    66.162    
+    SFD_C7     SFD_C5     SFD_C6     SFD_H29     2        0.000      32.044    
+    SFD_C4     SFD_C5     SFD_C7     SFD_C8      2        180.000    37.025    
+    SFD_C4     SFD_C5     SFD_C7     SFD_C12     2        0.000      0.000     
+    SFD_C6     SFD_C5     SFD_C7     SFD_C8      2        0.000      0.000     
+    SFD_C6     SFD_C5     SFD_C7     SFD_C12     2        180.000    37.025    
+    SFD_C5     SFD_C7     SFD_C8     SFD_C9      2        180.000    66.162    
+    SFD_C5     SFD_C7     SFD_C8     SFD_H30     2        0.000      32.044    
+    SFD_C12    SFD_C7     SFD_C8     SFD_C9      2        0.000      122.539   
+    SFD_C12    SFD_C7     SFD_C8     SFD_H30     2        180.000    63.140    
+    SFD_C5     SFD_C7     SFD_C12    SFD_C11     2        180.000    70.071    
+    SFD_C5     SFD_C7     SFD_C12    SFD_C13     2        0.000      171.124   
+    SFD_C8     SFD_C7     SFD_C12    SFD_C11     2        0.000      0.000     
+    SFD_C8     SFD_C7     SFD_C12    SFD_C13     2        180.000    79.859    
+    SFD_C7     SFD_C8     SFD_C9     SFD_C10     2        0.000      32.194    
+    SFD_C7     SFD_C8     SFD_C9     SFD_H31     2        180.000    72.497    
+    SFD_H30    SFD_C8     SFD_C9     SFD_C10     2        180.000    78.814    
+    SFD_H30    SFD_C8     SFD_C9     SFD_H31     2        0.000      43.186    
+    SFD_C8     SFD_C9     SFD_C10    SFD_C11     2        0.000      129.159   
+    SFD_C8     SFD_C9     SFD_C10    SFD_H32     2        180.000    81.830    
+    SFD_H31    SFD_C9     SFD_C10    SFD_C11     2        180.000    68.587    
+    SFD_H31    SFD_C9     SFD_C10    SFD_H32     2        0.000      44.482    
+    SFD_C9     SFD_C10    SFD_C11    SFD_C12     2        0.000      20.331    
+    SFD_C9     SFD_C10    SFD_C11    SFD_H33     2        180.000    69.025    
+    SFD_H32    SFD_C10    SFD_C11    SFD_C12     2        180.000    66.597    
+    SFD_H32    SFD_C10    SFD_C11    SFD_H33     2        0.000      38.937    
+    SFD_C10    SFD_C11    SFD_C12    SFD_C7      2        0.000      136.556   
+    SFD_C10    SFD_C11    SFD_C12    SFD_C13     2        180.000    108.669   
+    SFD_H33    SFD_C11    SFD_C12    SFD_C7      2        180.000    74.120    
+    SFD_H33    SFD_C11    SFD_C12    SFD_C13     2        0.000      39.806    
+    SFD_C7     SFD_C12    SFD_C13    SFD_C4      2        0.000      36.509    
+    SFD_C7     SFD_C12    SFD_C13    SFD_C14     2        122.302    1.433     
+    SFD_C7     SFD_C12    SFD_C13    SFD_C25     2        -122.303   1.433     
+    SFD_C11    SFD_C12    SFD_C13    SFD_C4      2        180.000    44.034    
+    SFD_C11    SFD_C12    SFD_C13    SFD_C14     2        -57.697    0.000     
+    SFD_C11    SFD_C12    SFD_C13    SFD_C25     2        57.698     0.000     
+    SFD_C4     SFD_C13    SFD_C14    SFD_C15     2        57.699     0.000     
+    SFD_C4     SFD_C13    SFD_C14    SFD_C19     2        -122.302   1.433     
+    SFD_C12    SFD_C13    SFD_C14    SFD_C15     2        -57.696    0.000     
+    SFD_C12    SFD_C13    SFD_C14    SFD_C19     2        122.303    1.433     
+    SFD_C25    SFD_C13    SFD_C14    SFD_C15     2        180.000    44.034    
+    SFD_C25    SFD_C13    SFD_C14    SFD_C19     2        0.000      36.509    
+    SFD_C4     SFD_C13    SFD_C25    SFD_C20     2        122.302    1.433     
+    SFD_C4     SFD_C13    SFD_C25    SFD_C24     2        -57.697    0.000     
+    SFD_C12    SFD_C13    SFD_C25    SFD_C20     2        -122.303   1.433     
+    SFD_C12    SFD_C13    SFD_C25    SFD_C24     2        57.697     0.000     
+    SFD_C14    SFD_C13    SFD_C25    SFD_C20     2        0.000      36.509    
+    SFD_C14    SFD_C13    SFD_C25    SFD_C24     2        180.000    44.034    
+    SFD_C13    SFD_C14    SFD_C15    SFD_C16     2        180.000    108.669   
+    SFD_C13    SFD_C14    SFD_C15    SFD_H34     2        0.000      39.806    
+    SFD_C19    SFD_C14    SFD_C15    SFD_C16     2        0.000      136.556   
+    SFD_C19    SFD_C14    SFD_C15    SFD_H34     2        180.000    74.120    
+    SFD_C13    SFD_C14    SFD_C19    SFD_C18     2        180.000    79.859    
+    SFD_C13    SFD_C14    SFD_C19    SFD_C20     2        0.000      171.124   
+    SFD_C15    SFD_C14    SFD_C19    SFD_C18     2        0.000      0.000     
+    SFD_C15    SFD_C14    SFD_C19    SFD_C20     2        180.000    70.071    
+    SFD_C14    SFD_C15    SFD_C16    SFD_C17     2        0.000      20.331    
+    SFD_C14    SFD_C15    SFD_C16    SFD_H35     2        180.000    66.597    
+    SFD_H34    SFD_C15    SFD_C16    SFD_C17     2        180.000    69.025    
+    SFD_H34    SFD_C15    SFD_C16    SFD_H35     2        0.000      38.937    
+    SFD_C15    SFD_C16    SFD_C17    SFD_C18     2        0.000      129.159   
+    SFD_C15    SFD_C16    SFD_C17    SFD_H36     2        180.000    68.587    
+    SFD_H35    SFD_C16    SFD_C17    SFD_C18     2        180.000    81.830    
+    SFD_H35    SFD_C16    SFD_C17    SFD_H36     2        0.000      44.482    
+    SFD_C16    SFD_C17    SFD_C18    SFD_C19     2        0.000      32.194    
+    SFD_C16    SFD_C17    SFD_C18    SFD_H37     2        180.000    78.814    
+    SFD_H36    SFD_C17    SFD_C18    SFD_C19     2        180.000    72.497    
+    SFD_H36    SFD_C17    SFD_C18    SFD_H37     2        0.000      43.186    
+    SFD_C17    SFD_C18    SFD_C19    SFD_C14     2        0.000      122.539   
+    SFD_C17    SFD_C18    SFD_C19    SFD_C20     2        180.000    66.162    
+    SFD_H37    SFD_C18    SFD_C19    SFD_C14     2        180.000    63.140    
+    SFD_H37    SFD_C18    SFD_C19    SFD_C20     2        0.000      32.044    
+    SFD_C14    SFD_C19    SFD_C20    SFD_C21     2        180.000    37.025    
+    SFD_C14    SFD_C19    SFD_C20    SFD_C25     2        0.000      0.000     
+    SFD_C18    SFD_C19    SFD_C20    SFD_C21     2        0.000      0.000     
+    SFD_C18    SFD_C19    SFD_C20    SFD_C25     2        180.000    37.025    
+    SFD_C19    SFD_C20    SFD_C21    SFD_C22     2        180.000    66.162    
+    SFD_C19    SFD_C20    SFD_C21    SFD_H38     2        0.000      32.044    
+    SFD_C25    SFD_C20    SFD_C21    SFD_C22     2        0.000      122.539   
+    SFD_C25    SFD_C20    SFD_C21    SFD_H38     2        180.000    63.140    
+    SFD_C19    SFD_C20    SFD_C25    SFD_C13     2        0.000      171.124   
+    SFD_C19    SFD_C20    SFD_C25    SFD_C24     2        180.000    70.071    
+    SFD_C21    SFD_C20    SFD_C25    SFD_C13     2        180.000    79.859    
+    SFD_C21    SFD_C20    SFD_C25    SFD_C24     2        0.000      0.000     
+    SFD_C20    SFD_C21    SFD_C22    SFD_C23     2        0.000      32.194    
+    SFD_C20    SFD_C21    SFD_C22    SFD_H39     2        180.000    72.497    
+    SFD_H38    SFD_C21    SFD_C22    SFD_C23     2        180.000    78.814    
+    SFD_H38    SFD_C21    SFD_C22    SFD_H39     2        0.000      43.186    
+    SFD_C21    SFD_C22    SFD_C23    SFD_C24     2        0.000      129.159   
+    SFD_H39    SFD_C22    SFD_C23    SFD_C24     2        180.000    68.587    
+    SFD_C22    SFD_C23    SFD_C24    SFD_C25     2        0.000      20.331    
+    SFD_C22    SFD_C23    SFD_C24    SFD_H41     2        180.000    69.025    
+    SFD_C23    SFD_C24    SFD_C25    SFD_C13     2        180.000    108.669   
+    SFD_C23    SFD_C24    SFD_C25    SFD_C20     2        0.000      136.556   
+    SFD_H41    SFD_C24    SFD_C25    SFD_C13     2        0.000      39.806    
+    SFD_H41    SFD_C24    SFD_C25    SFD_C20     2        180.000    74.120    

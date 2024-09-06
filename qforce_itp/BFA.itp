@@ -1,0 +1,114 @@
+[ bondtypes ]
+    BFA_C1     BFA_C2     1        0.13992    284036    
+    BFA_C1     BFA_C6     1        0.13886    315435    
+    BFA_C1     BFA_H14    1        0.10839    305972    
+    BFA_C2     BFA_C3     1        0.13870    311901    
+    BFA_C2     BFA_H15    1        0.10836    304394    
+    BFA_C3     BFA_C4     1        0.13926    314887    
+    BFA_C3     BFA_H16    1        0.10839    305216    
+    BFA_C4     BFA_C5     1        0.13982    272114    
+    BFA_C4     BFA_C13    1        0.14507    235653    
+    BFA_C5     BFA_C6     1        0.13837    324848    
+    BFA_C5     BFA_O7     1        0.13661    257734    
+    BFA_O7     BFA_C8     1        0.13661    257734    
+    BFA_C8     BFA_C9     1        0.13837    324848    
+    BFA_C8     BFA_C13    1        0.13982    272114    
+    BFA_C9     BFA_C10    1        0.13886    315435    
+    BFA_C9     BFA_H18    1        0.10824    310252    
+    BFA_C10    BFA_C11    1        0.13992    284036    
+    BFA_C10    BFA_H19    1        0.10839    305972    
+    BFA_C11    BFA_C12    1        0.13870    311901    
+    BFA_C11    BFA_H20    1        0.10836    304394    
+    BFA_C12    BFA_C13    1        0.13926    314887    
+    BFA_C12    BFA_H21    1        0.10839    305216    
+
+[ angletypes ]
+    BFA_C1     BFA_C2     BFA_C3      1        120.969    353.106   
+    BFA_C1     BFA_C2     BFA_H15     1        119.333    327.796   
+    BFA_C1     BFA_C6     BFA_C5      1        116.678    458.748   
+    BFA_C2     BFA_C1     BFA_C6      1        121.411    368.329   
+    BFA_C2     BFA_C1     BFA_H14     1        119.397    323.094   
+    BFA_C2     BFA_C3     BFA_C4      1        118.508    433.018   
+    BFA_C2     BFA_C3     BFA_H16     1        120.750    312.513   
+    BFA_C3     BFA_C2     BFA_H15     1        119.698    307.523   
+    BFA_C3     BFA_C4     BFA_C5      1        119.323    342.743   
+    BFA_C3     BFA_C4     BFA_C13     1        135.488    395.533   
+    BFA_C4     BFA_C3     BFA_H16     1        120.742    262.617   
+    BFA_C4     BFA_C5     BFA_C6      1        123.111    80.587    
+    BFA_C4     BFA_C5     BFA_O7      1        111.766    669.674   
+    BFA_C4     BFA_C13    BFA_C8      1        105.189    644.587   
+    BFA_C4     BFA_C13    BFA_C12     1        135.488    395.533   
+    BFA_C5     BFA_C4     BFA_C13     1        105.189    644.587   
+    BFA_C5     BFA_O7     BFA_C8      1        106.091    650.795   
+    BFA_C6     BFA_C1     BFA_H14     1        119.192    298.762   
+    BFA_C6     BFA_C5     BFA_O7      1        125.124    569.595   
+    BFA_O7     BFA_C8     BFA_C9      1        125.124    569.595   
+    BFA_O7     BFA_C8     BFA_C13     1        111.766    669.674   
+    BFA_C8     BFA_C9     BFA_C10     1        116.678    458.748   
+    BFA_C8     BFA_C9     BFA_H18     1        121.156    262.087   
+    BFA_C8     BFA_C13    BFA_C12     1        119.323    342.743   
+    BFA_C9     BFA_C8     BFA_C13     1        123.111    80.587    
+    BFA_C9     BFA_C10    BFA_C11     1        121.411    368.329   
+    BFA_C9     BFA_C10    BFA_H19     1        119.192    298.762   
+    BFA_C10    BFA_C9     BFA_H18     1        122.166    308.888   
+    BFA_C10    BFA_C11    BFA_C12     1        120.969    353.106   
+    BFA_C10    BFA_C11    BFA_H20     1        119.333    327.796   
+    BFA_C11    BFA_C10    BFA_H19     1        119.397    323.094   
+    BFA_C11    BFA_C12    BFA_C13     1        118.508    433.018   
+    BFA_C11    BFA_C12    BFA_H21     1        120.750    312.513   
+    BFA_C12    BFA_C11    BFA_H20     1        119.698    307.523   
+    BFA_C13    BFA_C12    BFA_H21     1        120.742    262.617   
+
+[ dihedraltypes ]
+    BFA_C6     BFA_C1     BFA_C2     BFA_C3      2        0.000      7.796     
+    BFA_C6     BFA_C1     BFA_C2     BFA_H15     2        180.000    56.085    
+    BFA_H14    BFA_C1     BFA_C2     BFA_C3      2        180.000    72.596    
+    BFA_H14    BFA_C1     BFA_C2     BFA_H15     2        0.000      36.032    
+    BFA_C2     BFA_C1     BFA_C6     BFA_C5      2        0.000      143.648   
+    BFA_H14    BFA_C1     BFA_C6     BFA_C5      2        180.000    82.262    
+    BFA_C1     BFA_C2     BFA_C3     BFA_C4      2        0.000      155.378   
+    BFA_C1     BFA_C2     BFA_C3     BFA_H16     2        180.000    88.190    
+    BFA_H15    BFA_C2     BFA_C3     BFA_C4      2        180.000    78.822    
+    BFA_H15    BFA_C2     BFA_C3     BFA_H16     2        0.000      48.351    
+    BFA_C2     BFA_C3     BFA_C4     BFA_C5      2        0.000      0.000     
+    BFA_C2     BFA_C3     BFA_C4     BFA_C13     2        180.000    42.962    
+    BFA_H16    BFA_C3     BFA_C4     BFA_C5      2        180.000    71.048    
+    BFA_H16    BFA_C3     BFA_C4     BFA_C13     2        0.000      21.057    
+    BFA_C3     BFA_C4     BFA_C5     BFA_C6      2        0.000      91.404    
+    BFA_C3     BFA_C4     BFA_C5     BFA_O7      2        180.000    43.116    
+    BFA_C13    BFA_C4     BFA_C5     BFA_C6      2        180.000    44.336    
+    BFA_C13    BFA_C4     BFA_C5     BFA_O7      2        0.000      0.000     
+    BFA_C3     BFA_C4     BFA_C13    BFA_C8      2        180.000    45.303    
+    BFA_C3     BFA_C4     BFA_C13    BFA_C12     2        0.000      0.000     
+    BFA_C5     BFA_C4     BFA_C13    BFA_C8      2        0.000      220.877   
+    BFA_C5     BFA_C4     BFA_C13    BFA_C12     2        180.000    45.303    
+    BFA_C4     BFA_C5     BFA_C6     BFA_C1      2        0.000      8.552     
+    BFA_O7     BFA_C5     BFA_C6     BFA_C1      2        180.000    100.491   
+    BFA_C4     BFA_C5     BFA_O7     BFA_C8      2        0.000      126.225   
+    BFA_C6     BFA_C5     BFA_O7     BFA_C8      2        180.000    39.784    
+    BFA_C5     BFA_O7     BFA_C8     BFA_C9      2        180.000    39.784    
+    BFA_C5     BFA_O7     BFA_C8     BFA_C13     2        0.000      126.225   
+    BFA_O7     BFA_C8     BFA_C9     BFA_C10     2        180.000    100.491   
+    BFA_O7     BFA_C8     BFA_C9     BFA_H18     2        0.000      39.323    
+    BFA_C13    BFA_C8     BFA_C9     BFA_C10     2        0.000      8.552     
+    BFA_C13    BFA_C8     BFA_C9     BFA_H18     2        180.000    50.023    
+    BFA_O7     BFA_C8     BFA_C13    BFA_C4      2        0.000      0.000     
+    BFA_O7     BFA_C8     BFA_C13    BFA_C12     2        180.000    43.116    
+    BFA_C9     BFA_C8     BFA_C13    BFA_C4      2        180.000    44.336    
+    BFA_C9     BFA_C8     BFA_C13    BFA_C12     2        0.000      91.404    
+    BFA_C8     BFA_C9     BFA_C10    BFA_C11     2        0.000      143.648   
+    BFA_C8     BFA_C9     BFA_C10    BFA_H19     2        180.000    82.262    
+    BFA_H18    BFA_C9     BFA_C10    BFA_C11     2        180.000    70.237    
+    BFA_H18    BFA_C9     BFA_C10    BFA_H19     2        0.000      40.365    
+    BFA_C9     BFA_C10    BFA_C11    BFA_C12     2        0.000      7.796     
+    BFA_C9     BFA_C10    BFA_C11    BFA_H20     2        180.000    56.085    
+    BFA_H19    BFA_C10    BFA_C11    BFA_C12     2        180.000    72.596    
+    BFA_H19    BFA_C10    BFA_C11    BFA_H20     2        0.000      36.032    
+    BFA_C10    BFA_C11    BFA_C12    BFA_C13     2        0.000      155.378   
+    BFA_C10    BFA_C11    BFA_C12    BFA_H21     2        180.000    88.190    
+    BFA_H20    BFA_C11    BFA_C12    BFA_C13     2        180.000    78.822    
+    BFA_H20    BFA_C11    BFA_C12    BFA_H21     2        0.000      48.351    
+    BFA_C11    BFA_C12    BFA_C13    BFA_C4      2        180.000    42.962    
+    BFA_C11    BFA_C12    BFA_C13    BFA_C8      2        0.000      0.000     
+    BFA_H21    BFA_C12    BFA_C13    BFA_C4      2        0.000      21.057    
+    BFA_H21    BFA_C12    BFA_C13    BFA_C8      2        180.000    71.048    

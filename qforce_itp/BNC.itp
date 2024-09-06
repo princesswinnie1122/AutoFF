@@ -1,0 +1,48 @@
+[ bondtypes ]
+    BNC_N1     BNC_C2     1        0.11514    1098258   
+    BNC_C2     BNC_C3     1        0.14345    275584    
+    BNC_C3     BNC_C4     1        0.13964    289503    
+    BNC_C3     BNC_C8     1        0.13964    289503    
+    BNC_C4     BNC_C5     1        0.13867    314601    
+    BNC_C4     BNC_H9     1        0.10831    308929    
+    BNC_C5     BNC_C6     1        0.13903    304738    
+    BNC_C6     BNC_C7     1        0.13903    304738    
+    BNC_C7     BNC_C8     1        0.13867    314601    
+    BNC_C7     BNC_H12    1        0.10834    306200    
+    BNC_C8     BNC_H13    1        0.10831    308929    
+
+[ angletypes ]
+    BNC_N1     BNC_C2     BNC_C3      1        180.000    218.129   
+    BNC_C2     BNC_C3     BNC_C4      1        119.832    507.634   
+    BNC_C2     BNC_C3     BNC_C8      1        119.832    507.634   
+    BNC_C3     BNC_C4     BNC_C5      1        119.584    391.889   
+    BNC_C3     BNC_C4     BNC_H9      1        119.654    297.752   
+    BNC_C3     BNC_C8     BNC_C7      1        119.584    391.889   
+    BNC_C3     BNC_C8     BNC_H13     1        119.654    297.752   
+    BNC_C4     BNC_C3     BNC_C8      1        120.336    237.519   
+    BNC_C4     BNC_C5     BNC_C6      1        120.138    398.063   
+    BNC_C5     BNC_C4     BNC_H9      1        120.762    345.519   
+    BNC_C5     BNC_C6     BNC_C7      1        120.220    397.029   
+    BNC_C6     BNC_C7     BNC_C8      1        120.138    398.063   
+    BNC_C6     BNC_C7     BNC_H12     1        120.153    310.167   
+    BNC_C7     BNC_C8     BNC_H13     1        120.762    345.519   
+    BNC_C8     BNC_C7     BNC_H12     1        119.709    317.468   
+
+[ dihedraltypes ]
+    BNC_C2     BNC_C3     BNC_C4     BNC_C5      2        180.000    118.563   
+    BNC_C2     BNC_C3     BNC_C4     BNC_H9      2        0.000      58.449    
+    BNC_C8     BNC_C3     BNC_C4     BNC_C5      2        0.000      82.465    
+    BNC_C8     BNC_C3     BNC_C4     BNC_H9      2        180.000    65.735    
+    BNC_C2     BNC_C3     BNC_C8     BNC_C7      2        180.000    118.563   
+    BNC_C2     BNC_C3     BNC_C8     BNC_H13     2        0.000      58.449    
+    BNC_C4     BNC_C3     BNC_C8     BNC_C7      2        0.000      82.465    
+    BNC_C4     BNC_C3     BNC_C8     BNC_H13     2        180.000    65.735    
+    BNC_C3     BNC_C4     BNC_C5     BNC_C6      2        0.000      70.395    
+    BNC_H9     BNC_C4     BNC_C5     BNC_C6      2        180.000    62.876    
+    BNC_C4     BNC_C5     BNC_C6     BNC_C7      2        0.000      79.812    
+    BNC_C5     BNC_C6     BNC_C7     BNC_C8      2        0.000      79.812    
+    BNC_C5     BNC_C6     BNC_C7     BNC_H12     2        180.000    78.197    
+    BNC_C6     BNC_C7     BNC_C8     BNC_C3      2        0.000      70.395    
+    BNC_C6     BNC_C7     BNC_C8     BNC_H13     2        180.000    62.876    
+    BNC_H12    BNC_C7     BNC_C8     BNC_C3      2        180.000    62.622    
+    BNC_H12    BNC_C7     BNC_C8     BNC_H13     2        0.000      36.735    

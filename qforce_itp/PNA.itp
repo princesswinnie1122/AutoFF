@@ -1,0 +1,130 @@
+[ bondtypes ]
+    PNA_C1     PNA_C2     1        0.14022    283026    
+    PNA_C1     PNA_C6     1        0.13733    345613    
+    PNA_C1     PNA_H15    1        0.10840    306184    
+    PNA_C2     PNA_C3     1        0.13754    339942    
+    PNA_C2     PNA_H16    1        0.10841    304369    
+    PNA_C3     PNA_C4     1        0.14098    264744    
+    PNA_C3     PNA_H17    1        0.10827    303601    
+    PNA_C4     PNA_C5     1        0.14146    260708    
+    PNA_C4     PNA_C14    1        0.14556    218060    
+    PNA_C5     PNA_C6     1        0.14093    268286    
+    PNA_C5     PNA_C7     1        0.14349    243950    
+    PNA_C6     PNA_H18    1        0.10853    302008    
+    PNA_C7     PNA_C8     1        0.13494    422591    
+    PNA_C8     PNA_C9     1        0.14349    243950    
+    PNA_C8     PNA_H20    1        0.10851    302070    
+    PNA_C9     PNA_C10    1        0.14093    268286    
+    PNA_C9     PNA_C14    1        0.14146    260708    
+    PNA_C10    PNA_C11    1        0.13733    345613    
+    PNA_C10    PNA_H21    1        0.10853    302008    
+    PNA_C11    PNA_C12    1        0.14022    283026    
+    PNA_C11    PNA_H22    1        0.10840    306184    
+    PNA_C12    PNA_C13    1        0.13754    339942    
+    PNA_C12    PNA_H23    1        0.10841    304369    
+    PNA_C13    PNA_C14    1        0.14098    264744    
+    PNA_C13    PNA_H24    1        0.10827    303601    
+
+[ angletypes ]
+    PNA_C1     PNA_C2     PNA_C3      1        120.363    379.369   
+    PNA_C1     PNA_C2     PNA_H16     1        119.911    298.159   
+    PNA_C1     PNA_C6     PNA_C5      1        121.026    289.737   
+    PNA_C1     PNA_C6     PNA_H18     1        120.326    370.541   
+    PNA_C2     PNA_C1     PNA_C6      1        119.545    421.725   
+    PNA_C2     PNA_C1     PNA_H15     1        120.117    302.635   
+    PNA_C2     PNA_C3     PNA_C4      1        121.374    343.974   
+    PNA_C2     PNA_C3     PNA_H17     1        118.578    348.359   
+    PNA_C3     PNA_C2     PNA_H16     1        119.726    330.995   
+    PNA_C3     PNA_C4     PNA_C5      1        118.011    457.607   
+    PNA_C3     PNA_C4     PNA_C14     1        122.871    509.476   
+    PNA_C4     PNA_C3     PNA_H17     1        120.048    224.547   
+    PNA_C4     PNA_C5     PNA_C6      1        119.681    400.197   
+    PNA_C4     PNA_C5     PNA_C7      1        119.769    454.968   
+    PNA_C4     PNA_C14    PNA_C9      1        119.118    414.818   
+    PNA_C4     PNA_C14    PNA_C13     1        122.871    509.476   
+    PNA_C5     PNA_C4     PNA_C14     1        119.118    414.818   
+    PNA_C5     PNA_C6     PNA_H18     1        118.648    225.337   
+    PNA_C5     PNA_C7     PNA_C8      1        121.113    277.123   
+    PNA_C6     PNA_C1     PNA_H15     1        120.337    313.548   
+    PNA_C6     PNA_C5     PNA_C7      1        120.551    688.425   
+    PNA_C7     PNA_C8     PNA_C9      1        121.113    277.123   
+    PNA_C7     PNA_C8     PNA_H20     1        120.544    367.847   
+    PNA_C8     PNA_C9     PNA_C10     1        120.551    688.425   
+    PNA_C8     PNA_C9     PNA_C14     1        119.769    454.968   
+    PNA_C9     PNA_C8     PNA_H20     1        118.342    175.588   
+    PNA_C9     PNA_C10    PNA_C11     1        121.026    289.737   
+    PNA_C9     PNA_C10    PNA_H21     1        118.648    225.337   
+    PNA_C9     PNA_C14    PNA_C13     1        118.011    457.607   
+    PNA_C10    PNA_C9     PNA_C14     1        119.681    400.197   
+    PNA_C10    PNA_C11    PNA_C12     1        119.545    421.725   
+    PNA_C10    PNA_C11    PNA_H22     1        120.337    313.548   
+    PNA_C11    PNA_C10    PNA_H21     1        120.326    370.541   
+    PNA_C11    PNA_C12    PNA_C13     1        120.363    379.369   
+    PNA_C11    PNA_C12    PNA_H23     1        119.911    298.159   
+    PNA_C12    PNA_C11    PNA_H22     1        120.117    302.635   
+    PNA_C12    PNA_C13    PNA_C14     1        121.374    343.974   
+    PNA_C12    PNA_C13    PNA_H24     1        118.578    348.359   
+    PNA_C13    PNA_C12    PNA_H23     1        119.726    330.995   
+    PNA_C14    PNA_C13    PNA_H24     1        120.048    224.547   
+
+[ dihedraltypes ]
+    PNA_C6     PNA_C1     PNA_C2     PNA_C3      2        0.000      16.934    
+    PNA_C6     PNA_C1     PNA_C2     PNA_H16     2        180.000    59.717    
+    PNA_H15    PNA_C1     PNA_C2     PNA_C3      2        180.000    63.027    
+    PNA_H15    PNA_C1     PNA_C2     PNA_H16     2        0.000      39.437    
+    PNA_C2     PNA_C1     PNA_C6     PNA_C5      2        0.000      137.386   
+    PNA_C2     PNA_C1     PNA_C6     PNA_H18     2        180.000    76.646    
+    PNA_H15    PNA_C1     PNA_C6     PNA_C5      2        180.000    72.997    
+    PNA_H15    PNA_C1     PNA_C6     PNA_H18     2        0.000      44.996    
+    PNA_C1     PNA_C2     PNA_C3     PNA_C4      2        0.000      131.612   
+    PNA_C1     PNA_C2     PNA_C3     PNA_H17     2        180.000    81.113    
+    PNA_H16    PNA_C2     PNA_C3     PNA_C4      2        180.000    74.052    
+    PNA_H16    PNA_C2     PNA_C3     PNA_H17     2        0.000      49.377    
+    PNA_C2     PNA_C3     PNA_C4     PNA_C5      2        0.000      1.489     
+    PNA_C2     PNA_C3     PNA_C4     PNA_C14     2        180.000    77.230    
+    PNA_H17    PNA_C3     PNA_C4     PNA_C5      2        180.000    52.241    
+    PNA_H17    PNA_C3     PNA_C4     PNA_C14     2        0.000      35.451    
+    PNA_C3     PNA_C4     PNA_C5     PNA_C6      2        0.000      127.605   
+    PNA_C3     PNA_C4     PNA_C5     PNA_C7      2        180.000    86.247    
+    PNA_C14    PNA_C4     PNA_C5     PNA_C6      2        180.000    80.623    
+    PNA_C14    PNA_C4     PNA_C5     PNA_C7      2        0.000      105.919   
+    PNA_C3     PNA_C4     PNA_C14    PNA_C9      2        180.000    63.078    
+    PNA_C3     PNA_C4     PNA_C14    PNA_C13     2        0.000      28.872    
+    PNA_C5     PNA_C4     PNA_C14    PNA_C9      2        0.000      0.000     
+    PNA_C5     PNA_C4     PNA_C14    PNA_C13     2        180.000    63.078    
+    PNA_C4     PNA_C5     PNA_C6     PNA_C1      2        0.000      0.000     
+    PNA_C4     PNA_C5     PNA_C6     PNA_H18     2        180.000    51.048    
+    PNA_C7     PNA_C5     PNA_C6     PNA_C1      2        180.000    84.325    
+    PNA_C7     PNA_C5     PNA_C6     PNA_H18     2        0.000      42.875    
+    PNA_C4     PNA_C5     PNA_C7     PNA_C8      2        0.000      2.771     
+    PNA_C6     PNA_C5     PNA_C7     PNA_C8      2        180.000    57.279    
+    PNA_C5     PNA_C7     PNA_C8     PNA_C9      2        0.000      121.582   
+    PNA_C5     PNA_C7     PNA_C8     PNA_H20     2        180.000    80.402    
+    PNA_C7     PNA_C8     PNA_C9     PNA_C10     2        180.000    57.279    
+    PNA_C7     PNA_C8     PNA_C9     PNA_C14     2        0.000      2.771     
+    PNA_H20    PNA_C8     PNA_C9     PNA_C10     2        0.000      37.653    
+    PNA_H20    PNA_C8     PNA_C9     PNA_C14     2        180.000    42.288    
+    PNA_C8     PNA_C9     PNA_C10    PNA_C11     2        180.000    84.325    
+    PNA_C8     PNA_C9     PNA_C10    PNA_H21     2        0.000      42.875    
+    PNA_C14    PNA_C9     PNA_C10    PNA_C11     2        0.000      0.000     
+    PNA_C14    PNA_C9     PNA_C10    PNA_H21     2        180.000    51.048    
+    PNA_C8     PNA_C9     PNA_C14    PNA_C4      2        0.000      105.919   
+    PNA_C8     PNA_C9     PNA_C14    PNA_C13     2        180.000    86.247    
+    PNA_C10    PNA_C9     PNA_C14    PNA_C4      2        180.000    80.623    
+    PNA_C10    PNA_C9     PNA_C14    PNA_C13     2        0.000      127.605   
+    PNA_C9     PNA_C10    PNA_C11    PNA_C12     2        0.000      137.386   
+    PNA_C9     PNA_C10    PNA_C11    PNA_H22     2        180.000    72.997    
+    PNA_H21    PNA_C10    PNA_C11    PNA_C12     2        180.000    76.646    
+    PNA_H21    PNA_C10    PNA_C11    PNA_H22     2        0.000      44.996    
+    PNA_C10    PNA_C11    PNA_C12    PNA_C13     2        0.000      16.934    
+    PNA_C10    PNA_C11    PNA_C12    PNA_H23     2        180.000    59.717    
+    PNA_H22    PNA_C11    PNA_C12    PNA_C13     2        180.000    63.027    
+    PNA_H22    PNA_C11    PNA_C12    PNA_H23     2        0.000      39.437    
+    PNA_C11    PNA_C12    PNA_C13    PNA_C14     2        0.000      131.612   
+    PNA_C11    PNA_C12    PNA_C13    PNA_H24     2        180.000    81.113    
+    PNA_H23    PNA_C12    PNA_C13    PNA_C14     2        180.000    74.052    
+    PNA_H23    PNA_C12    PNA_C13    PNA_H24     2        0.000      49.377    
+    PNA_C12    PNA_C13    PNA_C14    PNA_C4      2        180.000    77.230    
+    PNA_C12    PNA_C13    PNA_C14    PNA_C9      2        0.000      1.489     
+    PNA_H24    PNA_C13    PNA_C14    PNA_C4      2        0.000      35.451    
+    PNA_H24    PNA_C13    PNA_C14    PNA_C9      2        180.000    52.241    

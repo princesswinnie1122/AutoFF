@@ -1,12 +1,12 @@
 import sys
 import stk
 from PyQt6.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QTableWidget, QTableWidgetItem, QLabel, QLineEdit, QTextEdit
-from PyQt6.QtWidgets import QHBoxLayout
 from PyQt6.QtCore import QSize
 from cut_search import fragment_molecule, search_database
 from link import link
 import py3Dmol
 from rdkit import Chem
+
 
 class MoleculeApp(QWidget):
     def __init__(self):
@@ -65,11 +65,6 @@ class MoleculeApp(QWidget):
         self.confirm_button.setEnabled(False)  # Only enabled after generating script
         layout.addWidget(self.confirm_button)
 
-        # Molecule visualization widget (py3Dmol integration)
-        #self.molecule_viewer = QTextEdit(self)
-        #self.molecule_viewer.setFixedHeight(200)  # Give space for the molecule visualization
-        #layout.addWidget(self.molecule_viewer)
-
         self.setLayout(layout)
 
     def cut_and_search(self):
@@ -122,43 +117,23 @@ class MoleculeApp(QWidget):
         self.confirm_button.setEnabled(True)
 
     def confirm_action(self):
-        # Get the molecule name and fragments (BB names) from the table
         molecule_name = self.name_input.text()
         bb_names = [self.result_table.item(row, 0).text() for row in range(self.result_table.rowCount())]
 
-        # Assuming all linkers are Bromine for now
         Br = stk.BromoFactory()
         BB_connector = [Br] * len(bb_names)
 
-        # Call the link object to generate files
         FF = link(molecule_name, bb_names, BB_connector)
+        self.visualization_window = FF.show_molecule()
 
-        # Visualize the molecule
-        self.visualize_molecule(FF)
 
-    '''
-    def visualize_molecule(self, FF):
-        # Get the final molecule in a format suitable for visualization (py3Dmol)
-        mol = FF.molecule
-        smiles = Chem.MolToSmiles(mol)
 
-        # Use py3Dmol to visualize the molecule
-        viewer = py3Dmol.view(width=400, height=400)
-        viewer.addModel(smiles, "smi")
-        viewer.setStyle({'stick': {}})
-        viewer.zoomTo()
-        viewer.render()
-        
-        # Display the molecule in the widget
-        html_view = viewer.getHTML()
-        self.molecule_viewer.setHtml(html_view)
-    '''
-    
 def main():
     app = QApplication(sys.argv)
     ex = MoleculeApp()
     ex.show()
     sys.exit(app.exec())
+
 
 if __name__ == '__main__':
     main()

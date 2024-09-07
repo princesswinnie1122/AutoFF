@@ -2,6 +2,7 @@ from pathlib import Path
 import json
 import sys
 from rdkit import Chem 
+from rdkit.Chem import AllChem
 from rdkit.Chem import AllChem as rdkit
 from collections import defaultdict
 import py3Dmol
@@ -19,7 +20,47 @@ from ase.io import read
 from collections import defaultdict
 import networkx as nx
 import pulp
+import logging
 from ase.units import Hartree, mol, kJ, Bohr
+
+from PyQt6.QtWidgets import QWidget, QVBoxLayout, QPushButton, QTextEdit
+from PyQt6.QtWebEngineWidgets import QWebEngineView
+from PyQt6.QtWebEngineCore import QWebEngineSettings 
+from PyQt6.QtCore import QUrl, QTimer
+from PyQt6.QtGui import QImage, QPixmap, QIcon, QFont, QTextCursor
+from PyQt6.QtCore import Qt
+from PyQt6.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QLabel
+import io
+from rdkit.Chem import Draw
+
+class MoleculeViewer(QWidget):
+    def __init__(self, rdkit_mol):
+        super().__init__()
+        self.rdkit_mol = rdkit_mol
+        self.initUI()
+
+    def initUI(self):
+        self.setWindowTitle('Molecule Visualization')
+        self.setGeometry(100, 100, 600, 600)
+
+        layout = QVBoxLayout()
+
+        # Generate 2D depiction
+        img = Draw.MolToImage(self.rdkit_mol, size=(500, 500))
+        
+        # Convert PIL Image to QPixmap
+        buffer = io.BytesIO()
+        img.save(buffer, format="PNG")
+        qimg = QImage.fromData(buffer.getvalue())
+        pixmap = QPixmap.fromImage(qimg)
+
+        # Create QLabel and set the pixmap
+        label = QLabel()
+        label.setPixmap(pixmap)
+        label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        layout.addWidget(label)
+        self.setLayout(layout)
 
 def check_type_and_shape(value, name, expected_type, expected_shape):
     value = np.asarray(value)
@@ -45,6 +86,8 @@ def show_stk_mol(stk_mol):
     p.setBackgroundColor('0xeeeeee')
     p.zoomTo()
     p.show()
+
+
 
 class link():
     def __init__(self, molecule_name, BB_name, BB_connector):
@@ -74,20 +117,7 @@ class link():
         self.STK_create_building_blocks() #讀取BB使用stk定義為一個一個building block
         self.build_molecule() #將各個BB使用stk連在一起
         self.show_molecule()
-        #PDB資訊 且建立資料夾放SCAN
-        self.renameBB_copy() #複製BB的rtp檔並重新命名
-        self.replace_BBname_in_rtp() #替換rtp檔裡的BB名稱
-        self.pdb_file_information()
-        self.update_dihedral_number_pdb_create_SCAN() 
-        self.establish_atp() #建立atp檔
-        self.map_atomnames_to_dihedral() #建立dihedral的rtp檔
-        self.rtp_add_bonds() #加入rtp資訊
-        self.rtp_add_impropers() #加入rtp資訊
-        self.rtp_add_dihedrals() #加入rtp資訊
-        self.arrange_rtp() #清理rtp檔
-        self.forcefield_itp() #建立forcefield.itp   
-        self.forcefield_itp_atomtype() #填入itp atomtype項
-        self.DDEC6_charge() #計算DDEC6 charge
+        
 
 
      
@@ -1309,7 +1339,7 @@ class link():
             print('I:2')
             Iodo_factory = stk.IodoFactory()
             Iodo_groups = tuple(Iodo_factory.get_functional_groups(molecule=self.molecule_stk))
-            self.molecule_stk = stk.BuildingBlock.init_from_molecule(c1,[Iodo_groups[0]])                        
+            self.molecule_stk = stk.BuildingBlock.init_from_molecule(c1,[Iodo_groups[1]])                        
         
         if str(self.molecule_smile[self.molecule_name]).count('F') >= 2:            
             print('F:2')
@@ -1343,7 +1373,12 @@ class link():
         return self.molecule_stk
 
     def show_molecule(self):
-        show_stk_mol(self.molecule_stk)
+        rdkit_mol = self.molecule_stk.to_rdkit_mol()
+        viewer = MoleculeViewer(rdkit_mol)
+        viewer.show()
+        return viewer
+    
+
 
     def update_dihedral_number_pdb_create_SCAN(self):
         if not os.path.exists(f'molecule/{self.molecule_name}/QM_GASPHASE/{self.molecule_name}.log'):

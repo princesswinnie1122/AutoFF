@@ -4,43 +4,48 @@
 
 [ PD2 ]
   [ atoms ]
-    C1    PDB_C1  
-    C2    PDB_C2  
-    C3    PDB_C3  
-    N4    PDB_N4  
-    C5    PDB_C5  
-    C6    PDB_C6  
-    H7    PDB_H7  
-    H8    PDB_H8  
-    H9    PDB_H9  
-    H10   PDB_H10 
+    C1    PDB_C1
+    C2    PDB_C2
+    C3    PDB_C3
+    N4    PDB_N4
+    C5    PDB_C5
+    C6    PDB_C6
+    H7    PDB_H7
+    H8    PDB_H8
+    H9    PDB_H9
+    H10   PDB_H10
 
   [ bonds ]
-    C1    C2   
-    C1    C6   
-    C1    H7   
-    C2    C3   
-    C2    H8   
-    C3    N4   
-    C3    H9   
-    N4    C5   
-    C5    C6   
-    C5    H10  
+    C1    C2    
+    C1    C6    
+    C1    H7    
+    C2    C3    
+    C2    H8    
+    C3    N4    
+    C3    H9    
+    N4    C5    
+    C5    C6    
+    C6    -C5   
+    C5    H10   
 
   [ impropers ]
-    C6    C1    C2    C3
-    C6    C1    C2    H8
-    H7    C1    C2    C3
-    H7    C1    C2    H8
-    C2    C1    C6    C5
-    H7    C1    C6    C5
-    C1    C2    C3    N4
-    C1    C2    C3    H9
-    H8    C2    C3    N4
-    H8    C2    C3    H9
-    C2    C3    N4    C5
-    H9    C3    N4    C5
-    C3    N4    C5    C6
-    C3    N4    C5    H10
-    N4    C5    C6    C1
-    H10   C5    C6    C1
+    C6    C1    C2    C3    
+    C6    C1    C2    H8    
+    H7    C1    C2    C3    
+    H7    C1    C2    H8    
+    C2    C1    C6    C5    
+    H7    C1    C6    C5    
+    C1    C2    C3    N4    
+    C1    C2    C3    H9    
+    H8    C2    C3    N4    
+    H8    C2    C3    H9    
+    C2    C3    N4    C5    
+    H9    C3    N4    C5    
+    C3    N4    C5    C6    
+    C3    N4    C5    H10   
+    N4    C5    C6    C1    
+    -C5   C6    C5    N4    
+    -C5   C6    C5    H10   
+    -C5   C6    C1    C2    
+    -C5   C6    C1    H7    
+    H10   C5    C6    C1    

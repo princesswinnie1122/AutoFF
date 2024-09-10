@@ -4,7 +4,6 @@ from rdkit import Chem
 from rdkit.Chem import BRICS
 
 def fragment_molecule(smiles):
-    """Fragment a molecule using BRICS."""
     mol = Chem.MolFromSmiles(smiles)
     if mol is None:
         return None, ["Invalid SMILES string."]
@@ -14,11 +13,7 @@ def fragment_molecule(smiles):
     return frag_smiles
 
 def remove_num(smiles):
-    """
-    Replace BRICS attachment points like [16*], [14*], etc.
-    with [*], removing the numbers.
-    """
-    # Replace [number*] patterns with [*]
+    # Replace [number*] with [*]
     return re.sub(r'\[\d+\*\]', '[*]', smiles)
 
 def search_database(fragments, database_file="BB_dic.json"):

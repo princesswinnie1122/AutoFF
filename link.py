@@ -41,7 +41,7 @@ class MoleculeViewer(QWidget):
 
     def initUI(self):
         self.setWindowTitle('Molecule Visualization')
-        self.setGeometry(100, 100, 600, 600)
+        self.setGeometry(150, 150, 600, 600)
 
         layout = QVBoxLayout()
 
@@ -116,7 +116,21 @@ class link():
         self.create_FF_folders() #建立FF所需的資料夾
         self.STK_create_building_blocks() #讀取BB使用stk定義為一個一個building block
         self.build_molecule() #將各個BB使用stk連在一起
-        self.show_molecule()
+        self.show_molecule() #顯示分子
+        self.renameBB_copy() #複製BB的rtp檔並重新命名
+        self.replace_BBname_in_rtp() #替換rtp檔裡的BB名稱
+        self.pdb_file_information() #pdb檔的資訊
+        self.rtp_add_bonds() #加入rtp資訊
+        #self.update_dihedral_number_pdb_create_SCAN() #找出對稱的dihedral並建立dihedral.txt以加入在.pdb檔上(需計算完Guassian後再執行一次)
+        #self.establish_atp() #建立atp檔
+        #self.map_atomnames_to_dihedral() #建立dihedral的rtp檔
+        #self.rtp_add_impropers() #加入rtp資訊
+        #self.rtp_add_dihedrals() #加入rtp資訊
+        #self.arrange_rtp() #將rtp檔排整齊
+        #self.forcefield_itp() #建立forcefield.itp，新增相連接的項目 (需辨認出類似的項還沒完成)
+        #self.forcefield_itp_atomtype() #填入itp atomtype項  
+        #self.DDEC6_charge() #計算DDEC6 charge (需計算完電荷後再執行一次)
+        #self.improper_number() #improper的編號
         
 
 
@@ -681,11 +695,12 @@ class link():
             proper_itp.append((key , "{:.3f}".format(average_angle),atom_numbers))
 
         for name in set(self.BB_names):
-            source_file = f"qforce_itp//{name}.itp"
+            source_file = f"qforce_itp/{name}.itp"
             #source_file = f"C://Users//egg45//OneDrive - NTHU//resreach//Data base//qforce_RTP//improper\{name}.rtp"
-            destination_folder = f"{self.molecule_folder_path}/FORCEFIELD/{self.molecule_name}.ff/itp"
+            destination_folder = f"{self.molecule_folder_path}/FORCEFIELD/{self.molecule_name}.ff"
             destination_file = f"{destination_folder}/{name}.itp"
-            os.makedirs(destination_folder, exist_ok=True)            
+            os.makedirs(destination_folder, exist_ok=True)    
+            print(f"Copying {source_file} to {destination_file}")        
             shutil.copy(source_file, destination_file)
 
 
@@ -1317,7 +1332,7 @@ class link():
 
         self.molecule_stk = stk.BuildingBlock.init_from_molecule(c1,[stk.BromoFactory()],)
 
-
+        '''
         if 'Br' not in str(self.molecule_smile[self.molecule_name]):
             self.molecule_stk = stk.BuildingBlock.init_from_molecule(c1,[stk.IodoFactory()],)
             self.number += 1
@@ -1346,6 +1361,7 @@ class link():
             Fluoro_factory = stk.FluoroFactory()
             Fluoro_groups = tuple(Fluoro_factory.get_functional_groups(molecule=self.molecule_stk))
             self.molecule_stk = stk.BuildingBlock.init_from_molecule(c1,[Fluoro_groups[0]])   
+        '''
         for a in self.molecule_stk.get_functional_groups():
             deleter_ids = a.get_deleter_ids()
             for b in deleter_ids:                   
@@ -1354,6 +1370,83 @@ class link():
                     self.dihedral_number_list[i] = tuple(x-1 if x > deleter_id else x for x in self.dihedral_number_list[i])
                 else:
                     pass
+        
+        for a in self.molecule_stk.get_functional_groups():
+            deleter_ids = a.get_deleter_ids()
+            for b in deleter_ids:                   
+                deleter_id = b + 1
+                for i in range(len(self.dihedral_number_list)):
+                    self.dihedral_number_list[i] = tuple(x-1 if x > deleter_id else x for x in self.dihedral_number_list[i])
+                else:
+                    pass
+
+        def read_xyz(file_path):
+            with open(file_path, 'r') as file:
+                lines = file.readlines()
+            
+            # 提取 atom 資訊 (忽略前兩行)
+            atoms = [line.split() for line in lines[2:]]
+            
+            # 記錄 Br, I, F 的原子
+            found_atoms = {'Br': [], 'I': [], 'F': []}
+            
+            for index, atom in enumerate(atoms, start=1):  # index 作為原子編號
+                element = atom[0]  # 原子的元素符號
+                if element in found_atoms:
+                    found_atoms[element].append(index)
+            
+            # 找出最大原子編號的元素
+            max_atom = None
+            max_index = 0
+            for element, indices in found_atoms.items():
+                if indices:
+                    max_for_element = max(indices)
+                    if max_for_element > max_index:
+                        max_index = max_for_element
+                        max_atom = element
+            
+            return found_atoms, max_atom, max_index
+
+
+        # 使用範例
+        file_path = f'{self.molecule_folder_path}//QM_GASPHASE//xtb//{self.molecule_name}.xyz'
+        found_atoms, max_atom, max_index = read_xyz(file_path)
+
+        if found_atoms:
+            print(f"Found atoms: {found_atoms}")
+            if max_atom:
+                print(f"Atom with the largest number is {max_atom} with index {max_index}")
+        else:
+            print("No Br, I, or F atoms found.")
+
+        if max_atom is None:
+            self.molecule_stk = stk.BuildingBlock.init_from_molecule(c1, [stk.BromoFactory()])
+
+        if  max_atom is not None:
+            if len(found_atoms[max_atom]) == 1 and max_atom is not None:
+                if max_atom == 'Br':
+                    self.molecule_stk = stk.BuildingBlock.init_from_molecule(c1,[stk.BromoFactory()],)
+                if max_atom == 'I':
+                    self.molecule_stk = stk.BuildingBlock.init_from_molecule(c1,[stk.IodoFactory()],)
+                if max_atom == 'F':
+                    self.molecule_stk = stk.BuildingBlock.init_from_molecule(c1,[stk.FluoroFactory()],)
+
+        if  max_atom is not None:
+            if len(found_atoms[max_atom]) > 1 :
+                if max_atom == 'Br':
+                    bromo_factory = stk.BromoFactory()        
+                    bromo_groups = tuple(bromo_factory.get_functional_groups(molecule=self.molecule_stk))
+                    self.molecule_stk = stk.BuildingBlock.init_from_molecule(c1,[bromo_groups[-1]])
+                if max_atom == 'I':
+                    Iodo_factory = stk.IodoFactory()
+                    Iodo_groups = tuple(Iodo_factory.get_functional_groups(molecule=self.molecule_stk))
+
+                    self.molecule_stk = stk.BuildingBlock.init_from_molecule(c1,[Iodo_groups[-1]]) 
+                if max_atom == 'F':
+                    Fluoro_factory = stk.FluoroFactory()
+                    Fluoro_groups = tuple(Fluoro_factory.get_functional_groups(molecule=self.molecule_stk))
+                    self.molecule_stk = stk.BuildingBlock.init_from_molecule(c1,[Fluoro_groups[-1]])
+
 
         #print(self.dihedral_number_list)
         #分子smiles寫入json檔
@@ -1597,10 +1690,12 @@ class link():
                 self.new_BBname.append(name)
             for name, new_name in zip(self.BB_names, self.new_BBname):
                 #source_file = f"..//RTP/{name}.rtp"
-                source_file = f"qforce_rtp//{name}.rtp"
-                destination_file = f"{self.molecule_folder_path}//FORCEFIELD//{self.molecule_name}.ff//{new_name}.rtp"
+                source_file = f"qforce_rtp/{name}.rtp"
+                destination_folder = f"{self.molecule_folder_path}//FORCEFIELD//{self.molecule_name}.ff"
+                destination_file = f"{destination_folder}//{new_name}.rtp"
+                #print(f"Copying {source_file} to {destination_file}")
+                os.makedirs(destination_folder, exist_ok=True)     
                 shutil.copy(source_file, destination_file)
-   
 
     def replace_BBname_in_rtp(self):
         for n in range(0, len(self.new_BBname)):

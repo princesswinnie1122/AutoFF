@@ -7,62 +7,52 @@ from link import link
 import py3Dmol
 from rdkit import Chem
 
-
 class MoleculeApp(QWidget):
     def __init__(self):
         super().__init__()
         self.initUI()
 
     def initUI(self):
-        # Set a longer window size for better display of fragmented SMILES
-        self.resize(QSize(800, 600))  # Wider and taller window
+        self.resize(QSize(800, 600))  
         self.setWindowTitle('Molecule Builder')
 
         layout = QVBoxLayout()
 
-        # Input for Molecule Name
         self.name_label = QLabel("Enter the name of your molecule:")
         layout.addWidget(self.name_label)
 
-        # Larger input box for Molecule Name
         self.name_input = QLineEdit(self)
         self.name_input.setFixedHeight(30)
         layout.addWidget(self.name_input)
 
-        # Input for SMILES
         self.smiles_label = QLabel("Enter the canonical SMILES of your molecule:")
         layout.addWidget(self.smiles_label)
 
-        # Larger input box for SMILES with multiple lines
         self.smiles_input = QTextEdit(self)
         self.smiles_input.setFixedHeight(60)
         layout.addWidget(self.smiles_input)
 
-        # Button to cut molecule and search database
         self.cut_button = QPushButton('Cut and Search', self)
         self.cut_button.clicked.connect(self.cut_and_search)
         layout.addWidget(self.cut_button)
 
-        # Table for results, set larger for fragmented SMILES display
         self.result_table = QTableWidget(self)
-        self.result_table.setFixedHeight(300)  # Larger height for displaying results
+        self.result_table.setFixedHeight(300)  
         layout.addWidget(self.result_table)
 
-        # Button to generate the script
         self.script_button = QPushButton('Generate Script', self)
         self.script_button.clicked.connect(self.generate_script)
         self.script_button.setEnabled(False)  # Enable after showing results
         layout.addWidget(self.script_button)
 
-        # Textbox for displaying the generated script
+        # Textbox for displaying generated script
         self.script_output = QTextEdit(self)
         self.script_output.setFixedHeight(100)
         layout.addWidget(self.script_output)
 
-        # Confirm button to generate files and visualize molecule
         self.confirm_button = QPushButton('Confirm', self)
         self.confirm_button.clicked.connect(self.confirm_action)
-        self.confirm_button.setEnabled(False)  # Only enabled after generating script
+        self.confirm_button.setEnabled(False)  # Enable after generating script
         layout.addWidget(self.confirm_button)
 
         self.setLayout(layout)
@@ -78,7 +68,7 @@ class MoleculeApp(QWidget):
                 # Step 2: Search fragments in the database
                 results = search_database(fragments)
                 self.show_results(results)
-                self.script_button.setEnabled(True)  # Enable the script button
+                self.script_button.setEnabled(True)
             else:
                 self.result_table.setRowCount(0)
                 self.result_table.setColumnCount(1)
@@ -97,23 +87,19 @@ class MoleculeApp(QWidget):
             self.result_table.setItem(i, 1, QTableWidgetItem(frag_smiles))
 
     def generate_script(self):
-        # Get the molecule name and fragments (BB names) from the table
         molecule_name = self.name_input.text()
         bb_names = [self.result_table.item(row, 0).text() for row in range(self.result_table.rowCount())]
 
-        # Assuming all linkers are Bromine for now
+        # 假設所有接點都是 Br
         Br = "Br"
         BB_connector = [Br] * len(bb_names)
 
-        # Generate the script
+        # Generate script
         script_text = f"molecule_name = \"{molecule_name}\"\n"
         script_text += f"BB_name = {bb_names}\n"
         script_text += f"BB_connector = {BB_connector}\n"
 
-        # Show the generated script in the output box
         self.script_output.setText(script_text)
-
-        # Enable the Confirm button to generate files
         self.confirm_button.setEnabled(True)
 
     def confirm_action(self):

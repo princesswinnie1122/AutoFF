@@ -44,8 +44,6 @@ class MoleculeViewer(QWidget):
         self.setGeometry(150, 150, 600, 600)
 
         layout = QVBoxLayout()
-
-        # Generate 2D depiction
         img = Draw.MolToImage(self.rdkit_mol, size=(500, 500))
         
         # Convert PIL Image to QPixmap

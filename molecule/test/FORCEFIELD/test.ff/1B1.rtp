@@ -4,17 +4,16 @@
 
 [ 1B1 ]
   [ atoms ]
-    C1    1BA_C1  
-    C2    1BA_C2  
-    C3    1BA_C3  
-    C4    1BA_C4  
-    C5    1BA_C5  
-    C6    1BA_C6  
-    H8    1BA_H8  
-    H9    1BA_H9  
-    H10   1BA_H10 
-    H11   1BA_H11 
-    H12   1BA_H12 
+    C1    1BC_C1  
+    C2    1BC_C2  
+    C3    1BC_C3  
+    C4    1BC_C4  
+    C5    1BC_C5  
+    C6    1BC_C6  
+    H8    1BC_H8  
+    H10   1BC_H10 
+    H11   1BC_H11 
+    H12   1BC_H12 
 
   [ bonds ]
     C1    C2   
@@ -22,13 +21,13 @@
     C2    C3   
     C2    H8   
     C3    C4   
-    C3    H9   
     C4    C5   
     C4    H10  
     C5    C6   
     C5    H11  
-    C1    -C3   
     C6    H12  
+    C3    -N6   
+    C5    +H8   
 
   [ impropers ]
     C6    C1    C2    C3
@@ -36,13 +35,9 @@
     C2    C1    C6    C5
     C2    C1    C6    H12
     C1    C2    C3    C4
-    C1    C2    C3    H9
     H8    C2    C3    C4
-    H8    C2    C3    H9
     C2    C3    C4    C5
     C2    C3    C4    H10
-    H9    C3    C4    C5
-    H9    C3    C4    H10
     C3    C4    C5    C6
     C3    C4    C5    H11
     H10   C4    C5    C6

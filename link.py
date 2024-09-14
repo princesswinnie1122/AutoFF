@@ -33,7 +33,7 @@ from PyQt6.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QLa
 import io
 from rdkit.Chem import Draw
 
-class MoleculeViewer(QWidget):
+class ViewMol(QWidget):
     def __init__(self, rdkit_mol):
         super().__init__()
         self.rdkit_mol = rdkit_mol
@@ -1465,7 +1465,7 @@ class link():
 
     def show_molecule(self):
         rdkit_mol = self.molecule_stk.to_rdkit_mol()
-        viewer = MoleculeViewer(rdkit_mol)
+        viewer = ViewMol(rdkit_mol)
         viewer.show()
         return viewer
     

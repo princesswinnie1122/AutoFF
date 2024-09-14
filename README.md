@@ -16,6 +16,7 @@ Simply run "main.py" to call out the widget.
 
 ## To-dos
 - [ ] 簡化使用者新增BB拓樸流程 (用BRICS切割格式分類？)
+- [ ] 分子視覺化 2D to 3D
 - [ ] 解決特例 
   - EX1: Y17 的 N 會被切開 → 另外判斷 [5*]？
   - EX2: X5 不屬於BRICS結構，切割時會報錯 → 判斷後改成使用者自行定義BB？

@@ -1,17 +1,130 @@
 import sys
 import stk
 import json
-from PyQt6.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QTableWidget, QTableWidgetItem, QLabel, QLineEdit, QTextEdit
+import re
+import os
+from PyQt6.QtWidgets import (QApplication, QWidget, QVBoxLayout, QPushButton, QTableWidget, QTableWidgetItem, 
+                             QLabel, QLineEdit, QTextEdit, QDialog, QFormLayout, QMessageBox, QHBoxLayout)
 from PyQt6.QtCore import QSize
 from cut_search import fragment_molecule, search_database
 from link import link
+from convert import info_to_dic, clean_para, clean_all
 import py3Dmol
 from rdkit import Chem
 
-class MoleculeApp(QWidget):
+
+class EditBB(QDialog):
+    def __init__(self, bb_name, smiles, is_missing_smiles, parent=None):
+        super().__init__(parent)
+        self.bb_name = bb_name
+        self.is_missing_smiles = is_missing_smiles
+        self.initUI(clean_para(smiles))
+
+    def initUI(self, smiles):
+        self.setWindowTitle(f"Edit Building Block: {self.bb_name}")
+        layout = QVBoxLayout()
+
+        form_layout = QFormLayout()
+
+        self.name_input = QLineEdit(self.bb_name if self.bb_name != "Not Found" else "")
+        form_layout.addRow("Name", self.name_input)
+
+        self.smiles_input = QLineEdit(smiles)
+        self.smiles_input.setEnabled(self.is_missing_smiles)
+        form_layout.addRow("SMILES", self.smiles_input)
+
+        self.bb_input = QLineEdit()
+        form_layout.addRow("BB", self.bb_input)
+
+        layout.addLayout(form_layout)
+
+        # Connectors input
+        connectors_layout = QHBoxLayout()
+        connectors_layout.addWidget(QLabel("Connectors"))
+        
+        self.br_input = QLineEdit()
+        self.i_input = QLineEdit()
+        self.f_input = QLineEdit()
+        
+        connectors_layout.addWidget(QLabel("Br:"))
+        connectors_layout.addWidget(self.br_input)
+        connectors_layout.addWidget(QLabel("I:"))
+        connectors_layout.addWidget(self.i_input)
+        connectors_layout.addWidget(QLabel("F:"))
+        connectors_layout.addWidget(self.f_input)
+        
+        layout.addLayout(connectors_layout)
+
+
+        if self.is_missing_smiles:
+            reminder_label = QLabel("IMPORTANT!! Remember to add the topologies file to the folders 'qforce_itp' and 'qforce_rtp'.")
+            layout.addWidget(reminder_label)
+
+        buttons = QHBoxLayout()
+        save_button = QPushButton("Save")
+        save_button.clicked.connect(self.accept)
+        cancel_button = QPushButton("Cancel")
+        cancel_button.clicked.connect(self.reject)
+        buttons.addWidget(save_button)
+        buttons.addWidget(cancel_button)
+
+        layout.addLayout(buttons)
+        self.setLayout(layout)
+
+    def get_data(self):
+        connectors = {}
+        for connector, input_field in [("Br", self.br_input), ("I", self.i_input), ("F", self.f_input)]:
+            if input_field.text():
+                try:
+                    connectors[connector] = [int(x.strip()) for x in input_field.text().split(',') if x.strip()]
+                except ValueError:
+                    QMessageBox.warning(self, "Invalid Input", f"Invalid input for {connector}. Please enter comma-separated integers.")
+                    return None
+
+        return {
+            "name": self.name_input.text(),
+            "smiles": self.smiles_input.text(),
+            "bb": self.bb_input.text(),
+            "connectors": connectors
+        }
+
+
+class AutoFF(QWidget):
     def __init__(self):
         super().__init__()
+        self.database = {}  # BB_info.json
         self.initUI()
+        self.load_database()
+        self.load_bb_dic()
+
+    def load_database(self):
+        try:
+            with open('BB_info.json', 'r') as f:
+                self.database = json.load(f)
+        except FileNotFoundError:
+            self.database = {}
+
+    def save_database(self):
+        with open('BB_info.json', 'w') as f:
+            json.dump(self.database, f, indent=4)
+        
+        try:
+            self.bb_dic = info_to_dic('BB_info.json', 'BB_dic.json')
+            QMessageBox.information(self, "Information", "Database updated successfully. Check console for any warnings.")
+        except Exception as e:
+            QMessageBox.warning(self, "Error", f"Failed to update BB_dic.json: {str(e)}\n\nPlease check the console for more details.")
+        
+    def load_bb_dic(self):
+        try:
+            with open('BB_dic.json', 'r') as f:
+                self.bb_dic = json.load(f)
+        except FileNotFoundError:
+            try:
+                self.bb_dic = info_to_dic('BB_info.json', 'BB_dic.json')
+                QMessageBox.information(self, "Information", "BB_dic.json created. Check console for any warnings.")
+            except Exception as e:
+                QMessageBox.warning(self, "Error", f"Failed to create BB_dic.json: {str(e)}\n\nPlease check the console for more details.")
+                self.bb_dic = {}
 
     def initUI(self):
         self.resize(QSize(800, 600))  
@@ -30,7 +143,7 @@ class MoleculeApp(QWidget):
         layout.addWidget(self.smiles_label)
 
         self.smiles_input = QTextEdit(self)
-        self.smiles_input.setFixedHeight(60)
+        self.smiles_input.setFixedHeight(50)
         layout.addWidget(self.smiles_input)
 
         self.cut_button = QPushButton('Cut and Search', self)
@@ -38,7 +151,7 @@ class MoleculeApp(QWidget):
         layout.addWidget(self.cut_button)
 
         self.result_table = QTableWidget(self)
-        self.result_table.setFixedHeight(300)  
+        self.result_table.setFixedHeight(250)  
         layout.addWidget(self.result_table)
 
         self.script_button = QPushButton('Generate Script', self)
@@ -46,9 +159,8 @@ class MoleculeApp(QWidget):
         self.script_button.setEnabled(False)  
         layout.addWidget(self.script_button)
 
-        # Textbox for displaying generated script
         self.script_output = QTextEdit(self)
-        self.script_output.setFixedHeight(100)
+        self.script_output.setFixedHeight(150)
         self.script_output.setReadOnly(False)
         layout.addWidget(self.script_output)
 
@@ -57,9 +169,8 @@ class MoleculeApp(QWidget):
         self.confirm_button.setEnabled(False) 
         layout.addWidget(self.confirm_button)
 
-        # Show if the smiles matches
         self.match_output = QTextEdit(self)
-        self.script_output.setFixedHeight(100)
+        self.match_output.setFixedHeight(30)
         layout.addWidget(self.match_output)
 
         self.setLayout(layout)
@@ -69,10 +180,8 @@ class MoleculeApp(QWidget):
         smiles = self.smiles_input.toPlainText()
 
         if smiles and molecule_name:
-            # Step 1: Fragment the molecule
             fragments = fragment_molecule(smiles)
             if fragments:
-                # Step 2: Search fragments in the database
                 results = search_database(fragments)
                 self.show_results(results)
                 self.script_button.setEnabled(True)
@@ -84,28 +193,139 @@ class MoleculeApp(QWidget):
 
     def show_results(self, results):
         self.result_table.setRowCount(len(results))
-        self.result_table.setColumnCount(2)
-        self.result_table.setHorizontalHeaderLabels(["BB Name", "Fragment SMILES"])
-        self.result_table.setColumnWidth(0, 200)  
-        self.result_table.setColumnWidth(1, 500) 
+        self.result_table.setColumnCount(4)
+        self.result_table.setHorizontalHeaderLabels(["BB Name", "Fragment SMILES", "Status", "Action"])
+        self.result_table.setColumnWidth(0, 150)
+        self.result_table.setColumnWidth(1, 300)
+        self.result_table.setColumnWidth(2, 150)
+        self.result_table.setColumnWidth(3, 100)
 
-        for i, (bb_name, frag_smiles, _) in enumerate(results):
+        for i, (bb_name, frag_smiles, found) in enumerate(results):
+            status = "Found" if found else "Missing SMILES" if bb_name is None else "Missing Linkers"
             self.result_table.setItem(i, 0, QTableWidgetItem(bb_name if bb_name else "Not Found"))
             self.result_table.setItem(i, 1, QTableWidgetItem(frag_smiles))
+            self.result_table.setItem(i, 2, QTableWidgetItem(status))
+            
+            if not found:
+                edit_button = QPushButton("[+]")
+                edit_button.clicked.connect(lambda _, row=i: self.edit_building_block(row))
+                self.result_table.setCellWidget(i, 3, edit_button)
+            else:
+                self.result_table.removeCellWidget(i, 3)
+
+    def edit_building_block(self, row):
+        bb_name = self.result_table.item(row, 0).text()
+        frag_smiles = self.result_table.item(row, 1).text()
+        status = self.result_table.item(row, 2).text()
+        
+        is_missing_smiles = (status == "Missing SMILES")
+        
+        # Clean the SMILES before passing it to the EditBB dialog
+        cleaned_smiles = clean_all(frag_smiles)
+        print(cleaned_smiles)
+        dialog = EditBB(bb_name, cleaned_smiles, is_missing_smiles, self)
+        
+        if dialog.exec():
+            data = dialog.get_data()
+            
+            if data is None:  # Invalid input was detected
+                return
+            
+            if not data["name"]:
+                QMessageBox.warning(self, "Invalid Input", "Molecule name cannot be empty.")
+                return
+            
+            if is_missing_smiles and not data["smiles"]:
+                QMessageBox.warning(self, "Invalid Input", "SMILES cannot be empty for a new Molecule.")
+                return
+            
+            if not data["connectors"]:
+                QMessageBox.warning(self, "Invalid Input", "At least one connector must be specified.")
+                return
+            
+            molecule_name = data["name"]
+            smiles = clean_all(data["smiles"])  # Clean the SMILES string again
+            bb_variant = data["bb"]
+            connectors = data["connectors"]
+            
+            if molecule_name not in self.database:
+                self.database[molecule_name] = {"smiles": smiles, "BB": {}}
+            else:
+                # Update SMILES only if it's a new molecule or if SMILES was missing
+                if is_missing_smiles:
+                    self.database[molecule_name]["smiles"] = smiles
+            
+            # Update or add the specific building block variant
+            self.database[molecule_name]["BB"][bb_variant] = connectors
+            
+            self.save_database()
+            
+            # For display in the table, we use the cleaned SMILES
+            self.result_table.setItem(row, 0, QTableWidgetItem(molecule_name))
+            self.result_table.setItem(row, 1, QTableWidgetItem(smiles))
+            self.result_table.setItem(row, 2, QTableWidgetItem("Found"))
+            self.result_table.removeCellWidget(row, 3)
+
+        # Refresh the table to reflect any changes
+        self.cut_and_search()
 
     def generate_script(self):
         molecule_name = self.name_input.text()
-        bb_names = [self.result_table.item(row, 0).text() for row in range(self.result_table.rowCount())]
+        smiles = self.smiles_input.toPlainText()
 
-        # 假設所有接點都是 Br
-        Br = "Br"
-        BB_connector = [Br] * len(bb_names)
+        # Re-run the search to update the results
+        fragments = fragment_molecule(smiles)
+        if fragments:
+            results = search_database(fragments)
+            self.show_results(results)
+        else:
+            QMessageBox.warning(self, "Error", "Invalid SMILES or unable to fragment.")
+            return
 
+        bb_names = []
+        missing_bbs = []
+        for row in range(self.result_table.rowCount()):
+            bb_name = self.result_table.item(row, 0).text()
+            status = self.result_table.item(row, 2).text()
+            if status == "Found":
+                bb_names.append(bb_name)
+            else:
+                missing_bbs.append(bb_name)
+                bb_names.append("Not Found")
+
+        # Check for itp and rtp files
+        missing_files = []
+        for bb in bb_names:
+            if bb != "Not Found":
+                if not os.path.exists(f"qforce_itp/{bb}.itp"):
+                    missing_files.append(f"{bb}.itp")
+                if not os.path.exists(f"qforce_rtp/{bb}.rtp"):
+                    missing_files.append(f"{bb}.rtp")
+        
+        # Prepare the report
+        missing_items = []
+        if missing_bbs:
+            missing_items.append(f"Missing Building Blocks: {', '.join(missing_bbs)}")
+        if missing_files:
+            missing_items.append(f"Missing Files: {', '.join(missing_files)}")
+
+        if missing_items:
+            report = "The following items are missing:\n\n" + "\n".join(missing_items)
+            report += "\n\nPlease add the missing items before generating the script."
+            self.script_output.setText(report)
+            self.confirm_button.setEnabled(False)
+            return
+
+        # If we get here, all required items are present
         # Generate script
-        script_text = f"Molecule Name = \"{molecule_name}\"\n"
+        Br = "Br"
+        BB_connector = [Br if bb != "Not Found" else "Not Found" for bb in bb_names]
+
+        script_text = "All required files ready, generating:\n\n"
+        script_text += f"Molecule Name = \"{molecule_name}\"\n"
         script_text += f"LEGO/Building Blocks = {bb_names}\n"
         script_text += f"Connectors = {BB_connector}\n"
-        script_text += f"\n #Note: We currently assume Br for all connectors. Please adjust to 'I' or 'F' if needed."
+        script_text += f"\n#Note: We currently assume Br for all connectors. Please adjust to 'I' or 'F' if needed."
 
         self.script_output.setText(script_text)
         self.confirm_button.setEnabled(True)
@@ -117,7 +337,6 @@ class MoleculeApp(QWidget):
         try:
             exec(updated_script, globals(), local_namespace)
             
-            # Extract variables from the local namespace
             molecule_name = local_namespace.get('Molecule Name')
             bb_names = local_namespace.get('LEGO/Building Blocks')
             BB_connector_str = local_namespace.get('Connectors')
@@ -139,7 +358,6 @@ class MoleculeApp(QWidget):
             FF = link(molecule_name, bb_names, BB_connector)
             self.visualization_window = FF.show_molecule()
 
-            # Read the generated SMILES from the JSON file
             json_file_path = f"molecule/{molecule_name}/STRUCTURE/{molecule_name}.json"
             try:
                 with open(json_file_path, 'r') as json_file:
@@ -152,7 +370,6 @@ class MoleculeApp(QWidget):
                 self.match_output.setText(f"Error: SMILES not found in {json_file_path}.")
                 return
 
-            # Compare input SMILES with the generated one
             input_smiles = self.smiles_input.toPlainText()
             input_mol = Chem.MolFromSmiles(input_smiles)
             generated_mol = Chem.MolFromSmiles(generated_smiles)
@@ -167,18 +384,16 @@ class MoleculeApp(QWidget):
             if input_inchi == generated_inchi:
                 self.match_output.setText("The structures match!")
             else:
-                self.match_output.setText("The structures do not match.\n You will need to adjust based on the alert below.")
+                self.match_output.setText("The structures do not match.\nYou will need to adjust based on the alert below.")
 
         except Exception as e:
             self.match_output.setText(f"Error: {str(e)}")
-    
 
 def main():
     app = QApplication(sys.argv)
-    ex = MoleculeApp()
+    ex = AutoFF()
     ex.show()
     sys.exit(app.exec())
-
 
 if __name__ == '__main__':
     main()

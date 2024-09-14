@@ -2,273 +2,671 @@
     "Benzene": {
         "smiles": "c1ccccc1",
         "BB": {
-            "1BA": {"Br": [7]},
-            "1BB": {"Br": [7],"I": [8]},
-            "1BC": {"Br": [7],"I": [9]},
-            "1BD": {"Br": [7],"I": [10]},
-            "1BE": {"Br": [7],"I": [8],"F": [9]},
-            "1BF": {"Br": [7],"I": [8],"F": [10]},
-            "1BG": {"Br": [7],"I": [9],"F": [11]},
-            "1BH": {"Br": [7,9],"I": [8,10],"F": [12]}
+            "1BA": {
+                "Br": [
+                    7
+                ]
+            },
+            "1BB": {
+                "Br": [
+                    7
+                ],
+                "I": [
+                    8
+                ]
+            },
+            "1BC": {
+                "Br": [
+                    7
+                ],
+                "I": [
+                    9
+                ]
+            },
+            "1BD": {
+                "Br": [
+                    7
+                ],
+                "I": [
+                    10
+                ]
+            },
+            "1BE": {
+                "Br": [
+                    7
+                ],
+                "I": [
+                    8
+                ],
+                "F": [
+                    9
+                ]
+            },
+            "1BF": {
+                "Br": [
+                    7
+                ],
+                "I": [
+                    8
+                ],
+                "F": [
+                    10
+                ]
+            },
+            "1BG": {
+                "Br": [
+                    7
+                ],
+                "I": [
+                    9
+                ],
+                "F": [
+                    11
+                ]
+            },
+            "1BH": {
+                "Br": [
+                    7,
+                    9
+                ],
+                "I": [
+                    8,
+                    10
+                ],
+                "F": [
+                    12
+                ]
+            }
         }
     },
-
     "Toluene": {
         "smiles": "Cc1ccccc1",
         "BB": {
-            "TLA": {"Br": [13]},
-            "TLB": {"Br": [11],"I": [14]},
-            "TLC": {"Br": [11],"I": [13]}
+            "TLA": {
+                "Br": [
+                    13
+                ]
+            },
+            "TLB": {
+                "Br": [
+                    11
+                ],
+                "I": [
+                    14
+                ]
+            },
+            "TLC": {
+                "Br": [
+                    11
+                ],
+                "I": [
+                    13
+                ]
+            }
         }
     },
-
     "Butylbenzene": {
         "smiles": "CC(C)(C)c1ccccc1",
-        "BB":{
-            "BUA": {"Br": [22]}
+        "BB": {
+            "BUA": {
+                "Br": [
+                    22
+                ]
+            }
         }
     },
-
     "Benzonitrile": {
         "smiles": "N#Cc1ccccc1",
-        "BB":{
-            "BNA": {"Br": [11]},
-            "BNB": {"Br": [9],"I": [10]},
-            "BNC": {"Br": [10],"I": [11]}
+        "BB": {
+            "BNA": {
+                "Br": [
+                    11
+                ]
+            },
+            "BNB": {
+                "Br": [
+                    9
+                ],
+                "I": [
+                    10
+                ]
+            },
+            "BNC": {
+                "Br": [
+                    10
+                ],
+                "I": [
+                    11
+                ]
+            }
         }
     },
-    
     "Naphthalene": {
         "smiles": "c1ccc2ccccc2c1",
-        "BB":{
-            "NAA": {"Br": [13]},
-            "NAB": {"Br": [12]}
+        "BB": {
+            "NAA": {
+                "Br": [
+                    13
+                ]
+            },
+            "NAB": {
+                "Br": [
+                    12
+                ]
+            }
         }
     },
-
     "Anthracene": {
         "smiles": "c1ccc2cc3ccccc3cc2c1",
-        "BB":{
-            "ANA": {"Br": [18]},
-            "ANB": {"Br": [18],"I": [23]}            
+        "BB": {
+            "ANA": {
+                "Br": [
+                    18
+                ]
+            },
+            "ANB": {
+                "Br": [
+                    18
+                ],
+                "I": [
+                    23
+                ]
+            }
         }
     },
-    
     "2Methylanthracene": {
         "smiles": "Cc1ccc2cc3ccccc3cc2c1",
-        "BB":{
-            "MAA": {"Br": [21],"I": [26]}
+        "BB": {
+            "MAA": {
+                "Br": [
+                    21
+                ],
+                "I": [
+                    26
+                ]
+            }
         }
     },
-    
     "2_tert_Butylanthracene": {
         "smiles": "CC(C)(C)c1ccc2cc3ccccc3cc2c1",
-        "BB":{
-            "TBA": {"Br": [30],"I": [35]}
+        "BB": {
+            "TBA": {
+                "Br": [
+                    30
+                ],
+                "I": [
+                    35
+                ]
+            }
         }
     },
-        
     "Phenanthrene": {
         "smiles": "c1ccc2c(c1)ccc1ccccc12",
-        "BB":{
-            "PNA": {"Br": [19]}
-
+        "BB": {
+            "PNA": {
+                "Br": [
+                    19
+                ]
+            }
         }
     },
-
-
     "Pyrene": {
         "smiles": "c1cc2ccc3cccc4ccc(c1)c2c34",
-        "BB":{
-            "PYA": {"Br": [18]},
-            "PYB": {"Br": [18],"I": [23]}
+        "BB": {
+            "PYA": {
+                "Br": [
+                    18
+                ]
+            },
+            "PYB": {
+                "Br": [
+                    18
+                ],
+                "I": [
+                    23
+                ]
+            }
         }
     },
-    
     "Fluorene": {
         "smiles": "c1ccc2c(c1)Cc1ccccc1-2",
-        "BB":{
-            "FLA": {"Br": [18]},
-            "FLB": {"Br": [18],"I": [14]},
-            "FLC": {"Br": [18],"I": [19]},
-            "FLD": {"Br": [14,21],"I": [18],"F": [19]}
+        "BB": {
+            "FLA": {
+                "Br": [
+                    18
+                ]
+            },
+            "FLB": {
+                "Br": [
+                    18
+                ],
+                "I": [
+                    14
+                ]
+            },
+            "FLC": {
+                "Br": [
+                    18
+                ],
+                "I": [
+                    19
+                ]
+            },
+            "FLD": {
+                "Br": [
+                    14,
+                    21
+                ],
+                "I": [
+                    18
+                ],
+                "F": [
+                    19
+                ]
+            }
         }
     },
-    
     "9_9_Dimethyl_9H_fluorene": {
         "smiles": "CC1(C)c2ccccc2-c2ccccc21",
-        "BB":{
-            "MFA": {"Br": [23]},
-            "MFB": {"Br": [23],"I": [28]}
+        "BB": {
+            "MFA": {
+                "Br": [
+                    23
+                ]
+            },
+            "MFB": {
+                "Br": [
+                    23
+                ],
+                "I": [
+                    28
+                ]
+            }
         }
     },
-
     "Spirobifluorene": {
         "smiles": "c1ccc2c(c1)-c1ccccc1C21c2ccccc2-c2ccccc21",
-        "BB":{
-            "SFA": {"Br": [27]},
-            "SFB": {"Br": [29]},
-            "SFC": {"Br": [27],"I": [32]},
-            "SFD": {"Br": [27],"I": [40]},
-            "SFE": {"Br": [27,32],"I": [35],"F": [40]}
+        "BB": {
+            "SFA": {
+                "Br": [
+                    27
+                ]
+            },
+            "SFB": {
+                "Br": [
+                    29
+                ]
+            },
+            "SFC": {
+                "Br": [
+                    27
+                ],
+                "I": [
+                    32
+                ]
+            },
+            "SFD": {
+                "Br": [
+                    27
+                ],
+                "I": [
+                    40
+                ]
+            },
+            "SFE": {
+                "Br": [
+                    27,
+                    32
+                ],
+                "I": [
+                    35
+                ],
+                "F": [
+                    40
+                ]
+            }
         }
     },
-    
     "Pyridine": {
         "smiles": "c1ccncc1",
-        "BB":{
-            "PDA": {"Br": [10]},
-            "PDB": {"Br": [11]},
-            "PDC": {"Br": [7]},
-            "PDD": {"Br": [8],"I": [11]},
-            "PDE": {"Br": [9],"I": [10]},
-            "PDF": {"Br": [10],"I": [9],"F": [7]},
-            "PDG": {"Br": [9,10],"I": [8],"F": [7]}
+        "BB": {
+            "PDA": {
+                "Br": [
+                    10
+                ]
+            },
+            "PDB": {
+                "Br": [
+                    11
+                ]
+            },
+            "PDC": {
+                "Br": [
+                    7
+                ]
+            },
+            "PDD": {
+                "Br": [
+                    8
+                ],
+                "I": [
+                    11
+                ]
+            },
+            "PDE": {
+                "Br": [
+                    9
+                ],
+                "I": [
+                    10
+                ]
+            },
+            "PDF": {
+                "Br": [
+                    10
+                ],
+                "I": [
+                    9
+                ],
+                "F": [
+                    7
+                ]
+            },
+            "PDG": {
+                "Br": [
+                    9,
+                    10
+                ],
+                "I": [
+                    8
+                ],
+                "F": [
+                    7
+                ]
+            }
         }
     },
-
     "3_Cyanopyridine": {
         "smiles": "N#Cc1cccnc1",
-        "BB":{
-            "CPA": {"Br": [9],"I": [11],"F": [12]}
+        "BB": {
+            "CPA": {
+                "Br": [
+                    9
+                ],
+                "I": [
+                    11
+                ],
+                "F": [
+                    12
+                ]
+            }
         }
-    },  
-
+    },
     "Pyrimidine": {
         "smiles": "c1cncnc1",
-        "BB":{
-            "PMA": {"Br": [9],"I": [10],"F": [8]}
+        "BB": {
+            "PMA": {
+                "Br": [
+                    9
+                ],
+                "I": [
+                    10
+                ],
+                "F": [
+                    8
+                ]
+            }
         }
     },
-
     "Triazine": {
         "smiles": "c1ncncn1",
-        "BB":{
-            "TIA": {"Br": [7],"I": [8],"F": [9]}
+        "BB": {
+            "TIA": {
+                "Br": [
+                    7
+                ],
+                "I": [
+                    8
+                ],
+                "F": [
+                    9
+                ]
+            }
         }
-    },  
-
+    },
     "Triazole": {
         "smiles": "c1nnc[nH]1",
-        "BB":{
-            "TOA": {"Br": [7],"I": [6],"F": [8]}
+        "BB": {
+            "TOA": {
+                "Br": [
+                    7
+                ],
+                "I": [
+                    6
+                ],
+                "F": [
+                    8
+                ]
+            }
         }
     },
-    
     "Isoquinoline": {
         "smiles": "c1ccc2cnccc2c1",
-        "BB":{
-            "IQA": {"Br": [16]}
+        "BB": {
+            "IQA": {
+                "Br": [
+                    16
+                ]
+            }
         }
-    },  
-    
-
+    },
     "Quinoline": {
         "smiles": "c1ccc2ncccc2c1",
-        "BB":{
-            "QNA": {"Br": [13]}
+        "BB": {
+            "QNA": {
+                "Br": [
+                    13
+                ]
+            }
         }
     },
-
     "1_8_Naphthyridine": {
         "smiles": "c1cnc2ncccc2c1",
-        "BB":{
-            "NYA": {"Br": [12]}            
+        "BB": {
+            "NYA": {
+                "Br": [
+                    12
+                ]
+            }
         }
     },
-        
     "Benzimidazole": {
         "smiles": "c1ccc2[nH]cnc2c1",
-        "BB":{
-            "BMA": {"Br": [13],"I": [14]}              
+        "BB": {
+            "BMA": {
+                "Br": [
+                    13
+                ],
+                "I": [
+                    14
+                ]
+            }
         }
     },
-
     "Carbazole": {
         "smiles": "c1ccc2c(c1)[nH]c1ccccc12",
-        "BB":{
-            "CBA": {"Br": [18]},
-            "CBB": {"Br": [18],"I": [15]},
-            "CBC": {"Br": [18],"I": [15],"F": [21]}
+        "BB": {
+            "CBA": {
+                "Br": [
+                    18
+                ]
+            },
+            "CBB": {
+                "Br": [
+                    18
+                ],
+                "I": [
+                    15
+                ]
+            },
+            "CBC": {
+                "Br": [
+                    18
+                ],
+                "I": [
+                    15
+                ],
+                "F": [
+                    21
+                ]
+            }
         }
     },
-
     "Carbazole_3_carbonitrile": {
         "smiles": "N#Cc1ccc2[nH]c3ccccc3c2c1",
-        "BB":{
-            "CNA": {"Br": [18]}            
+        "BB": {
+            "CNA": {
+                "Br": [
+                    18
+                ]
+            }
         }
     },
-
     "Pyrido_2_3_b_indole": {
         "smiles": "c1ccc2c(c1)[nH]c1ncccc12",
-        "BB":{
-            "P2A": {"Br": [18]} 
+        "BB": {
+            "P2A": {
+                "Br": [
+                    18
+                ]
+            }
         }
     },
-
     "Pyrido_3_2_b_indole": {
         "smiles": "c1ccc2c(c1)[nH]c1cccnc12",
-        "BB":{
-            "P3A": {"Br": [18]}             
+        "BB": {
+            "P3A": {
+                "Br": [
+                    18
+                ]
+            }
         }
     },
-        
     "5H_Pyrido_4_3_b_indole": {
         "smiles": "c1ccc2c(c1)[nH]c1ccncc12",
-        "BB":{
-            "P4A": {"Br": [18]} 
+        "BB": {
+            "P4A": {
+                "Br": [
+                    18
+                ]
+            }
         }
     },
-
     "Phenanthro_9_10_d_imidazole": {
         "smiles": "c1ccc2c(c1)c1ccccc1c1[nH]cnc21",
-        "BB":{
-            "PIA": {"Br": [26],"I": [27]}             
+        "BB": {
+            "PIA": {
+                "Br": [
+                    26
+                ],
+                "I": [
+                    27
+                ]
+            }
         }
     },
-
-
     "1_10_Phenanthroline": {
         "smiles": "c1cnc2c(c1)ccc1cccnc12",
-        "BB":{
-            "PTA": {"Br": [17],"I": [20]},
-            "PTB": {"Br": [16,17],"I": [20],"F": [22]}                
+        "BB": {
+            "PTA": {
+                "Br": [
+                    17
+                ],
+                "I": [
+                    20
+                ]
+            },
+            "PTB": {
+                "Br": [
+                    16,
+                    17
+                ],
+                "I": [
+                    20
+                ],
+                "F": [
+                    22
+                ]
+            }
         }
     },
-
     "Neocuproine": {
         "smiles": "Cc1ccc2ccc3ccc(C)nc3c2n1",
-        "BB":{
-            "NCA": {"Br": [21],"I": [24]}            
+        "BB": {
+            "NCA": {
+                "Br": [
+                    21
+                ],
+                "I": [
+                    24
+                ]
+            }
         }
     },
-
     "1_3_4_Oxadiazole": {
         "smiles": "c1nnco1",
-        "BB":{
-            "ODA": {"Br": [6],"I": [7]}
+        "BB": {
+            "ODA": {
+                "Br": [
+                    6
+                ],
+                "I": [
+                    7
+                ]
+            }
         }
-    },           
-
+    },
     "Furodipyridine": {
         "smiles": "c1cnc2oc3ncccc3c2c1",
-        "BB":{
-            "FPA": {"Br": [14]}            
+        "BB": {
+            "FPA": {
+                "Br": [
+                    14
+                ]
+            }
         }
     },
-
     "Dibenzofuran": {
         "smiles": "c1ccc2c(c1)oc1ccccc12",
-        "BB":{
-            "BFA": {"Br": [17]}            
+        "BB": {
+            "BFA": {
+                "Br": [
+                    17
+                ]
+            }
         }
     },
-
     "Thiophene": {
         "smiles": "c1ccsc1",
-        "BB":{
-            "THA": {"Br": [8],"I": [9]}             
+        "BB": {
+            "THA": {
+                "Br": [
+                    8
+                ],
+                "I": [
+                    9
+                ]
+            }
         }
-    }                
+    },
+    "TEST": {
+        "smiles": "c1ccnc(C)n1",
+        "BB": {
+            "BBBB": {
+                "Br": [
+                    8
+                ]
+            }
+        }
+    }
 }

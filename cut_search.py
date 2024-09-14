@@ -17,7 +17,6 @@ def remove_num(smiles):
     return re.sub(r'\[\d+\*\]', '[*]', smiles)
 
 def search_database(fragments, database_file="BB_dic.json"):
-    """Replace linkers, normalize fragments, and check if they exist in the database."""
     mod_frag = [remove_num(frag) for frag in fragments]
     frag_status = []
 

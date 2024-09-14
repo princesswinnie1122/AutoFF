@@ -208,19 +208,18 @@ class AutoFF(QWidget):
             
             if not found:
                 edit_button = QPushButton("[+]")
-                edit_button.clicked.connect(lambda _, row=i: self.edit_building_block(row))
+                edit_button.clicked.connect(lambda _, row=i: self.edit_bb(row))
                 self.result_table.setCellWidget(i, 3, edit_button)
             else:
                 self.result_table.removeCellWidget(i, 3)
 
-    def edit_building_block(self, row):
+    def edit_bb(self, row):
         bb_name = self.result_table.item(row, 0).text()
         frag_smiles = self.result_table.item(row, 1).text()
         status = self.result_table.item(row, 2).text()
         
         is_missing_smiles = (status == "Missing SMILES")
         
-        # Clean the SMILES before passing it to the EditBB dialog
         cleaned_smiles = clean_all(frag_smiles)
         print(cleaned_smiles)
         dialog = EditBB(bb_name, cleaned_smiles, is_missing_smiles, self)
@@ -228,7 +227,7 @@ class AutoFF(QWidget):
         if dialog.exec():
             data = dialog.get_data()
             
-            if data is None:  # Invalid input was detected
+            if data is None: 
                 return
             
             if not data["name"]:
@@ -244,36 +243,31 @@ class AutoFF(QWidget):
                 return
             
             molecule_name = data["name"]
-            smiles = clean_all(data["smiles"])  # Clean the SMILES string again
+            smiles = clean_all(data["smiles"]) 
             bb_variant = data["bb"]
             connectors = data["connectors"]
             
             if molecule_name not in self.database:
                 self.database[molecule_name] = {"smiles": smiles, "BB": {}}
             else:
-                # Update SMILES only if it's a new molecule or if SMILES was missing
                 if is_missing_smiles:
                     self.database[molecule_name]["smiles"] = smiles
             
-            # Update or add the specific building block variant
             self.database[molecule_name]["BB"][bb_variant] = connectors
             
             self.save_database()
             
-            # For display in the table, we use the cleaned SMILES
             self.result_table.setItem(row, 0, QTableWidgetItem(molecule_name))
             self.result_table.setItem(row, 1, QTableWidgetItem(smiles))
             self.result_table.setItem(row, 2, QTableWidgetItem("Found"))
             self.result_table.removeCellWidget(row, 3)
 
-        # Refresh the table to reflect any changes
         self.cut_and_search()
 
     def generate_script(self):
         molecule_name = self.name_input.text()
         smiles = self.smiles_input.toPlainText()
 
-        # Re-run the search to update the results
         fragments = fragment_molecule(smiles)
         if fragments:
             results = search_database(fragments)
@@ -293,7 +287,7 @@ class AutoFF(QWidget):
                 missing_bbs.append(bb_name)
                 bb_names.append("Not Found")
 
-        # Check for itp and rtp files
+        # Check for itp and rtp
         missing_files = []
         for bb in bb_names:
             if bb != "Not Found":
@@ -302,7 +296,6 @@ class AutoFF(QWidget):
                 if not os.path.exists(f"qforce_rtp/{bb}.rtp"):
                     missing_files.append(f"{bb}.rtp")
         
-        # Prepare the report
         missing_items = []
         if missing_bbs:
             missing_items.append(f"Missing Building Blocks: {', '.join(missing_bbs)}")
@@ -316,7 +309,6 @@ class AutoFF(QWidget):
             self.confirm_button.setEnabled(False)
             return
 
-        # If we get here, all required items are present
         # Generate script
         Br = "Br"
         BB_connector = [Br if bb != "Not Found" else "Not Found" for bb in bb_names]

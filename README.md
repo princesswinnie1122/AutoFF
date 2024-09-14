@@ -14,7 +14,7 @@ Simply run "main.py" to call out the widget.
 - 判斷SMILES是否前後一致，允許手動編輯腳本 (暫時解決假設接點都為Br的問題)
 
 
-## To Do
+## To-dos
 - [ ] 簡化使用者新增BB拓樸流程 (用BRICS切割格式分類？)
 - [ ] 解決特例 
   - EX1: Y17 的 N 會被切開 → 另外判斷 [5*]？

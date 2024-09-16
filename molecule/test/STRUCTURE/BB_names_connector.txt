@@ -1,3 +1,3 @@
 molecule_name = "test"
 BB_name = ['1BA', 'BMA', '1BC', 'TIA', 'PDB', 'PDB']
-BB_connector = [Br,Br,Br,Br,Br,Br]
+BB_connector = [Br,I,Br,Br,Br,Br]

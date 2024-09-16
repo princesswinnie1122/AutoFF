@@ -1410,12 +1410,14 @@ class link():
         file_path = f'{self.molecule_folder_path}//QM_GASPHASE//xtb//{self.molecule_name}.xyz'
         found_atoms, max_atom, max_index = read_xyz(file_path)
 
+        '''
         if found_atoms:
             print(f"Found atoms: {found_atoms}")
             if max_atom:
                 print(f"Atom with the largest number is {max_atom} with index {max_index}")
         else:
             print("No Br, I, or F atoms found.")
+        '''
 
         if max_atom is None:
             self.molecule_stk = stk.BuildingBlock.init_from_molecule(c1, [stk.BromoFactory()])

@@ -170,7 +170,7 @@ class AutoFF(QWidget):
         layout.addWidget(self.confirm_button)
 
         self.match_output = QTextEdit(self)
-        self.match_output.setFixedHeight(30)
+        self.match_output.setFixedHeight(50)
         layout.addWidget(self.match_output)
 
         self.setLayout(layout)
@@ -201,7 +201,7 @@ class AutoFF(QWidget):
         self.result_table.setColumnWidth(3, 100)
 
         for i, (bb_name, frag_smiles, found) in enumerate(results):
-            status = "Found" if found else "Missing SMILES" if bb_name is None else "Missing Linkers"
+            status = "Found" if found else "Missing SMILES" if bb_name is None else "Missing Connectors"
             self.result_table.setItem(i, 0, QTableWidgetItem(bb_name if bb_name else "Not Found"))
             self.result_table.setItem(i, 1, QTableWidgetItem(frag_smiles))
             self.result_table.setItem(i, 2, QTableWidgetItem(status))
@@ -268,6 +268,7 @@ class AutoFF(QWidget):
         molecule_name = self.name_input.text()
         smiles = self.smiles_input.toPlainText()
 
+        # Re-run the search to update the results
         fragments = fragment_molecule(smiles)
         if fragments:
             results = search_database(fragments)
@@ -277,17 +278,15 @@ class AutoFF(QWidget):
             return
 
         bb_names = []
-        missing_bbs = []
         for row in range(self.result_table.rowCount()):
             bb_name = self.result_table.item(row, 0).text()
             status = self.result_table.item(row, 2).text()
             if status == "Found":
                 bb_names.append(bb_name)
             else:
-                missing_bbs.append(bb_name)
                 bb_names.append("Not Found")
 
-        # Check for itp and rtp
+        # Check for itp and rtp files
         missing_files = []
         for bb in bb_names:
             if bb != "Not Found":
@@ -296,41 +295,37 @@ class AutoFF(QWidget):
                 if not os.path.exists(f"qforce_rtp/{bb}.rtp"):
                     missing_files.append(f"{bb}.rtp")
         
-        missing_items = []
-        if missing_bbs:
-            missing_items.append(f"Missing Building Blocks: {', '.join(missing_bbs)}")
         if missing_files:
-            missing_items.append(f"Missing Files: {', '.join(missing_files)}")
-
-        if missing_items:
-            report = "The following items are missing:\n\n" + "\n".join(missing_items)
-            report += "\n\nPlease add the missing items before generating the script."
+            report = "The following files are missing:\n" + "\n".join(missing_files)
+            report += "\nPlease add them to the appropriate folders before generating the script."
             self.script_output.setText(report)
             self.confirm_button.setEnabled(False)
             return
 
         # Generate script
-        Br = "Br"
-        BB_connector = [Br if bb != "Not Found" else "Not Found" for bb in bb_names]
+        BB_connector = ["Br" if bb != "Not Found" else "Not Found" for bb in bb_names]
 
         script_text = "All required files ready, generating:\n\n"
-        script_text += f"Molecule Name = \"{molecule_name}\"\n"
-        script_text += f"LEGO/Building Blocks = {bb_names}\n"
-        script_text += f"Connectors = {BB_connector}\n"
-        script_text += f"\n#Note: We currently assume Br for all connectors. Please adjust to 'I' or 'F' if needed."
+        script_text += f'Molecule_Name = "{molecule_name}"\n'
+        script_text += f'Building_Blocks = {bb_names}\n'
+        script_text += f'Connectors = {BB_connector}\n'
+        script_text += '\n#Note: We currently assume Br for all connectors. Please adjust to "I" or "F" if needed.'
 
         self.script_output.setText(script_text)
         self.confirm_button.setEnabled(True)
 
+
     def confirm_action(self):
         updated_script = self.script_output.toPlainText()
-        local_namespace = {}
+        script_lines = [line for line in updated_script.split('\n') if '=' in line]
         
+        local_namespace = {}
         try:
-            exec(updated_script, globals(), local_namespace)
+            for line in script_lines:
+                exec(line, globals(), local_namespace)
             
-            molecule_name = local_namespace.get('Molecule Name')
-            bb_names = local_namespace.get('LEGO/Building Blocks')
+            molecule_name = local_namespace.get('Molecule_Name')
+            bb_names = local_namespace.get('Building_Blocks')
             BB_connector_str = local_namespace.get('Connectors')
 
             if not all([molecule_name, bb_names, BB_connector_str]):
@@ -376,7 +371,7 @@ class AutoFF(QWidget):
             if input_inchi == generated_inchi:
                 self.match_output.setText("The structures match!")
             else:
-                self.match_output.setText("The structures do not match.\nYou will need to adjust based on the alert below.")
+                self.match_output.setText("The structures do not match.\nYou will need to adjust the connectors yourself.")
 
         except Exception as e:
             self.match_output.setText(f"Error: {str(e)}")

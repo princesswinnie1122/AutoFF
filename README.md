@@ -9,9 +9,9 @@ Simply run "main.py" to call out the widget.
 ## Complete
 - 可切割分子並在資料庫中搜尋片段 (過程 < 1分鐘)
 - 生成腳本及計算所需檔案，視覺化確認結構無誤：[測試結果](https://docs.google.com/spreadsheets/d/1iIg0zPHXOcnBo-zzWsD-uY-R4ekoL3AcCz-gUzkuS94/edit?usp=sharing) (更新中)
-- 判斷BB Not found程度，視情況要求使用者自行輸入、加入檔案
+- 判斷 BB "Not found" 的程度，視情況要求使用者自行輸入、加入檔案
 - 生成檔案前判斷分子資訊及檔案是否齊全，提醒缺少的部分
-- 判斷SMILES是否前後一致，允許手動編輯腳本 (暫時解決假設接點都為Br的問題)
+- 判斷 SMILES 是否前後一致，允許手動編輯腳本 (暫時解決假設接點都為Br的問題)
 
 
 ## To-dos
@@ -29,5 +29,7 @@ Simply run "main.py" to call out the widget.
 4. routine 分析 MD 表現的工具
 
 
-
+## References
+- [rdkit.Chem.BRICS module](https://www.rdkit.org/new_docs/source/rdkit.Chem.BRICS.html)
+- Degen, J., Wegscheid-Gerlach, C., Zaliani, A., & Rarey, M. (2008). On the art of compiling and using'drug-like'chemical fragment spaces. ChemMedChem, 3(10), 1503.
 

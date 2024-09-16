@@ -268,7 +268,6 @@ class AutoFF(QWidget):
         molecule_name = self.name_input.text()
         smiles = self.smiles_input.toPlainText()
 
-        # Re-run the search to update the results
         fragments = fragment_molecule(smiles)
         if fragments:
             results = search_database(fragments)
@@ -286,7 +285,7 @@ class AutoFF(QWidget):
             else:
                 bb_names.append("Not Found")
 
-        # Check for itp and rtp files
+        # Check itp & rtp files
         missing_files = []
         for bb in bb_names:
             if bb != "Not Found":

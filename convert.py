@@ -3,17 +3,8 @@ import re
 from rdkit import Chem 
 from rdkit.Chem import AllChem as rdkit
 import stk
+from clean import clean_para
 
-def clean_para(smiles):
-    cleaned = re.sub(r'\(\)', '', smiles)
-    cleaned = re.sub(r'=\)', ')', cleaned)
-    cleaned = re.sub(r'\(=', '(', cleaned)
-    return cleaned
-
-def clean_all(smiles):
-    cleaned = re.sub(r'\[\d*\*\]', '', smiles)
-    cleaned = clean_para(cleaned)
-    return cleaned
 
 def replace(smiles):
     return re.sub(r'Br|I|F', '[*]', smiles)

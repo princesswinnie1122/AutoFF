@@ -8,7 +8,8 @@ from PyQt6.QtWidgets import (QApplication, QWidget, QVBoxLayout, QPushButton, QT
 from PyQt6.QtCore import QSize
 from cut_search import fragment_molecule, search_database
 from link import link
-from convert import info_to_dic, clean_para, clean_all
+from clean import clean_para, clean_all
+from convert import info_to_dic
 import py3Dmol
 from rdkit import Chem
 
@@ -180,9 +181,9 @@ class AutoFF(QWidget):
         smiles = self.smiles_input.toPlainText()
 
         if smiles and molecule_name:
-            fragments = fragment_molecule(smiles)
+            fragments = fragment_molecule(smiles)  # Assuming this function exists
             if fragments:
-                results = search_database(fragments)
+                results = search_database(fragments, "BB_dic.json", "BB_info.json")
                 self.show_results(results)
                 self.script_button.setEnabled(True)
             else:
@@ -190,23 +191,30 @@ class AutoFF(QWidget):
                 self.result_table.setColumnCount(1)
                 self.result_table.setHorizontalHeaderLabels(["Error"])
                 self.result_table.setItem(0, 0, QTableWidgetItem("Invalid SMILES or unable to fragment."))
-
+    
     def show_results(self, results):
         self.result_table.setRowCount(len(results))
         self.result_table.setColumnCount(4)
-        self.result_table.setHorizontalHeaderLabels(["BB Name", "Fragment SMILES", "Status", "Action"])
+        self.result_table.setHorizontalHeaderLabels(["BB / Molecule", "Fragment SMILES", "Status", "Action"])
         self.result_table.setColumnWidth(0, 150)
         self.result_table.setColumnWidth(1, 300)
         self.result_table.setColumnWidth(2, 150)
         self.result_table.setColumnWidth(3, 100)
 
-        for i, (bb_name, frag_smiles, found) in enumerate(results):
-            status = "Found" if found else "Missing SMILES" if bb_name is None else "Missing Connectors"
+        for i, (bb_name, frag_smiles, status) in enumerate(results):
             self.result_table.setItem(i, 0, QTableWidgetItem(bb_name if bb_name else "Not Found"))
-            self.result_table.setItem(i, 1, QTableWidgetItem(frag_smiles))
-            self.result_table.setItem(i, 2, QTableWidgetItem(status))
+            self.result_table.setItem(i, 1, QTableWidgetItem(frag_smiles))  # Original SMILES with linkers and [*]
             
-            if not found:
+            if status == True:
+                status_text = "Found"
+            elif status == "Missing Connectors":
+                status_text = "Missing Connectors"
+            else:
+                status_text = "Missing SMILES"
+            
+            self.result_table.setItem(i, 2, QTableWidgetItem(status_text))
+            
+            if status != True:
                 edit_button = QPushButton("[+]")
                 edit_button.clicked.connect(lambda _, row=i: self.edit_bb(row))
                 self.result_table.setCellWidget(i, 3, edit_button)
@@ -221,7 +229,7 @@ class AutoFF(QWidget):
         is_missing_smiles = (status == "Missing SMILES")
         
         cleaned_smiles = clean_all(frag_smiles)
-        print(cleaned_smiles)
+        #print(cleaned_smiles)
         dialog = EditBB(bb_name, cleaned_smiles, is_missing_smiles, self)
         
         if dialog.exec():

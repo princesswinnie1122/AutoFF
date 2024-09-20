@@ -1,0 +1,13 @@
+rdkit
+py3Dmol
+ipython
+matplotlib
+stk
+stko
+numpy
+shutil
+ase
+networkx
+pulp
+logging
+PyQt6

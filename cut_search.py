@@ -27,36 +27,41 @@ def search_database(fragments, bb_dic_file="BB_dic.json", bb_info_file="BB_info.
         bb_info = json.load(info_file)
 
     for frag in fragments:
-        frag = clean_num(frag)
+        frag = clean_num(frag) # [*]
         #print(frag)
 
         found_in_dic = False
         found_in_info = False
         bb_name = None
 
+        mol_star = Chem.MolFromSmiles(frag)
+        cans_frag_star = Chem.MolToSmiles(mol_star, isomericSmiles=True, canonical=True)
+        cans_frag_star = re.sub(r'\*', '[*]', cans_frag_star)
+
         for name, bb_smiles_list in bb_dic.items():
-            if frag in bb_smiles_list:
+            if cans_frag_star in bb_smiles_list:
                 found_in_dic = True
                 bb_name = name
                 break
 
         if found_in_dic:
-            frag_status.append((bb_name, frag, True))
+            frag_status.append((bb_name, cans_frag_star, True))
         else:
             #cleaned = clean_all(frag)
             cleaned = re.sub(r'\[\*\]', '[H]', frag)
             #print(cleaned)
-            mol = Chem.MolFromSmiles(cleaned)
-            cans_frag = Chem.MolToSmiles(mol, isomericSmiles=True, canonical=True)
+            mol_h = Chem.MolFromSmiles(cleaned)
+            cans_frag_h = Chem.MolToSmiles(mol_h, isomericSmiles=True, canonical=True)
+
             for name, info in bb_info.items():
-                if clean_all(info['smiles']) == cans_frag:
+                if clean_all(info['smiles']) == cans_frag_h:
                     found_in_info = True
                     bb_name = name
                     break
 
             if found_in_info:
-                frag_status.append((bb_name, cans_frag, "Missing Connectors"))
+                frag_status.append((bb_name, cans_frag_h, "Missing Connectors"))
             else:
-                frag_status.append((None, cans_frag, "Missing SMILES"))
+                frag_status.append((None, cans_frag_h, "Missing SMILES"))
 
     return frag_status

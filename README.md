@@ -2,14 +2,14 @@
 
 ## Usage
 1. Install the requirements:
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 2. Clone this repo:
-```bash
-git clone https://github.com/princesswinnie1122/AutoFF.git
-```
+    ```bash
+    git clone https://github.com/princesswinnie1122/AutoFF.git
+    ```
 
 3. Simply run "main.py" to call out the widget.
 

@@ -49,6 +49,7 @@ def search_database(fragments, bb_dic_file="BB_dic.json", bb_info_file="BB_info.
         else:
             #cleaned = clean_all(frag)
             cleaned = re.sub(r'\[\*\]', '[H]', frag)
+
             #print(cleaned)
             mol_h = Chem.MolFromSmiles(cleaned)
             cans_frag_h = Chem.MolToSmiles(mol_h, isomericSmiles=True, canonical=True)
@@ -60,8 +61,8 @@ def search_database(fragments, bb_dic_file="BB_dic.json", bb_info_file="BB_info.
                     break
 
             if found_in_info:
-                frag_status.append((bb_name, cans_frag_h, "Missing Connectors"))
+                frag_status.append((bb_name, cans_frag_star, "Missing Connectors"))
             else:
-                frag_status.append((None, cans_frag_h, "Missing SMILES"))
+                frag_status.append((None, cans_frag_star, "Missing SMILES"))
 
     return frag_status

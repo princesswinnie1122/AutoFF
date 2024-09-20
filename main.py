@@ -28,14 +28,14 @@ class EditBB(QDialog):
         form_layout = QFormLayout()
 
         self.name_input = QLineEdit(self.bb_name if self.bb_name != "Not Found" else "")
-        form_layout.addRow("Name", self.name_input)
+        form_layout.addRow("Molecule", self.name_input)
 
         self.smiles_input = QLineEdit(smiles)
         self.smiles_input.setEnabled(self.is_missing_smiles)
         form_layout.addRow("SMILES", self.smiles_input)
 
         self.bb_input = QLineEdit()
-        form_layout.addRow("BB", self.bb_input)
+        form_layout.addRow("BB Name", self.bb_input)
 
         layout.addLayout(form_layout)
 

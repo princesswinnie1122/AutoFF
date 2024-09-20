@@ -658,5 +658,45 @@
                 ]
             }
         }
+    },
+    "test": {
+        "smiles": "c1ccnc(C)n1",
+        "BB": {
+            "test": {
+                "Br": [
+                    8
+                ]
+            }
+        }
+    },
+    "tt": {
+        "smiles": "c1ccnc(C)n1",
+        "BB": {
+            "tt": {
+                "Br": [
+                    8
+                ]
+            }
+        }
+    },
+    "ttt": {
+        "smiles": "c1ccnc(C)n1",
+        "BB": {
+            "ttt": {
+                "Br": [
+                    8
+                ]
+            }
+        }
+    },
+    "tttt": {
+        "smiles": "c1ccnc(C)n1",
+        "BB": {
+            "tttt": {
+                "Br": [
+                    8
+                ]
+            }
+        }
     }
 }

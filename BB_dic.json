@@ -24,25 +24,25 @@
         "[*]c1cc([*])c([*])c([*])c1[*]"
     ],
     "TLA": [
-        "Cc1ccc([*])cc1"
+        "[*]c1ccc(C)cc1"
     ],
     "TLB": [
-        "Cc1cc([*])ccc1[*]"
+        "[*]c1ccc([*])c(C)c1"
     ],
     "TLC": [
-        "Cc1ccc([*])cc1[*]"
+        "[*]c1ccc(C)c([*])c1"
     ],
     "BUA": [
-        "CC(C)(C)c1ccc([*])cc1"
+        "[*]c1ccc(C(C)(C)C)cc1"
     ],
     "BNA": [
-        "N#Cc1ccc([*])cc1"
+        "[*]c1ccc(C#N)cc1"
     ],
     "BNB": [
-        "N#Cc1cccc([*])c1[*]"
+        "[*]c1cccc(C#N)c1[*]"
     ],
     "BNC": [
-        "N#Cc1ccc([*])c([*])c1"
+        "[*]c1ccc(C#N)cc1[*]"
     ],
     "NAA": [
         "[*]c1cccc2ccccc12"
@@ -57,10 +57,10 @@
         "[*]c1c2ccccc2c([*])c2ccccc12"
     ],
     "MAA": [
-        "Cc1ccc2c([*])c3ccccc3c([*])c2c1"
+        "[*]c1c2ccccc2c([*])c2cc(C)ccc12"
     ],
     "TBA": [
-        "CC(C)(C)c1ccc2c([*])c3ccccc3c([*])c2c1"
+        "[*]c1c2ccccc2c([*])c2cc(C(C)(C)C)ccc12"
     ],
     "PNA": [
         "[*]c1cc2ccccc2c2ccccc12"
@@ -75,19 +75,19 @@
         "[*]C1c2ccccc2-c2ccccc21"
     ],
     "FLB": [
-        "[*]C1c2ccccc2-c2ccc([*])cc21"
+        "[*]c1ccc2c(c1)C([*])c1ccccc1-2"
     ],
     "FLC": [
         "[*]C1([*])c2ccccc2-c2ccccc21"
     ],
     "FLD": [
-        "[*]C1([*])c2cc([*])ccc2-c2ccc([*])cc21"
+        "[*]c1ccc2c(c1)C([*])([*])c1cc([*])ccc1-2"
     ],
     "MFA": [
-        "CC1(C)c2ccccc2-c2ccc([*])cc21"
+        "[*]c1ccc2c(c1)C(C)(C)c1ccccc1-2"
     ],
     "MFB": [
-        "CC1(C)c2cc([*])ccc2-c2ccc([*])cc21"
+        "[*]c1ccc2c(c1)C(C)(C)c1cc([*])ccc1-2"
     ],
     "SFA": [
         "[*]c1ccc2c(c1)C1(c3ccccc3-c3ccccc31)c1ccccc1-2"
@@ -102,7 +102,7 @@
         "[*]c1ccc2c(c1)C1(c3ccccc3-2)c2ccccc2-c2ccc([*])cc21"
     ],
     "SFE": [
-        "[*]c1ccc2c(c1)C1(c3cc([*])ccc3-c3ccc([*])cc31)c1cc([*])ccc1-2"
+        "[*]c1ccc2c(c1)C1(c3cc([*])ccc3-2)c2cc([*])ccc2-c2ccc([*])cc21"
     ],
     "PDA": [
         "[*]c1ccccn1"
@@ -123,10 +123,10 @@
         "[*]c1cc([*])nc([*])c1"
     ],
     "PDG": [
-        "[*]c1cc([*])nc([*])c1[*]"
+        "[*]c1cc([*])c([*])c([*])n1"
     ],
     "CPA": [
-        "N#Cc1c([*])cc([*])nc1[*]"
+        "[*]c1cc([*])c(C#N)c([*])n1"
     ],
     "PMA": [
         "[*]c1cc([*])nc([*])n1"
@@ -135,7 +135,7 @@
         "[*]c1nc([*])nc([*])n1"
     ],
     "TOA": [
-        "[*]n1c([*])nnc1[*]"
+        "[*]c1nnc([*])n1[*]"
     ],
     "IQA": [
         "[*]c1cncc2ccccc12"
@@ -147,19 +147,19 @@
         "[*]c1ccc2cccnc2n1"
     ],
     "BMA": [
-        "[*]n1c([*])nc2ccccc21"
+        "[*]c1nc2ccccc2n1[*]"
     ],
     "CBA": [
         "[*]n1c2ccccc2c2ccccc21"
     ],
     "CBB": [
-        "[*]n1c2ccccc2c2cc([*])ccc21"
+        "[*]c1ccc2c(c1)c1ccccc1n2[*]"
     ],
     "CBC": [
         "[*]c1ccc2c(c1)c1cc([*])ccc1n2[*]"
     ],
     "CNA": [
-        "N#Cc1ccc2c(c1)c1ccccc1n2[*]"
+        "[*]n1c2ccccc2c2cc(C#N)ccc21"
     ],
     "P2A": [
         "[*]n1c2ccccc2c2cccnc21"
@@ -171,7 +171,7 @@
         "[*]n1c2ccccc2c2cnccc21"
     ],
     "PIA": [
-        "[*]n1c([*])nc2c3ccccc3c3ccccc3c21"
+        "[*]c1nc2c3ccccc3c3ccccc3c2n1[*]"
     ],
     "PTA": [
         "[*]c1ccnc2c1ccc1c([*])ccnc12"
@@ -180,7 +180,7 @@
         "[*]c1cc([*])c2ccc3c([*])cc([*])nc3c2n1"
     ],
     "NCA": [
-        "Cc1cc([*])c2ccc3c([*])cc(C)nc3c2n1"
+        "[*]c1cc(C)nc2c1ccc1c([*])cc(C)nc12"
     ],
     "ODA": [
         "[*]c1nnc([*])o1"
@@ -193,5 +193,17 @@
     ],
     "THA": [
         "[*]c1ccc([*])s1"
+    ],
+    "test": [
+        "[*]c1ccnc(C)n1"
+    ],
+    "tt": [
+        "[*]c1ccnc(C)n1"
+    ],
+    "ttt": [
+        "[*]c1ccnc(C)n1"
+    ],
+    "tttt": [
+        "[*]c1ccnc(C)n1"
     ]
 }

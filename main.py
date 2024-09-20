@@ -181,7 +181,7 @@ class AutoFF(QWidget):
         smiles = self.smiles_input.toPlainText()
 
         if smiles and molecule_name:
-            fragments = fragment_molecule(smiles)  # Assuming this function exists
+            fragments = fragment_molecule(smiles)  
             if fragments:
                 results = search_database(fragments, "BB_dic.json", "BB_info.json")
                 self.show_results(results)

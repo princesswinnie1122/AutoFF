@@ -1,15 +1,24 @@
 import json
 import re
-from rdkit import Chem 
-from rdkit.Chem import AllChem as rdkit
+from rdkit import Chem
+from rdkit.Chem import AllChem
 import stk
 from clean import clean_para
-
 
 def replace(smiles):
     return re.sub(r'Br|I|F', '[*]', smiles)
 
-# To make sure that the user is entering the SMILES they want
+def canonicalize(smiles):
+    mol = Chem.MolFromSmiles(smiles)
+    if mol is None:
+        raise ValueError(f"Invalid SMILES: {smiles}")
+    
+    cans_frag = Chem.MolToSmiles(mol, isomericSmiles=True, canonical=True)
+    cans_frag = re.sub(r'\*', '[*]', cans_frag)
+    
+    return cans_frag
+
+
 def info_to_dic(input_file='BB_info.json', output_file='BB_dic.json'):
     with open(input_file, 'r') as f:
         data = json.load(f)
@@ -32,7 +41,7 @@ def info_to_dic(input_file='BB_info.json', output_file='BB_dic.json'):
             F_num = data[molecule]['BB'][BB_name].get('F')
 
             building_block = stk.BuildingBlock(smiles)
-            mol_rdkit =  building_block.to_rdkit_mol()
+            mol_rdkit = building_block.to_rdkit_mol()
             atom = list(mol_rdkit.GetAtoms())
 
             for n, a in enumerate(atom):
@@ -43,15 +52,19 @@ def info_to_dic(input_file='BB_info.json', output_file='BB_dic.json'):
                 if F_num is not None and n+1 in F_num:
                     a.SetAtomicNum(9)   # F
 
+
             smiles = Chem.MolToSmiles(mol_rdkit, True)
             canonical_smiles = Chem.MolToSmiles(Chem.MolFromSmiles(smiles, True))
             modified_smiles = replace(canonical_smiles)
+            modified_smiles = canonicalize(modified_smiles)  
+
             BB_dic[BB_name] = [modified_smiles]  
 
     with open(output_file, 'w') as json_file:
         json.dump(BB_dic, json_file, indent=4)
 
     return BB_dic
+
 
 if __name__ == "__main__":
     info_to_dic()

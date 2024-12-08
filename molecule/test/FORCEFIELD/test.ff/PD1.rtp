@@ -4,16 +4,16 @@
 
 [ PD1 ]
   [ atoms ]
-    C1    PDB_C1  
-    C2    PDB_C2  
-    C3    PDB_C3  
-    N4    PDB_N4  
-    C5    PDB_C5  
-    C6    PDB_C6  
-    H7    PDB_H7  
-    H8    PDB_H8  
-    H9    PDB_H9  
-    H10   PDB_H10 
+    C1    PDA_C1  
+    C2    PDA_C2  
+    C3    PDA_C3  
+    N4    PDA_N4  
+    C5    PDA_C5  
+    C6    PDA_C6  
+    H7    PDA_H7  
+    H8    PDA_H8  
+    H9    PDA_H9  
+    H11   PDA_H11 
 
   [ bonds ]
     C1    C2   
@@ -25,8 +25,8 @@
     C3    H9   
     N4    C5   
     C5    C6   
-    C6    -C3   
-    C5    H10  
+    C5    -C2   
+    C6    H11  
 
   [ impropers ]
     C6    C1    C2    C3
@@ -34,7 +34,9 @@
     H7    C1    C2    C3
     H7    C1    C2    H8
     C2    C1    C6    C5
+    C2    C1    C6    H11
     H7    C1    C6    C5
+    H7    C1    C6    H11
     C1    C2    C3    N4
     C1    C2    C3    H9
     H8    C2    C3    N4
@@ -42,6 +44,5 @@
     C2    C3    N4    C5
     H9    C3    N4    C5
     C3    N4    C5    C6
-    C3    N4    C5    H10
     N4    C5    C6    C1
-    H10   C5    C6    C1
+    N4    C5    C6    H11

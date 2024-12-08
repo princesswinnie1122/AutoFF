@@ -152,7 +152,7 @@ class AutoFF(QWidget):
         layout.addWidget(self.cut_button)
 
         self.result_table = QTableWidget(self)
-        self.result_table.setFixedHeight(250)  
+        self.result_table.setFixedHeight(150)  
         layout.addWidget(self.result_table)
 
         self.script_button = QPushButton('Generate Script', self)
@@ -161,7 +161,7 @@ class AutoFF(QWidget):
         layout.addWidget(self.script_button)
 
         self.script_output = QTextEdit(self)
-        self.script_output.setFixedHeight(150)
+        self.script_output.setFixedHeight(100)
         self.script_output.setReadOnly(False)
         layout.addWidget(self.script_output)
 

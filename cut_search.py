@@ -1,7 +1,7 @@
 import re
 import json
 from rdkit import Chem
-from rdkit.Chem import BRICS
+from brics import BRICS
 from clean import clean_num, clean_all
 
 def fragment_molecule(smiles):

@@ -5,9 +5,9 @@ matplotlib
 stk
 stko
 numpy
-shutil
+pytest-shutil
 ase
 networkx
 pulp
-logging
 PyQt6
+PyQt6-WebEngine

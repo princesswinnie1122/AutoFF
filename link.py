@@ -20,7 +20,6 @@ from ase.io import read
 from collections import defaultdict
 import networkx as nx
 import pulp
-import logging
 from ase.units import Hartree, mol, kJ, Bohr
 
 from PyQt6.QtWidgets import QWidget, QVBoxLayout, QPushButton, QTextEdit

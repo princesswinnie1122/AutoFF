@@ -1,23 +1,19 @@
-from openbabel import pybel
+import sys
+import stk
+import json
+import re
+import os
+from PyQt6.QtWidgets import (QApplication, QWidget, QVBoxLayout, QPushButton, QTableWidget, QTableWidgetItem, 
+                             QLabel, QLineEdit, QTextEdit, QDialog, QFormLayout, QMessageBox, QHBoxLayout)
+from PyQt6.QtCore import QSize
+from cut_search import fragment_molecule, search_database
+from link import link
+from clean import clean_para, clean_all
+from convert import info_to_dic
+import py3Dmol
+from rdkit import Chem
 
-def get_bond_connectivity(smiles):
-    """Generate molecular structure and print bond connectivity."""
-    mol = pybel.readstring("smi", smiles)
-    mol.addh()  # Add hydrogens
-    mol.make3D()  # Generate 3D structure
 
-    print(f"Atom connectivity for: {smiles}")
-    for bond in mol.OBMol.Bonds():
-        # Get atom indices (OpenBabel uses 1-based indexing)
-        atom1 = bond.GetBeginAtomIdx()
-        atom2 = bond.GetEndAtomIdx()
-        bond_order = bond.GetBondOrder()
-
-        atom1_symbol = mol.OBMol.GetAtom(atom1).GetType()
-        atom2_symbol = mol.OBMol.GetAtom(atom2).GetType()
-
-        print(f"{atom1_symbol} (atom {atom1}) - {atom2_symbol} (atom {atom2}), Bond order: {bond_order}")
-
-# Example usage:
-smiles = "Brc1ccccc1"  # Example: Bromobenzene
-get_bond_connectivity(smiles)
+smiles = 'C1=CC=C2C(=C1)C3=CC=CC=C3N2C4=CC=C(C=C4)N(C5=CC=C(C=C5)N6C7=CC=CC=C7C8=CC=CC=C86)C9=CC=C(C=C9)N1C2=CC=CC=C2C2=CC=CC=C21'
+self = fragment_molecule(smiles)
+print(self)

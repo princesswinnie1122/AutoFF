@@ -63,7 +63,8 @@ environs = {
   'L3':'[O;D2]-;!@[#0,#6,#1]',
   'L4':'[C;!D1;!$(C=*)]-;!@[#6]',
   #'L5':'[N;!D1;!$(N*!-*);!$(N=*);!$(N-[!C;!#0])]-[#0,C]',
-  'L5':'[N;!D1;!$(N=*);!$(N-[!#6;!#16;!#0;!#1]);!$([N;R]@[C;R]=O)]',
+  #'L5':'[N;!D1;!$(N=*);!$(N-[!#6;!#16;!#0;!#1]);!$([N;R]@[C;R]=O)]',
+  #'L5': '[N;!D1;!$(N=*);!$(N-[!#6;!#16;!#0;!#1]);!$([N;R]@[C;R]=O);!$(N(c1cccc(c1*)*)(c2cccc(c2*)*)(c3cccc(c3*)))]',
   'L6':'[C;D3;!R](=O)-;!@[#0,#6,#7,#8]',
   'L7a':'[C;D2,D3]-[#6]',
   'L7b':'[C;D2,D3]-[#6]',
@@ -84,7 +85,7 @@ reactionDefs = (
   # L1
   [
     ('1','3','-'),
-    ('1','5','-'),
+    #('1','5','-'),
     ('1','10','-'),
   ],
 
@@ -99,18 +100,18 @@ reactionDefs = (
   
    # L4
    [
-    ('4','5','-'),
+    #('4','5','-'),
     ('4','11','-'),
    ],
 
    # L5
-   [
-    ('5','12','-'),
-    ('5','14','-'),
-    ('5','16','-'),
-    ('5','13','-'),
-    ('5','15','-'),
-   ],
+  #  [
+  #   ('5','12','-'),
+  #   ('5','14','-'),
+  #   ('5','16','-'),
+  #   ('5','13','-'),
+  #   ('5','15','-'),
+  #  ],
   
     # L6
     [
@@ -304,49 +305,28 @@ def FindBRICSBonds(mol,randomizeOrder=False,silent=True):
 
 def BreakBRICSBonds(mol,bonds=None,sanitize=True,silent=True):
   """ breaks the BRICS bonds in a molecule and returns the results
-
-  >>> from rdkit import Chem
-  >>> m = Chem.MolFromSmiles('CCCOCC')
-  >>> m2=BreakBRICSBonds(m)
-  >>> Chem.MolToSmiles(m2,True)
-  '[3*]O[3*].[4*]CC.[4*]CCC'
-
-  a more complicated case:
-  >>> m = Chem.MolFromSmiles('CCCOCCC(=O)c1ccccc1')
-  >>> m2=BreakBRICSBonds(m)
-  >>> Chem.MolToSmiles(m2,True)
-  '[3*]O[3*].[4*]CCC.[4*]CCC([6*])=O.[16*]c1ccccc1'
-
-
-  can also specify a limited set of bonds to work with:
-  >>> m = Chem.MolFromSmiles('CCCOCC')
-  >>> m2 = BreakBRICSBonds(m,[((3, 2), ('3', '4'))])
-  >>> Chem.MolToSmiles(m2,True)
-  '[3*]OCC.[4*]CCC'
-  
-  this can be used as an alternate approach for doing a BRICS decomposition by
-  following BreakBRICSBonds with a call to Chem.GetMolFrags:
-  >>> m = Chem.MolFromSmiles('CCCOCC')
-  >>> m2=BreakBRICSBonds(m)
-  >>> frags = Chem.GetMolFrags(m2,asMols=True)
-  >>> [Chem.MolToSmiles(x,True) for x in frags]
-  ['[4*]CCC', '[3*]O[3*]', '[4*]CC']
-
   """
+  print("Start breaking")
+  
   if not bonds:
     #bonds = FindBRICSBonds(mol)
     res = Chem.FragmentOnBRICSBonds(mol)
+    print("res:", res)
     if sanitize:
        Chem.SanitizeMol(res)
+    #print("res:", res)
     return res
   eMol = Chem.EditableMol(mol)
+  print("eMol:", eMol)
   nAts = mol.GetNumAtoms()
 
   dummyPositions=[]
   for indices,dummyTypes in bonds:
     ia,ib = indices
     obond = mol.GetBondBetweenAtoms(ia,ib)
+    print("obond:", obond)
     bondType=obond.GetBondType()
+    print("bondType:", bondType)
     eMol.RemoveBond(ia,ib)
 
     da,db = dummyTypes
@@ -377,6 +357,7 @@ def BreakBRICSBonds(mol,bonds=None,sanitize=True,silent=True):
       for ia,pa in dummyPositions:
         resConf.SetAtomPosition(ia,conf.GetAtomPosition(pa))
   return res
+
 
 def BRICSDecompose(mol,allNodes=None,minFragmentSize=1,onlyUseReactions=None,
                    silent=True,keepNonLeafNodes=False,singlePass=False,returnMols=False):

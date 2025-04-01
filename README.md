@@ -13,6 +13,11 @@
 
 3. Simply run "main.py" to call out the widget.
 
+> You can use [MolView](https://molview.org/) to obtain the SMILES of molecules. "Most" of them work correctly.
+
+## Tutorials
+- [Lab Training Slide](https://docs.google.com/presentation/d/1aKkIFezdlqOOn0fOBrgKWBV-Mae_nwIZ/edit#slide=id.p1)
+- [Tutorial on Force Field Parameterization](https://hackmd.io/WfXhoqXRQx6BCW7P8BTjvA)
 
 ## Complete
 - 可切割分子並在資料庫中搜尋片段 (過程 < 1分鐘)
@@ -21,6 +26,8 @@
 - 生成腳本前判斷分子資訊及檔案是否齊全，提醒缺少的部分
 - 判斷 SMILES 是否前後一致，允許手動編輯腳本 (暫時解決假設接點都為Br的問題)
 
+![Chemical structure of materials used as ETL in green phosphorescent OLEDs](image.png)
+> Sasaki, T., Hasegawa, M., Inagaki, K., Ito, H., Suzuki, K., Oono, T., ... & Fukagawa, H. (2021). Unravelling the electron injection/transport mechanism in organic light-emitting diodes. Nature communications, 12(1), 2706.
 
 ## To-dos
 - [ ] 分子視覺化 2D to 3D

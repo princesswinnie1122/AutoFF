@@ -15,9 +15,10 @@
 
 > You can use [MolView](https://molview.org/) to obtain the SMILES of molecules. "Most" of them work correctly.
 
-## Tutorials
-- [Lab Training Slide](https://docs.google.com/presentation/d/1aKkIFezdlqOOn0fOBrgKWBV-Mae_nwIZ/edit#slide=id.p1)
+## Resources
+- [LM2D 2024 Fall Lab Training Slides](https://docs.google.com/presentation/d/1aKkIFezdlqOOn0fOBrgKWBV-Mae_nwIZ/edit#slide=id.p1)
 - [Tutorial on Force Field Parameterization](https://hackmd.io/WfXhoqXRQx6BCW7P8BTjvA)
+- [Progress Updates (2024.09 ~ present)](https://drive.google.com/drive/folders/1_HZIK5dIfzMJHQDqQK3O5qh8Qi8FGZIf?usp=drive_link)
 
 ## Complete
 - 可切割分子並在資料庫中搜尋片段 (過程 < 1分鐘)
@@ -30,6 +31,7 @@
 > Sasaki, T., Hasegawa, M., Inagaki, K., Ito, H., Suzuki, K., Oono, T., ... & Fukagawa, H. (2021). Unravelling the electron injection/transport mechanism in organic light-emitting diodes. Nature communications, 12(1), 2706.
 
 ## To-dos
+
 - [ ] 分子視覺化 2D to 3D
 - [ ] 解決特例 
   - EX1: Y17 的 N 會被切開 → 另外判斷 [5*]？

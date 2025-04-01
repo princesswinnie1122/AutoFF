@@ -1,0 +1,18 @@
+
+[ defaults ]
+; nbfunc    comb-rule    gen-pairs      fudgeLJ      fudgeQQ
+       1            3          yes          0.5          0.5
+
+
+; Include the molecule ITP
+#include "./5H_Pyrido_4_3_b_indole_qforce.itp"
+
+
+[ system ]
+;                 name
+5H_Pyrido_4_3_b_indole
+
+
+[ molecules ]
+;             compound    n_mol
+5H_Pyrido_4_3_b_indole        1

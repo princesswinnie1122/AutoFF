@@ -1,0 +1,18 @@
+
+[ defaults ]
+; nbfunc    comb-rule    gen-pairs      fudgeLJ      fudgeQQ
+       1            3          yes          0.5          0.5
+
+
+; Include the molecule ITP
+#include "./2_tert_Butylanthracene_qforce.itp"
+
+
+[ system ]
+;                 name
+2_tert_Butylanthracene
+
+
+[ molecules ]
+;             compound    n_mol
+2_tert_Butylanthracene        1

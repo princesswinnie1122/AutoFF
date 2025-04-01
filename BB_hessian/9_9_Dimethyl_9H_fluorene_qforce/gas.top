@@ -1,0 +1,18 @@
+
+[ defaults ]
+; nbfunc    comb-rule    gen-pairs      fudgeLJ      fudgeQQ
+       1            3          yes          0.5          0.5
+
+
+; Include the molecule ITP
+#include "./9_9_Dimethyl_9H_fluorene_qforce.itp"
+
+
+[ system ]
+;                   name
+9_9_Dimethyl_9H_fluorene
+
+
+[ molecules ]
+;               compound    n_mol
+9_9_Dimethyl_9H_fluorene        1

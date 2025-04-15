@@ -4,17 +4,43 @@ from rdkit import Chem
 from brics import BRICS
 from clean import clean_num, clean_all
 
-def fragment_molecule(smiles):
-    mol = Chem.MolFromSmiles(smiles)
-    if mol is None:
-        return None, ["Invalid SMILES string."]
-    
-    frags = BRICS.BreakBRICSBonds(mol)
-    frag_smiles = [Chem.MolToSmiles(frag, True) for frag in Chem.GetMolFrags(frags, asMols=True)]
-    return frag_smiles
-
 def clean_num(smiles):
     return re.sub(r'\[\d+\*\]', '[*]', smiles)
+
+
+def fragment_molecule(smiles, rules_file="database/fragment_rules.json"):
+    mol = Chem.MolFromSmiles(smiles)
+    if mol is None:
+        return None
+
+    frags = BRICS.BreakBRICSBonds(mol)
+    frag_mols = Chem.GetMolFrags(frags, asMols=True)
+    frag_smiles = [Chem.MolToSmiles(frag, isomericSmiles=True, canonical=True) for frag in frag_mols]
+
+    # Load custom rules
+    with open(rules_file, 'r') as f:
+        rules = json.load(f)
+
+    for rule in rules:
+        pattern = rule["fragments"]
+        replacement = rule["replacement"]
+
+        # Copy to avoid modifying the original list
+        temp_frags = frag_smiles.copy()
+
+        # Try to remove each pattern fragment once
+        match = True
+        for p in pattern:
+            if p in temp_frags:
+                temp_frags.remove(p)
+            else:
+                match = False
+                break
+
+        if match:
+            return [replacement] + temp_frags
+
+    return frag_smiles
 
 
 def search_database(fragments, bb_dic_file="BB_dic.json", bb_info_file="BB_info.json"):

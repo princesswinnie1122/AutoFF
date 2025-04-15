@@ -14,6 +14,7 @@ import py3Dmol
 from rdkit import Chem
 
 
+
 class EditBB(QDialog):
     def __init__(self, bb_name, smiles, is_missing_smiles, parent=None):
         super().__init__(parent)
@@ -89,6 +90,9 @@ class EditBB(QDialog):
             "connectors": connectors
         }
 
+# set paths
+BB_dic = "database/BB_dic.json"
+BB_info = "database/BB_info.json"
 
 class AutoFF(QWidget):
     def __init__(self):
@@ -98,30 +102,31 @@ class AutoFF(QWidget):
         self.load_database()
         self.load_bb_dic()
 
+
     def load_database(self):
         try:
-            with open('BB_info.json', 'r') as f:
+            with open(BB_info, 'r') as f:
                 self.database = json.load(f)
         except FileNotFoundError:
             self.database = {}
 
     def save_database(self):
-        with open('BB_info.json', 'w') as f:
+        with open(BB_info, 'w') as f:
             json.dump(self.database, f, indent=4)
         
         try:
-            self.bb_dic = info_to_dic('BB_info.json', 'BB_dic.json')
+            self.bb_dic = info_to_dic(BB_info, BB_dic)
             QMessageBox.information(self, "Information", "Database updated successfully. Check console for any warnings.")
         except Exception as e:
             QMessageBox.warning(self, "Error", f"Failed to update BB_dic.json: {str(e)}\n\nPlease check the console for more details.")
         
     def load_bb_dic(self):
         try:
-            with open('BB_dic.json', 'r') as f:
+            with open(BB_dic, 'r') as f:
                 self.bb_dic = json.load(f)
         except FileNotFoundError:
             try:
-                self.bb_dic = info_to_dic('BB_info.json', 'BB_dic.json')
+                self.bb_dic = info_to_dic(BB_info, BB_dic)
                 QMessageBox.information(self, "Information", "BB_dic.json created. Check console for any warnings.")
             except Exception as e:
                 QMessageBox.warning(self, "Error", f"Failed to create BB_dic.json: {str(e)}\n\nPlease check the console for more details.")
@@ -183,7 +188,7 @@ class AutoFF(QWidget):
         if smiles and molecule_name:
             fragments = fragment_molecule(smiles)  
             if fragments:
-                results = search_database(fragments, "BB_dic.json", "BB_info.json")
+                results = search_database(fragments, BB_dic, BB_info)
                 self.show_results(results)
                 self.script_button.setEnabled(True)
             else:

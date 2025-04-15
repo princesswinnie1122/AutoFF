@@ -1,0 +1,3 @@
+molecule_name = "test"
+BB_name = ['1BA', 'CBC', 'PDA', 'PDA']
+BB_connector = [Br,Br,Br,Br]

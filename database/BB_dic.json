@@ -1,0 +1,209 @@
+{
+    "1BA": [
+        "[*]c1ccccc1"
+    ],
+    "1BB": [
+        "[*]c1ccccc1[*]"
+    ],
+    "1BC": [
+        "[*]c1cccc([*])c1"
+    ],
+    "1BD": [
+        "[*]c1ccc([*])cc1"
+    ],
+    "1BE": [
+        "[*]c1cccc([*])c1[*]"
+    ],
+    "1BF": [
+        "[*]c1ccc([*])c([*])c1"
+    ],
+    "1BG": [
+        "[*]c1cc([*])cc([*])c1"
+    ],
+    "1BH": [
+        "[*]c1cc([*])c([*])c([*])c1[*]"
+    ],
+    "TLA": [
+        "[*]c1ccc(C)cc1"
+    ],
+    "TLB": [
+        "[*]c1ccc([*])c(C)c1"
+    ],
+    "TLC": [
+        "[*]c1ccc(C)c([*])c1"
+    ],
+    "BUA": [
+        "[*]c1ccc(C(C)(C)C)cc1"
+    ],
+    "BNA": [
+        "[*]c1ccc(C#N)cc1"
+    ],
+    "BNB": [
+        "[*]c1cccc(C#N)c1[*]"
+    ],
+    "BNC": [
+        "[*]c1ccc(C#N)cc1[*]"
+    ],
+    "NAA": [
+        "[*]c1cccc2ccccc12"
+    ],
+    "NAB": [
+        "[*]c1ccc2ccccc2c1"
+    ],
+    "ANA": [
+        "[*]c1c2ccccc2cc2ccccc12"
+    ],
+    "ANB": [
+        "[*]c1c2ccccc2c([*])c2ccccc12"
+    ],
+    "MAA": [
+        "[*]c1c2ccccc2c([*])c2cc(C)ccc12"
+    ],
+    "TBA": [
+        "[*]c1c2ccccc2c([*])c2cc(C(C)(C)C)ccc12"
+    ],
+    "PNA": [
+        "[*]c1cc2ccccc2c2ccccc12"
+    ],
+    "PYA": [
+        "[*]c1ccc2ccc3cccc4ccc1c2c34"
+    ],
+    "PYB": [
+        "[*]c1ccc2ccc3c([*])ccc4ccc1c2c43"
+    ],
+    "FLA": [
+        "[*]C1c2ccccc2-c2ccccc21"
+    ],
+    "FLB": [
+        "[*]c1ccc2c(c1)C([*])c1ccccc1-2"
+    ],
+    "FLC": [
+        "[*]C1([*])c2ccccc2-c2ccccc21"
+    ],
+    "FLD": [
+        "[*]c1ccc2c(c1)C([*])([*])c1cc([*])ccc1-2"
+    ],
+    "MFA": [
+        "[*]c1ccc2c(c1)C(C)(C)c1ccccc1-2"
+    ],
+    "MFB": [
+        "[*]c1ccc2c(c1)C(C)(C)c1cc([*])ccc1-2"
+    ],
+    "SFA": [
+        "[*]c1ccc2c(c1)C1(c3ccccc3-c3ccccc31)c1ccccc1-2"
+    ],
+    "SFB": [
+        "[*]c1cccc2c1-c1ccccc1C21c2ccccc2-c2ccccc21"
+    ],
+    "SFC": [
+        "[*]c1ccc2c(c1)C1(c3ccccc3-c3ccccc31)c1cc([*])ccc1-2"
+    ],
+    "SFD": [
+        "[*]c1ccc2c(c1)C1(c3ccccc3-2)c2ccccc2-c2ccc([*])cc21"
+    ],
+    "SFE": [
+        "[*]c1ccc2c(c1)C1(c3cc([*])ccc3-2)c2cc([*])ccc2-c2ccc([*])cc21"
+    ],
+    "PDA": [
+        "[*]c1ccccn1"
+    ],
+    "PDB": [
+        "[*]c1cccnc1"
+    ],
+    "PDC": [
+        "[*]c1ccncc1"
+    ],
+    "PDD": [
+        "[*]c1cncc([*])c1"
+    ],
+    "PDE": [
+        "[*]c1cccc([*])n1"
+    ],
+    "PDF": [
+        "[*]c1cc([*])nc([*])c1"
+    ],
+    "PDG": [
+        "[*]c1cc([*])c([*])c([*])n1"
+    ],
+    "CPA": [
+        "[*]c1cc([*])c(C#N)c([*])n1"
+    ],
+    "PMA": [
+        "[*]c1cc([*])nc([*])n1"
+    ],
+    "TIA": [
+        "[*]c1nc([*])nc([*])n1"
+    ],
+    "TOA": [
+        "[*]c1nnc([*])n1[*]"
+    ],
+    "IQA": [
+        "[*]c1cncc2ccccc12"
+    ],
+    "QNA": [
+        "[*]c1cccc2cccnc12"
+    ],
+    "NYA": [
+        "[*]c1ccc2cccnc2n1"
+    ],
+    "BMA": [
+        "[*]c1nc2ccccc2n1[*]"
+    ],
+    "CBA": [
+        "[*]n1c2ccccc2c2ccccc21"
+    ],
+    "CBB": [
+        "[*]c1ccc2c(c1)c1ccccc1n2[*]"
+    ],
+    "CBC": [
+        "[*]c1ccc2c(c1)c1cc([*])ccc1n2[*]"
+    ],
+    "CNA": [
+        "[*]n1c2ccccc2c2cc(C#N)ccc21"
+    ],
+    "P2A": [
+        "[*]n1c2ccccc2c2cccnc21"
+    ],
+    "P3A": [
+        "[*]n1c2ccccc2c2ncccc21"
+    ],
+    "P4A": [
+        "[*]n1c2ccccc2c2cnccc21"
+    ],
+    "PIA": [
+        "[*]c1nc2c3ccccc3c3ccccc3c2n1[*]"
+    ],
+    "PTA": [
+        "[*]c1ccnc2c1ccc1c([*])ccnc12"
+    ],
+    "PTB": [
+        "[*]c1cc([*])c2ccc3c([*])cc([*])nc3c2n1"
+    ],
+    "NCA": [
+        "[*]c1cc(C)nc2c1ccc1c([*])cc(C)nc12"
+    ],
+    "ODA": [
+        "[*]c1nnc([*])o1"
+    ],
+    "FPA": [
+        "[*]c1cnc2oc3ncccc3c2c1"
+    ],
+    "BFA": [
+        "[*]c1cccc2c1oc1ccccc12"
+    ],
+    "THA": [
+        "[*]c1ccc([*])s1"
+    ],
+    "test": [
+        "[*]c1ccnc(C)n1"
+    ],
+    "tt": [
+        "[*]c1ccnc(C)n1"
+    ],
+    "ttt": [
+        "[*]c1ccnc(C)n1"
+    ],
+    "tttt": [
+        "[*]c1ccnc(C)n1"
+    ]
+}

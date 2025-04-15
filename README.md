@@ -27,7 +27,7 @@
 - 生成腳本前判斷分子資訊及檔案是否齊全，提醒缺少的部分
 - 判斷 SMILES 是否前後一致，允許手動編輯腳本 (暫時解決假設接點都為Br的問題)
 
-![Chemical structure of materials used as ETL in green phosphorescent OLEDs](image.png)
+![Chemical structure of materials used as ETL in green phosphorescent OLEDs](oled_molecules.png)
 > Sasaki, T., Hasegawa, M., Inagaki, K., Ito, H., Suzuki, K., Oono, T., ... & Fukagawa, H. (2021). Unravelling the electron injection/transport mechanism in organic light-emitting diodes. Nature communications, 12(1), 2706.
 
 ## To-dos

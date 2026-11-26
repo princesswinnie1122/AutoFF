@@ -1,5 +1,13 @@
 # AutoFF
 
+- [LM2D 2024 Fall Lab Training Slides](https://docs.google.com/presentation/d/1aKkIFezdlqOOn0fOBrgKWBV-Mae_nwIZ/edit#slide=id.p1)
+- [Tutorial on Force Field Parameterization](https://hackmd.io/WfXhoqXRQx6BCW7P8BTjvA)
+- [Progress Updates (2024.09 ~ present)](https://drive.google.com/drive/folders/1_HZIK5dIfzMJHQDqQK3O5qh8Qi8FGZIf?usp=drive_link)
+
+![Chemical structure of materials used as ETL in green phosphorescent OLEDs](oled_molecules.png)
+> Sasaki, T., Hasegawa, M., Inagaki, K., Ito, H., Suzuki, K., Oono, T., ... & Fukagawa, H. (2021). Unravelling the electron injection/transport mechanism in organic light-emitting diodes. Nature communications, 12(1), 2706.
+
+
 ## Usage
 1. Install the requirements:
     ```bash
@@ -13,36 +21,8 @@
 
 3. Simply run "main.py" to call out the widget.
 
-> You can use [MolView](https://molview.org/) to obtain the SMILES of molecules. "Most" of them work correctly.
+> You can use [MolView](https://molview.org/) to obtain the SMILES of molecules!
 
-## Resources
-- [LM2D 2024 Fall Lab Training Slides](https://docs.google.com/presentation/d/1aKkIFezdlqOOn0fOBrgKWBV-Mae_nwIZ/edit#slide=id.p1)
-- [Tutorial on Force Field Parameterization](https://hackmd.io/WfXhoqXRQx6BCW7P8BTjvA)
-- [Progress Updates (2024.09 ~ present)](https://drive.google.com/drive/folders/1_HZIK5dIfzMJHQDqQK3O5qh8Qi8FGZIf?usp=drive_link)
-
-## Complete
-- 可切割分子並在資料庫中搜尋片段 (過程 < 1分鐘)
-- 生成腳本及計算所需檔案，視覺化確認結構無誤：[測試結果](https://docs.google.com/spreadsheets/d/1iIg0zPHXOcnBo-zzWsD-uY-R4ekoL3AcCz-gUzkuS94/edit?usp=sharing) (更新中)
-- 判斷 BB 是 "Missing SMILES" or "Missing Connectors"，使用者可以自行輸入、加入檔案
-- 生成腳本前判斷分子資訊及檔案是否齊全，提醒缺少的部分
-- 判斷 SMILES 是否前後一致，允許手動編輯腳本 (暫時解決假設接點都為Br的問題)
-
-![Chemical structure of materials used as ETL in green phosphorescent OLEDs](oled_molecules.png)
-> Sasaki, T., Hasegawa, M., Inagaki, K., Ito, H., Suzuki, K., Oono, T., ... & Fukagawa, H. (2021). Unravelling the electron injection/transport mechanism in organic light-emitting diodes. Nature communications, 12(1), 2706.
-
-## To-dos
-
-- [ ] 分子視覺化 2D to 3D
-- [ ] 解決特例 
-  - EX1: Y17 的 N 會被切開 → 另外判斷 [5*]？
-  - EX2: X5 不屬於BRICS結構，切割時會報錯 → 判斷後改成使用者自行定義BB？
-- [ ] 後續計算部分的自動化
-
-## More about the project
-1. 辨認結構並產生初始檔案的工具
-2. Non-bonded parameters 計算與整合的工具
-3. Dihedral fitting 與檢查的工具
-4. routine 分析 MD 表現的工具
 
 
 ## References
